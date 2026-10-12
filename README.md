@@ -12,6 +12,16 @@
 
 ---
 
+## Sera que a roda deles é quadrada ??? HAHAHAHAHAH 
+
+---
+
+<h3>Mesmo com design do cockpit incompleto, a visao melhorou</h3>
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/2635048d-a62e-4890-b6c3-56fb6c226c8f" />
+
+---
+
 <h3>Cockpit Anti-Pattern and Anti-UX (User Experience), Anti-Logic - Ja pensou uma roda quadrada - Reprovado in University ???</h3>
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/88c140cb-d54d-47d3-a84b-349fc7b8cd41" />
@@ -21,10 +31,6 @@
 <h3>Pelo o andar do burro, este deve ser o proximo design deles, quem sabe ate a roda do carro, ne. AHHAHAHHA</h3>
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/ec0dc78f-bb18-4a43-a1e7-47b425c263d9" />
-
-<h3>Mesmo com design do cockpit incompleto, a visao melhorou</h3>
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/2635048d-a62e-4890-b6c3-56fb6c226c8f" />
 
 ---
 
