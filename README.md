@@ -12,7 +12,7 @@
 
 ---
 
-## Sera que a roda e a cagada deles é quadrada ??? HAHAHAHAHAH 
+## Sera que a bunda, a roda e a cagada deles é quadrada ??? HAHAHAHAHAH 
 
 ---
 
