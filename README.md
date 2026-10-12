@@ -1,6 +1,6 @@
 ## Zevo community teams™
 
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/0320273a-7075-4f15-9aa4-2dcb8cd8b718" />
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/5695504f-f545-4f66-b1e4-930a1a809dd2" />
 
 ---
 
