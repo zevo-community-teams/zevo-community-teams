@@ -1,6 +1,6 @@
 ## Zevo community teams™
 
-<h3>Pelo o andar do burro, este deve ser o proximo design deles. AHHAHAHHA</h3>
+<h3>Pelo o andar do burro, este deve ser o proximo design deles, quem sabe ate a roda do carro, ne. AHHAHAHHA</h3>
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/ec0dc78f-bb18-4a43-a1e7-47b425c263d9" />
 
