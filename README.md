@@ -1,10 +1,14 @@
 ## Zevo community teams™
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/88c140cb-d54d-47d3-a84b-349fc7b8cd41" />
+
+<h3>Cockpit Anti-Pattern and Anti-UX - Ja pensou uma roda quadrada???</h3>
+
+---
+
 <h3>Zevo Smart Beach Electric Vehicle - € 50.000 </h3>
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/5695504f-f545-4f66-b1e4-930a1a809dd2" />
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/88c140cb-d54d-47d3-a84b-349fc7b8cd41" />
 
 ---
 
