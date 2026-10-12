@@ -1,5 +1,9 @@
 ## Zevo community teams™
 
+<h3>Pelo o andar do burro, este deve ser o proximo design deles. AHHAHAHHA</h3>
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/ec0dc78f-bb18-4a43-a1e7-47b425c263d9" />
+
 <h3>Mesmo com design do cockpit incompleto, a visao melhorou</h3>
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/2635048d-a62e-4890-b6c3-56fb6c226c8f" />
