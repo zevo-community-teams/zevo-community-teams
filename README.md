@@ -14,7 +14,7 @@
 
 ---
 
-# ELF AI Core with Dual-Mode Weight Embedding, fs-verity Protection, and IPC-Only Access
+### ELF AI Core with Dual-Mode Weight Embedding, fs-verity Protection, and IPC-Only Access
 
 PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams 
 
