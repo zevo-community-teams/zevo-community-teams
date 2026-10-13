@@ -14,6 +14,646 @@
 
 ---
 
+---
+
+# Enhancing Complete Academic Paper for Building Zevo™, An 5D Interactive Artificial Intelligence Assistant
+
+## PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams
+
+---
+
+## Abstract
+
+This paper presents the complete architecture, implementation, and deployment of **Zevo™**, an **5D interactive artificial intelligence assistant** built as a pure-functional, ANSI C89/90, GNU/POSIX, System V x86_64 `ET_DYN` ELF AI Core. Zevo integrates **fuzzy-state-machine logic**, **neural fuzzy logic**, **rules and facts**, **Shannon entropy**, **Mamdani inference**, and **machine learning** into a single deterministic pipeline that produces a **multimodal 5D Smart 8K HDR BGRA** artifact — comprising **Text Raw**, **Image BGRA**, **Video BGRA**, **Audio PCM**, and a **fused 5D intelligence vector**. The LLM weights, metadata, and vectors are embedded **by section or by reference**, **page-aligned on ext4**, **fs-verity-protected**, and **mapped read-only**. The core exposes **only a published IPC API** to a **weight-free, stateless, Web-Responsible client**. Cryptographic access is mediated by a **Secure Service API** with **28-hour API key rotation** using **OpenSSL military-grade primitives**. Hardware peripherals are reached exclusively through **libc wrappers** that resolve to the **`syscall`** instruction on x86_64 (and **`sysenter`** on legacy x86), under **seccomp-bpf**, **capability bounding**, and **LSM** discipline. The result is a **secure-by-construction**, **reproducible**, **auditable**, and **accessible** AI assistant centered on **Zevo**, a Pixar-inspired animated character, with the exact title **Zevo™** and the exact subtitle **An 5D interactive artificial intelligence assistant**.
+
+**Keywords:** ELF AI Core, ET_DYN, fs-verity, ext4, IPC, OpenSSL, HKDF, HMAC-SHA-384, AES-256-GCM, seccomp-bpf, Mamdani inference, Shannon entropy, multimodal generation, Responsible UI, Pixar-inspired animation.
+
+---
+
+## 1. Introduction
+
+### 1.1 Motivation
+
+Modern AI systems face four simultaneous challenges:
+
+1. **Security** — protecting learned weights from exfiltration and tampering.
+2. **Portability** — running the same core across GNU/Linux environments.
+3. **Auditability** — proving that the executed code and loaded weights are the intended ones.
+4. **Accessibility** — exposing AI capabilities through a Responsible UI that respects privacy, motion, color, and keyboard semantics.
+
+Zevo™ addresses all four through a single architectural decision: **separate the AI Core from the Web-Responsible client, and mediate all access through a published IPC API protected by rotating, OpenSSL-backed cryptographic keys.**
+
+### 1.2 Contributions
+
+| Contribution | Description |
+|---|---|
+| Dual-mode weight embedding | Section-embedded (`.zevo_weights`) or reference-embedded (`weights.bin`) |
+| fs-verity integrity | Kernel-enforced Merkle verification on every read |
+| Read-only mapping | `PROT_READ`, `MAP_PRIVATE`, no write path |
+| IPC-only exposure | `AF_UNIX` `SOCK_SEQPACKET` + length-prefixed JSON |
+| 28-hour key rotation | HKDF-SHA-384 per epoch, 5-minute overlap |
+| OpenSSL cryptography | TLS 1.3, HMAC-SHA-384, AES-256-GCM, ECDSA P-384 |
+| Weight-free web layer | Verified by symbol inspection |
+| Responsible UI | Semantic, accessible, private, transparent |
+| Syscall discipline | libc wrappers, seccomp-bpf allow-list, capability bounding |
+| Reproducible builds | `SOURCE_DATE_EPOCH=0`, byte-identical ELF |
+
+### 1.3 Paper Organization
+
+Section 2 presents related work. Section 3 defines the architecture. Section 4 specifies the reasoning engine. Section 5 details the weight storage contract. Section 6 describes the IPC API. Section 7 covers cryptographic access. Section 8 covers hardware access. Section 9 presents the Responsible UI. Section 10 describes implementation. Section 11 covers audit. Section 12 covers deployment. Section 13 concludes.
+
+---
+
+## 2. Related Work
+
+| Domain | Representative Work | Zevo™ Differentiation |
+|---|---|---|
+| Containerized AI | Docker, OCI images | ELF-native, no container runtime required |
+| Model serving | TorchServe, TF Serving | Pure-functional C89/90 core, IPC-only |
+| Integrity | dm-verity, IMA | fs-verity at file level, page-aligned |
+| Secure enclaves | SGX, SEV | Standard GNU/Linux, no enclave required |
+| Fuzzy inference | Mamdani, Sugeno | Integrated with neural embeddings and FSM |
+| Responsible UI | WCAG 2.2, ARIA | Applied end-to-end, no telemetry |
+| Key rotation | NIST SP 800-57 | 28-hour epoch, HKDF-SHA-384 |
+| Syscall filtering | seccomp-bpf, Landlock | Allow-list + capability bounding |
+
+---
+
+## 3. Architecture
+
+### 3.1 Four Trust Boundaries
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│                              Zevo™ System                                  │
+│                                                                            │
+│  ┌──────────────┐   ┌────────────────┐   ┌──────────────┐   ┌──────────┐  │
+│  │  Browser     │   │  Secure        │   │  ELF AI      │   │ Universal│  │
+│  │  Responsible │──►│  Service API   │──►│  Core        │──►│ Hardware │  │
+│  │  UI          │   │  (zevo_api)    │   │  (zevo_core) │   │ Devices  │  │
+│  └──────────────┘   └────────────────┘   └──────────────┘   └──────────┘  │
+│     Boundary 1          Boundary 2          Boundary 3        Boundary 4  │
+│     (public)            (service)           (core)            (hardware)  │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+| Boundary | Between | Protection |
+|---|---|---|
+| 1 | Browser ↔ Secure Service API | TLS 1.3, session tokens |
+| 2 | Secure Service API ↔ ELF AI Core | 28-hour API key rotation, HMAC-SHA-384, AES-256-GCM |
+| 3 | ELF AI Core ↔ `.zevo_weights` | fs-verity, read-only mmap, pinned digest |
+| 4 | ELF AI Core ↔ Universal Hardware | libc → `syscall`/`sysenter`, seccomp-bpf, capabilities |
+
+### 3.2 ELF AI Core Attributes
+
+| Attribute | Value |
+|---|---|
+| File | `zevo_core.elf` |
+| Format | ELF |
+| Type | `ET_DYN` |
+| ABI | System V x86_64 |
+| Language | ANSI C89/90 |
+| Standards | GNU + POSIX + Pthreads + OpenCL + OpenGL + SDL2 + OpenAL |
+| Role | Executable host: reasoning, weights access, multimodal generation |
+| Exposure | Local IPC only |
+
+### 3.3 Pure-Function Discipline
+
+Every pipeline stage is a pure function:
+
+```
+static void *stage_<name>(const void *input);
+```
+
+- Takes a `const void *`.
+- Returns a newly allocated value.
+- Reads no global mutable state.
+- Writes no global mutable state.
+- Is safe to call concurrently.
+
+---
+
+## 4. Reasoning Engine
+
+### 4.1 Fuzzy-State-Machine Logic
+
+The core progresses through a finite state machine:
+
+| State | Meaning | Transition |
+|---|---|---|
+| `IDLE` | Awaiting prompt | prompt received → `ASSEMBLE` |
+| `ASSEMBLE` | Carousel assembling right-to-left | entropy ≤ τ → `TRANSMIT` |
+| `TRANSMIT` | Emitting artifact | complete → `DONE` |
+| `DONE` | Artifact delivered | reset → `IDLE` |
+| `HALT` | Fault | manual reset → `IDLE` |
+
+### 4.2 Shannon Entropy Gate
+
+```
+H(X) = − Σ_i p(x_i) · log₂ p(x_i)
+
+H > τ_high  →  keep assembling
+H ≤ τ_low   →  assembly complete, transmission begins
+```
+
+The entropy value modulates ring luminosity and particle density, so the visual honestly reflects the epistemic state of the core.
+
+### 4.3 Mamdani Inference
+
+```
+Given:
+  Facts  F = {f₁, f₂, …, fₙ}
+  Rules  R = {r₁, r₂, …, rₘ},  rᵢ : IF x is Aᵢ THEN y is Bᵢ
+
+Steps:
+  1. Fuzzification:  μ_Aᵢ(x) for each fact
+  2. Rule firing:    wᵢ = min(μ_Aᵢ(x₁), …, μ_Aᵢ(x_k))
+  3. Aggregation:    μ_B(y) = max_i min(wᵢ, μ_Bᵢ(y))
+  4. Defuzzify:      y* = ∫ y·μ_B(y) dy / ∫ μ_B(y) dy   (centroid)
+```
+
+### 4.4 Neural-Fuzzy Fusion
+
+```
+neural_fuse(fuzzy_out, embedding) =
+    σ( W_f · fuzzy_out  +  W_e · embedding  +  b )
+```
+
+This hybrid layer combines symbolic fuzzy reasoning with learned neural representations.
+
+### 4.5 Machine Learning
+
+Weights are learned offline and embedded at build time. No online learning occurs in production; the core is deterministic and reproducible.
+
+---
+
+## 5. Weight Storage Contract
+
+### 5.1 Three Categories
+
+| Category | Contents | Example |
+|---|---|---|
+| Weights | Learned parameters | Embedding matrices, attention projections |
+| Metadata | Provenance, versioning, schema, digests | Title, subtitle, schema table, pinned SHA-256 |
+| Vectors | Static embeddings, prototypes, consequents | Token embeddings, modality prototypes |
+
+### 5.2 Dual-Mode Embedding
+
+**Mode A — Section-Embedded**
+
+```
+zevo_core.elf
+├── .text
+├── .rodata
+├── .zevo_rules
+├── .zevo_facts
+├── .zevo_entropy
+├── .zevo_fsm
+├── .zevo_meta
+└── .zevo_weights   ← weights, metadata, vectors
+```
+
+- Section flagged `alloc, readonly`.
+- ELF placed on page-aligned ext4.
+- fs-verity enabled on the ELF.
+- Kernel loader maps section read-only.
+
+**Mode B — Reference-Embedded**
+
+- Weights in `weights.bin` on ext4.
+- fs-verity enabled on `weights.bin`.
+- Pinned digest in `.zevo_meta`.
+- Core `open()`s, verifies, `mmap()`s read-only.
+
+### 5.3 Page Alignment
+
+| Term | Meaning |
+|---|---|
+| Page | 4096 bytes on x86_64 |
+| Page-aligned | Offset is an exact multiple of 4096 |
+| on ext4 | Filesystem provides stable physical layout for mmap |
+| Verification | `((uintptr_t)base & 0xFFF) == 0` |
+
+Misalignment → core refuses to start.
+
+### 5.4 fs-verity
+
+- Kernel builds a Merkle tree at enable time.
+- Tree stored in a hidden metadata inode.
+- Root hash is the file's identity.
+- Every read verified against the tree.
+- Tampering → `EIO` on read.
+
+fs-verity is **not encryption**. Confidentiality is layered separately (LUKS, dm-crypt, fscrypt).
+
+### 5.5 Read-Only Mapping
+
+```
+mmap(NULL, size, PROT_READ, MAP_PRIVATE, fd, 0)
+```
+
+- `PROT_READ` — no `PROT_WRITE` bit.
+- `MAP_PRIVATE` — copy-on-write semantics, but no writes occur.
+- No `mprotect` ever adds `PROT_WRITE`.
+- No `msync` ever flushes writes.
+- Pointer table frozen after construction.
+
+---
+
+## 6. IPC API
+
+### 6.1 Transport
+
+| Layer | Choice |
+|---|---|
+| Socket family | `AF_UNIX` |
+| Socket type | `SOCK_SEQPACKET` |
+| Path | `/run/zevo/core.sock` |
+| Permissions | `0600`, owner `zevo` |
+| Framing | 4-byte big-endian length prefix + UTF-8 JSON |
+| Max frame | 1 MiB |
+| Peer check | `SO_PEERCRED` |
+
+### 6.2 Published Endpoints
+
+| Method | Path | Purpose |
+|---|---|---|
+| `GET` | `/core/state` | FSM state, Shannon entropy, rules fired |
+| `GET` | `/core/rules` | Read-only Mamdani rule set |
+| `GET` | `/core/meta` | Exact title **Zevo™**, exact subtitle, version |
+| `POST` | `/core/assist` | Submit prompt → artifact metadata |
+| `GET` | `/core/artifact/{id}` | Fetch rendered artifact (opt-in) |
+| `GET` | `/core/health` | Liveness |
+
+### 6.3 What the API Never Exposes
+
+- Raw weights.
+- Vector pointers.
+- fs-verity digest internals.
+- File paths of weights.
+- Memory addresses.
+- Internal rule representations.
+- Partial inference state.
+
+---
+
+## 7. Cryptographic Access
+
+### 7.1 28-Hour Key Rotation
+
+```
+Epoch N   = floor(unix_time_utc / (28 * 3600))
+Key_N     = HKDF-SHA-384(master_secret, salt=SHA-384(Epoch_N),
+                          info="zevo-api-v1", L=32)
+Overlap   = 5 minutes
+```
+
+| Property | Value |
+|---|---|
+| Key length | 256 bits |
+| Derivation | HKDF-SHA-384 |
+| Rotation period | 28 hours |
+| Overlap window | 5 minutes |
+| Master secret | 512 bits, sealed, mode 0400, optional HSM |
+
+### 7.2 OpenSSL Primitives
+
+| Purpose | Primitive | OpenSSL API |
+|---|---|---|
+| TLS 1.3 | Transport | `SSL_CTX_new(TLS_server_method())` |
+| HKDF | Key derivation | `EVP_KDF` with `"HKDF"` |
+| HMAC | Frame integrity | `HMAC(EVP_sha384(), …)` |
+| AES-256-GCM | Frame sealing | `EVP_EncryptInit_ex` / `EVP_DecryptInit_ex` |
+| ECDSA P-384 | Audit signing | `EVP_DigestSign` |
+| SHA-384 | Digests | `EVP_DigestInit_ex` |
+| CSPRNG | Randomness | `RAND_bytes` |
+
+### 7.3 Authenticated IPC Frame
+
+```
+┌──────────────┬──────────────┬──────────────┬─────────────────────┐
+│ length (4B)  │ epoch (8B)   │ HMAC (48B)   │ JSON payload (N B)  │
+└──────────────┴──────────────┴──────────────┴─────────────────────┘
+```
+
+The core rejects any frame whose HMAC does not verify in constant time.
+
+---
+
+## 8. Hardware Access
+
+### 8.1 Universal Hardware Device Peripherals
+
+| Class | Examples | Kernel Interface |
+|---|---|---|
+| Compute | GPU, NPU, FPGA | OpenCL, DRM, VFIO |
+| Graphics | GPU, display | DRM/KMS, OpenGL |
+| Audio | DAC, ADC | ALSA, OpenAL |
+| Video | Camera, encoder | V4L2, SDL2 |
+| Storage | NVMe, SATA | Block layer, ext4 |
+| Network | NIC | Sockets |
+| Input | Keyboard, mouse | evdev |
+| Timers | HPET, TSC | `clock_gettime` |
+| Random | RDRAND, RDTSC | `getrandom` |
+
+### 8.2 `syscall` vs `sysenter`
+
+| Mechanism | Architecture | Use |
+|---|---|---|
+| `syscall` | x86_64 | Standard fast system-call instruction |
+| `sysenter` | x86 (legacy) | 32-bit fast system-call instruction |
+| `int 0x80` | x86, x86_64 (compat) | Legacy interrupt-based entry |
+
+On x86_64, the correct instruction is `syscall`. The `sysenter` instruction is the 32-bit counterpart. Modern ANSI C89/90 code uses **libc wrappers**, which internally use the appropriate instruction.
+
+### 8.3 Syscall Discipline
+
+The core is restricted by **seccomp-bpf** to a minimal allow-list:
+
+| Syscall | Purpose |
+|---|---|
+| `read`, `write` | IPC and device I/O |
+| `openat`, `close` | Descriptor management |
+| `mmap`, `munmap` | Memory mapping |
+| `ioctl` | Device control (allow-listed) |
+| `futex` | Thread synchronization |
+| `clock_gettime` | Timestamps |
+| `getrandom` | CSPRNG seed |
+| `exit_group` | Clean exit |
+
+All other syscalls cause `SIGSYS`.
+
+### 8.4 Capability Bounding
+
+| Capability | Status |
+|---|---|
+| `CAP_SYS_ADMIN` | Dropped |
+| `CAP_SYS_RAWIO` | Dropped |
+| `CAP_NET_ADMIN` | Dropped |
+| `CAP_SYS_MODULE` | Dropped |
+| `CAP_DAC_OVERRIDE` | Dropped |
+| `CAP_SYS_PTRACE` | Dropped |
+
+Device access is granted via **udev rules** and **group membership**.
+
+---
+
+## 9. Responsible Web UI
+
+### 9.1 Principles
+
+| Principle | Implementation |
+|---|---|
+| Semantic structure | `<header>`, `<main>`, `<section>`, `<footer>` |
+| Accessibility | ARIA live regions, focus-visible, keyboard-first |
+| Motion safety | `prefers-reduced-motion` respected |
+| Color safety | WCAG-AA contrast, `prefers-color-scheme` respected |
+| Privacy | No telemetry, no cookies, no third-party scripts |
+| Transparency | Clear disclosure that Zevo™ is an AI assistant |
+| Artifact opt-in | Pixels/audio served only on explicit request |
+| No secrets in browser | No API keys, no master secret |
+
+### 9.2 Multimodal Channels
+
+| Channel | Input | Output | Consent |
+|---|---|---|---|
+| Text | `<textarea>` | JSON in `<pre aria-live>` | Explicit |
+| Image | `<input type="file">` | `<img alt>` opt-in | Explicit |
+| Video | `<input>` or `getUserMedia` | `<video controls>` no autoplay | Explicit |
+| Audio | `MediaRecorder` | `<audio controls>` no autoplay | Explicit |
+
+### 9.3 Session Tokens
+
+- Issued after TLS handshake.
+- 256-bit random, `RAND_bytes`.
+- Bound to TLS session.
+- Lifetime: 15 minutes, renewable.
+- Stored in `HttpOnly`, `Secure`, `SameSite=Strict` cookie.
+
+---
+
+## 10. Implementation
+
+### 10.1 Repository Layout
+
+```
+zevo/
+├── Makefile
+├── docs/{SPEC,AUDIT,DEPLOY}.md
+├── core/
+│   ├── main.c
+│   ├── zevo.h, pure.h, schema.h
+│   ├── weights.c, ipc.c, pipeline.c
+│   ├── entropy.c, fsm.c, mamdani.c
+│   ├── render.c, audio.c, video.c
+│   └── zevo_core.ld
+├── web/
+│   ├── zevo_web.c, routes.c
+│   └── ui/{index.html, styles.css}
+├── weights/provision.sh
+├── tests/{unit,integration,fuzz}
+└── deploy/{systemd,udev,ext4,containers}
+```
+
+### 10.2 Build
+
+```makefile
+CC      = gcc
+CFLAGS  = -std=c89 -pedantic -Wall -Wextra -Werror \
+          -D_GNU_SOURCE -D_POSIX_C_SOURCE=200809L \
+          -fPIC -fstack-protector-strong -D_FORTIFY_SOURCE=2 \
+          -O2 -g -fno-omit-frame-pointer
+LDFLAGS = -shared -Wl,-z,relro,-z,now -Wl,--build-id=sha1
+LIBS    = -lpthread -lOpenCL -lGL -lGLU -lSDL2 -lopenal -lm
+```
+
+### 10.3 Weight Embedding
+
+```sh
+objcopy --add-section .zevo_weights=weights.bin \
+        --set-section-flags .zevo_weights=alloc,readonly \
+        zevo_core.elf
+fsverity enable zevo_core.elf
+fsverity measure zevo_core.elf
+```
+
+### 10.4 Reproducibility
+
+```sh
+SOURCE_DATE_EPOCH=0 make clean all
+sha256sum zevo_core.elf zevo_web > build1.sha
+SOURCE_DATE_EPOCH=0 make clean all
+sha256sum zevo_core.elf zevo_web > build2.sha
+diff build1.sha build2.sha    # identical
+```
+
+---
+
+## 11. Audit
+
+### 11.1 Static Analysis
+
+```sh
+gcc -std=c89 -pedantic -Wall -Wextra -Werror -Wconversion \
+    -Wshadow -Wstrict-prototypes -Wcast-qual -c core/*.c
+cppcheck --std=c89 --enable=all core/ web/
+clang --analyze -std=c89 core/*.c web/*.c
+```
+
+### 11.2 Dynamic Analysis
+
+```sh
+valgrind --leak-check=full --track-origins=yes ./zevo_core.elf
+valgrind --tool=helgrind ./zevo_core.elf
+gcc -fsanitize=address,undefined -g core/*.c -o zevo_core.asan
+```
+
+### 11.3 Fuzzing
+
+| Target | Fuzzer | Input |
+|---|---|---|
+| IPC JSON parser | libFuzzer | Random bytes |
+| Tokenizer | AFL++ | Unicode |
+| Mamdani inference | libFuzzer | Random facts |
+| Entropy gate | libFuzzer | Random vectors |
+| Weight loader | AFL++ | Tampered BINs |
+
+### 11.4 Security Checklist
+
+| Item | Verification |
+|---|---|
+| Weights not in web binary | `nm zevo_web \| grep -i weight` → empty |
+| fs-verity enabled | `fsverity measure` |
+| Digest pinned | `.zevo_meta` contains SHA-256 |
+| Mapping read-only | `PROT_READ` only |
+| Socket permissions | `srw-------` |
+| Peer credentials | `SO_PEERCRED` |
+| Frame size capped | 1 MiB |
+| Rate limited | Per-IP token bucket |
+| Headers hardened | `nosniff`, `no-store`, CSP |
+| No telemetry | Network trace |
+| No cookies | `Set-Cookie` never emitted |
+| Reproducible | Same hash on rebuild |
+
+### 11.5 Accessibility Audit
+
+| Check | Tool |
+|---|---|
+| WCAG-AA contrast | axe-core, pa11y |
+| Keyboard navigation | Manual |
+| ARIA correctness | axe-core, WAVE |
+| Reduced motion | Browser dev tools |
+| Screen reader | NVDA, Orca |
+
+---
+
+## 12. Deployment
+
+### 12.1 Topology
+
+```
+Host (GNU/Linux, ext4)
+├── zevo-core.service  →  zevo_core.elf  →  /run/zevo/core.sock
+├── zevo-web.service   →  zevo_web       →  0.0.0.0:8080
+├── /var/lib/zevo/weights.bin  (ext4 + fs-verity, mode 0400)
+└── /run/zevo/core.sock        (AF_UNIX, mode 0600)
+```
+
+### 12.2 systemd Hardening
+
+```ini
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadOnlyPaths=/var/lib/zevo
+ReadWritePaths=/run/zevo
+SystemCallFilter=@system-service
+SystemCallArchitectures=native
+SystemCallErrorNumber=EPERM
+DeviceAllow=/dev/dri/renderD128 rw
+DeviceAllow=/dev/snd/controlC0 rw
+DeviceAllow=/dev/urandom r
+DevicePolicy=closed
+CapabilityBoundingSet=
+```
+
+### 12.3 Health Checks
+
+| Check | Endpoint | Expected |
+|---|---|---|
+| Core liveness | `GET /core/health` | `{"status":"ok"}` |
+| Core state | `GET /core/state` | `{"state":"IDLE"}` |
+| Web liveness | `GET /health` | `{"status":"ok"}` |
+| Meta | `GET /api/core/meta` | Title, subtitle |
+
+### 12.4 Upgrade and Rollback
+
+Both follow the pattern: stop service, replace artifact, re-enable fs-verity, start service. Rollback is symmetric.
+
+---
+
+## 13. Conclusion
+
+Zevo™ is an **5D interactive artificial intelligence assistant** built as a pure-functional, ANSI C89/90, GNU/POSIX, System V x86_64 `ET_DYN` ELF AI Core. Its LLM weights, metadata, and vectors are embedded **by section or by reference**, **page-aligned on ext4**, **fs-verity-protected**, and **mapped read-only**. It exposes **only a published IPC API** to a **weight-free, stateless, Web-Responsible client**, mediated by a **Secure Service API** with **28-hour API key rotation** and **OpenSSL military-grade cryptography**. Hardware peripherals are reached through **libc wrappers** resolving to the **`syscall`** instruction on x86_64 (and **`sysenter`** on legacy x86), under **seccomp-bpf**, **capability bounding**, and **LSM** discipline.
+
+The system produces the **Zevo™ multimodal 5D Smart 8K HDR BGRA** hero illustration, video, and audio — centered on **Zevo**, the Pixar-inspired AI character, with the exact title **Zevo™** and the exact subtitle **An 5D interactive artificial intelligence assistant**, conveyed through elegant interconnected data flows that visualize fuzzy-state-machine logic, neural fuzzy logic, rules and facts, Shannon entropy, Mamdani inference, and machine learning.
+
+The result is **secure by construction**, **reproducible**, **auditable**, **accessible**, **privacy-preserving**, and faithful to every term of the canonical specification.
+
+---
+
+## 14. Future Work
+
+| Direction | Description |
+|---|---|
+| Hardware-backed sealing | TPM/HSM for master secret |
+| Post-quantum readiness | ML-KEM, ML-DSA migration path |
+| Multi-tenant isolation | Per-tenant weight maps |
+| Federated learning | Offline weight updates with signed deltas |
+| Formal verification | Model-checking the pure pipeline |
+| Expanded accessibility | Full WCAG-AAA target |
+| Multi-arch support | aarch64, riscv64 `ET_DYN` |
+| Streaming artifacts | Chunked video/audio over IPC |
+
+---
+
+## 15. References
+
+1. System V Application Binary Interface, x86-64 Supplement.
+2. ELF Specification, Tool Interface Standard.
+3. Linux Kernel Documentation: fs-verity.
+4. ext4 Filesystem Documentation.
+5. OpenSSL 3.x Documentation.
+6. NIST SP 800-57: Key Management.
+7. NIST SP 800-108: KDF in Counter Mode.
+8. RFC 5869: HKDF.
+9. RFC 8446: TLS 1.3.
+10. Mamdani, E. H. (1974). Application of fuzzy algorithms.
+11. Shannon, C. E. (1948). A Mathematical Theory of Communication.
+12. WCAG 2.2, W3C Recommendation.
+13. POSIX.1-2008.
+14. seccomp-bpf Documentation.
+15. Landlock LSM Documentation.
+
+---
+
+## Attribution
+
+| Field | Value |
+|---|---|
+| Authorship | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+| Title | Enhancing Complete Academic Paper for Building Zevo™, An 5D Interactive Artificial Intelligence Assistant |
+| Status | Complete academic paper |
+| Version | 1.0.0 |
+| Effective Date | ____ |
+
+**End of academic paper.**
+
+---
+
+---
+
 ### ELF AI Core with Dual-Mode Weight Embedding, fs-verity Protection, and IPC-Only Access
 
 PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams 
