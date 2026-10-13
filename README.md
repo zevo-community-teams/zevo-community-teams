@@ -87,13 +87,13 @@ Section 2 presents related work. Section 3 defines the architecture. Section 4 s
 ┌────────────────────────────────────────────────────────────────────────────┐
 │                              Zevo™ System                                  │
 │                                                                            │
-│  ┌──────────────┐   ┌────────────────┐   ┌──────────────┐   ┌──────────┐  │
-│  │  Browser     │   │  Secure        │   │  ELF AI      │   │ Universal│  │
-│  │  Responsible │──►│  Service API   │──►│  Core        │──►│ Hardware │  │
-│  │  UI          │   │  (zevo_api)    │   │  (zevo_core) │   │ Devices  │  │
-│  └──────────────┘   └────────────────┘   └──────────────┘   └──────────┘  │
-│     Boundary 1          Boundary 2          Boundary 3        Boundary 4  │
-│     (public)            (service)           (core)            (hardware)  │
+│  ┌──────────────┐   ┌────────────────┐   ┌──────────────┐   ┌──────────┐   │
+│  │  Browser     │   │  Secure        │   │  ELF AI      │   │ Universal│   │
+│  │  Responsible │──►│  Service API   │──►│  Core        │──►│ Hardware │   │
+│  │  UI          │   │  (zevo_api)    │   │  (zevo_core) │   │ Devices  │   │
+│  └──────────────┘   └────────────────┘   └──────────────┘   └──────────┘   │
+│     Boundary 1          Boundary 2          Boundary 3        Boundary 4   │
+│     (public)            (service)           (core)            (hardware)   │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -113,7 +113,7 @@ Section 2 presents related work. Section 3 defines the architecture. Section 4 s
 | Type | `ET_DYN` |
 | ABI | System V x86_64 |
 | Language | ANSI C89/90 |
-| Standards | GNU + POSIX + Pthreads + OpenCL + OpenGL + SDL2 + OpenAL |
+| Standards | GNU + POSIX + Pthreads + OpenCL + OpenGL + SDL2 + OpenAL + OpenSSL|
 | Role | Executable host: reasoning, weights access, multimodal generation |
 | Exposure | Local IPC only |
 
