@@ -4,7 +4,15 @@
 
 <h3>Zevo Smart Beach Soccer™ - € 50.000 </h3>
 
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/1c1a063e-4c36-4544-a70e-dcfa17925111" />
+
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/5ab1c52a-93a2-445f-91b6-e3e64a4b7cce" />
+
+---
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/5080168d-bba3-4e23-b7ff-1de7d7d00551" />
 
