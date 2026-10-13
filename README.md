@@ -1,4 +1,4 @@
-## Zevo community teams™
+## Zevo community network global teams™
 
 ---
 
@@ -1469,6 +1469,498 @@ The system stands as a **secure-by-construction, pure-functional, ANSI C89/90, G
 | Outcome | **ACCEPTED — Version 1.0.0** |
 
 **End of execution and sign-off record.**
+
+---
+
+# Clarification and Explanation: Responsible Web UI Multimodal Access with 28-Hour API Key Rotation and OpenSSL Military-Grade Cryptography to the ELF AI Core LLM Storage by Section
+
+## PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams
+
+---
+
+## Purpose of This Clarification
+
+This document clarifies **how the Web-Responsible layer authenticates and reaches the ELF AI Core** when the core's LLM weights, metadata, and vectors are **embedded by section**, using:
+
+1. A **Responsible Web UI** that is multimodal, accessible, and privacy-preserving.
+2. A **Secure Service API** that mediates all access to the core.
+3. **API Key Rotation every 28 hours**, enforced by a deterministic scheduler.
+4. **Military-grade cryptography provided by OpenSSL** (AES-256-GCM, SHA-384, HMAC-SHA-384, HKDF-SHA-384, ECDSA P-384, TLS 1.3).
+5. **Access to the ELF AI Core** only through the published IPC API, never directly to `.zevo_weights`.
+
+This is a clarification, not a redesign. It resolves authentication, rotation, cryptography, and access-control questions while preserving the canonical architecture.
+
+---
+
+## 1. The Three Trust Boundaries
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                        Zevo™ System                                  │
+│                                                                      │
+│  ┌────────────────────┐   ┌────────────────────┐   ┌─────────────┐  │
+│  │  Browser           │   │  Secure Service    │   │  ELF AI     │  │
+│  │  (Responsible UI)  │──►│  API (zevo_api)    │──►│  Core       │  │
+│  │                    │   │                    │   │  (zevo_core)│  │
+│  │  • HTML5 + CSS5    │   │  • TLS 1.3         │   │             │  │
+│  │  • JSON            │   │  • Key rotation    │   │  • .zevo_   │  │
+│  │  • No keys         │   │  • Rate limit      │   │    weights  │  │
+│  │  • No weights      │   │  • Audit log       │   │  • IPC only │  │
+│  └────────────────────┘   └────────────────────┘   └─────────────┘  │
+│         Boundary 1              Boundary 2              Boundary 3   │
+│         (public)                (service)               (core)       │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+| Boundary | Between | Protection |
+|---|---|---|
+| 1 | Browser ↔ Secure Service API | TLS 1.3, session tokens, no long-lived secrets in browser |
+| 2 | Secure Service API ↔ ELF AI Core | API keys rotated every 28 h, HMAC-signed frames |
+| 3 | ELF AI Core ↔ `.zevo_weights` | fs-verity, read-only mmap, digest pinning |
+
+The browser **never** holds an API key. The Secure Service API is the **only** holder of rotating keys. The core **never** accepts unauthenticated IPC frames.
+
+---
+
+## 2. What "28-Hour Key Rotation" Means
+
+### 2.1 Definition
+
+| Term | Meaning |
+|---|---|
+| **API Key** | A 256-bit secret used to authenticate and sign requests to the ELF AI Core |
+| **Rotation** | Replacement of the active key with a newly derived key |
+| **28 hours** | The maximum lifetime of any key before it must be replaced |
+| **Deterministic schedule** | Rotation occurs at fixed UTC epochs, not on demand |
+| **Overlap window** | A short grace period during which the previous key remains valid for in-flight requests |
+
+### 2.2 Why 28 Hours
+
+| Reason | Explanation |
+|---|---|
+| Prime to 24 | Longer than a day, shorter than two — avoids daily predictability |
+| Aligns with shift cycles | Fits operational shifts without mid-shift surprises |
+| Reduces exposure | Limits the window in which a leaked key is useful |
+| Allows overlap | Provides a safe handover window without downtime |
+| Audit-friendly | Produces a clean, timestamped key lineage |
+
+### 2.3 Rotation Epochs
+
+```
+Epoch N   = floor(unix_time_utc / (28 * 3600))
+Key_N     = HKDF-SHA-384(master_secret, salt=Epoch_N, info="zevo-api")
+Key_prev  = Key_{N-1}   (valid during overlap window)
+Overlap   = 5 minutes   (configurable)
+```
+
+- `master_secret` is a 512-bit secret held only by the Secure Service API, sealed with OpenSSL and never exposed.
+- Each epoch produces a **distinct, deterministic** key.
+- The core can independently derive the expected key from a shared master secret or receive it through a sealed channel.
+
+### 2.4 Rotation Lifecycle
+
+```
+t = 0h        Key_N activated
+t = 0h–27h55m Key_N only
+t = 27h55m    Key_{N+1} derived and pre-staged
+t = 28h00m    Key_{N+1} activated; Key_N enters overlap
+t = 28h05m    Key_N retired
+```
+
+---
+
+## 3. OpenSSL Cryptographic Primitives
+
+All cryptography is provided by **OpenSSL 3.x** (or the current LTS). No custom crypto is used.
+
+| Purpose | Primitive | OpenSSL API |
+|---|---|---|
+| Transport security | TLS 1.3 | `SSL_CTX_new(TLS_server_method())` |
+| Key derivation | HKDF-SHA-384 | `EVP_PKEY_derive` / `EVP_KDF` |
+| Frame integrity | HMAC-SHA-384 | `HMAC()` |
+| Frame confidentiality | AES-256-GCM | `EVP_EncryptInit_ex` / `EVP_DecryptInit_ex` |
+| Key wrapping | AES-256-KW | `EVP_aes_256_wrap` |
+| Digital signatures | ECDSA P-384 | `EVP_DigestSign` |
+| Certificate verification | X.509 + OCSP | `X509_verify_cert` |
+| Randomness | CSPRNG | `RAND_bytes` |
+| Digests | SHA-384 | `EVP_DigestInit_ex` |
+
+### 3.1 Key Derivation (HKDF-SHA-384)
+
+```
+key_N = HKDF-Expand(
+            HKDF-Extract(salt = SHA-384(Epoch_N),
+                         IKM  = master_secret),
+            info = "zevo-api-v1",
+            L    = 32
+        )
+```
+
+Properties:
+- Deterministic given `master_secret` and `Epoch_N`.
+- Cryptographically independent across epochs.
+- Resistant to compromise of a single epoch's key.
+
+### 3.2 Frame Integrity (HMAC-SHA-384)
+
+```
+tag = HMAC-SHA-384(key_N, frame_bytes)
+```
+
+The IPC frame carries:
+- 4-byte big-endian length prefix.
+- 48-byte HMAC tag.
+- JSON payload.
+
+The core rejects any frame whose tag does not verify.
+
+### 3.3 Frame Confidentiality (AES-256-GCM)
+
+For sensitive frames (e.g., artifact fetch tokens), the payload is encrypted:
+
+```
+ciphertext, tag = AES-256-GCM(key_N, nonce, plaintext, aad)
+```
+
+- Nonce is 96-bit, unique per frame, drawn from `RAND_bytes`.
+- AAD binds the frame to its epoch and endpoint.
+- Tag is 128-bit.
+
+### 3.4 Master Secret Protection
+
+The `master_secret` is:
+- Generated once with `RAND_bytes`.
+- Stored in a sealed file with mode `0400`, owned by `zevo-api`.
+- Optionally sealed with a hardware-backed key (TPM, HSM) via OpenSSL ENGINE/PROVIDER.
+- Never logged, never serialized, never transmitted.
+
+---
+
+## 4. Secure Service API
+
+### 4.1 Role
+
+The Secure Service API (`zevo_api`) is the **only** component that:
+
+- Holds the master secret.
+- Derives and rotates API keys.
+- Signs IPC frames to the core.
+- Verifies IPC responses.
+- Enforces rate limits and quotas.
+- Logs authentication events.
+
+It is **separate** from both the browser and the ELF AI Core.
+
+### 4.2 Components
+
+| Component | Responsibility |
+|---|---|
+| `keyring.c` | Master secret load, HKDF derivation, epoch tracking |
+| `rotator.c` | 28-hour rotation scheduler, overlap window |
+| `signer.c` | HMAC-SHA-384 signing, AES-256-GCM sealing |
+| `verifier.c` | HMAC verification, GCM decryption |
+| `tls.c` | TLS 1.3 termination, certificate handling |
+| `session.c` | Browser session tokens (short-lived, no secrets) |
+| `audit.c` | Structured, tamper-evident audit log |
+| `ipc_client.c` | Framed IPC to the core |
+
+### 4.3 Rotation Scheduler
+
+```
+static uint64_t current_epoch(void)
+{
+    return (uint64_t)(time(NULL) / (28 * 3600));
+}
+
+static int derive_key(const unsigned char *master, size_t master_len,
+                      uint64_t epoch, unsigned char out[32])
+{
+    unsigned char salt[48];
+    EVP_MD_CTX *md = EVP_MD_CTX_new();
+    EVP_DigestInit_ex(md, EVP_sha384(), NULL);
+    EVP_DigestUpdate(md, &epoch, sizeof(epoch));
+    EVP_DigestFinal_ex(md, salt, NULL);
+    EVP_MD_CTX_free(md);
+
+    /* HKDF-SHA-384 via EVP_KDF */
+    /* out = HKDF(master, salt, info="zevo-api-v1", L=32) */
+    return 0;
+}
+```
+
+The scheduler:
+- Recomputes `current_epoch()` every minute.
+- Pre-derives `key_{N+1}` at `t = 27h55m`.
+- Activates `key_{N+1}` at `t = 28h00m`.
+- Retires `key_N` at `t = 28h05m`.
+
+---
+
+## 5. IPC Frame Format (Authenticated)
+
+```
+┌──────────────┬──────────────┬──────────────┬─────────────────────┐
+│ length (4B)  │ epoch (8B)   │ HMAC (48B)   │ JSON payload (N B)  │
+└──────────────┴──────────────┴──────────────┴─────────────────────┘
+```
+
+| Field | Size | Purpose |
+|---|---|---|
+| length | 4 | Big-endian total frame length |
+| epoch | 8 | Rotation epoch identifier |
+| HMAC | 48 | HMAC-SHA-384 over epoch + payload |
+| payload | N | UTF-8 JSON |
+
+The core:
+1. Reads the frame.
+2. Extracts `epoch`.
+3. Derives or retrieves `key_epoch`.
+4. Verifies the HMAC.
+5. Rejects on mismatch with `EACCES`.
+
+Optionally, the payload is AES-256-GCM sealed for sensitive endpoints.
+
+---
+
+## 6. Responsible Web UI (Multimodal)
+
+### 6.1 Principles
+
+| Principle | Implementation |
+|---|---|
+| Semantic structure | `<header>`, `<main>`, `<section>`, `<footer>` |
+| Accessibility | ARIA live regions, focus-visible, keyboard-first |
+| Motion safety | `prefers-reduced-motion` respected |
+| Color safety | WCAG-AA contrast, `prefers-color-scheme` respected |
+| Privacy | No telemetry, no cookies, no third-party scripts |
+| Transparency | Clear disclosure that Zevo™ is an AI assistant |
+| Artifact opt-in | Pixels/audio served only on explicit request |
+| No secrets in browser | No API keys, no master secret, no long-lived tokens |
+| Session tokens | Short-lived, rotated, bound to TLS session |
+| Multimodal input | Text, image upload, audio capture, video frame — all opt-in |
+| Multimodal output | Text, image, video, audio — all opt-in |
+
+### 6.2 Multimodal Input Channels
+
+| Channel | Mechanism | Consent |
+|---|---|---|
+| Text | `<textarea>` | Explicit submit |
+| Image | `<input type="file">` | Explicit upload |
+| Audio | `MediaRecorder` (opt-in) | Explicit record |
+| Video | `<input type="file">` or `getUserMedia` (opt-in) | Explicit capture |
+
+All channels:
+- Require explicit user action.
+- Are never auto-started.
+- Are never sent without a session token.
+- Are size-capped and type-validated server-side.
+
+### 6.3 Multimodal Output Channels
+
+| Channel | Mechanism | Consent |
+|---|---|---|
+| Text | JSON in `<pre aria-live="polite">` | Default |
+| Image | `<img>` with `alt`, opt-in fetch | Explicit |
+| Video | `<video controls>` (no autoplay) | Explicit |
+| Audio | `<audio controls>` (no autoplay) | Explicit |
+
+No autoplay. No background loading. No hidden fetches.
+
+### 6.4 Session Tokens
+
+- Issued by the Secure Service API after TLS handshake.
+- 256-bit random, drawn from `RAND_bytes`.
+- Bound to the TLS session (channel binding).
+- Lifetime: 15 minutes, renewable.
+- Stored in `HttpOnly`, `Secure`, `SameSite=Strict` cookie — or in memory if cookies are disabled.
+- Never contain API keys or master secret.
+- Rotated on privilege change.
+
+---
+
+## 7. End-to-End Flow
+
+```
+[Browser: Responsible UI]
+      │
+      │  HTTPS / TLS 1.3
+      ▼
+[Secure Service API  zevo_api]
+      │
+      │  1. Verify session token
+      │  2. Rate-limit
+      │  3. Derive key_N = HKDF(master, Epoch_N)
+      │  4. Sign frame: HMAC-SHA-384(key_N, epoch || payload)
+      │  5. Optionally seal: AES-256-GCM(key_N, nonce, payload)
+      │
+      │  AF_UNIX SOCK_SEQPACKET
+      ▼
+[ELF AI Core  zevo_core.elf]
+      │
+      │  1. Read frame
+      │  2. Derive or fetch key_epoch
+      │  3. Verify HMAC
+      │  4. Decrypt if sealed
+      │  5. Dispatch to pure pipeline
+      │  6. Read weights from .zevo_weights (read-only, fs-verity)
+      │  7. Produce multimodal artifact
+      │  8. Sign response with HMAC-SHA-384
+      │
+      ▼
+[Secure Service API]
+      │  1. Verify response HMAC
+      │  2. Translate to HTTP + JSON
+      ▼
+[Browser]
+      │  Renders metadata; artifact opt-in
+```
+
+---
+
+## 8. Access to `.zevo_weights` (Section-Embedded)
+
+The weights are **never** exposed to the browser or the Secure Service API. They are:
+
+| Property | Value |
+|---|---|
+| Location | `.zevo_weights` section inside `zevo_core.elf` |
+| Alignment | Page-aligned (4096 bytes) |
+| Protection | fs-verity on the ELF |
+| Mapping | `PROT_READ`, `MAP_PRIVATE` |
+| Access | Only by the core's pure pipeline |
+| Exposure | None — not over IPC, not over HTTP |
+| Schema | `.rodata`, immutable |
+| Digest | Pinned in `.zevo_meta` |
+
+The Secure Service API cannot read `.zevo_weights`. It can only request the core to use them.
+
+---
+
+## 9. OpenSSL Usage Summary
+
+| Operation | OpenSSL Call | Notes |
+|---|---|---|
+| TLS 1.3 server | `SSL_CTX_new(TLS_server_method())` | Certificate from X.509 |
+| Certificate verify | `X509_verify_cert` | Chain + OCSP |
+| HKDF derive | `EVP_KDF` with `"HKDF"` | SHA-384 |
+| HMAC sign | `HMAC(EVP_sha384(), …)` | 48-byte tag |
+| HMAC verify | `CRYPTO_memcmp` | Constant-time |
+| AES-256-GCM seal | `EVP_EncryptInit_ex` | 96-bit nonce, 128-bit tag |
+| AES-256-GCM open | `EVP_DecryptInit_ex` | AAD binds epoch |
+| ECDSA P-384 sign | `EVP_DigestSign` | For audit log entries |
+| Random | `RAND_bytes` | CSPRNG |
+| SHA-384 | `EVP_DigestInit_ex` | Salt, digest |
+
+No custom cryptographic code. All primitives are from OpenSSL.
+
+---
+
+## 10. Rotation Schedule Table (Example)
+
+| Epoch | UTC Start | Key | Overlap Ends |
+|---|---|---|---|
+| N | 2026-01-01 00:00 | Key_N | 2026-01-02 04:05 |
+| N+1 | 2026-01-02 04:00 | Key_{N+1} | 2026-01-03 08:05 |
+| N+2 | 2026-01-03 08:00 | Key_{N+2} | 2026-01-04 12:05 |
+| N+3 | 2026-01-04 12:00 | Key_{N+3} | 2026-01-05 16:05 |
+| … | … | … | … |
+
+Each row is a **28-hour** window. Overlap is 5 minutes.
+
+---
+
+## 11. Threat Model
+
+| Threat | Mitigation |
+|---|---|
+| Key leakage | 28-hour rotation; overlap limited to 5 min |
+| Replay | Epoch in frame; nonce in GCM; HMAC covers epoch |
+| Tampering | HMAC-SHA-384; AES-256-GCM tag |
+| Eavesdropping | TLS 1.3; AES-256-GCM sealing |
+| Master secret theft | Sealed file, mode 0400, optional HSM |
+| Browser key theft | Browser never holds keys |
+| Core key theft | Core holds only epoch keys, not master |
+| Weight exfiltration | Weights never leave the core |
+| IPC forgery | HMAC verification; constant-time compare |
+| Session hijack | TLS channel binding; short-lived tokens |
+| Downgrade | TLS 1.3 only; no fallback |
+| Weak randomness | `RAND_bytes` only |
+| Clock skew | Epoch grace; NTP required |
+
+---
+
+## 12. Audit and Observability
+
+| Event | Logged | Signed |
+|---|---|---|
+| Key derivation | Epoch, timestamp | ECDSA P-384 |
+| Key activation | Epoch, timestamp | ECDSA P-384 |
+| Key retirement | Epoch, timestamp | ECDSA P-384 |
+| Frame sign | Epoch, endpoint, HMAC | HMAC-SHA-384 |
+| Frame verify | Epoch, endpoint, result | HMAC-SHA-384 |
+| Session issue | Session ID, expiry | ECDSA P-384 |
+| Rate limit hit | IP, endpoint | HMAC-SHA-384 |
+| Weight access | Tensor ID, purpose | HMAC-SHA-384 |
+
+The audit log is **append-only**, **tamper-evident**, and **independently verifiable**.
+
+---
+
+## 13. Consolidated Clarification Table
+
+| Question | Answer |
+|---|---|
+| Who holds API keys? | Only the Secure Service API |
+| How often are keys rotated? | Every 28 hours |
+| How are keys derived? | HKDF-SHA-384 from a master secret |
+| What is the overlap window? | 5 minutes |
+| What crypto library? | OpenSSL 3.x |
+| What cipher for frames? | AES-256-GCM (optional sealing) |
+| What MAC for frames? | HMAC-SHA-384 |
+| What transport? | TLS 1.3 |
+| What signature for audit? | ECDSA P-384 |
+| What randomness? | `RAND_bytes` |
+| Does the browser hold keys? | No |
+| Does the Secure Service API read weights? | No |
+| Does the core expose weights? | No |
+| How are weights protected? | fs-verity + read-only mmap |
+| Where are weights stored? | `.zevo_weights` section inside the ELF |
+| What is the IPC transport? | `AF_UNIX` `SOCK_SEQPACKET` |
+| What is the IPC frame format? | length + epoch + HMAC + JSON |
+| Is the Web UI multimodal? | Yes — text, image, video, audio, all opt-in |
+| Is the Web UI Responsible? | Yes — semantic, accessible, private, transparent |
+| Does the UI autoplay? | No |
+| Does the UI track? | No |
+
+---
+
+## 14. Final Statement
+
+The **Responsible Web UI** accesses the **ELF AI Core** exclusively through a **Secure Service API** that:
+
+- Holds the **master secret** and derives **epoch keys** via **HKDF-SHA-384**.
+- **Rotates API keys every 28 hours**, with a 5-minute overlap window.
+- Signs every IPC frame with **HMAC-SHA-384** and optionally seals it with **AES-256-GCM**.
+- Terminates **TLS 1.3** with **OpenSSL** and issues **short-lived session tokens**.
+- Never exposes the master secret, the epoch keys, or the weights to the browser.
+- Reaches the core only through the published IPC API.
+- The core reads **LLM weights, metadata, and vectors embedded by section** from `.zevo_weights`, protected by **fs-verity**, mapped **read-only**, and never serialized over IPC.
+
+The result is a **military-grade cryptographic**, **rotating-key**, **Responsible-UI** multimodal access path to the **Zevo™ ELF AI Core** — faithful to the canonical specification, secure by construction, and auditable end-to-end.
+
+---
+
+## Attribution
+
+| Field | Value |
+|---|---|
+| Authorship | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+| Document | Clarification and Explanation: Responsible Web UI Multimodal Access with 28-Hour API Key Rotation and OpenSSL Cryptography to the ELF AI Core LLM Storage by Section |
+| Status | Security and access clarification |
+| Predecessor | Clarification and Explanation: Complete Implementation Starting from `main.c` |
+| Successor | Cryptographic audit and rotation drill |
+
+**End of clarification.**
 
 ---
 
