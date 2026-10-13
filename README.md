@@ -2,6 +2,10 @@
 
 ---
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/4d1682ad-0a53-47f4-92d9-8f99dabcba8c" />
+
+---
+
 <h3>Zevo Smart Nato Box™ - € 50.000 </h3>
 
 ---
