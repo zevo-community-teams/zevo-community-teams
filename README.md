@@ -2,6 +2,14 @@
 
 ---
 
+<h3>Zevo Smart Savana Defense™ - € 50.000 </h3>
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/359edbc4-9ada-4417-a1d4-29b9383260bf" />
+
+---
+
 <h3>Zevo Smart Beach Soccer™ - € 50.000 </h3>
 
 ---
