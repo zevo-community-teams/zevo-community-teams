@@ -2,6 +2,14 @@
 
 ---
 
+<h3>Zevo Smart Bono Boxer™ - € 50.000 </h3>
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/40f15cfb-5ca5-4684-a222-4148430f42bf" />
+
+---
+
 <h3>Zevo Smart Savana Defense™ - € 50.000 </h3>
 
 ---
