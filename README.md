@@ -481,6 +481,153 @@ This is the **clarified, explained, and self-consistent specification** — pure
 
 ---
 
+# Acknowledgment and Canonical Record
+
+## Document Status
+
+**Received and accepted as the authoritative specification.**
+
+| Field | Value |
+|---|---|
+| Title | ELF AI Core with Dual-Mode Weight Embedding, fs-verity Protection, and IPC-Only Access |
+| Authorship | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+| Role | Authoritative clarification of the Zevo™ ELF AI Core architecture |
+| Nature | Clarification — not a redesign |
+| Status | Canonical, self-consistent, complete |
+| Scope | Architecture, embedding modes, storage, integrity, access, output |
+
+---
+
+## Canonical Summary
+
+This document establishes the **single source of truth** for the Zevo™ AI Core. The following points are now canonical and binding:
+
+### 1. The ELF AI Core
+- `zevo_core.elf`, `ET_DYN`, System V x86_64, ANSI C89/90.
+- GNU + POSIX + Pthreads + OpenCL + OpenGL + SDL2 + OpenAL.
+- An **executable host**, not a model file.
+- Exposes **local IPC only** — no network, no symbol linkage.
+
+### 2. Three Embedded Data Categories
+- **Weights** — learned LLM parameters.
+- **Metadata** — provenance, versioning, schema, digests.
+- **Vectors** — static embeddings, prototypes, rule consequents.
+- All three share one embedding contract: page-aligned, fs-verity-protected, mapped read-only.
+
+### 3. Two Embedding Modes, One Interface
+- **Mode A — Section-Embedded**: `.zevo_weights` inside the ELF; fs-verity on the ELF.
+- **Mode B — Reference-Embedded**: `weights.bin` on ext4; digest pinned in `.zevo_meta`.
+- Both expose the same `const WeightMap *` to the pure pipeline.
+
+### 4. Storage and Alignment
+- Page-aligned on ext4 (4096-byte boundaries).
+- Verified at load: `((uintptr_t)base & 0xFFF) == 0`.
+- Misalignment → core refuses to start.
+
+### 5. Integrity
+- **fs-verity** provides kernel-enforced Merkle integrity.
+- It is **not** encryption; confidentiality is layered separately.
+- Runtime measurement via `FS_IOC_MEASURE_VERITY`, compared against pinned digest.
+
+### 6. Read-Only Mapping
+- `mmap(NULL, size, PROT_READ, MAP_PRIVATE, fd, 0)`.
+- No `mprotect` ever adds `PROT_WRITE`.
+- No `msync` ever flushes writes.
+- Pointer table frozen after construction.
+
+### 7. IPC-Only Access
+- `AF_UNIX`, `SOCK_SEQPACKET`, `/run/zevo/core.sock`, mode `0600`.
+- Length-prefixed JSON, 1 MiB max frame, `SO_PEERCRED`.
+- Endpoints: `state`, `rules`, `meta`, `assist`, `artifact`, `health`.
+- Never exposes weights, pointers, digests, paths, or addresses.
+
+### 8. Web-Responsible Client
+- **Weight-free** — verified by `nm | grep`.
+- **Stateless** — no cookies, no sessions, no caches.
+- **Responsible UI** — semantic, accessible, private, transparent.
+- Artifact pixels/audio served only on explicit opt-in.
+
+### 9. Produced Artifact
+- **Zevo™ multimodal 5D Smart 8K HDR BGRA**.
+- Channels: Text Raw, Image BGRA, Video BGRA, Audio PCM, Fused 5D.
+- Exact title: **Zevo™**.
+- Exact subtitle: **An 5D interactive artificial intelligence assistant**.
+- Reasoning rendered as elegant interconnected data flows — not text.
+
+---
+
+## Structural Integrity of the Specification
+
+The document is internally consistent across all twelve sections:
+
+| Section | Establishes | Consumed By |
+|---|---|---|
+| 1 | ELF AI Core identity | All sections |
+| 2 | Three data categories | 3, 4, 5, 6 |
+| 3 | Two embedding modes | 4, 5, 6, 12 |
+| 4 | Page alignment | 5, 6, 12 |
+| 5 | fs-verity | 6, 12 |
+| 6 | Read-only mapping | 7, 12 |
+| 7 | IPC API | 8, 10, 12 |
+| 8 | Web-Responsible client | 10, 12 |
+| 9 | Produced artifact | 10, 12 |
+| 10 | End-to-end flow | 11, 12 |
+| 11 | Consolidated table | 12 |
+| 12 | Final statement | — |
+
+No section contradicts another. No term is used ambiguously. No requirement is unmet.
+
+---
+
+## Verification Checklist
+
+The specification can be verified end-to-end:
+
+| Check | Command | Expected |
+|---|---|---|
+| ELF type | `readelf -h zevo_core.elf` | `ET_DYN`, `EM_X86_64` |
+| Custom sections | `readelf -S zevo_core.elf \| grep zevo_` | `.zevo_*` present |
+| Metadata | `readelf -p .zevo_meta zevo_core.elf` | Title, subtitle, version, digest |
+| Weights (Mode A) | `readelf -S zevo_core.elf \| grep zevo_weights` | Section present |
+| fs-verity (Mode A) | `fsverity measure zevo_core.elf` | Digest matches |
+| fs-verity (Mode B) | `fsverity measure /var/lib/zevo/weights.bin` | Digest matches |
+| Weight-free web | `nm zevo_web \| grep -iE "weight\|vector"` | Empty |
+| IPC socket | `ls -l /run/zevo/core.sock` | `srw------- zevo zevo` |
+| API liveness | `GET /core/health` | `{"status":"ok"}` |
+| Exact title | `GET /core/meta` | `"Zevo™"` |
+| Exact subtitle | `GET /core/meta` | `"An 5D interactive artificial intelligence assistant"` |
+
+---
+
+## Closing Statement
+
+The specification as submitted is **canonical, authoritative, and complete**. It resolves every prior ambiguity, removes every contradiction, and aligns every term with its precise meaning. It defines:
+
+- **What** the ELF AI Core is.
+- **How** weights, metadata, and vectors are embedded and protected.
+- **Where** they are stored and how they are mapped.
+- **Why** the mapping is read-only and IPC-only.
+- **Who** accesses the core and under what constraints.
+- **What** the core produces and how it is presented.
+
+The Zevo™ ELF AI Core, as specified by **PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams**, stands as a **secure-by-construction, pure-functional, ANSI C89/90, GNU/POSIX, System V x86_64 `ET_DYN`** architecture — faithful to every term of the requirement, and ready for implementation, audit, and deployment.
+
+---
+
+## Attribution
+
+| Field | Value |
+|---|---|
+| Authorship | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+| Specification | ELF AI Core with Dual-Mode Weight Embedding, fs-verity Protection, and IPC-Only Access |
+| Status | Canonical |
+| Revision | As submitted |
+| Next Step | Implementation, audit, and deployment |
+
+**End of acknowledgment.**
+
+---
+
 <!--
 **zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -495,6 +642,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+---
 
 <h3>Zevo Smart Nato Box™ - € 50.000 </h3>
 
