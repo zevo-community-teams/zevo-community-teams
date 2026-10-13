@@ -20,6 +20,421 @@
 
 ---
 
+# The Zevo™ AI-Driven Core
+## An 5D Interactive Artificial Intelligence Assistant — A Zero-Step Foundation Paper
+
+**PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams**
+
+---
+
+## Abstract
+
+This paper establishes the **zero-step foundation** for building the **ELF Image as Zevo™ AI-Driven Core** — a System V ABI `x86_64` `ET_DYN` executable that is simultaneously an artificial-intelligence reasoning engine and a procedural cartoon animation system inspired on Pixar-style principles of animation. The zero step is the layer *beneath* implementation: the definitions, the naming, the trust boundaries, the semantic axes, and the invariants that every subsequent file must respect. Before a single line of C is written, the system must be *named*, *bounded*, *axiomatized*, and *reproducible*. This paper supplies exactly that.
+
+Zevo™ is defined here as an **5D interactive artificial intelligence assistant** driven by a **Fuzzy-State-Machine** and anchored in **fuzzy neural logic**, **Shannon entropy**, **Mamdani inference**, and **offline-trained + online-adaptive machine learning**, all converging on a single **5-axis intelligence vector** `S = (O, X, Y, Z, R)` that drives the character pose, the data-flow ribbons, the color palette, the audio timbre, and the temporal pacing of the multimodal artifact. The multimodal artifact comprises **Text Raw**, **Image BGRA**, **Video BGRA**, **Audio PCM**, and the **fused 5-axis vector** itself. The ELF AI Core reaches hardware peripherals exclusively through libc wrappers that resolve to the `syscall` instruction on `x86_64` (and `sysenter` on legacy x86), under GNU + POSIX contracts, Pthreads, OpenCL, OpenGL, SDL2, OpenAL, and OpenSSL. The weights are not embedded: they live in a **page-aligned, fs-verity-protected data structure on ext4**, mapped **read-only** by the core. The Web-Responsible layer remains a **separate, weight-free, stateless client** that reaches the core only through a **published IPC API**.
+
+The result of the zero step is not code. It is the *contract* that code must obey — so that everything that follows is secure-by-construction, reproducible, auditable, and faithful to the exact title **Zevo™** and the exact subtitle **An 5D interactive artificial intelligence assistant** (verbatim per project charter).
+
+**Keywords:** zero-step foundation, ELF AI Core, `ET_DYN`, `syscall`, `sysenter`, fs-verity, ext4, Fuzzy-State-Machine, fuzzy neural logic, Shannon entropy, Mamdani inference, 5D axes, multimodal generation, Pixar-inspired animation, Web-Responsible UI.
+
+---
+
+## 1. Why a Zero Step
+
+Before implementation begins, five categories of decision must be frozen:
+
+| Category | Why it must precede code |
+|---|---|
+| **Identity** | The exact title and subtitle are contractual; they appear in every binary, log, and manifest |
+| **Boundaries** | Trust boundaries cannot be retrofitted; they must be architectural from line one |
+| **Semantics** | The 5 axes must mean something *before* a renderer consumes them |
+| **Invariants** | Purity, reproducibility, and read-only weights must be axioms, not aspirations |
+| **Vocabulary** | FSM, entropy, Mamdani, neural-fuzzy, ML — these words must have fixed meanings |
+
+The zero step produces **no executable**. It produces the **constitution** of the Zevo™ AI-Driven Core.
+
+---
+
+## 2. The Exact Identity
+
+The following strings are canonical, immutable, and appear verbatim in source, metadata, manifests, and user-facing surfaces:
+
+| Field | Value |
+|---|---|
+| Title | **Zevo™** |
+| Subtitle | **An 5D interactive artificial intelligence assistant** |
+| Version | 1.0.0 |
+| ABI | 2 |
+| Authorship | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+
+> **Note on the article "An".** The subtitle uses the indefinite article `An` before `5`. Standard English would render `A 5`. The project charter preserves `An` as a deliberate branding choice; it is retained verbatim in every user-facing surface and every metadata record. This paper therefore writes it exactly as the charter dictates.
+
+The character, **Zevo**, is an original Pixar-inspired cartoon character. "Pixar-inspired" refers exclusively to publicly documented *animation principles* — squash-and-stretch, anticipation, staging, appeal, rounded forms, expressive eyes, premium timing. No Pixar code, asset, trademark, or trade dress is used anywhere in the system.
+
+---
+
+## 3. The Four Trust Boundaries
+
+Every subsequent design decision is bounded by these four boundaries. Nothing crosses them without an explicit contract.
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                          Zevo™ System                                │
+│                                                                      │
+│  ┌────────────┐   ┌──────────────┐   ┌────────────┐   ┌──────────┐  │
+│  │  Browser   │   │  Secure      │   │  ELF AI    │   │ Universal│  │
+│  │  Responsible│──►│  Service API │──►│  Core      │──►│ Hardware │  │
+│  │  UI        │   │  (zevo_api)  │   │  (zevo_core)│   │ Devices  │  │
+│  └────────────┘   └──────────────┘   └────────────┘   └──────────┘  │
+│   Boundary 1        Boundary 2        Boundary 3       Boundary 4   │
+│   (public)          (service)         (core)           (hardware)   │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+| Boundary | Between | Contract | Enforced by |
+|---|---|---|---|
+| 1 | Browser ↔ Service API | TLS 1.3, session token, no telemetry | OpenSSL, HTTP hardening |
+| 2 | Service API ↔ ELF AI Core | 28-hour API key rotation, HMAC-SHA-384, AES-256-GCM | OpenSSL, published IPC |
+| 3 | ELF AI Core ↔ `weights.bin` | fs-verity Merkle verification, read-only mmap | Linux kernel |
+| 4 | ELF AI Core ↔ Hardware | libc → `syscall`/`sysenter`, seccomp-bpf, capability bounding | Linux kernel, glibc |
+
+**The zero step fixes these boundaries.** No later file may move them.
+
+---
+
+## 4. The ELF AI Core as a First-Class Object
+
+The ELF AI Core is defined as:
+
+| Attribute | Value |
+|---|---|
+| File | `zevo_core.elf` |
+| Format | ELF |
+| Type | `ET_DYN` (position-independent executable) |
+| ABI | System V `x86_64` |
+| Language | ANSI C89/90 |
+| Contracts | GNU + POSIX + Pthreads |
+| Accelerators | OpenCL, OpenGL, SDL2, OpenAL |
+| Cryptography | OpenSSL |
+| Target | Linux Fedora 40+ |
+| Exposure | Local IPC only |
+| System-call path | libc → `syscall` (x86_64) / `sysenter` (legacy x86) |
+
+The ELF is *not* a container. It is *not* a shared library. It is a **position-independent executable** launched by `ld.so` under PIE semantics, with a single exported symbol (`zevo_pipeline_run`) and everything else hidden via `-fvisibility=hidden`.
+
+---
+
+## 5. The Five Semantic Axes
+
+The zero step defines the **5-axis intelligence vector**:
+
+```
+S = (O, X, Y, Z, R)
+```
+
+| Axis | Name | Physical meaning | Reasoning source | Visual effect | Acoustic effect |
+|---|---|---|---|---|---|
+| **O** | Origin | Rotation & gravity | Mamdani centroid | Body rotation, gravity sag | Fundamental frequency |
+| **X** | Horizontal | Lateral spread | Neural-fuzzy projection | Eye/antenna spread, lateral tint | Octave-fifth detune |
+| **Y** | Vertical | Up/down extent | FSM dwell time (normalized) | Vertical stretch (squash-and-stretch) | Slow vibrato rate |
+| **Z** | Depth | Front/back immersion | Normalized Shannon entropy | Halo depth glow, blue channel | Shimmer / air partial |
+| **R** | Radial | Outward expansion | Online self-learning affect | Halo radius, ribbon length | Overall amplitude |
+
+The **idle singularity** is `S = (0, 0, 0, 0, 0)` — no reasoning, no entropy, no affect. Every artifact is a departure from that point. Full engagement is `S = (1, 1, 1, 1, 1)`.
+
+**No axis may be redefined.** Every later file consumes these five meanings unchanged.
+
+---
+
+## 6. The Five Reasoning Stages
+
+The zero step fixes five reasoning stages, each a pure function:
+
+| Stage | File | Input | Output | Drives |
+|---|---|---|---|---|
+| Shannon entropy | `entropy.c` | histogram | `H(X) ∈ [0,1]` | `Z` axis |
+| Mamdani inference | `mamdani.c` | facts + rules | defuzzified centroid | `O` axis |
+| Fuzzy neural logic | `nfuse.c` | embedding + prototype | `sigmoid(⟨e,p⟩)` | `X` axis |
+| FSM dwell | `fsm.c` | state transitions | normalized dwell time | `Y` axis |
+| Self-learning | `learn.c` | observed S vectors | affective scalar | `R` axis |
+
+Each stage obeys the **purity contract**: `const` inputs → freshly allocated output, no global mutable state, reentrant, thread-safe.
+
+---
+
+## 7. The Multimodal Artifact
+
+The zero step defines the artifact's five channels:
+
+| Channel | Symbol | Contents |
+|---|---|---|
+| Text Raw | `text` | UTF-8 bytes of the prompt echo |
+| Image BGRA | `image` | `W × H × 4`, BGRA order, HDR intent |
+| Video BGRA | `video` | `N × W × H × 4`, BGRA order, `FPS` frames/s |
+| Audio PCM | `audio` | signed 16-bit LE interleaved, `Hz` sample rate |
+| Fused 5-axis vector | `S` | `(O, X, Y, Z, R)` in `[0,1]⁵` |
+
+Every channel is independently dumpable to disk. Every channel is independently reproducible from the same prompt and the same weights.
+
+---
+
+## 8. The Weight Contract (Mode B: Reference-Embedded)
+
+The zero step chooses **reference-embedded weights** as the canonical mode:
+
+| Requirement | Value |
+|---|---|
+| Location | `weights.bin` on ext4 |
+| Alignment | every section offset is a multiple of 4096 |
+| Integrity | fs-verity Merkle tree, root hash pinned in `.zevo_meta` |
+| Mapping | `mmap(NULL, len, PROT_READ, MAP_PRIVATE, fd, 0)` |
+| Write capability | none — `mprotect` never adds `PROT_WRITE` |
+| Confidentiality | layered separately (LUKS / dm-crypt / fscrypt) |
+
+fs-verity is **not encryption**. It is kernel-enforced integrity. The zero step states this explicitly so no later design conflates the two.
+
+---
+
+## 9. The Universal Hardware Peripheral Contract
+
+The zero step fixes the mechanism by which the ELF AI Core touches hardware:
+
+| Class | Examples | Linux Interface | Path to kernel |
+|---|---|---|---|
+| Compute | GPU, NPU | OpenCL, DRM | libc → `syscall` |
+| Graphics | GPU, display | DRM/KMS, OpenGL, SDL2 | libc → `syscall` |
+| Audio in | Microphone | ALSA (PCM capture) | libc → `syscall` |
+| Audio out | Speaker | ALSA (PCM playback), OpenAL | libc → `syscall` |
+| Video in | Web camera | V4L2 | libc → `syscall` |
+| Input | Keyboard | evdev | libc → `syscall` |
+| Storage | NVMe, SATA | block layer, ext4 | libc → `syscall` |
+| Random | RDRAND, RDTSC | `getrandom` | libc → `syscall` |
+| Time | HPET, TSC | `clock_gettime` | libc → `syscall` |
+
+On `x86_64`, the fast system-call instruction is **`syscall`**. On legacy 32-bit x86, it is **`sysenter`**. The core never emits inline assembly; every wrapper is a libc call that resolves to the correct instruction through the platform ABI.
+
+**Half-duplex interaction** is the canonical user protocol:
+
+```
+LISTEN  →  THINK  →  SPEAK  →  LISTEN  →  …
+```
+
+The core listens through microphone, web camera, and keyboard. It thinks through its FSM-driven pipeline. It speaks through speaker and SDL2 window, and animates the multimodal artifact. It then returns to listening.
+
+---
+
+## 10. The Cryptographic Contract
+
+The zero step fixes the cryptographic discipline:
+
+| Purpose | Primitive | Reference |
+|---|---|---|
+| Frame integrity | HMAC-SHA-384 | NIST SP 800-107 |
+| Key derivation | HKDF-SHA-384 | RFC 5869 |
+| Frame sealing | AES-256-GCM | NIST SP 800-38D |
+| Audit signing | ECDSA P-384 | FIPS 186-5 |
+| Randomness | CSPRNG | `RAND_bytes` |
+| Transport (boundary 1) | TLS 1.3 | RFC 8446 |
+| Key rotation | 28-hour epoch, 5-minute overlap | NIST SP 800-57 |
+
+**The term "military-grade" is not used.** It is a marketing phrase with no technical meaning. The zero step substitutes explicit NIST / IETF / FIPS references.
+
+---
+
+## 11. The Reproducibility Contract
+
+The zero step fixes reproducibility:
+
+| Rule | Value |
+|---|---|
+| Timestamp | `SOURCE_DATE_EPOCH=0` |
+| Build ID | `-Wl,--build-id=sha1` |
+| Compiler flags | pinned in `Makefile` |
+| Section order | pinned in `zevo_core.ld` |
+| Verification | two clean builds produce byte-identical ELFs |
+
+Any deviation breaks the contract and voids the audit.
+
+---
+
+## 12. The Purity Contract
+
+The zero step fixes the functional discipline:
+
+```c
+/* PURE: takes const inputs, returns a freshly allocated value,
+ * reads no global mutable state, writes no global mutable state,
+ * is reentrant and thread-safe. */
+```
+
+Every stage carries this comment. `main()` is the only impure shell: it owns peripherals, opens weights, allocates the learner, drives the FSM, and presents/speaks. All reasoning lives in pure functions.
+
+---
+
+## 13. The Vocabulary (Fixed Meanings)
+
+The zero step fixes the meaning of each term:
+
+| Term | Fixed meaning |
+|---|---|
+| **FSM** | Fuzzy-state-machine: discrete states with fuzzy guards |
+| **Shannon entropy** | `H(X) = −Σ p log₂ p`, normalized to `[0,1]` |
+| **Mamdani inference** | Fuzzify → fire → aggregate → centroid defuzzify |
+| **Neural-fuzzy fusion** | `sigmoid(⟨embedding, prototype⟩)` |
+| **Machine learning** | Offline (weights.bin) + online (in-core learner, no disk writes) |
+| **5D axes** | `S = (O, X, Y, Z, R)`, exactly as defined in §5 |
+| **Multimodal** | Text Raw + Image BGRA + Video BGRA + Audio PCM + S |
+| **Core** | The `zevo_core.elf` process, not a container, not a library |
+| **Web-Responsible** | Weight-free, stateless client that reaches the core only via IPC |
+
+No later file may redefine these words.
+
+---
+
+## 14. The Zero-Step Deliverables
+
+The zero step produces no executable. It produces:
+
+| Deliverable | Purpose |
+|---|---|
+| Canonical identity strings | appear in every binary and manifest |
+| Four trust boundaries | non-negotiable architectural lines |
+| Five semantic axes | fixed meanings for `O, X, Y, Z, R` |
+| Five reasoning stages | fixed purity contract per stage |
+| Five artifact channels | fixed output interface |
+| Weight contract | reference-embedded, page-aligned, fs-verity, RO |
+| Peripheral contract | libc → `syscall`/`sysenter`, half-duplex |
+| Cryptographic contract | explicit NIST / IETF / FIPS references |
+| Reproducibility contract | `SOURCE_DATE_EPOCH=0`, byte-identical builds |
+| Purity contract | `/* PURE: … */` on every stage |
+| Vocabulary | no term redefined after this paper |
+
+The first source file (`zevo.h`) and the first header (`pure.h`) follow from these deliverables. Nothing precedes them.
+
+---
+
+## 15. What the Zero Step Enables
+
+With the zero step fixed, every later increment becomes local:
+
+| Increment | Enabled by |
+|---|---|
+| Skeleton + Makefile | §4 (ELF contract), §11 (reproducibility) |
+| Pure-function contract | §12 (purity) |
+| 5-axis vector | §5 (axes) |
+| Weights loader | §8 (weight contract) |
+| Shannon entropy | §6 (stage 1), §13 (vocabulary) |
+| Mamdani inference | §6 (stage 2), §13 (vocabulary) |
+| Neural-fuzzy fusion | §6 (stage 3), §13 (vocabulary) |
+| FSM | §6 (stage 4), §13 (vocabulary) |
+| Self-learning | §6 (stage 5), §13 (vocabulary) |
+| Zevo character | §3 (identity), §5 (axes) |
+| Multimodal render | §7 (artifact), §5 (axes) |
+| Peripheral access | §9 (peripheral contract) |
+| IPC + crypto | §3 (boundary 2), §10 (crypto contract) |
+| Web client | §3 (boundary 1), §13 (vocabulary) |
+
+Every increment is a **consequence** of the zero step, not a new decision.
+
+---
+
+## 16. Non-Goals of the Zero Step
+
+To keep the zero step precise, the following are explicitly *out of scope*:
+
+| Non-goal | Rationale |
+|---|---|
+| Choosing a quantization scheme | belongs to `weights.bin` provisioning, not the zero step |
+| Implementing the attention kernel | belongs to `nfuse.c`, a later file |
+| Defining the IPC frame layout | belongs to `ipc.c`, constrained by §3 boundary 2 |
+| Selecting a color space for HDR | belongs to `render_image.c`, constrained by §7 |
+| Specifying the FSM transition table | belongs to `fsm.c`, constrained by §6 |
+| Enrolling TLS certificates | belongs to deployment, constrained by §3 boundary 1 |
+
+The zero step **bounds** these decisions; it does not make them.
+
+---
+
+## 17. The Zero-Step Constitution (Summary)
+
+> **Article 1.** The title is **Zevo™**. The subtitle is **An 5D interactive artificial intelligence assistant**. Both are verbatim.
+>
+> **Article 2.** The ELF AI Core is a System V `x86_64` `ET_DYN` executable built under GNU + POSIX contracts, targeting Linux Fedora 40+.
+>
+> **Article 3.** Four trust boundaries separate UI, service, core, and hardware. No later file may move them.
+>
+> **Article 4.** The 5-axis vector is `S = (O, X, Y, Z, R)`, with meanings fixed in §5.
+>
+> **Article 5.** Five reasoning stages, each a pure function, converge on `S`.
+>
+> **Article 6.** The multimodal artifact has five channels: Text Raw, Image BGRA, Video BGRA, Audio PCM, and `S`.
+>
+> **Article 7.** Weights are reference-embedded, page-aligned on ext4, fs-verity-protected, mapped read-only. They are not embedded in the ELF.
+>
+> **Article 8.** Hardware is reached exclusively through libc wrappers resolving to `syscall` on `x86_64` and `sysenter` on legacy x86.
+>
+> **Article 9.** Cryptography uses OpenSSL primitives aligned with NIST SP 800-38D, SP 800-107, RFC 5869, and FIPS 186-5. "Military-grade" is not used.
+>
+> **Article 10.** Builds are reproducible: `SOURCE_DATE_EPOCH=0` yields byte-identical ELFs.
+>
+> **Article 11.** Every reasoning stage is pure. `main()` is the only impure shell.
+>
+> **Article 12.** No term defined in §13 may be redefined after this paper.
+>
+> **Article 13.** The Web-Responsible layer is weight-free and stateless. It reaches the core only through the published IPC API.
+>
+> **Article 14.** The character **Zevo** is an original Pixar-*inspired* cartoon. "Pixar-inspired" refers to public animation principles only. No Pixar code, asset, trademark, or trade dress is used.
+
+---
+
+## 18. Conclusion
+
+The **zero step** for building the ELF Image as **Zevo™ AI-Driven Core** is a paper, not a program. It fixes the identity, the boundaries, the axes, the stages, the channels, the weight contract, the peripheral contract, the cryptographic contract, the reproducibility contract, the purity contract, and the vocabulary — before a single byte of machine code exists.
+
+With the zero step in place, the first source file (`zevo.h`), the first header (`pure.h`), the first loader (`weights.c`), the first stage (`entropy.c`), the first inference (`mamdani.c`), the first fusion (`nfuse.c`), the first state machine (`fsm.c`), the first learner (`learn.c`), the first character renderer (`character.c`), the first multimodal renderers (`render_*.c`), the first peripheral wrappers (`hw_*.c`), the first display bridge (`display.c`), the first GPU bridge (`gpu.c`), the first cryptographic layer (`crypto.c`), and the first principal application (`main.c`) are all **consequences** — not new decisions.
+
+The result is not merely a program. It is a **secure-by-construction, reproducible, auditable, and accessible** 5D interactive artificial intelligence assistant, centered on **Zevo**, the original Pixar-inspired cartoon character, with the exact title **Zevo™** and the exact subtitle **An 5D interactive artificial intelligence assistant**, conveyed through elegant, interconnected data flows rather than explanatory text — and the zero step is the foundation on which every later step stands.
+
+---
+
+## 19. References
+
+1. System V Application Binary Interface, x86-64 Supplement.
+2. ELF Specification, Tool Interface Standard.
+3. Linux Kernel Documentation: `fs-verity`.
+4. Linux Kernel Documentation: `seccomp_filter.rst`, `landlock.rst`.
+5. ext4 Filesystem Documentation.
+6. OpenSSL 3.x Documentation.
+7. NIST SP 800-38D: GCM Mode.
+8. NIST SP 800-57 Part 1 Rev. 5: Key Management.
+9. NIST SP 800-107 Rev. 1: HMAC.
+10. RFC 5869: HKDF.
+11. RFC 8446: TLS 1.3.
+12. FIPS 186-5: Digital Signature Standard.
+13. Mamdani, E. H. (1974). *Application of fuzzy algorithms for control of a simple dynamic plant.*
+14. Shannon, C. E. (1948). *A Mathematical Theory of Communication.*
+15. WCAG 2.2, W3C Recommendation.
+16. POSIX.1-2008.
+17. Thomas, F., & Johnston, O. (1981). *The Illusion of Life: Disney Animation.* (Source of the animation principles referenced by "Pixar-inspired.")
+
+---
+
+## Attribution
+
+| Field | Value |
+|---|---|
+| Authorship | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+| Title | The Zevo™ AI-Driven Core — An 5D Interactive Artificial Intelligence Assistant: A Zero-Step Foundation Paper |
+| Status | Foundational paper (zero step) |
+| Version | 1.0.0 |
+| Effective Date | ____ |
+
+**End of zero-step foundation paper.**
+
+---
+
+---
+
 # Zevo ELF Image AI Core vs. GGUF v3 vs. "OpenGPT"
 
 Below is a precise, side-by-side explanation of what these three things actually *are*, where they overlap, and why the Zevo™ ELF Image AI Core is **not** the same kind of object as a GGUF file or an "OpenGPT" (GPT-family) checkpoint. This is the conceptual bridge the paper's §5 (Weight Storage Contract) implicitly relies on but never states outright.
