@@ -2,6 +2,14 @@
 
 ---
 
+<h3>Zevo Smart Nato Box™ - € 50.000 </h3>
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/741c104e-c26f-4e72-98fe-97749290e285" />
+
+---
+
 <h3>Zevo Smart Bono Boxer™ - € 50.000 </h3>
 
 ---
