@@ -1964,6 +1964,468 @@ The result is a **military-grade cryptographic**, **rotating-key**, **Responsibl
 
 ---
 
+# Clarification and Explanation: Responsible Web UI Multimodal Access with 28-Hour API Key Rotation, OpenSSL Cryptography, ELF AI Core LLM Storage by Section, and Syscall/Sysenter Access to Universal Hardware Device Peripherals
+
+## PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams
+
+---
+
+## Purpose of This Clarification
+
+This document extends the previous clarification by adding a **fourth trust boundary**: the ELF AI Core's controlled access to **Universal Hardware Device peripherals** through **system calls (`syscall`)** and the **fast system-call entry (`sysenter`/`syscall` instruction)** on x86_64.
+
+It clarifies:
+
+1. How the **Responsible Web UI** remains multimodal and privacy-preserving.
+2. How the **Secure Service API** rotates keys every **28 hours** using **OpenSSL military-grade cryptography**.
+3. How the **ELF AI Core** stores and reads **LLM weights, metadata, and vectors embedded by section**.
+4. How the core reaches **Universal Hardware Device peripherals** via **`syscall`** and **`sysenter`** — with strict sandboxing, capability discipline, and auditability.
+
+This is a clarification, not a redesign. It preserves the canonical architecture and adds precise semantics for hardware access.
+
+---
+
+## 1. The Four Trust Boundaries
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│                              Zevo™ System                                  │
+│                                                                            │
+│  ┌──────────────┐   ┌────────────────┐   ┌──────────────┐   ┌──────────┐  │
+│  │  Browser     │   │  Secure        │   │  ELF AI      │   │ Universal│  │
+│  │  Responsible │──►│  Service API   │──►│  Core        │──►│ Hardware │  │
+│  │  UI          │   │  (zevo_api)    │   │  (zevo_core) │   │ Devices  │  │
+│  │              │   │                │   │              │   │          │  │
+│  │  • HTML5     │   │  • TLS 1.3     │   │  • .zevo_    │   │  • GPU   │  │
+│  │  • CSS5      │   │  • Key rot.    │   │    weights   │   │  • Audio │  │
+│  │  • JSON      │   │  • OpenSSL     │   │  • IPC only  │   │  • Video │  │
+│  │  • No keys   │   │  • Audit       │   │  • syscall   │   │  • NIC   │  │
+│  │  • No weights│   │  • Rate limit  │   │  • sysenter  │   │  • Disk  │  │
+│  └──────────────┘   └────────────────┘   └──────────────┘   └──────────┘  │
+│     Boundary 1          Boundary 2          Boundary 3        Boundary 4  │
+│     (public)            (service)           (core)            (hardware)  │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+| Boundary | Between | Protection |
+|---|---|---|
+| 1 | Browser ↔ Secure Service API | TLS 1.3, short-lived session tokens, no long-lived secrets |
+| 2 | Secure Service API ↔ ELF AI Core | 28-hour API key rotation, HMAC-SHA-384, AES-256-GCM, OpenSSL |
+| 3 | ELF AI Core ↔ `.zevo_weights` | fs-verity, read-only mmap, digest pinning |
+| 4 | ELF AI Core ↔ Universal Hardware | `syscall`/`sysenter`, seccomp, capability bounding, `ioctl` allow-list |
+
+Each boundary is **independently auditable** and **independently revocable**.
+
+---
+
+## 2. Responsible Web UI Multimodal (Boundary 1)
+
+Unchanged from the previous clarification:
+
+| Principle | Implementation |
+|---|---|
+| Semantic structure | `<header>`, `<main>`, `<section>`, `<footer>` |
+| Accessibility | ARIA live regions, focus-visible, keyboard-first |
+| Motion safety | `prefers-reduced-motion` respected |
+| Color safety | WCAG-AA contrast, `prefers-color-scheme` respected |
+| Privacy | No telemetry, no cookies, no third-party scripts |
+| Transparency | Clear disclosure that Zevo™ is an AI assistant |
+| Multimodal input | Text, image, video, audio — all opt-in |
+| Multimodal output | Text, image, video, audio — all opt-in |
+| No secrets in browser | No API keys, no master secret, no long-lived tokens |
+
+The browser **never** speaks to the ELF AI Core directly. It speaks only to the Secure Service API.
+
+---
+
+## 3. Secure Service API with 28-Hour Key Rotation (Boundary 2)
+
+### 3.1 Rotation Semantics
+
+```
+Epoch N   = floor(unix_time_utc / (28 * 3600))
+Key_N     = HKDF-SHA-384(master_secret, salt=SHA-384(Epoch_N),
+                          info="zevo-api-v1", L=32)
+Overlap   = 5 minutes
+```
+
+| Property | Value |
+|---|---|
+| Key length | 256 bits |
+| Derivation | HKDF-SHA-384 |
+| Rotation period | 28 hours |
+| Overlap window | 5 minutes |
+| Master secret | 512 bits, sealed, mode 0400, optional HSM |
+| Transport | TLS 1.3 (OpenSSL) |
+| Frame MAC | HMAC-SHA-384 |
+| Frame sealing | AES-256-GCM (optional) |
+| Audit signature | ECDSA P-384 |
+| Randomness | `RAND_bytes` |
+
+### 3.2 OpenSSL Primitives
+
+| Purpose | Primitive | OpenSSL API |
+|---|---|---|
+| TLS 1.3 | Transport | `SSL_CTX_new(TLS_server_method())` |
+| HKDF | Key derivation | `EVP_KDF` with `"HKDF"`, SHA-384 |
+| HMAC | Frame integrity | `HMAC(EVP_sha384(), …)` |
+| AES-256-GCM | Frame sealing | `EVP_EncryptInit_ex` / `EVP_DecryptInit_ex` |
+| AES-256-KW | Key wrapping | `EVP_aes_256_wrap` |
+| ECDSA P-384 | Audit signing | `EVP_DigestSign` |
+| SHA-384 | Digests | `EVP_DigestInit_ex` |
+| CSPRNG | Randomness | `RAND_bytes` |
+
+No custom cryptography. All primitives are from OpenSSL 3.x.
+
+### 3.3 Authenticated IPC Frame
+
+```
+┌──────────────┬──────────────┬──────────────┬─────────────────────┐
+│ length (4B)  │ epoch (8B)   │ HMAC (48B)   │ JSON payload (N B)  │
+└──────────────┴──────────────┴──────────────┴─────────────────────┘
+```
+
+- `length` — big-endian total frame length.
+- `epoch` — rotation epoch identifier.
+- `HMAC` — HMAC-SHA-384 over `epoch || payload`.
+- `payload` — UTF-8 JSON, optionally AES-256-GCM sealed.
+
+The core rejects any frame whose HMAC does not verify in constant time.
+
+---
+
+## 4. ELF AI Core LLM Storage by Section (Boundary 3)
+
+### 4.1 Section-Embedded Weights
+
+```
+zevo_core.elf
+├── .text
+├── .rodata
+├── .data
+├── .bss
+├── .zevo_rules
+├── .zevo_facts
+├── .zevo_entropy
+├── .zevo_fsm
+├── .zevo_meta
+└── .zevo_weights   ← LLM weights, metadata, vectors
+```
+
+| Property | Value |
+|---|---|
+| Section | `.zevo_weights` |
+| Flags | `alloc, readonly` |
+| Alignment | 4096-byte page-aligned |
+| Protection | fs-verity on the ELF |
+| Mapping | `PROT_READ`, `MAP_PRIVATE` |
+| Digest | Pinned in `.zevo_meta` |
+| Access | Only by the core's pure pipeline |
+| Exposure | None over IPC or HTTP |
+
+### 4.2 Embedding Procedure
+
+```sh
+objcopy --add-section .zevo_weights=weights.bin \
+        --set-section-flags .zevo_weights=alloc,readonly \
+        zevo_core.elf
+fsverity enable zevo_core.elf
+fsverity measure zevo_core.elf
+```
+
+### 4.3 Runtime Access
+
+```
+extern const unsigned char __start_zevo_weights[];
+extern const unsigned char __stop_zevo_weights[];
+```
+
+The kernel loader maps the section read-only. The core locates tensors via the immutable schema in `.rodata`.
+
+---
+
+## 5. Syscall and Sysenter Access to Universal Hardware Peripherals (Boundary 4)
+
+### 5.1 What "Universal Hardware Device Peripheral" Means
+
+A **Universal Hardware Device Peripheral** is any hardware device exposed to the core through a kernel interface:
+
+| Class | Examples | Kernel Interface |
+|---|---|---|
+| Compute | GPU, NPU, FPGA | OpenCL, DRM, VFIO |
+| Graphics | GPU, display | DRM/KMS, OpenGL |
+| Audio | DAC, ADC | ALSA, OpenAL |
+| Video | Camera, encoder | V4L2, SDL2 |
+| Storage | NVMe, SATA | Block layer, ext4 |
+| Network | NIC | Sockets, `AF_PACKET` |
+| Input | Keyboard, mouse | evdev |
+| Timers | HPET, TSC | `clock_gettime` |
+| Random | RDRAND, RDTSC | `getrandom` |
+
+Access is **always** mediated by the kernel through **system calls**.
+
+### 5.2 `syscall` vs `sysenter` on x86_64
+
+| Mechanism | Architecture | Use |
+|---|---|---|
+| `syscall` | x86_64 | The standard fast system-call instruction |
+| `sysenter` | x86 (legacy) | The 32-bit fast system-call instruction |
+| `int 0x80` | x86, x86_64 (compat) | Legacy interrupt-based entry |
+
+On **x86_64**, the correct instruction is **`syscall`**. The `sysenter` instruction is the **32-bit** counterpart and is used only in compatibility mode. Modern ANSI C89/90 code never issues these instructions directly — it uses the **libc wrappers** (`open`, `ioctl`, `mmap`, `read`, `write`, `close`) which the libc translates into the appropriate instruction.
+
+### 5.3 Why Direct `syscall`/`sysenter` Is Not Used
+
+| Reason | Explanation |
+|---|---|
+| Portability | `syscall` is architecture-specific |
+| ABI stability | libc guarantees syscall ABI stability |
+| Security | libc applies `seccomp`-friendly wrappers |
+| Maintainability | Raw syscalls bypass libc error handling |
+| Auditability | libc calls are traceable via `strace` |
+| ANSI C89/90 | The standard library is the only portable interface |
+
+The core uses **libc wrappers**, which **internally** use `syscall` on x86_64 and `sysenter` on x86. This is the correct, portable, auditable approach.
+
+### 5.4 Syscall Discipline
+
+The core is restricted by **seccomp-bpf** to a minimal syscall allow-list:
+
+| Syscall | Purpose |
+|---|---|
+| `read` | Read IPC frames, device input |
+| `write` | Write IPC responses, device output |
+| `openat` | Open device nodes, weight files |
+| `close` | Close descriptors |
+| `mmap` | Map weights, device memory |
+| `munmap` | Unmap |
+| `ioctl` | Device control (allow-listed only) |
+| `futex` | Thread synchronization |
+| `clock_gettime` | Timestamps |
+| `getrandom` | CSPRNG seed |
+| `exit_group` | Clean exit |
+
+All other syscalls are **blocked** and cause `SIGSYS`.
+
+### 5.5 Hardware Access Flow
+
+```
+[Core pure pipeline]
+        │
+        │  libc call (e.g., ioctl, mmap, read, write)
+        ▼
+[glibc wrapper]
+        │
+        │  syscall instruction (x86_64)
+        ▼
+[Kernel]
+        │
+        │  1. seccomp-bpf filter
+        │  2. capability check
+        │  3. LSM (SELinux/AppArmor) check
+        │  4. device driver dispatch
+        ▼
+[Universal Hardware Device Peripheral]
+        │
+        │  GPU, audio, video, NIC, disk, etc.
+        ▼
+[Result returned to core]
+```
+
+### 5.6 Capability Bounding
+
+The core runs with **no capabilities** except those required:
+
+| Capability | Status |
+|---|---|
+| `CAP_SYS_ADMIN` | Dropped |
+| `CAP_SYS_RAWIO` | Dropped |
+| `CAP_NET_ADMIN` | Dropped |
+| `CAP_SYS_MODULE` | Dropped |
+| `CAP_DAC_OVERRIDE` | Dropped |
+| `CAP_SYS_PTRACE` | Dropped |
+
+Device access is granted via **udev rules** and **group membership**, not capabilities.
+
+### 5.7 Device Node Discipline
+
+| Device | Node | Access | Purpose |
+|---|---|---|---|
+| GPU | `/dev/dri/renderD128` | `rw`, group `render` | OpenCL, OpenGL |
+| Audio | `/dev/snd/*` | `rw`, group `audio` | OpenAL |
+| Video | `/dev/video0` | `rw`, group `video` | SDL2 capture |
+| Random | `/dev/urandom` | `r` | CSPRNG |
+| Weights | `/var/lib/zevo/weights.bin` | `r`, mode 0400 | Mode B weights |
+
+No device is accessed directly. All access is mediated by the kernel.
+
+### 5.8 ioctl Allow-List
+
+Only specific `ioctl` commands are permitted:
+
+| Device | ioctl | Purpose |
+|---|---|---|
+| DRM | `DRM_IOCTL_*` | GPU context, buffers |
+| ALSA | `SNDRV_PCM_IOCTL_*` | Audio streams |
+| V4L2 | `VIDIOC_*` | Video capture |
+| fs-verity | `FS_IOC_MEASURE_VERITY` | Weight integrity |
+| evdev | `EVIOC*` | Input (if enabled) |
+
+All other `ioctl` calls are rejected by seccomp.
+
+### 5.9 systemd Hardening
+
+```ini
+[Service]
+NoNewPrivileges=yes
+PrivateTmp=yes
+PrivateDevices=no
+ProtectSystem=strict
+ProtectHome=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=no
+SystemCallFilter=@system-service
+SystemCallArchitectures=native
+SystemCallErrorNumber=EPERM
+DeviceAllow=/dev/dri/renderD128 rw
+DeviceAllow=/dev/snd/controlC0 rw
+DeviceAllow=/dev/snd/pcmC0D0p rw
+DeviceAllow=/dev/urandom r
+DevicePolicy=closed
+```
+
+---
+
+## 6. End-to-End Flow (Four Boundaries)
+
+```
+[Browser: Responsible UI, multimodal]
+      │
+      │  HTTPS / TLS 1.3  (OpenSSL)
+      ▼
+[Secure Service API  zevo_api]
+      │
+      │  1. Verify session token
+      │  2. Rate-limit
+      │  3. Derive key_N = HKDF-SHA-384(master, Epoch_N)
+      │  4. Sign frame: HMAC-SHA-384(key_N, epoch || payload)
+      │  5. Optionally seal: AES-256-GCM(key_N, nonce, payload)
+      │
+      │  AF_UNIX SOCK_SEQPACKET
+      ▼
+[ELF AI Core  zevo_core.elf]
+      │
+      │  1. Read frame
+      │  2. Derive or fetch key_epoch
+      │  3. Verify HMAC (constant-time)
+      │  4. Decrypt if sealed
+      │  5. Dispatch to pure pipeline
+      │  6. Read weights from .zevo_weights (PROT_READ, fs-verity)
+      │  7. Access hardware via libc → syscall → kernel → device
+      │  8. Produce multimodal artifact
+      │  9. Sign response with HMAC-SHA-384
+      │
+      ▼
+[Secure Service API]
+      │  1. Verify response HMAC
+      │  2. Translate to HTTP + JSON
+      ▼
+[Browser]
+      │  Renders metadata; artifact opt-in
+```
+
+---
+
+## 7. Security Properties
+
+| Property | Mechanism |
+|---|---|
+| Confidentiality (transport) | TLS 1.3 |
+| Confidentiality (frames) | AES-256-GCM (optional) |
+| Integrity (frames) | HMAC-SHA-384 |
+| Authenticity (frames) | HMAC + epoch |
+| Key freshness | 28-hour rotation |
+| Key isolation | HKDF per epoch |
+| Master secrecy | Sealed file, mode 0400, optional HSM |
+| Weight integrity | fs-verity |
+| Weight immutability | `PROT_READ` mapping |
+| Weight confidentiality | Never serialized |
+| Hardware access control | seccomp-bpf, capabilities, udev, LSM |
+| Syscall discipline | Allow-list only |
+| Auditability | Signed, append-only log |
+| Randomness | `RAND_bytes` |
+| Replay resistance | Epoch + nonce |
+| Downgrade resistance | TLS 1.3 only |
+
+---
+
+## 8. Consolidated Clarification Table
+
+| Question | Answer |
+|---|---|
+| Does the browser hold keys? | No |
+| How often are API keys rotated? | Every 28 hours |
+| How are keys derived? | HKDF-SHA-384 from a master secret |
+| What crypto library? | OpenSSL 3.x |
+| What transport? | TLS 1.3 |
+| What MAC for frames? | HMAC-SHA-384 |
+| What cipher for frames? | AES-256-GCM (optional) |
+| Where are weights stored? | `.zevo_weights` section inside the ELF |
+| How are weights protected? | fs-verity, read-only mmap, pinned digest |
+| Does the Secure Service API read weights? | No |
+| Does the browser read weights? | No |
+| How does the core reach hardware? | Via libc → `syscall` (x86_64) / `sysenter` (x86) → kernel → device |
+| Are raw syscalls used? | No — libc wrappers only |
+| What restricts syscalls? | seccomp-bpf allow-list |
+| What capabilities does the core hold? | None beyond what is required; most dropped |
+| What device nodes are allowed? | `/dev/dri/renderD128`, `/dev/snd/*`, `/dev/urandom` |
+| What ioctls are allowed? | DRM, ALSA, V4L2, fs-verity — allow-listed |
+| Is hardware access auditable? | Yes — `strace`, audit log, systemd journal |
+| Is the Web UI multimodal? | Yes — text, image, video, audio, all opt-in |
+| Is the Web UI Responsible? | Yes — semantic, accessible, private, transparent |
+
+---
+
+## 9. Final Statement
+
+The **Responsible Web UI** reaches the **ELF AI Core** only through a **Secure Service API** that:
+
+- Rotates **API keys every 28 hours** using **HKDF-SHA-384**.
+- Uses **OpenSSL military-grade cryptography**: TLS 1.3, HMAC-SHA-384, AES-256-GCM, ECDSA P-384, SHA-384, `RAND_bytes`.
+- Signs and optionally seals every IPC frame.
+- Never exposes keys or weights to the browser.
+
+The **ELF AI Core**:
+
+- Reads **LLM weights, metadata, and vectors embedded by section** from `.zevo_weights`, protected by **fs-verity** and mapped **read-only**.
+- Reaches **Universal Hardware Device peripherals** through **libc wrappers**, which internally use the **`syscall`** instruction on x86_64 (and **`sysenter`** on legacy x86), always mediated by the kernel.
+- Is constrained by **seccomp-bpf**, **capability bounding**, **udev rules**, and **LSM** policies.
+- Never issues raw syscalls, never bypasses the kernel, and never exposes hardware access to the web layer.
+
+The result is a **four-boundary**, **military-grade**, **rotating-key**, **Responsible-UI** multimodal system — faithful to the canonical specification, secure by construction, auditable end-to-end, and correct in its use of `syscall`/`sysenter` semantics for hardware access on x86_64 and legacy x86.
+
+---
+
+## Attribution
+
+| Field | Value |
+|---|---|
+| Authorship | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+| Document | Clarification and Explanation: Responsible Web UI Multimodal Access with 28-Hour API Key Rotation, OpenSSL Cryptography, ELF AI Core LLM Storage by Section, and Syscall/Sysenter Access to Universal Hardware Device Peripherals |
+| Status | Security, access, and hardware clarification |
+| Predecessor | Clarification and Explanation: Responsible Web UI Multimodal Access with 28-Hour API Key Rotation and OpenSSL Cryptography to the ELF AI Core LLM Storage by Section |
+| Successor | Hardware access audit and rotation drill |
+
+**End of clarification.**
+
+---
+
 <!--
 **zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
