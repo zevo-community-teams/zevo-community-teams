@@ -352,6 +352,1942 @@
 ---
 ---
 
+# Zevo 5D AI-Driven Multimodal Interactive Animation Assistant — Academic Science Computer Specification Paper
+
+## Building the ELF Image as Binary Format File for the Zevo 5D AI-Driven Multimodal Interactive Assistant: A Novel Innovation in Mandatory Single-Version, Pure-Functional, ANSI C89/90 Construction with Mathematical Isomorphism Formalization Proof
+
+**Title:** Zevo 5D AI-Driven Multimodal Interactive Assistant — Academic Science Computer Specification Paper
+**Subtitle:** Building the ELF Image for the Zevo 5D AI-Driven Multimodal Interactive Assistant
+**Exact Title of the Assistant:** Zevo 5D AI-Driven Multimodal Interactive Assistant
+**Authors:** PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams
+**Version:** (mandatory, single, canonical, immutable)
+**Document Class:** Academic science computer specification paper; normative; novel-innovation; mandatory single version
+**Citation Standard:** ISO 690:2021
+**Language of Record:** English; where prose and formalism conflict, Part IV formalism governs
+**Implementation Model:** Pure-function wrappers on ANSI C89/90 (ISO/IEC 9899:1990), applied functional programming paradigms within default block comments `/* ... */`
+**Target ABI:** System V x86_64 (portable to aarch64, riscv64)
+**Target Binary:** ELF `ET_DYN` (PIE)
+
+---
+
+## Abstract
+
+This paper presents **Zevo 5D AI-Driven Multimodal Interactive Assistant**, a novel academic science computer specification for building the **ELF image** of an **5D AI-driven multimodal interactive artificial intelligence assistant**. Zevo integrates **FSM within FUZZY-NEURAL-MESH-NETWORK LOGIC FOR AUTONOMOUS MAKE DECISION within rules and facts**, **Shannon entropy**, **Mamdani inference**, and **machine learning for autonomous self-learning within within autonomous weights calculation provided by FUZZY-NEURAL-MESH-NETWORK LOGIC** into a deterministic pipeline that emits a **multimodal 5D Smart 8K HDR BGRA artifact** comprising Text Raw, Image BGRA, Video BGRA, Audio PCM, and a fused **5D intelligence vector** `(O — Origin Axis, X — Horizontal Axis, Y — Vertical Axis, Z — Depth Axis, R — Radial Axis)`.
+
+The paper makes three novel contributions to the science of computer specification:
+
+1. **A single-version discipline at zero.** The version identifier is **0** — the additive identity, the multiplicative absorber, and the fixed point from which no successor is defined. All prior version identifiers (v1.0.0–v5.3.0, Zevo Core v1.0.3, 0.0.1, and every intermediate revision) are retired and subsumed into `0`. Changes are **editions of Zevo 5D AI-Driven Multimodal Interactive Assistant**, never new version numbers. This eliminates version-arbitration, edition-confusion, and predecessor-conflict as a class of specification defect.
+
+2. **A constructive isomorphism proof between the specification and any future implementation.** We prove that a Zevo container `Z` is **field-set isomorphic** to a GGUF v3 (fixed-3) container `G` under a field-wise bijection `φ`, with two declared differences (magic marker, `zevo.*` metadata namespace) and one declared width extension (`uint64_t[5]` vs. `uint64_t[3]` for `dimensions`). We prove that the flat six-stage pipeline of Part I is the **topological evaluation order** of the Neural Mesh Network of Part IV (§46), reconciling the "flat pipeline" and "nested decision structure" descriptions into a single object.
+
+3. **A complete closure of contradictions, gaps, and ambiguities.** Every contradiction, gap, and ambiguity across all prior Zevo documents is enumerated (C-1…C-21 contradictions; A-1…A-59 ambiguities; G-1…G-56 gaps), classified, and resolved by exactly one of: formal definition, explicit amendment, normative rule, or declared failure mode. The audit is **closed** with respect to prior documents.
+
+The assistant is realized as a **single ELF image** (`ET_DYN`, PIE, System V x86_64), built from pure-function wrappers on ANSI C89/90 applying functional programming paradigms within default block comments `/* ... */`. The image embeds the container by section (`.ze_text`, `.ze_vec`, `.ze_core`, `.ze_ipc`, `.ze_sec`, `.ze_hal`, `.note.zevo`), page-aligned on ext4, fs-verity-protected, and mapped read-only. The core exposes only a published IPC API to a weight-free, stateless, Web-Responsible client. Cryptographic access is mediated by a Secure Service API with 28-hour key rotation using OpenSSL primitives aligned with NIST SP 800-38D, NIST SP 800-107, and FIPS 186-5. Hardware peripherals are reached exclusively through libc wrappers that resolve to the `syscall` instruction on `x86_64` (and `sysenter` on legacy `x86`), under `seccomp-bpf`, capability bounding, and LSM discipline. The build process is a **14-stage pipeline (B1–B14)** with a required **build manifest** and a **bit-reproducibility requirement** for release builds.
+
+The result is a secure-by-construction, reproducible, auditable, and accessible AI assistant centered on **Zevo**, an original cartoon animated character inspired in Pixar-style, with the exact title **Zevo™** and the exact subtitle **An 5D interactive artificial intelligence assistant**.
+
+**Keywords:** Zevo 5D AI-Driven Multimodal Interactive Assistant, version zero, ELF image, ET_DYN, GGUF v3, container format, field-set isomorphism, isomorphism proof, pure functions, ANSI C89/90, functional programming, block comments, fs-verity, FSM within Fuzzy-Neural-Mesh-Network, Mamdani inference, Shannon entropy, autonomous weight calculation, POSIX ERE, NIST SP 800-38D, NIST SP 800-107, FIPS 186-5, FIPS 203, FIPS 204, TPM 2.0, System V ABI, seccomp-bpf, LSM, capability bounding, reproducible builds.
+
+---
+
+## Table of Contents
+
+- **§0** — Preamble, Normativity, and Method
+- **§1** — Novel Contributions
+- **Part I** — The Zevo 5D Assistant as a Deterministic Pipeline
+- **Part II** — The Zevo 5D AI-Driven Multimodal Interactive Assistant Container
+- **Part III** — Building the Zevo 5D AI-Driven Multimodal Interactive Assistant ELF Image
+- **Part IV** — Mathematical Isomorphism Formalization, Neural Mesh Network, and Closure
+- **Part V** — Conformance, Errata, References, and Change Log
+- **§51** — The Zevo Filename Convention (formalized)
+- **§52** — Filename Validation
+- **§53** — Conclusion
+- **§54** — Acknowledgments
+- **§55** — References (ISO 690:2021)
+- **§56** — Change Log
+
+---
+
+# §0. Preamble, Normativity, and Method
+
+## §0.1 Preamble — Normative Language
+
+The key words **MUST**, **MUST NOT**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **MAY**, and **REQUIRED** in this paper are to be interpreted as described in RFC 2119. Where this specification is silent, the implementer **MUST** halt and issue a `ZE_ERR_AMBIGUITY` diagnostic rather than resolve ambiguity by assumption.
+
+## §0.2 Scope
+
+This paper specifies, normatively:
+
+1. the **Zevo 5D AI-Driven Multimodal Interactive Assistant** (Part I), a deterministic pure-function pipeline;
+2. the **Zevo 5D AI-Driven Multimodal Interactive Assistant container** `MC = (H, M, V, D)` (Part II);
+3. the **building of the Zevo 5D AI-Driven Multimodal Interactive Assistant ELF image** and its integration with the container (Part III);
+4. the **field-set isomorphism proof** between the Zevo 5D AI-Driven Multimodal Interactive Assistant container and the GGUF v3 container, and the **topological-evaluation-order proof** reconciling the flat pipeline with the nested decision structure (Part IV);
+5. the **Neural Mesh Network anchoring architecture** (§46), realizing **FSM within FUZZY-NEURAL-MESH-NETWORK FOR MAKE DECISION within rules and facts**;
+6. the **model definition** (§47);
+7. the **failure-mode enumeration** (§48);
+8. the **closed audit** of ambiguities, gaps, and contradictions across all prior Zevo documents (§49);
+9. the **C89/90 enforcement mechanisms** (§50);
+10. the **filename convention** and its **formal validation** (§51–§52).
+
+## §0.3 Method
+
+Each specification statement is classified by its role:
+
+| Role | Definition | Marker |
+|---|---|---|
+| **Definition** | Introduces a term or symbol. | *Def.* |
+| **Axiom** | An assumed truth of the specification. | *Ax.* |
+| **Theorem** | A proven consequence. | *Th.* |
+| **Lemma** | An intermediate proof. | *Lem.* |
+| **Corollary** | A direct consequence. | *Cor.* |
+| **Requirement** | A normative obligation on an implementation. | *Req.* |
+| **Test** | A conformance criterion. | *Test.* |
+| **Failure mode** | A declared respect in which a claim does not hold. | *FM.* |
+| **Audit item** | An enumerated ambiguity, gap, or contradiction with resolution. | *Aud.* |
+| **Note** | Informative. | *Note.* |
+
+## §0.4 Resolution Discipline
+
+**Def. 0.4.1 (Resolution discipline).** Every contradiction, gap, and ambiguity in the prior Zevo documents is resolved by exactly one of:
+
+1. **Formal definition** — an ambiguous term is given a precise definition;
+2. **Explicit amendment** — a contradictory statement is retracted;
+3. **Normative rule** — a gap is filled by a rule binding the implementation;
+4. **Declared failure mode** — a claim that cannot be made to hold is declared false and bounded (§48).
+
+**Req. 0.4.2.** An implementation claiming conformance to Zevo 5D AI-Driven Multimodal Interactive Assistant MUST satisfy every resolution in this paper.
+
+## §0.5 The Mandatory Single Version: Zevo 5D AI-Driven Multimodal Interactive Assistant
+
+**Def. 0.5.1 (Canonical version).** The version identifier **0** is mandatory, single, and canonical. It MUST appear:
+
+1. as the document version of this paper, written as `Zevo 5D AI-Driven Multimodal Interactive Assistant`;
+2. as the metadata key `zevo.model.container` value, exactly `"zevo-0"`;
+3. as the ELF build identifier of a conforming AI Core, exactly `"zevo-0"`;
+4. as the required prefix of every conforming container filename (subject to §51), i.e., `zevo-0-...bin`;
+5. as the value of the `version` field in the container header, encoded as the `uint32_t` value `0`.
+
+**Def. 0.5.2 (Single version rule).** There is exactly **one** version of Zevo: **0**. The paper does not define a successor version, does not reserve a successor version number, and does not permit an implementation to report any other version.
+
+**Def. 0.5.3 (Editions, not versions).** A change to this paper is issued as an **edition of Zevo 5D AI-Driven Multimodal Interactive Assistant** (e.g., "Zevo 5D AI-Driven Multimodal Interactive Assistant, Edition 2026-01"). Editions do not change the version identifier. All editions are editions of the single version `0`.
+
+**Def. 0.5.4 (Retirement of prior version identifiers).** All prior version identifiers — including version `0.0.1`, and every intermediate revision — are **retired**. They are historical antecedents of Zevo 5D AI-Driven Multimodal Interactive Assistant. No prior identifier has normative force.
+
+**Req. 0.5.5.** An implementation MUST report version and MUST NOT report any other version.
+
+**Note 0.5.6 (Rationale for a single version at zero).** Zero is the **additive identity** and the **multiplicative absorber**. In a single-version discipline, `0` is the fixed point from which no successor is defined: every change is an edition of the same zero, never a new number. This collapses competing lineages into a single identity and eliminates the version-arbitration problem entirely. The container header stores the value `0`, which is also the absence of any version claim; a conforming reader therefore accepts only that absence, and rejects every other value.
+
+---
+
+# §1. Novel Contributions
+
+This paper makes three novel contributions to the science of computer specification. Each is stated formally, proven, and shown to be **necessary** (no alternative achieves the same property) and **sufficient** (the property is fully discharged).
+
+## §1.1 Contribution 1 — Single-Version Discipline at Zero
+
+**Def. 1.1.1 (Single-version discipline).** A specification is said to satisfy the **single-version discipline at zero** iff:
+
+1. there exists exactly one version identifier `v`;
+2. `v = 0` (the additive identity);
+3. no successor version is defined, reserved, or permitted;
+4. all prior version identifiers are retired;
+5. changes are **editions** of the single version, not new versions.
+
+**Th. 1.1.2 (Necessity).** The single-version discipline at zero is **necessary** to eliminate version-arbitration, edition-confusion, and predecessor-conflict as classes of specification defect.
+
+*Proof.* Suppose two version identifiers `v₁ ≠ v₂` both claim authority. Then a conforming implementation must choose between them, introducing either an arbitration rule (which is a specification defect) or an implicit hierarchy (which is an editorial defect). By Def. 1.1.1, the single-version discipline at zero admits exactly one identifier, so no arbitration is needed. ∎
+
+**Th. 1.1.3 (Sufficiency).** The single-version discipline at zero is **sufficient** to eliminate version-arbitration, edition-confusion, and predecessor-conflict.
+
+*Proof.* By Def. 1.1.1(3), no successor is defined, so no arbitration between successor and predecessor arises. By Def. 1.1.1(5), editions do not change the identifier, so no edition-confusion arises. By Def. 1.1.1(4), predecessors are retired, so no predecessor-conflict arises. ∎
+
+**Th. 1.1.4 (Collapse theorem).** The competing "5.x" container lineage and "1.0.x" animation-core lineage collapse into Zevo 5D AI-Driven Multimodal Interactive Assistant.
+
+*Proof.* By Def. 0.5.4, both lineages' last version identifiers are retired. By Def. 0.5.1, the sole surviving identifier is `0`. ∎
+
+## §1.2 Contribution 2 — Constructive Isomorphism Between Specification and Implementation
+
+**Def. 1.2.1 (Isomorphism).** Let `Spec` be the specification and `Impl` any conforming implementation. There exists a bijective structure-preserving map
+
+```
+Φ : Impl → Spec
+```
+
+such that:
+
+1. `Φ(ze_id) = id_spec` (identity preservation);
+2. `Φ(f ∘ g) = Φ(f) ∘ Φ(g)` (composition preservation);
+3. `Φ⁻¹(b)` is unique for every observable behavior `b` (inverse uniqueness).
+
+**Th. 1.2.2 (Constructive proof of isomorphism).** `Φ` exists and is constructively witnessable.
+
+*Proof.* Construct `Φ` component-wise:
+
+1. **Identity.** `ze_id` is the pure identity wrapper defined in Def. 42.1.1; `Φ(ze_id) = id_spec` by the definition of the wrapper table in Def. 42.2.1.
+2. **Composition.** Every wrapper `w` in Def. 42.2.1 is a pure function `w : A → B` with no side effects except through the three boundaries of Ax. 2.4.3. By structural induction on the AST of the C89 translation unit, `Φ(w₁ ∘ w₂) = Φ(w₁) ∘ Φ(w₂)`.
+3. **Inverse uniqueness.** Each spec element maps to exactly one implementation symbol because the symbol table is closed under the `ze_` prefix (enforced by §5.3 and verified by `nm -g --defined-only` in §9.2).
+4. **Contradiction-freedom.** Any residual contradiction between spec and implementation is flagged by `ze_proof_obligation()` (§3.5) at build time; a failing obligation aborts the build with `ZE_ERR_ISOMORPHISM`. ∎
+
+**Th. 1.2.3 (Field-set isomorphism of containers).** Let `Z` be a Zevo 5D AI-Driven Multimodal Interactive Assistant container and `G` a GGUF v3 (fixed-3) container carrying the same logical model with no fifth-dimension data. Then `Z ≅_fields G`.
+
+*Proof.* See Th. 35.1.1 (constructive bijection `φ` on the field set, with two declared differences and one declared width extension). ∎
+
+**Th. 1.2.4 (Topological reconciliation).** The flat six-stage pipeline of Part I is the topological evaluation order of the Neural Mesh Network of §46.
+
+*Proof.* See Th. 46.18.1. ∎
+
+## §1.3 Contribution 3 — Complete Closure of Contradictions, Gaps, and Ambiguities
+
+**Def. 1.3.1 (Closure).** A specification is said to be **closed** with respect to a prior body of documents iff every contradiction, gap, and ambiguity in the prior body is enumerated, classified, and resolved by exactly one of the four mechanisms of Def. 0.4.1.
+
+**Th. 1.3.2 (Closure of Zevo 5D AI-Driven Multimodal Interactive Assistant).** Zevo 5D AI-Driven Multimodal Interactive Assistant is closed with respect to all prior Zevo documents.
+
+*Proof.* By §49.2 (59 ambiguities A-1…A-59), §49.3 (56 gaps G-1…G-56), and §36 (21 contradictions C-1…C-21), each resolved by exactly one mechanism. By Th. 49.4.1, every item is resolved or declared a failure mode. ∎
+
+**Req. 1.3.3 (Build-time closure enforcement).** Every build MUST call `ze_proof_obligation()` (§3.5) for every `(spec, impl)` pair. A build with any failing obligation is **NON-CONFORMANT**.
+
+---
+
+# Part I — The Zevo 5D Assistant as a Deterministic Multimodal Pipeline
+
+## §2. Definition of Zevo
+
+**Def. 2.1 (Zevo).** Zevo™ is an **5D interactive artificial intelligence assistant**. It is a deterministic pipeline (§4) implemented as pure-function wrappers on ANSI C89/90 (§2.4), deployed **ELF image** as the **Zevo 5D AI-Driven Multimodal Interactive Assistant** (§6), accessed through a published IPC API (§8), mediated by a Secure Service API (§9), and sandboxed (§10). Its reasoning is anchored in the Neural Mesh Network (§46), realizing **FSM within FUZZY-NEURAL-MESH-NETWORK FOR MAKE DECISION within rules and facts** and **MACHINE LEARNING**.
+
+**Def. 2.2 (5D).** The designation "5D" refers simultaneously to:
+
+1. the **five modalities** of the output artifact (§5.1), and
+2. the **five-axis Cartesian space** `S = (O, X, Y, Z, R)` of the fused intelligence vector (§5.2).
+
+**Def. 2.3 (Exact title).** The exact title is `Zevo™`. The exact subtitle is `An 5D interactive artificial intelligence assistant`, verbatim per project charter. The article "An" is part of the proper name and MUST NOT be corrected in citations, trademarks, or references.
+
+**Def. 2.4 (Pixar disclaimer).** The phrase "Pixar-inspired" is descriptive of stylistic inspiration only. It does not imply affiliation with, endorsement by, or licensing from Pixar Animation Studios. This disclaimer MUST accompany every occurrence of the phrase.
+
+**Def. 2.5 (The character).** The assistant is centered on **Zevo**, an original cartoon animated character inspired in Pixar-style. The character's animation is driven by the fused 5D intelligence vector `S` (§5.2): `O` provides the origin and gravity reference; `X` and `Y` provide horizontal and vertical spatial displacement; `Z` provides depth; `R` provides radial energy. The character is a runtime artifact, not an on-disk container.
+
+## §3. Language and Programming Discipline
+
+### §3.1 Language
+
+**Def. 3.1.1 (Language of record).** The implementation language is **ANSI C89/90**, as specified in ISO/IEC 9899:1990.
+
+### §3.2 Permitted Extensions
+
+**Def. 3.2.1 (Permitted extensions).** The following are the only permitted extensions to C89/90:
+
+| Extension | Standard | Purpose |
+|---|---|---|
+| `<stdint.h>` | ISO/IEC 9899:1999 | Fixed-width integer types |
+| `<stdbool.h>` | ISO/IEC 9899:1999 | The `bool` type |
+| `posix_memalign` | POSIX.1-2001 | Aligned allocation |
+| `aligned_alloc` | ISO/IEC 9899:2011 | Aligned allocation (alternative) |
+| `<regex.h>` | POSIX.1-2001 | POSIX ERE for filename validation |
+
+**Req. 3.2.2.** An implementation MUST declare in its build documentation which of these extensions it uses.
+
+### §3.3 Comment Style
+
+**Def. 3.3.1 (Block comments).** All comments MUST use the block form `/* ... */`.
+
+**Req. 3.3.2.** Line comments (`//`) MUST NOT appear in Zevo source code.
+
+**Def. 3.3.3 (Non-nesting).** Block comments do not nest. The character sequence `/* /* */` is a single comment, not two.
+
+### §3.4 Functional Programming Paradigm
+
+**Def. 3.4.1 (Pure function).** A *pure function* `f : A → B` is a function such that:
+
+1. for every `x ∈ A`, `f(x)` is defined by the equation defining `f` alone;
+2. `f` has no side effects;
+3. `f` does not read or write global mutable state;
+4. `f` does not perform I/O.
+
+**Def. 3.4.2 (Pure-function wrapper).** A *pure-function wrapper* is a composition of pure functions that presents a procedural interface at its boundary. The boundary itself is not pure; the interior is.
+
+**Ax. 3.4.3 (Localization of side effects).** Side effects in Zevo are localized to exactly three boundaries:
+
+1. the **IPC boundary** (§8);
+2. the **libc syscall wrappers** (§10);
+3. the **NMN weight-update boundary** (§46.9 step 5).
+
+**Def. 3.4.4 (Effect monad).** All I/O MUST be wrapped through the effect monad:
+
+```c
+/* ---------------------------------------------------------------------------
+ * The effect monad. All side-effecting operations are represented as a
+ * ze_effect value: a deferred computation with a context pointer and a
+ * runner. Pure functions produce ze_effect values; only the boundary
+ * runners execute them.
+ * ------------------------------------------------------------------------- */
+typedef struct ze_effect {
+    void *ctx;
+    int (*run)(void *ctx);
+} ze_effect;
+
+/* ze_pure : (A -> B) -> (A -> ze_effect)
+ * Wraps a pure function into a deferred effect. The pure function is
+ * applied at run time; no side effect occurs at wrap time. */
+ze_effect ze_pure(int (*f)(void *), void *arg);
+```
+
+**Lem. 3.4.5.** Every stage of the pipeline (§4) is a pure function given Ax. 3.4.3.
+
+*Proof.* By Def. 3.4.1 and Ax. 3.4.3. ∎
+
+**Note 3.4.6 (Reconciliation with animation-core lineage).** The animation-core lineage correctly observed that a function which mutates autonomous weight state, reads a clock, accesses a device, or relies on hidden mutable global state MUST NOT be described as pure. This paper adopts that discipline as normative: §46.8 (autonomous weight calculation) is explicitly a **stage-boundary side effect** under Ax. 3.4.3, not a pure function. The pipeline stages of §4 are pure; the weight-update step of §46.9 is at the boundary.
+
+### §3.5 Proof Obligation Hook
+
+```c
+/* ---------------------------------------------------------------------------
+ * ze_proof_obligation: called at init for every (spec, impl) pair.
+ * Returns 0 if the obligation is discharged; non-zero otherwise.
+ * A build with any non-zero obligation is NON-CONFORMANT.
+ * ------------------------------------------------------------------------- */
+int ze_proof_obligation(const char *spec, const char *impl, int ok);
+```
+
+**Req. 3.5.1.** Every build MUST call `ze_proof_obligation()` for every `(spec, impl)` pair. A build with any non-zero obligation MUST be rejected with `ZE_ERR_ISOMORPHISM`.
+
+### §3.6 External Libraries
+
+**Def. 3.6.1 (External libraries).** The following external libraries are used, each a named standard:
+
+| Library | Standard | Purpose |
+|---|---|---|
+| Pthreads | POSIX.1-2008 | Threads |
+| OpenCL | Khronos OpenCL 3.0 | Compute |
+| OpenGL | Khronos OpenGL 4.6 | Graphics |
+| SDL2 | SDL 2.0 | Windowing and input |
+| OpenAL | Khronos OpenAL 1.1 | Audio |
+| OpenSSL | OpenSSL 3.x | Cryptography |
+| `libmicrohttpd` | GNU libmicrohttpd | HTTP server |
+
+**Lem. 3.6.2.** The use of these libraries does not violate §3.1.
+
+*Proof.* A language specification constrains the syntax and semantics of programs written in that language. An external library is invoked via a function call, which is a C89/90 construct. The library's internal implementation is not part of the C89/90 program. ∎
+
+## §4. The Reasoning Pipeline
+
+### §4.1 Overview
+
+**Def. 4.1.1 (Pipeline).** The Zevo reasoning pipeline is the composition
+
+```
+P = f₆ ∘ f₅ ∘ f₄ ∘ f₃ ∘ f₂ ∘ f₁
+```
+
+where:
+
+| Stage | Function | Definition |
+|---|---|---|
+| 1 | `f₁` | Fuzzy-state-machine logic (§4.2) |
+| 2 | `f₂` | Neural-fuzzy logic over rules and facts (§4.3) |
+| 3 | `f₃` | Shannon entropy (§4.4) |
+| 4 | `f₄` | Mamdani inference (§4.5) |
+| 5 | `f₅` | Autonomous trained machine learning (§4.6) |
+| 6 | `f₆` | 5D fusion (§4.7) |
+
+The composition `P` is realized as the Neural Mesh Network of §46 — a **FSM within FUZZY-NEURAL-MESH-NETWORK FOR MAKE DECISION within rules and facts** architecture with Shannon entropy, Mamdani inference, and autonomous self-learning within weights calculation.
+
+**Th. 4.1.2 (Determinism).** Given identical inputs, state, and seed, and given Ax. 3.4.3, `P` produces identical outputs.
+
+*Proof.* By Lem. 3.4.5 (conditional on Ax. 3.4.3), each `fᵢ` is pure. The composition of pure functions is pure. A pure function is deterministic. ∎
+
+### §4.2 Stage 1 — Fuzzy-State-Machine Logic
+
+**Def. 4.2.1.** A fuzzy state machine is a tuple `(Q, Σ, δ, q₀, F)` where `Q` is a finite set of states, `Σ` is the input alphabet, `δ : Q × Σ → [0, 1]^Q` is a fuzzy transition function, `q₀ ∈ Q` is the initial state, and `F ⊆ Q` is the set of accepting states.
+
+**Def. 4.2.2 (Threshold).** A transition `q_i → q_j` occurs when `δ(q_i, σ)(q_j) > θ`, where `θ = zevo.model.fsm_threshold` (FLOAT64).
+
+### §4.3 Stage 2 — Neural-Fuzzy Logic over Rules and Facts
+
+**Def. 4.3.1 (Fact).** A *fact* is a triple `(v, x, μ)` where `v` is a fuzzy variable, `x` is a value, and `μ ∈ [0, 1]` is a membership grade.
+
+**Def. 4.3.2 (Rule).** A *rule* is a triple `(A, C, w)` where `A` is a conjunction of fuzzy propositions (the antecedent), `C` is a fuzzy set (the consequent), and `w ∈ [0, 1]` is a weight.
+
+**Def. 4.3.3 (Fuzzy neural projection).** `X = σ(⟨e, p⟩)` for embedding `e`, prototype `p`, sigmoid `σ(u) = 1/(1+e^{−u})`.
+
+### §4.4 Stage 3 — Shannon Entropy
+
+**Def. 4.4.1 (Shannon entropy).** For a discrete random variable `X` with probability mass function `p`,
+
+```
+H(X) = -Σ_i p(x_i) · log₂ p(x_i)
+```
+
+with the convention `0 · log₂ 0 = 0`.
+
+**Def. 4.4.2 (Normalized entropy).** `H_n = H / log₂(B)` where `B` is the number of histogram bins.
+
+**Def. 4.4.3 (Entropy gate).** The entropy gate operates as:
+
+```
+H(X) > H_max  →  freeze learning (prevent weight drift)
+H(X) < H_min  →  flush stale facts (prevent ossification)
+```
+
+**Note 4.4.4.** The base of the logarithm is **2** (Shannon, 1948), so `H(X)` is measured in bits.
+
+### §4.5 Stage 4 — Mamdani Inference
+
+**Def. 4.5.1 (Mamdani inference).** Mamdani inference is defined by:
+
+- **t-norm** (AND): `⊤(a, b) = min(a, b)`
+- **s-norm** (OR): `⊥(a, b) = max(a, b)`
+- **implication**: `a → b = min(a, b)`
+- **aggregation**: `max` over rules
+- **defuzzification**: centroid over a uniform discretization of `N = 1024` samples on `[r_min, r_max]`, where `r_min = zevo.model.mamdani_range_min` and `r_max = zevo.model.mamdani_range_max` (both FLOAT64).
+
+The centroid is
+
+```
+y* = (Σ_{i=1}^{N} x_i · μ(x_i)) / (Σ_{i=1}^{N} μ(x_i))
+```
+
+where `x_i = r_min + (i − 1) · (r_max − r_min) / (N − 1)`.
+
+**Req. 4.5.2.** If `Σ μ(x_i) == 0`, `y* = (r_min + r_max) / 2`.
+
+**Req. 4.5.3 (Consequent range).** The consequent range `[r_min, r_max]` MUST be declared in the rule-base schema. When the consequents are declared over `[0, 1]`, `[r_min, r_max] = [0, 1]`. When declared unbounded, `[r_min, r_max]` is the declared finite bounding box.
+
+### §4.6 Stage 5 — Autonomous Trained Machine Learning
+
+**Def. 4.6.1.** The parameters of `f₅` are trained offline and frozen at build time. They are embedded as read-only sections of the ELF image (§6) and MUST NOT be modified at runtime. The **autonomous weight calculation** of §46.8 operates only on the in-core `W_fused` copy, never on the read-only storage.
+
+### §4.7 Stage 6 — 5D Fusion
+
+**Def. 4.7.1.** The five modalities of §5.1 are fused into a single 5D intelligence vector `S ∈ [0,1]⁵` by a pure function `f₆` whose parameters are stored in the container's payload (§20).
+
+## §5. The 5D Output Artifact
+
+### §5.1 The Five Modalities
+
+**Def. 5.1.1.** The artifact comprises five modalities:
+
+| # | Modality | Representation |
+|---|---|---|
+| 1 | Text Raw | UTF-8 byte stream |
+| 2 | Image BGRA | 8K HDR, BGRA |
+| 3 | Video BGRA | 8K HDR, BGRA, temporal |
+| 4 | Audio PCM | Linear PCM |
+| 5 | Fused 5D intelligence vector | see §5.2 |
+
+### §5.2 The 5D Cartesian Plan Axes
+
+**Def. 5.2.1 (5D space).** The fused intelligence vector lives in `S = (O, X, Y, Z, R)`, a five-axis Cartesian space:
+
+| Axis | Name | Meaning | Reasoning source | Informational channel |
+|---|---|---|---|---|
+| `O` | Origin | Rotation and gravity reference axis | Mamdani centroid | Symbolic |
+| `X` | Horizontal | Horizontal spatial axis | Fuzzy neural projection | Subsymbolic |
+| `Y` | Vertical | Vertical spatial axis | FSM dwell time | Temporal |
+| `Z` | Depth | Depth spatial axis | Normalized Shannon entropy | Epistemic |
+| `R` | Radial | Radial base axis | Autonomous weight calculation | Affective |
+
+**Def. 5.2.2 (Origin).** The canonical origin is `S = (0, 0, 0, 0, 0)`.
+
+**Req. 5.2.3 (Normalization).** After inference, every finite axis value MUST be clamped to `[0, 1]`. A non-finite value (NaN or ±∞) MUST be reported as an inference error.
+
+**Req. 5.2.4 (Zero-state semantics).** The versioned output profile MUST declare the behavior of the zero state for each output channel.
+
+### §5.3 SIMD Compatibility
+
+**Def. 5.3.1.** The 5D vector is compatible with three SIMD widths:
+
+| ISA | Lane width | Required base alignment |
+|---|---|---|
+| SSE / NEON | 16 bytes | 16 bytes |
+| AVX / AVX2 | 32 bytes | 32 bytes |
+| AVX-512 | 64 bytes | 64 bytes |
+
+**Def. 5.3.2.** The element type is `uint64_t` (64 bits).
+
+### §5.4 The 5D Vector Layout
+
+**Def. 5.4.1.**
+
+```c
+#define ZEVO_VEC5_SIZE 64
+#define ZEVO_VEC5_ALIGN 64
+
+typedef struct {
+    uint64_t s[5];             /* O, X, Y, Z, R */
+    unsigned char _pad[24];    /* zero-filled */
+} zevo_vec5_t;
+```
+
+**Def. 5.4.2.** `sizeof(zevo_vec5_t) == 64`.
+
+**Req. 5.4.3.** The padding bytes MUST be written as `0x00` and MUST be `0x00` on read. A reader encountering non-zero padding MUST reject the container.
+
+**Req. 5.4.4 (C89/90 enforcement).** Because C89/90 has no `_Static_assert`, the implementation MUST enforce `sizeof(zevo_vec5_t) == 64` by one of:
+
+1. a build-time preprocessor check;
+2. a runtime assertion in an initialization function that executes once at load;
+3. a build-system check (e.g., a `configure` test that compiles a program with `char _[sizeof(zevo_vec5_t) == 64 ? 1 : -1];`).
+
+**Req. 5.4.5 (C89/90 alignment).** Because C89/90 has no `_Alignas`, the implementation MUST achieve 64-byte alignment by one of:
+
+1. `posix_memalign` (permitted per §3.2.1);
+2. `aligned_alloc` (permitted per §3.2.1);
+3. a union with a maximally-aligned member and manual padding;
+4. a compiler extension (`__attribute__((aligned(64)))`) declared in build documentation.
+
+**Lem. 5.4.6 (Alignment).** Because `ZEVO_VEC5_SIZE` is a multiple of 16, 32, and 64, an array of `N` vectors has every element at a base alignment equal to the maximum required alignment (64).
+
+*Proof.* Let the array base address be `a`, aligned to 64. Element `i` has address `a + i · 64`. Since `64 = 16 · 4 = 32 · 2 = 64 · 1`, `a + i · 64` is a multiple of 16, 32, and 64 for every `i`. ∎
+
+### §5.5 Artifact Serialization
+
+**Def. 5.5.1 (Artifact struct).**
+
+```c
+/* ---------------------------------------------------------------------------
+ * ze_artifact: the multimodal 5D Smart 8K HDR BGRA artifact.
+ * Field ordering is normative. Padding MUST be zeroed.
+ * ------------------------------------------------------------------------- */
+typedef struct ze_artifact {
+    char      *text_raw;        /* UTF-8, NUL-terminated                       */
+    uint8_t   *image_bgra;      /* 7680 × 4320 × 4, HDR profile declared       */
+    uint8_t   *video_bgra;      /* frame ring, HDR10                           */
+    int16_t   *audio_pcm;       /* 48 kHz, 24-bit packed                       */
+    double     vec5d[5];        /* O, X, Y, Z, R                               */
+} ze_artifact;
+```
+
+**Def. 5.5.2 (HDR caveat).** The phrase "8K HDR BGRA" denotes a requested output profile, not a promise that every device can render it. Eight-bit BGRA alone is not a complete HDR representation. When HDR output is required, higher-precision or HDR transfer data MUST be preserved until final encoding.
+
+**Def. 5.5.3 (Named output profiles).**
+
+| Profile | Primaries | Transfer | Range | Encoding |
+|---|---|---|---|---|
+| `srgb-sdr` | BT.709 | sRGB | Full | 8-bit BGRA |
+| `hdr-pq` | BT.2020 | PQ (SMPTE ST 2084) | Full | 10/16-bit intermediate, tone-mapped at final BGRA |
+| `hdr-hlg` | BT.2020 | HLG (BT.2100) | Full | 10/16-bit intermediate, tone-mapped at final BGRA |
+
+### §5.6 BGRA Definition
+
+**Def. 5.6.1.** BGRA consists of bytes in the order **B, G, R, A** for each pixel. Row stride is measured in bytes and MAY exceed `width × 4`.
+
+## §6. The Zevo 5D AI-Driven Multimodal Interactive Assistant ELF Image
+
+### §6.1 Binary Form
+
+**Def. 6.1.1.**
+
+| Property | Value |
+|---|---|
+| Format | ELF |
+| Architecture | x86_64 (portable to aarch64, riscv64) |
+| Type | `ET_DYN` (PIE) |
+| Entry point | ELF `e_entry` |
+| Comments | ANSI C89/90 block comments only |
+| Build identifier | `"zevo-0"` (mandatory, Def. 0.5.1) |
+| ABI | System V AMD64 |
+
+### §6.2 Section Embedding
+
+**Def. 6.2.1.** The Zevo 5D AI-Driven Multimodal Interactive Assistant ELF image embeds, by section:
+
+| ELF section | Content | Flags | Alignment |
+|---|---|---|---|
+| `.ze_text` | Embedded LLM weights + tokenizer | R | 4096 |
+| `.ze_vec` | 5D intelligence vectors | R | 4096 |
+| `.ze_core` | Pure-function FSM + Fuzzy-Neural-Mesh kernel | RX | 16 |
+| `.ze_ipc` | Published IPC API surface | RX | 16 |
+| `.ze_sec` | Secure Service API | RX | 16 |
+| `.ze_hal` | libc → syscall trampolines | RX | 16 |
+| `.note.zevo` | Build ID, spec hash | R | 4 |
+
+### §6.3 Section Properties
+
+**Def. 6.3.1.** Each read-only data section (`.ze_text`, `.ze_vec`) is:
+
+- **page-aligned**: aligned to the host page size, which MUST be at least 4096 bytes;
+- **fs-verity-protected**: using SHA-256 with a 4096-byte block size;
+- **mapped read-only**: `PROT_READ`, no `PROT_WRITE`, `MAP_PRIVATE`.
+
+**Def. 6.3.2.** The fs-verity Merkle tree and root are stored by the filesystem (ext4 xattr), not embedded in the ELF image.
+
+### §6.4 Weight Resolution
+
+**Def. 6.4.1.** Weights live in `.ze_text` and `.ze_vec`, mapped read-only, fs-verity-protected. They are:
+
+- **tamper-evident** (any modification breaks the Merkle root);
+- **non-writable at runtime** (`mprotect` to `PROT_WRITE` is denied);
+- **verifiable before use** (the digest is checked once at load).
+
+### §6.5 Dual-Mode Weight Embedding
+
+**Def. 6.5.1 (Two modes).** The core supports two mechanisms for carrying its LLM weights, metadata, and vectors:
+
+| Mode | Storage | Integrity | Read-only mapping |
+|---|---|---|---|
+| **A — Embedded by section** | `.ze_text` in the ELF image | fs-verity over the ELF image | Yes |
+| **B — Embedded by reference** | `zevo-0-weights.bin` on ext4 | fs-verity over the referenced file, digest pinned in `.note.zevo` | Yes |
+
+**Req. 6.5.2.** In Mode A, a release test MUST verify that the weight section is present, page-aligned, marked read-only, and fs-verity-protected.
+
+**Req. 6.5.3.** In Mode B, a release test MUST verify the absence of any embedded weight payload and verify that the referenced file is present, page-aligned, marked read-only, and fs-verity-protected.
+
+**Req. 6.5.4 (No writable mapping).** The process MUST NOT retain any writable mapping of weight storage.
+
+**FM 6.5.5 (fs-verity is integrity, not confidentiality).** fs-verity provides integrity verification, not confidentiality. If confidentiality is required, it MUST be provided by a separately specified storage-encryption mechanism.
+
+### §6.6 The ELF Image Is the Zevo 5D AI-Driven Multimodal Interactive Assistant
+
+**Def. 6.6.1.** The **Zevo 5D AI-Driven Multimodal Interactive Assistant** is realized as a **single ELF image**, hereinafter **the ELF image** or **the ELF AI Core**. The ELF image:
+
+1. contains the code of the six-stage pipeline (§4);
+2. contains the embedded container in Mode A, or references it in Mode B;
+3. contains the Neural Mesh Network initialization and evaluation code (§46);
+4. exposes the IPC API (§8) as its only client-facing surface;
+5. is position-independent (`ET_DYN`) and conforms to the System V AMD64 ABI;
+6. reports its build identifier as `"zevo-0"` (Def. 0.5.1).
+
+**Req. 6.6.2.** No other executable form is conforming. A Zevo 5D AI-Driven Multimodal Interactive Assistant that is not a single ELF image is non-conforming.
+
+**Req. 6.6.3 (ELF image completeness).** The ELF image MUST be self-contained: given the ELF image and (in Mode B) its referenced weight file, the assistant MUST be able to load, initialize its NMN, and serve requests without any additional Zevo-specific artifact.
+
+## §7. Deployment Model
+
+**Def. 7.1.** Zevo is deployed as a single ELF `ET_DYN` executable for x86_64, conforming to the System V AMD64 ABI.
+
+**Def. 7.2.** The executable is position-independent. All code and data references use RIP-relative addressing or the GOT/PLT. No absolute relocations are permitted in read-only sections.
+
+**Req. 7.3.** `mprotect` to `PROT_WRITE` on any weight section MUST be denied by the sandbox (§10).
+
+**Def. 7.4 (Hardware access discipline).** The core reaches hardware exclusively through libc wrappers. On `x86_64`, the fast system-call instruction is `syscall`. On legacy 32-bit `x86`, it is `sysenter`. On `aarch64`, it is `svc`. On `riscv64`, it is `ecall`. The core never emits inline assembly for syscalls outside `.ze_hal`.
+
+## §8. The IPC API and the Web-Responsible Client
+
+### §8.1 The Published IPC API
+
+**Def. 8.1.1.** The core exposes only a published IPC API: stable, versioned, documented, and the sole entry point for client requests.
+
+**Def. 8.1.2 (Opcodes).**
+
+```c
+/* ---------------------------------------------------------------------------
+ * Published IPC opcodes. The client is weight-free and stateless.
+ * ------------------------------------------------------------------------- */
+#define ZE_OP_PING      0x01   /* -> 0 on success                          */
+#define ZE_OP_INFER     0x02   /* -> artifact pointer                      */
+#define ZE_OP_STATUS    0x03   /* -> entropy, weights hash                 */
+#define ZE_OP_SHUTDOWN  0x04   /* -> graceful halt                         */
+```
+
+**Req. 8.1.3.** Only symbols in `.dynsym` that are listed in the published API MUST be exported. All other symbols MUST be local or stripped. `RTLD_GLOBAL` re-export MUST NOT be permitted.
+
+### §8.2 The Weight-Free, Stateless Client
+
+**Def. 8.2.1.** The client:
+
+- holds no weights;
+- holds no persistent state across process restarts, other than user preferences explicitly entered by the user and session-authentication cookies;
+- MUST NOT cache model outputs, weights, intermediate tensors, or metadata;
+- speaks the published IPC API;
+- renders the Web-Responsible UI.
+
+**Req. 8.2.2 (Statelessness enforcement).** Any client that presents weight material over IPC MUST be rejected with `ZE_ERR_NOT_STATELESS`.
+
+### §8.3 The Web-Responsible UI
+
+**Def. 8.3.1.**
+
+| Property | Value |
+|---|---|
+| Server | `libmicrohttpd` |
+| Markup | HTML 5 |
+| Style | CSS 5 |
+| Data | JSON |
+| Accessibility | WCAG 2.2 AA minimum, AAA target |
+| Motion safety | `prefers-reduced-motion` respected |
+| Color safety | WCAG-AA contrast, `prefers-color-scheme` respected |
+| Privacy | no telemetry, no cookies beyond session auth, no third-party scripts |
+| Transparency | clear disclosure that Zevo™ is an AI assistant |
+| Artifact opt-in | pixels and audio served only on explicit request |
+| No secrets in browser | no API keys, no master secret |
+
+## §9. Cryptographic Access — The Secure Service API
+
+### §9.1 The Secure Service API
+
+**Def. 9.1.1.** All cryptographic access is mediated by the Secure Service API. Direct use of OpenSSL primitives outside this API is prohibited.
+
+### §9.2 Key Rotation
+
+**Def. 9.2.1.** API keys are rotated every **28 hours** from the key's creation timestamp, using `CLOCK_MONOTONIC` where available. The derivation is
+
+```
+Epoch N = floor( unix_time_utc / (28 × 3600) )
+Key_N   = HKDF-SHA-384( master_secret,
+                        salt = SHA-384(Epoch_N),
+                        info = "zevo-0-api",
+                        L = 32 )
+Overlap = 5 minutes
+```
+
+**Def. 9.2.2 (Atomicity).** Rotation is atomic from the client's perspective: a client presenting either the old key or the new key is authenticated; a client presenting no key, an expired key older than one rotation, or a malformed key is rejected.
+
+### §9.3 Cryptographic Standards
+
+**Def. 9.3.1.**
+
+| Purpose | Primitive | Reference |
+|---|---|---|
+| Frame integrity | HMAC-SHA-384 | NIST SP 800-107, RFC 2104 |
+| Key derivation | HKDF-SHA-384 | RFC 5869 |
+| Frame sealing | AES-256-GCM | NIST SP 800-38D |
+| Audit signing | ECDSA P-384 | FIPS 186-5 |
+| Randomness | CSPRNG | `RAND_bytes` |
+| Transport | TLS 1.3 | RFC 8446 |
+
+**Def. 9.3.2.** OpenSSL 3.x is the implementation provider.
+
+**Def. 9.3.3 (Post-quantum migration path).**
+
+| Purpose | Classical | Post-quantum | Reference |
+|---|---|---|---|
+| Audit signing | ECDSA P-384 | ML-DSA (Dilithium) | FIPS 204 |
+| Key establishment | ECDHE | ML-KEM (Kyber) | FIPS 203 |
+| Hybrid mode | ECDSA + ML-DSA | Composite signature | FIPS 204 + FIPS 186-5 |
+
+**Def. 9.3.4 (Hardware-backed sealing).** The `master_secret` is sealed under TPM 2.0 or an HSM. Sealing binds the secret to platform measurements (PCRs). Where no TPM or HSM is available, the deployment MUST clearly report a reduced-security mode.
+
+### §9.4 Authenticated Frame
+
+**Def. 9.4.1.**
+
+```
+┌──────────────┬──────────────┬──────────────┬─────────────────────┐
+│ length (4B)  │ epoch (8B)   │ HMAC (48B)   │ JSON payload (N B)  │
+└──────────────┴──────────────┴──────────────┴─────────────────────┘
+```
+
+Any frame whose HMAC does not verify in constant time MUST be discarded.
+
+## §10. Hardware Access Discipline
+
+### §10.1 libc Wrappers Only
+
+**Def. 10.1.1.** The core reaches hardware exclusively through libc wrappers.
+
+**Req. 10.1.2.** Direct inline assembly for syscalls MUST NOT appear outside `.ze_hal`.
+
+### §10.2 Sandboxing
+
+**Def. 10.2.1.**
+
+| Mechanism | Role |
+|---|---|
+| `seccomp-bpf` | Allowlist of permitted syscalls; default `SECCOMP_RET_KILL_PROCESS` |
+| Capability bounding | Drop all capabilities not required |
+| LSM discipline | SELinux/AppArmor profile confines the process |
+
+### §10.3 Syscall Allowlist
+
+**Def. 10.3.1.** The syscall allowlist is representative, not exhaustive:
+
+| Syscall | Purpose |
+|---|---|
+| `read` / `write` | IPC and file I/O |
+| `mmap` / `mprotect` | Read-only mapping of weights |
+| `openat` / `close` | File descriptors |
+| `futex` | Pthread synchronization |
+| `epoll_wait` | Event loop |
+| `clock_gettime` | Time |
+| `getrandom` | Randomness |
+| `exit_group` | Termination |
+
+**Req. 10.3.2.** The allowlist MUST NOT include syscalls that write to fs-verity-protected sections.
+
+**Req. 10.3.3.** A seccomp allow-list MUST be derived from observed and tested behavior. A generic list cannot be assumed sufficient for OpenCL, graphics, audio, or dynamic loading.
+
+### §10.4 Verification Commands
+
+**Def. 10.4.1.**
+
+```
+readelf -h ze_assistant.elf | grep Type:   /* -> DYN (PIE)           */
+scanelf -qT ze_assistant.elf               /* -> no TEXTREL          */
+nm -g --defined-only ze_assistant.elf      /* -> all ze_* (§5.3)     */
+```
+
+---
+
+# Part II — The Zevo 5D AI-Driven Multimodal Interactive Assistant Container
+
+## §12. Purpose of Part II
+
+Part II defines the Zevo 5D AI-Driven Multimodal Interactive Assistant container `MC = (H, M, V, D)` and establishes its isomorphism with the GGUF v3 container. The isomorphism is a **field-wise bijection** `φ` (§14.2), proven in Part IV.
+
+## §13. The Single-Container Rule
+
+**Ax. 13.1 (Single-container rule).** Zevo 5D AI-Driven Multimodal Interactive Assistant has exactly one on-disk container shape:
+
+```
+MC = (H, M, V, D)
+```
+
+where `H` is the header, `M` is the metadata KVS, `V` is the payload index, and `D` is the payload blob.
+
+**Ax. 13.2 (Single-index rule).** There is exactly one payload index `V`.
+
+**Ax. 13.3 (Exclusive-vector rule).** An *exclusive vector* in Zevo 5D AI-Driven Multimodal Interactive Assistant is a payload entry in `V` whose entry is structurally identical to a GGUF v3 tensor entry.
+
+## §14. The Twelve Equivalence Conditions and the Bijection
+
+**Def. 14.1 (Conditions).** The equivalence between Zevo 5D AI-Driven Multimodal Interactive Assistant and GGUF v3 is defined by twelve conditions:
+
+| # | Condition | Statement |
+|---|---|---|
+| C1 | Header field bijection | Every GGUF v3 header field has a Zevo 5D AI-Driven Multimodal Interactive Assistant counterpart with the same type, size, offset, and role. |
+| C2 | Metadata type bijection | The Zevo 5D AI-Driven Multimodal Interactive Assistant metadata value type enumeration is byte-identical to GGUF v3's. |
+| C3 | Metadata encoding bijection | Strings and arrays are encoded byte-identically. |
+| C4 | Metadata key naming bijection | Zevo 5D AI-Driven Multimodal Interactive Assistant keys follow GGUF v3's naming rules exactly. |
+| C5 | Payload index field bijection | Every GGUF v3 payload index field has a Zevo 5D AI-Driven Multimodal Interactive Assistant counterpart with the same type, offset, and role. The `dimensions` field is one slot wider in Zevo 5D AI-Driven Multimodal Interactive Assistant. |
+| C6 | Payload blob bijection | Payload blobs are byte-identical after alignment padding is stripped. |
+| C7 | Layout order bijection | Both containers use the order Header → Metadata → Index → Padding → Blob. |
+| C8 | Alignment rule bijection | Both use the same `align_offset` rule. |
+| C9 | Padding rule bijection | Both pad with `0x00` to `ALIGNMENT`. |
+| C10 | Endianness bijection | Both use the same endianness rule. |
+| C11 | Naming convention bijection | Zevo 5D AI-Driven Multimodal Interactive Assistant filenames follow GGUF v3's naming convention, with `.bin` replacing `.gguf`. |
+| C12 | Count declaration bijection | Both declare counts explicitly in the header. |
+
+**Def. 14.2 (Field-wise bijection `φ`).** A *field-wise bijection* between a Zevo 5D AI-Driven Multimodal Interactive Assistant container `Z` and a GGUF v3 container `G` is a bijection `φ` between the field sets of `Z` and `G` such that for every field pair `(f_Z, f_G) = φ`:
+
+1. `f_Z` and `f_G` have the same declared type, **or** `f_Z` is the declared width extension of `f_G` (§15.3);
+2. `f_Z` and `f_G` have the same byte offset within their respective structs, **or** `f_Z` is a declared width extension and offsets after it are computed by the same rule;
+3. `f_Z` and `f_G` have the same role in the container.
+
+**Def. 14.3 (Isomorphism).** `Z` and `G` are *isomorphic* (written `Z ≅ G`) iff there exists a field-wise bijection `φ : Z → G`. Isomorphism is denoted **100% field-set equivalence**.
+
+**Note 14.4 (Restriction of the claim).** `Z ≅ G` is a bijection on the **field set**, not on the **byte stream**, not on the **semantics**, not on the **runtime behavior**. §48 enumerates every respect in which `Z` and `G` are not equivalent.
+
+## §15. Declared Differences and Width Extension
+
+### §15.1 Two Declared Differences
+
+**Def. 15.1.1.**
+
+| # | Difference | Location | Bounded? | Reversible? |
+|---|---|---|---|---|
+| 1 | Magic `ZEVO` vs. `GGUF` | 4-byte value at offset 0 | Yes | Yes |
+| 2 | `zevo.*` metadata namespace | Free-form KVS extension | Yes | Yes |
+
+### §15.2 Count
+
+**Def. 15.2.1.** The canonical count is **two declared differences** and **one declared width extension**.
+
+### §15.3 The One Declared Width Extension
+
+**Def. 15.3.1.**
+
+| Field | GGUF v3 | Zevo 5D AI-Driven Multimodal Interactive Assistant | Width difference |
+|---|---|---|---|
+| `dimensions` | `uint64_t[3]` | `uint64_t[5]` | **+16 bytes** |
+
+**Note 15.3.2.** All occurrences of `dimensions[5]` as a *field reference* (an index) MUST be read as `dimensions[4]`.
+
+**Note 15.3.3.** For containers where the fifth dimension is unused, `dimensions[3] == 0` and `dimensions[4] == 0`.
+
+## §16. The Primitive Bijection
+
+### §16.1 Zevo 5D AI-Driven Multimodal Interactive Assistant's Payload Entry
+
+**Def. 16.1.1.**
+
+```c
+struct zevo_entry_info_t {
+    zevo_string_t name;
+    uint32_t      n_dimensions;
+    uint64_t      dimensions[5];
+    uint32_t      type;
+    uint64_t      offset;
+};
+```
+
+### §16.2 GGUF v3's Exclusive Tensor
+
+**Def. 16.2.1 (fixed-3 reference variant).**
+
+```c
+struct gguf_tensor_info_t {
+    gguf_string_t name;
+    uint32_t      n_dimensions;
+    uint64_t      dimensions[3];
+    ggml_type     type;
+    uint64_t      offset;
+};
+```
+
+**Note 16.2.2.** The GGUF v3 reference is the **fixed-3 variant**. A variable-width GGUF v3 (`GGML_MAX_DIMS = 4`) is out of scope.
+
+**Note 16.2.3 (ggml version pinning).** The reference is pinned to a specific ggml commit, declared in the build manifest (§30.5.4).
+
+### §16.3 The Bijection (Field-wise)
+
+**Th. 16.3.1.** `zevo_entry_info_t` and `gguf_tensor_info_t` are field-wise bijective.
+
+| # | GGUF v3 field | Zevo 5D AI-Driven Multimodal Interactive Assistant field | GGUF v3 type | Zevo 5D AI-Driven Multimodal Interactive Assistant type | Role |
+|---|---|---|---|---|---|
+| 1 | `name` | `name` | `gguf_string_t` | `zevo_string_t` | Payload identifier |
+| 2 | `n_dimensions` | `n_dimensions` | `uint32_t` | `uint32_t` | Rank |
+| 3 | `dimensions[3]` | `dimensions[5]` | `uint64_t[3]` | `uint64_t[5]` | Shape (declared width extension) |
+| 4 | `type` | `type` | `ggml_type` | `zevo_type` | Dtype |
+| 5 | `offset` | `offset` | `uint64_t` | `uint64_t` | Payload offset |
+
+*Proof.* Fields 1, 2, 4, 5 have identical types and roles. Field 3 is the declared width extension. ∎
+
+**Req. 16.3.2.** Both containers MUST use column-major dimension order, with `dimensions[0]` innermost.
+
+### §16.4 The Type Map (Identity)
+
+**Def. 16.4.1.**
+
+```c
+enum zevo_type {
+    ZEVO_TYPE_F32     = 0,
+    ZEVO_TYPE_F16     = 1,
+    ZEVO_TYPE_Q4_0    = 2,
+    ZEVO_TYPE_Q4_1    = 3,
+    /* 4, 5 are reserved */
+    ZEVO_TYPE_Q5_0    = 6,
+    ZEVO_TYPE_Q5_1    = 7,
+    ZEVO_TYPE_Q8_0    = 8,
+    ZEVO_TYPE_Q8_1    = 9,
+    ZEVO_TYPE_Q2_K    = 10,
+    ZEVO_TYPE_Q3_K    = 11,
+    ZEVO_TYPE_Q4_K    = 12,
+    ZEVO_TYPE_Q5_K    = 13,
+    ZEVO_TYPE_Q6_K    = 14,
+    ZEVO_TYPE_Q8_K    = 15,
+    ZEVO_TYPE_IQ2_XXS = 16,
+    ZEVO_TYPE_IQ2_XS  = 17,
+    ZEVO_TYPE_IQ3_XXS = 18,
+    ZEVO_TYPE_IQ1_S   = 19,
+    ZEVO_TYPE_IQ4_NL  = 20,
+    ZEVO_TYPE_IQ3_S   = 21,
+    ZEVO_TYPE_IQ2_S   = 22,
+    ZEVO_TYPE_IQ4_XS  = 23,
+    ZEVO_TYPE_I8      = 24,
+    ZEVO_TYPE_I16     = 25,
+    ZEVO_TYPE_I32     = 26,
+    ZEVO_TYPE_I64     = 27,
+    ZEVO_TYPE_F64     = 28,
+    ZEVO_TYPE_IQ1_M   = 29,
+    ZEVO_TYPE_BF16    = 30,
+    ZEVO_TYPE_TQ1_0   = 34,
+    ZEVO_TYPE_TQ2_0   = 35,
+    ZEVO_TYPE_MXFP4   = 39,
+    ZEVO_TYPE_COUNT   = 40
+};
+typedef uint32_t zevo_type;
+```
+
+**Req. 16.4.2.** Values 4 and 5 are reserved. A reader encountering type 4 or 5 MUST reject the container.
+
+**Req. 16.4.3.** `ZEVO_TYPE_COUNT` is a sentinel. No payload entry may have `type == 40`.
+
+**Th. 16.4.4 (Type identity).** For every `ggml_type` value `v` in the pinned ggml commit, `zevo_type(v) == v` numerically.
+
+*Proof.* The enumeration assigns the same numeric value to each type. ∎
+
+### §16.5 Where Roles Live
+
+**Def. 16.5.1.** Zevo 5D AI-Driven Multimodal Interactive Assistant stores vector roles in metadata, not in the payload index:
+
+```
+zevo.vec.<name>.role : UINT32
+```
+
+**Req. 16.5.2.** There MUST NOT be a `role` field or a `flags` field in the payload index.
+
+## §17. The Container `MC = (H, M, V, D)`
+
+**Def. 17.1.**
+
+| Symbol | Name | GGUF v3 | Zevo 5D AI-Driven Multimodal Interactive Assistant |
+|---|---|---|---|
+| `H` | Header | `gguf_header_t` | `zevo_header_t` |
+| `M` | Metadata KVS | `gguf_metadata_kv_t[]` | `zevo_metadata_kv_t[]` |
+| `V` | Payload index | `gguf_tensor_info_t[]` | `zevo_entry_info_t[]` |
+| `D` | Payload blob | `tensor_data[]` | `vector_data[]` |
+
+### §17.1 Layout Order
+
+**Def. 17.1.1.**
+
+```
+┌─────────────────────────────────────────────┐
+│ HEADER                                      │
+├─────────────────────────────────────────────┤
+│ METADATA KVS                                │
+├─────────────────────────────────────────────┤
+│ PAYLOAD INDEX                               │
+├─────────────────────────────────────────────┤
+│ PADDING (to ALIGNMENT)                      │
+├─────────────────────────────────────────────┤
+│ PAYLOAD BLOB                                │
+└─────────────────────────────────────────────┘
+```
+
+**Th. 17.1.2.** C7 holds strictly.
+
+*Proof.* Both containers place `H`, `M`, `V`, padding, and `D` in that order. ∎
+
+## §18. The Header
+
+### §18.1 Zevo 5D AI-Driven Multimodal Interactive Assistant Header
+
+**Def. 18.1.1.**
+
+```c
+struct zevo_header_t {
+    uint32_t magic;             /* 'Z','E','V','O' = 0x5A45564F LE */
+    uint32_t version;           /* must be 0x00000000 (the mandatory version 0) */
+    uint64_t vector_count;
+    uint64_t metadata_kv_count;
+};
+```
+
+**Def. 18.1.2.** `sizeof(zevo_header_t) == 24`, with no padding between fields.
+
+**Req. 18.1.3 (C89/90 enforcement).** The implementation MUST enforce `sizeof(zevo_header_t) == 24` by the mechanisms of Req. 5.4.4.
+
+**Def. 18.1.4 (Version encoding).** The `version` field encodes the mandatory single version `0` as the `uint32_t` value `0x00000000`.
+
+| Document version | `version` field |
+|---|---|
+| `0` | `0` |
+
+**Req. 18.1.5.** A reader encountering any `version` value other than `0` MUST reject the container.
+
+### §18.2 GGUF v3 Header
+
+**Def. 18.2.1.**
+
+```c
+struct gguf_header_t {
+    uint32_t magic;             /* 'G','G','U','F' = 0x46554747 LE */
+    uint32_t version;           /* must be 3 */
+    uint64_t tensor_count;
+    uint64_t metadata_kv_count;
+};
+```
+
+### §18.3 Field-by-Field Bijection
+
+**Th. 18.3.1.** The headers are field-wise bijective.
+
+| # | GGUF v3 field | Zevo 5D AI-Driven Multimodal Interactive Assistant field | Type | Offset | Role |
+|---|---|---|---|---|---|
+| 1 | `magic` | `magic` | `uint32_t` | 0 | Container identifier |
+| 2 | `version` | `version` | `uint32_t` | 4 | Format version |
+| 3 | `tensor_count` | `vector_count` | `uint64_t` | 8 | Payload count |
+| 4 | `metadata_kv_count` | `metadata_kv_count` | `uint64_t` | 16 | Metadata count |
+
+*Proof.* Fields are matched by type, offset, and role. ∎
+
+## §19. The Metadata KVS
+
+### §19.1 Type Enumeration (Byte-Identical)
+
+**Def. 19.1.1.**
+
+```c
+enum zevo_metadata_value_type {
+    ZEVO_METADATA_VALUE_TYPE_UINT8   = 0,
+    ZEVO_METADATA_VALUE_TYPE_INT8    = 1,
+    ZEVO_METADATA_VALUE_TYPE_UINT16  = 2,
+    ZEVO_METADATA_VALUE_TYPE_INT16   = 3,
+    ZEVO_METADATA_VALUE_TYPE_UINT32  = 4,
+    ZEVO_METADATA_VALUE_TYPE_INT32   = 5,
+    ZEVO_METADATA_VALUE_TYPE_FLOAT32 = 6,
+    ZEVO_METADATA_VALUE_TYPE_BOOL    = 7,
+    ZEVO_METADATA_VALUE_TYPE_STRING  = 8,
+    ZEVO_METADATA_VALUE_TYPE_ARRAY   = 9,
+    ZEVO_METADATA_VALUE_TYPE_UINT64  = 10,
+    ZEVO_METADATA_VALUE_TYPE_INT64   = 11,
+    ZEVO_METADATA_VALUE_TYPE_FLOAT64 = 12
+};
+typedef uint32_t zevo_metadata_value_type;
+```
+
+**Th. 19.1.2.** C2 holds strictly.
+
+### §19.2 String Encoding (Byte-Identical)
+
+**Def. 19.2.1.**
+
+```c
+struct zevo_string_t {
+    uint64_t len;
+    char string[len];
+};
+```
+
+Length-prefixed UTF-8, non-null-terminated. C3 holds.
+
+### §19.3 Value Union (Byte-Identical Structure)
+
+**Def. 19.3.1.**
+
+```c
+union zevo_metadata_value_t {
+    uint8_t  uint8;
+    int8_t   int8;
+    uint16_t uint16;
+    int16_t  int16;
+    uint32_t uint32;
+    int32_t  int32;
+    float    float32;
+    uint64_t uint64;
+    int64_t  int64;
+    double   float64;
+    bool     bool_;
+    zevo_string_t string;
+    struct {
+        zevo_metadata_value_type type;
+        uint64_t len;
+        zevo_metadata_value_t array[len];
+    } array;
+};
+```
+
+### §19.4 Key–Value Entry (Byte-Identical Structure)
+
+**Def. 19.4.1.**
+
+```c
+struct zevo_metadata_kv_t {
+    zevo_string_t key;
+    zevo_metadata_value_type value_type;
+    zevo_metadata_value_t value;
+};
+```
+
+### §19.5 Required Keys
+
+**Def. 19.5.1.** The following metadata keys are **required** in every conforming Zevo 5D AI-Driven Multimodal Interactive Assistant container:
+
+- `general.architecture`
+- `general.alignment`
+- `general.name`
+- `zevo.model.container`
+- `zevo.model.equivalence_class`
+- `zevo.model.state_axes`
+- `zevo.model.vector_count`
+
+### §19.6 Zevo 5D AI-Driven Multimodal Interactive Assistant Additional Keys
+
+**Def. 19.6.1.**
+
+| Key | Type | Meaning |
+|---|---|---|
+| `zevo.model.container` | STRING | Exactly `"zevo-0"` |
+| `zevo.model.equivalence_class` | STRING | `"bijective-3d"`, `"bijective-5d"`, or `"partial"` |
+| `zevo.model.state_axes` | UINT32 | Exactly `5` |
+| `zevo.model.vector_count` | UINT64 | Must equal header `vector_count` |
+| `zevo.model.edge_count` | UINT32 | NMN edge count `E` |
+| `zevo.model.node_count` | UINT32 | NMN node count `V` |
+| `zevo.model.prototype_count` | UINT32 | `K` |
+| `zevo.model.prototype_dim` | UINT32 | `d` |
+| `zevo.model.fuzzy_vars` | UINT32 | `V_f` |
+| `zevo.model.rule_count` | UINT32 | `R` |
+| `zevo.model.fsm_states` | UINT32 | `n_states` |
+| `zevo.model.affect_len` | UINT32 | `A` |
+| `zevo.model.mamdani_range_min` | FLOAT64 | `r_min` for the Mamdani universe |
+| `zevo.model.mamdani_range_max` | FLOAT64 | `r_max` for the Mamdani universe |
+| `zevo.model.seed` | UINT64 | PRNG seed (optional) |
+| `zevo.model.fsm_threshold` | FLOAT64 | FSM transition threshold `θ` |
+| `zevo.model.hidden_dim` | UINT32 | Hidden dimension `d_model` |
+| `zevo.model.gain_consequent_min` | FLOAT64 | Gain consequent range `r_min` (§46.5.1) |
+| `zevo.model.gain_consequent_max` | FLOAT64 | Gain consequent range `r_max` |
+| `zevo.model.gain_bounded` | BOOL | If TRUE, gain uses raw centroid; if FALSE, gain uses σ projection |
+| `zevo.model.eta` | FLOAT64 | Autonomous weight learning rate `η` |
+| `zevo.model.drift_max` | FLOAT64 | Session drift bound `D_max` |
+| `zevo.model.weight_min` | FLOAT64 | Per-edge weight lower bound `w_min` |
+| `zevo.model.weight_max` | FLOAT64 | Per-edge weight upper bound `w_max` |
+| `zevo.model.fan_in_max` | UINT32 | Mesh fan-in bound `F_max` |
+| `zevo.model.state_max` | UINT32 | Mesh state bound `S_max` |
+| `zevo.model.audit_ring_max` | UINT32 | Audit ring buffer size `A_max` |
+| `zevo.vec.<name>.role` | UINT32 | Role of vector `<name>` |
+| `zevo.vec.<name>.exclusive` | BOOL | Uniqueness flag |
+| `zevo.vec.<name>.mutability` | STRING | `"immutable"`, `"runtime-mutable"`, `"seed"` |
+| `zevo.schema.<name>.role` | UINT32 | Role for schema vectors |
+| `zevo.persist.enabled` | BOOL | Whether the persistence manifest of §46.15 is present |
+| `zevo.persist.path` | STRING | Target store for `W_fused` deltas (if enabled) |
+| `zevo.persist.retention` | STRING | Retention policy (if enabled) |
+| `zevo.persist.semantics` | STRING | `"seed"`, `"continue"`, or `"replay"` (if enabled) |
+
+### §19.7 Role Value Space
+
+**Def. 19.7.1.**
+
+| Role value | Name | Meaning |
+|---|---|---|
+| 0 | `ZEVO_ROLE_UNSPECIFIED` | Role not declared |
+| 1 | `ZEVO_ROLE_FSM_STATE` | FSM state vector |
+| 2 | `ZEVO_ROLE_FUZZY_SET` | Fuzzy-set membership parameters |
+| 3 | `ZEVO_ROLE_RULE_ANTECEDENT` | Rule antecedent parameters |
+| 4 | `ZEVO_ROLE_RULE_CONSEQUENT` | Rule consequent parameters |
+| 5 | `ZEVO_ROLE_ENTROPY` | Shannon entropy parameters |
+| 6 | `ZEVO_ROLE_MAMDANI` | Mamdani inference parameters |
+| 7 | `ZEVO_ROLE_ML_TRAINED` | Autonomous ML parameters |
+| 8 | `ZEVO_ROLE_EMBEDDING` | Text embedding |
+| 9 | `ZEVO_ROLE_ATTENTION` | Attention weights |
+| 10 | `ZEVO_ROLE_FFN` | Feed-forward weights |
+| 11 | `ZEVO_ROLE_FUSED_5D` | Fused 5D intelligence vector |
+| 12 | `ZEVO_ROLE_MESH_EDGE` | NMN edge weight |
+| 13 | `ZEVO_ROLE_MESH_NODE` | NMN node activation parameters |
+| 14 | `ZEVO_ROLE_GAIN_RULE` | FSM-Neural-Fuzzy gain rule parameters |
+
+Values 15–4294967295 are reserved.
+
+## §20. The Payload Index and Blob
+
+### §20.1 Zevo 5D AI-Driven Multimodal Interactive Assistant Index Entry
+
+**Def. 20.1.1.**
+
+```c
+struct zevo_entry_info_t {
+    zevo_string_t name;
+    uint32_t      n_dimensions;
+    uint64_t      dimensions[5];
+    uint32_t      type;
+    uint64_t      offset;
+};
+```
+
+### §20.2 Shape Semantics
+
+**Def. 20.2.1 (Shape order).** The element at multi-index `(i_0, i_1, …, i_{n−1})` is at flat byte position
+
+```
+(Σ_{k=0}^{n−1} i_k · Π_{j=0}^{k−1} d_j) · size_of(type)
+```
+
+where `d_j = dimensions[j]`. `dimensions[0]` is the innermost (fastest-varying) dimension.
+
+**Def. 20.2.2.**
+
+| Aspect | GGUF v3 (fixed-3) | Zevo 5D AI-Driven Multimodal Interactive Assistant |
+|---|---|---|
+| Dimension order | Column-major | Column-major |
+| Shape slots available | 3 | 5 |
+| Rank bound (`n_dimensions`) | ≤ 3 | ≤ 5 |
+| Slots `dimensions[3]`, `dimensions[4]` | Absent | Present; `0` if unused |
+
+### §20.3 Payload Blob
+
+**Def. 20.3.1.**
+
+| Aspect | GGUF v3 | Zevo 5D AI-Driven Multimodal Interactive Assistant |
+|---|---|---|
+| Name | `tensor_data[]` | `vector_data[]` |
+| Location | After index + padding | After index + padding |
+| Alignment | Multiples of `ALIGNMENT` | Multiples of `ALIGNMENT` |
+| Padding | Zero bytes | Zero bytes |
+
+### §20.4 Byte-Identity Rule
+
+**Th. 20.4.1.** For every payload entry `V_i`, the two containers' bytes at `offset_i` of length `size_of(type) × ∏ dims` are byte-identical after alignment padding is stripped. This holds for all dtypes, including quantized dtypes.
+
+## §21–§29. Alignment, Endianness, Naming, Worked Example
+
+### §21. Alignment Rule
+
+**Def. 21.1.**
+
+```c
+uint64_t align_offset(uint64_t offset) {
+    return offset + (ALIGNMENT - (offset % ALIGNMENT)) % ALIGNMENT;
+}
+```
+
+**Req. 21.2.** If `general.alignment` is absent, `ALIGNMENT` defaults to 32. If present, it MUST be a positive multiple of 8. If `general.alignment == 0`, the container is non-conforming.
+
+### §22. Endianness
+
+**Def. 22.1.** Zevo 5D AI-Driven Multimodal Interactive Assistant inherits GGUF v3's endianness rule verbatim. Little-endian by default; big-endian supported implicitly; no endianness marker.
+
+**FM 22.2 (Declared failure mode).** The absence of an endianness marker is a **declared failure mode**. A reader that assumes little-endian on a big-endian container will misparse.
+
+### §23. Equivalence Classes
+
+**Def. 23.1.**
+
+| Class | Condition |
+|---|---|
+| `bijective-3d` | All of C1–C12 hold. Every entry has `dimensions[3] == 0` and `dimensions[4] == 0`. |
+| `bijective-5d` | All of C1–C12 hold. At least one entry has `dimensions[3] != 0` or `dimensions[4] != 0`. |
+| `partial` | Some structural field other than `dimensions` differs, or the header fields are not bijective, or the metadata encoding differs. |
+
+**Def. 23.2.** A `partial` container is **non-conforming**.
+
+### §24. Worked Example
+
+**Def. 24.1.**
+
+```
+Zevo 5D AI-Driven Multimodal Interactive Assistant header: magic=0x5A45564F, version=0, vector_count=2, metadata_kv_count=12
+
+Zevo 5D AI-Driven Multimodal Interactive Assistant metadata (excerpt):
+  general.architecture            = "zevo"
+  general.alignment               = 32
+  general.name                    = "Zevo Example Model"
+  zevo.model.container            = "zevo-0"
+  zevo.model.equivalence_class    = "bijective-3d"
+  zevo.model.state_axes           = 5
+
+Zevo 5D AI-Driven Multimodal Interactive Assistant payload index (excerpt):
+  entry 0: name="token_embd.weight", n_dimensions=2,
+           dimensions=[4096, 32000, 0, 0, 0], type=ZEVO_TYPE_F32, offset=0
+```
+
+---
+
+# Part III — Building the Zevo 5D AI-Driven Multimodal Interactive Assistant ELF Image
+
+## §30. The Build Process
+
+### §30.1 The 14 Build Stages (Normative)
+
+**Def. 30.1.1 (Build stages).** Building the Zevo 5D AI-Driven Multimodal Interactive Assistant ELF image proceeds in the following normative stages:
+
+| Stage | Action | Reference |
+|---|---|---|
+| **B1** | Compile each `.c` file under C89/90 with the permitted extensions of §3.2.1. | §3, §50 |
+| **B2** | Enforce the block-comment discipline by lexical scan. | Def. 42.3.3, §50.3 |
+| **B3** | Enforce `sizeof(zevo_vec5_t) == 64` and `sizeof(zevo_header_t) == 24`. | Req. 5.4.4, Req. 18.1.3, §50.1 |
+| **B4** | Verify the purity of pipeline wrappers by static analysis. | Def. 50.4.1 |
+| **B5** | Compile the filename regex and run the test corpus. | §50.7 |
+| **B6** | Serialize the container `MC = (H, M, V, D)` per Part II. | §12–§29 |
+| **B7** | Place the container into `.ze_text`, `.ze_vec`, `.ze_core`, `.ze_ipc`, `.ze_sec`, `.ze_hal`, `.note.zevo`. | §6.2, §30.2 |
+| **B8** | Link as `ET_DYN` (PIE) with build identifier `"zevo-0"`. | §6.1, Def. 0.5.1 |
+| **B9** | Apply fs-verity to the ELF image, storing the Merkle tree and root in ext4 xattr. | §6.3.2 |
+| **B10** | Run the four rule-base validation checks of §46.10. | §50.8 |
+| **B11** | Run the NMN bounds stress test. | §50.8.2 |
+| **B12** | Run the error-handling test feeding all malformed containers. | §50.6 |
+| **B13** | Run the self-containment check. | §50.11 |
+| **B14** | Run all conformance tests of §43.1. | §43.1 |
+
+**Req. 30.1.2.** A build system MUST fail if any of stages B1–B14 fails.
+
+**Req. 30.1.3 (Reproducible build).** Given identical sources, compiler, and build flags, the ELF image MUST be bit-reproducible, except for fields declared non-reproducible, which MUST be zeroed or made deterministic in release builds.
+
+**Req. 30.1.4 (Build manifest).** The build system MUST emit a build manifest recording:
+
+1. the compiler and version;
+2. the build flags;
+3. the pinned ggml commit;
+4. the C89/90 extensions used;
+5. the SIMD width(s) enabled;
+6. the weight-embedding mode (Mode A or Mode B);
+7. the fs-verity root;
+8. the SHA-256 digest of the final ELF image.
+
+### §30.2 Section Layout
+
+**Def. 30.2.1.** The four container sections are placed in the order `.ze_text`, `.ze_vec`, `.ze_core`, `.ze_ipc`, `.ze_sec`, `.ze_hal`, `.note.zevo`, each page-aligned (≥ 4096 bytes), each `PT_LOAD` with `p_flags = PF_R` for data sections.
+
+### §30.3 Linker Script (Normative Excerpt)
+
+```
+SECTIONS {
+  . = ALIGN(4096);
+  .ze_text : { *(.ze_text) }
+  . = ALIGN(4096);
+  .ze_vec  : { *(.ze_vec) }
+  .ze_core : { *(.ze_core) }
+  .ze_ipc  : *(.ze_ipc) }
+  .ze_sec  : { *(.ze_sec) }
+  .ze_hal  : { *(.ze_hal) }
+  .note.zevo : { *(.note.zevo) }
+}
+```
+
+### §30.4 Symbol Closure
+
+```
+nm -g --defined-only ze_assistant.elf | awk '{print $3}' \
+  | grep -v '^ze_'  →  MUST be empty.
+```
+
+### §30.5 Build Recipe (Reproducible)
+
+```
+CC      = gcc
+CFLAGS  = -std=c89 -pedantic -Wall -Wextra -Werror \
+          -fPIC -fPIE -pie -O2 -D_FORTIFY_SOURCE=2 \
+          -fstack-protector-strong
+LDFLAGS = -Wl,-T,zevo.ld -Wl,-z,relro,-z,now \
+          -Wl,-z,noexecstack -Wl,--build-id=sha1
+LIBS    = -lcrypto -lssl
+SOURCE_DATE_EPOCH=0  for bit-reproducible builds
+```
+
+---
+
+# Part IV — Mathematical Isomorphism Formalization, Neural Mesh Network, and Closure
+
+## §35. The Bijection `φ` — Statement and Proof
+
+**Th. 35.1.1 (Container isomorphism, restricted).** Let `Z` be a Zevo 5D AI-Driven Multimodal Interactive Assistant container in the `bijective-3d` or `bijective-5d` equivalence class, and `G` a GGUF v3 (fixed-3) container carrying the same logical model with no fifth-dimension data. Then `Z ≅_fields G`.
+
+*Proof.* Construct `φ : Fields(Z) → Fields(G)` component-wise:
+
+**Header component.** By Th. 18.3.1, `φ_H` is a bijection on four elements.
+
+**Metadata component.** By §19, every GGUF v3 metadata key is preserved verbatim in `Z`. `φ_M|_{Keys(M_G)}` is the identity, hence bijective.
+
+**Payload index component.** By Th. 16.3.1, `φ_V` maps `dimensions_Z[0..2]` element-wise to `dimensions_G[0..2]` and maps `dimensions_Z[3]`, `dimensions_Z[4]` to the empty set. The restriction is the identity, hence bijective.
+
+**Payload blob component.** By Th. 20.4.1, `φ_D` is the identity on the stripped bytes.
+
+**Composition.** `φ = φ_H ⊎ φ_M ⊎ φ_V ⊎ φ_D` is a disjoint union of bijections, hence a bijection. ∎
+
+## §36. Resolution of Contradictions
+
+The paper resolves 21 contradictions (C-1 through C-21), each by formal proof. See §49.4 for the complete list. Key examples:
+
+- **C-1** — "Byte-identical" vs. width extension: resolved by Def. 14.2.
+- **C-13** — "Pure function" applied to weight mutation: resolved by §3.4.6.
+- **C-17** — Version lineage conflict: resolved by §0.5.
+- **C-19** — Flat pipeline vs. nested decision structure: resolved by Th. 46.18.1.
+
+## §46. The Neural Mesh Network
+
+### §46.1 Definition
+
+**Def. 46.1.1 (Neural Mesh Network).** Zevo's reasoning core is a single integrated architecture realizing **FSM within FUZZY-NEURAL-MESH-NETWORK FOR MAKE DECISION within rules and facts**:
+
+```
+NMN = ( V, E, W_fused, φ )
+```
+
+| Symbol | Meaning |
+|---|---|
+| `V` | Mesh nodes: **F** (FSM), **Z** (Fuzzy/Mamdani), **N** (Neural projection), **M** (ML weight-calculation), plus **H** (Entropy) and **J** (Fusion junction). |
+| `E` | Directed edges carrying activation, feature, or gradient flow. |
+| `W_fused` | The shared fused weight set (§46.2). |
+| `φ` | The node activation function. |
+
+**Def. 46.1.2 (Nesting).** The nesting of the decision structure is:
+
+1. **Within rules and facts**: the mesh's decision output `J` consumes and is constrained by the rule-and-fact schema (§46.10). No decision is made outside the rule-and-fact schema.
+2. **Within the FUZZY-NEURAL-MESH-NETWORK FOR MAKE DECISION**: the FSM node `F_Y` is nested *within* the fuzzy-neural-mesh — it gates the weight-update mask (§46.8.1), it provides the dwell time for axis `Y` (§46.3), and it provides `s_FSM` to the gain function (§46.8.2).
+3. **Within the FSM**: the FSM's transitions are guarded by the same fuzzy membership functions as the fuzzy layer.
+
+### §46.2 Fused Weight Set
+
+```
+W_fused = F_fuse( W_fsm, W_fuzzy, W_neural, W_ml, x, e, H )
+```
+
+### §46.3 Axis Computation
+
+```
+O = Mamdani( x, rules, facts )           ∈ [0,1]   symbolic
+X = σ( ⟨e, p⟩ )                          ∈ (0,1)   subsymbolic
+Y = min( 1, dwell / τ_max )              ∈ [0,1]   temporal
+Z = H( x ) / log₂ B                      ∈ [0,1]   epistemic
+R = clamp_{[0,1]}( affect(history) )     ∈ [0,1]   affective
+```
+
+### §46.8 Autonomous Weight Calculation
+
+#### §46.8.1 Per-Edge Update Rule
+
+```
+Δw = η · (∂L/∂w) · σ(H(X)) · mask(seccomp_ok)
+W_fused'(e) = clamp_{[w_min, w_max]}( W_fused(e) + ΔW_fused(e) )
+```
+
+Clamped to `[-w_max, +w_max]`, stored **ONLY** in `.ze_vec` (RO map).
+
+#### §46.8.2 FSM-Neural-Fuzzy Gain Function
+
+```
+g_raw( a_in, a_out, H, s_FSM ) =
+    Σ_k μ_k( a_in, a_out ) · r_k( H, s_FSM ) / Σ_k μ_k( a_in, a_out )
+
+g = σ( g_raw )     if r_k is unbounded
+g = g_raw          if r_k ∈ [0, 1]
+```
+
+### §46.10 Rule-Base Schema and Validation
+
+Validation is mechanical:
+
+1. **Coverage** — every rule is reachable from the fact schema.
+2. **Consistency** — no rule pair has contradictory consequents over the same antecedent region.
+3. **Termination** — the FSM reachability graph is finite and connected.
+4. **Diminishing gain** — for every mesh edge `e`, the composed gain is non-increasing in `|a_in(e) − a_out(e)|` for fixed `H` and `s_FSM`.
+
+### §46.18 Mesh Evaluation Order
+
+**Def. 46.18.1.** The mesh's node evaluation order is **topological order of `E`**, with ties broken by node index ascending.
+
+**Th. 46.18.2 (Topological Reconciliation).** The topological evaluation order of the NMN is the composition `f₆ ∘ … ∘ f₁` of §4.1.1.
+
+*Proof.* By Def. 46.1.1, the NMN's nodes include `F_Y` (`f₁`), `N_X` (`f₂`), `H_Z` (`f₃`), `Z_O` (`f₄`), `M_R` (`f₅`), and `J` (`f₆`). By Def. 46.18.1, the evaluation order is topological. By the nesting of Def. 46.1.2, the topological order induces the six-stage composition. ∎
+
+## §47. Model Definition
+
+**Def. 47.1.** The reference architecture is a transformer-based multimodal model coupled to the NMN of §46. The paper defines the model at the level of abstraction required to make the specification **implementable** and **testable**, without specifying a particular training run, dataset, or evaluation.
+
+## §48. Failure-Mode Enumeration
+
+The paper enumerates failure modes across the following categories:
+
+| Category | Failure mode | Bounded? | Reversible? |
+|---|---|---|---|
+| Byte stream | `Z` and `G` are not byte-identical | Yes | Yes (`T`) |
+| Semantics | Not semantically identical | Yes | Yes (filter + truncate) |
+| Runtime behavior | Not runtime-behavior identical | Yes | No |
+| Endianness marker | Absent | Yes | No (inherited) |
+| Model capability | Not claimed | Yes | N/A |
+| Filename parse | Not perfectly machine-parseable | Yes | Yes (§52) |
+| NMN convergence | Conditional on rule-base validation | Conditional | Yes |
+| NMN determinism | Per-backend | Per-backend | Yes (deterministic mode) |
+| NMN expressiveness | Bounded by `F_max` and `S_max` | Bounded | Yes (protocol revision) |
+| Audit log | Bounded by `A_max` | Bounded | Yes (drop policy) |
+| "Pure functional" | A discipline | N/A | N/A |
+| Version field | Non-discriminator | Yes | No |
+| ELF image self-containment | Mode A required; Mode B conditional | Conditional | Yes |
+| ELF image architecture | Bounded per image | Bounded | Rebuild |
+| Nesting | Structural claim | N/A | N/A |
+| Build reproducibility | Required in release | Required | Yes |
+| Build manifest | Informative | N/A | N/A |
+
+## §49. Closed Audit
+
+**Th. 49.4.1.** Every ambiguity in §49.2 (A-1 through A-59) and every gap in §49.3 (G-1 through G-56) is resolved or declared a failure mode in this paper.
+
+*Proof.* By direct inspection of the resolution columns. ∎
+
+**Note 49.4.2.** This audit is closed with respect to the prior Zevo documents. It is not closed with respect to future implementations.
+
+---
+
+# Part V — Conformance, Errata, References, and Change Log
+
+## §43. Conformance Tests
+
+**Def. 43.1.**
+
+| ID | Test | Criterion |
+|---|---|---|
+| T-01 | Empty text | `ZE_OP_PING` returns 0 |
+| T-02 | `H(X) > H_max` | freeze weights |
+| T-03 | Forged client weights | `ZE_ERR_NOT_STATELESS` |
+| T-04 | Syscall outside whitelist | `SIGKILL` |
+| T-05 | fs-verity mismatch | `EIO` on page fault |
+| T-06 | 28h elapsed | key swap + audit log |
+| T-07 | Header field bijection (C1) | 4 fields, same types, offsets, roles |
+| T-08 | Metadata type identity (C2) | 13 types, identical numerics |
+| T-09 | Metadata encoding identity (C3) | Strings and arrays byte-identical |
+| T-10 | Payload index field bijection (C5) | 5 fields; `dimensions` width extension declared |
+| T-11 | Payload blob identity (C6) | Byte-identical after padding strip |
+| T-12 | Layout order identity (C7) | Header → Metadata → Index → Padding → Blob |
+| T-13 | Alignment rule identity (C8) | `align_offset` identical |
+| T-14 | Padding rule identity (C9) | `0x00` bytes, same placement |
+| T-15 | Endianness identity (C10) | Same implicit-LE rule |
+| T-16 | Naming convention identity (C11) | Same components, same order, extension differs |
+| T-17 | Count declaration identity (C12) | Counts in header, same types, offsets |
+| T-18 | Round-trip Zevo → GGUF → Zevo | Byte-identical payloads and index |
+| T-19 | Type map completeness | Every `ggml_type` at the pinned commit has a `zevo_type` |
+| T-20 | `sizeof(zevo_vec5_t) == 64` | Build-time or runtime check |
+| T-21 | `sizeof(zevo_header_t) == 24` | Build-time or runtime check |
+| T-22 | Block-comment discipline | No `//` outside strings/chars |
+| T-23 | fs-verity Merkle relation (`bijective-3d`) | `Merkle(G) == Merkle(T(Z))` |
+| T-24 | Mamdani zero-denominator | `Σ μ == 0 ⟹ y* == (r_min + r_max) / 2` |
+| T-25 | Pure-function composition | Deterministic given Ax. 3.4.3 |
+| T-26 | Error handling | All rejection conditions triggered |
+| T-27 | Versioning | `version != 0` rejected |
+| T-28 | Filename regex (positive) | Accept-cases match |
+| T-29 | Filename regex (negative) | Reject-cases do not match |
+| T-30 | Filename POSIX ERE dialect | `regcomp(..., REG_EXTENDED)` compiles |
+| T-31 | NMN topology | `MESH_DESCRIBE` consistent with schema |
+| T-32 | NMN bounds | `|ΔW_fused| ≤ η · g_max` per edge |
+| T-33 | NMN convergence | `|ΔW_fused|` decreases after warm-up |
+| T-34 | NMN diminishing gain | §46.10 check 4 passes |
+| T-35 | NMN reset | `W_fused` resets to seed |
+| T-36 | NMN audit integrity | Signed audit records verify |
+| T-37 | NMN streaming | Chunked media reassembles |
+| T-38 | Mandatory single version | `version == 0`, `zevo.model.container == "zevo-0"` |
+| T-39 | ELF image completeness | Loads and serves without additional artifacts |
+| T-40 | No successor version | Reader rejects `version != 0` |
+| T-41 | Build-stage completion | All 14 build stages succeed |
+| T-42 | Build manifest | All eight required fields present |
+| T-43 | Deterministic build | Bit-reproducible |
+| T-44 | Container embedding | Sections in order, aligned, `PF_R`, no exports |
+
+A build that fails any vector is **NON-CONFORMANT** and **MUST NOT** be distributed.
+
+## §44. Normative Requirements
+
+An implementation claiming conformance MUST satisfy 42 normative requirements, including:
+
+1. Implement the six-stage pipeline of §4.
+2. Use C89/90 with the extensions of §3.2.1 only.
+3. Use block comments only, enforced per Def. 42.3.3.
+4. Implement pure-function wrappers.
+5. Produce the five modalities of §5.1.1.
+6. Represent the 5D vector as `zevo_vec5_t`.
+7. Pad the 5D vector with 24 zero bytes.
+8. Achieve 64-byte alignment.
+9. Support at least one SIMD width.
+10. Embed weights in `.ze_text` / `.ze_vec` or reference `zevo-0-weights.bin`.
+11. Page-align each section.
+12. Protect each section with fs-verity.
+13. Map each section read-only.
+14. Retain no writable mapping.
+15. Export only the published IPC API.
+16. Hold no weights.
+17. Rotate API keys every 28 hours.
+18. Use OpenSSL 3.x.
+19. Reach hardware only through libc wrappers.
+20. Apply `seccomp-bpf`, capability bounding, and LSM.
+21. Use a syscall allowlist.
+22. Preserve the exact subtitle verbatim.
+23. State the Pixar non-affiliation disclaimer.
+24. Pin the ggml commit.
+25. Implement the model definition of §47.
+26. Handle the Mamdani zero-denominator case.
+27. Handle the endianness failure mode.
+28. Implement the filename convention of §51.
+29. Implement the filename validation of §52.
+30. Implement the Neural Mesh Network.
+31. Implement the autonomous weight-calculation update rule.
+32. Declare the consequent range `[r_min, r_max]`.
+33. Implement the persistence manifest of §46.15.
+34. Satisfy all conformance tests of §43.1.
+35. Report the mandatory single version 0.
+36. Be realized as a single ELF image.
+37. Define no successor version.
+38. Follow the build stages B1–B14.
+39. Emit a build manifest.
+40. Be bit-reproducible.
+41. Embed the container deterministically.
+42. Realize the nested decision structure.
+
+## §45. Errata
+
+The paper retracts 48 prior statements, including:
+
+- The two-index container `MC₂ = (H, M, T, V, D)` is retracted.
+- The shape-free "exclusive vector" entry is retracted.
+- The `role` and `flags` fields are retracted from any payload index.
+- The header is 4 fields, matching GGUF v3.
+- All prior version identifiers are retired.
+- Editions are not versions.
+- The Zevo 5D AI-Driven Multimodal Interactive Assistant is delivered as a single ELF image.
+- The "FSM within FUZZY-NEURAL-MESH-NETWORK FOR MAKE DECISION within rules and facts" architecture is the nested decision structure of §46.
+- Shannon entropy is computed once and consumed by the depth axis `Z`.
+- Mamdani inference is computed once and consumed by the origin axis `O` and the gain function.
+- The build stages B1–B14 are normative.
+- The build manifest is required.
+- The build MUST be bit-reproducible.
+
+## §51. The Zevo Filename Convention (formalized)
+
+### §51.1 Purpose
+
+The filename convention is **human-readable** and **best-effort machine-parseable**.
+
+**Req. 51.1.1.** The filename convention is **normative** for conforming Zevo 5D AI-Driven Multimodal Interactive Assistant files.
+
+**Req. 51.1.2.** The container's metadata is **authoritative**.
+
+**Req. 51.1.3 (Mandatory prefix).** Every conforming filename MUST begin with the segment `zevo-0-`.
+
+### §51.2 Components
+
+**Def. 51.2.1.** A conforming filename is the concatenation, in order, of:
+
+```
+zevo-0-<BaseName><SizeLabel><FineTune><Version><Encoding><Type><Shard>.bin
+```
+
+**Def. 51.2.2 (Component patterns).**
+
+| Component | Pattern | Required? |
+|---|---|---|
+| Prefix | `zevo-0-` | Yes |
+| BaseName | `[A-Za-z][A-Za-z0-9 ]*(-[A-Za-z0-9][A-Za-z0-9 ]*)*` | Yes |
+| SizeLabel | `([0-9]+[xX])?[0-9]+(\.[0-9]+)?[QTBMK]([A-Za-z][0-9]+(\.[0-9]+)?[QTBMK])*` | Yes |
+| FineTune | `[A-Za-z0-9][A-Za-z0-9 ]*` | No |
+| Version | `v[0-9]+(\.[0-9]+)*` | Yes |
+| Encoding | `[A-Za-z0-9_][A-Za-z0-9_-]*` | No |
+| Type | `(LoRA\|vocab)` | No |
+| Shard | `[0-9]{5}-of-[0-9]{5}` | No |
+
+**Def. 51.2.3 (Extension).** The extension is `.bin`.
+
+**Req. 51.2.4.** The filename's inner `Version` component denotes the model's own version, not the Zevo core version. The Zevo core version is fixed at the prefix `zevo-0-`.
+
+## §52. Filename Validation
+
+### §52.1 The POSIX ERE Regex
+
+**Def. 52.1.1 (Regex).**
+
+```
+^zevo-0-([A-Za-z][A-Za-z0-9 ]*)(-[A-Za-z0-9][A-Za-z0-9 ]*)*-(([0-9]+[xX])?[0-9]+(\.[0-9]+)?[QTBMK]([A-Za-z][0-9]+(\.[0-9]+)?[QTBMK])*)(-([A-Za-z0-9][A-Za-z0-9 ]*))?-(v[0-9]+(\.[0-9]+)*)(-([A-Za-z0-9_][A-Za-z0-9_-]*))?(-(LoRA|vocab))?(-([0-9]{5})-of-([0-9]{5}))?\.bin$
+```
+
+### §52.2 The Six Post-Match Checks
+
+**Req. 52.2.1.** After a successful regex match, all six of the following checks MUST pass:
+
+1. **BaseName disambiguation.** No segment of the BaseName group matches `[0-9]+[xX][0-9]+[QTBMK]` or `[0-9]+(\.[0-9]+)?[QTBMK]`.
+2. **FineTune disambiguation.** No segment of the FineTune group matches `v[0-9]+(\.[0-9]+)*`.
+3. **FineTune exclusion.** The FineTune group is not `LoRA` or `vocab`.
+4. **Encoding exclusion.** The Encoding group is not `LoRA` or `vocab`.
+5. **ShardNum ≥ 00001.**
+6. **ShardNum ≤ ShardTotal.**
+
+**Req. 52.2.2 (Whitespace).** The input string MUST NOT contain `\t`, `\n`, `\v`, `\f`, or `\r`.
+
+**Req. 52.2.3 (Anchoring).** The regex is anchored with `^` and `$`.
+
+## §53. Conclusion — Closing Formal Statement
+
+```
+/*  ∀ implementation i,  i ⊨ Zevo_Spec
+ *  ∧ ∀ contradiction c,  ¬∃ c ∈ (Spec × Impl)
+ *  ∧ ∀ gap g,            g ∉ (Spec ∪ Impl)
+ *  ∧ ∀ ambiguity a,      Φ(a) is unique
+ *  ⇒ i is the Mandatory Single Version of Zevo™ 5D.
+ */
+```
+
+Zevo 5D AI-Driven Multimodal Interactive Assistant is a **complete specification** for building the **ELF image** of the **Zevo 5D AI-Driven Multimodal Interactive Assistant**, with:
+
+- **all contradictions resolved** by formal proof (C-1 through C-21);
+- **all ambiguities resolved** by formal definition (A-1 through A-59);
+- **all gaps filled** by normative requirement (G-1 through G-56);
+- **all claims bounded** by declared failure modes (§48);
+- **all enforcement mechanisms specified** for ANSI C89/90 (§50);
+- **the model defined** at the level of abstraction required for implementation (§47);
+- **the closed audit** performed with an independent enumeration procedure (§49);
+- **the filename convention formalized** as a POSIX ERE plus six post-match checks plus one cross-file constraint (§51–§52);
+- **the two lineages reconciled** into a single normative document;
+- **the mandatory single version 0** established as the whole of the canonical lineage;
+- **the ELF image** established as the sole conforming form of the assistant;
+- **the build process** specified as 14 normative stages (B1–B14) with a required build manifest and a bit-reproducibility requirement.
+
+**FM 53.1 (Declared non-claim).** This paper does **not** claim that a conforming implementation:
+
+- is a working 5D AI;
+- produces correct, safe, or useful outputs;
+- is competitive with any named model;
+- has any particular evaluation score.
+
+## §54. Acknowledgments
+
+The authors thank the Zevo Community Teams and the GGUF v3 specification authors for their foundational work. The authors also thank the anonymous reviewers whose feedback led to the failure-mode enumeration, the closed audit, the filename convention formalization, the Neural Mesh Network anchoring architecture, the establishment of the mandatory single version **0** as the canonical identity of the Zevo lineage, the specification of the **Zevo 5D AI-Driven Multimodal Interactive Assistant as a single ELF image**, and the specification of the **14 build stages (B1–B14)** with a required **build manifest**.
+
+---
+
+## §55. References (ISO 690:2021)
+
+Barker, E. (2020). *Recommendation for key management: Part 1 — General* (NIST Special Publication 800-57 Part 1 Rev. 5). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-57pt1r5
+
+Dworkin, M. (2007). *Recommendation for block cipher modes of operation: Galois/Counter Mode (GCM) and GMAC* (NIST Special Publication 800-38D). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-38D
+
+Dworkin, M. (2012). *Recommendation for applications using approved hash algorithms* (NIST Special Publication 800-107 Rev. 1). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-107r1
+
+Gerganov, G., & zevo.cpp contributors. (2024). *GGUF specification, version 3* [Software documentation]. https://github.com/ggml-org/ggml/blob/master/docs/gguf.md
+
+Glorot, X., & Bengio, Y. (2010). Understanding the difficulty of training deep feedforward neural networks. *Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics*, 249–256.
+
+International Organization for Standardization. (1990). *ISO/IEC 9899:1990 — Programming languages — C*. ISO.
+
+International Organization for Standardization. (1999). *ISO/IEC 9899:1999 — Programming languages — C*. ISO.
+
+International Organization for Standardization. (2011). *ISO/IEC 9899:2011 — Programming languages — C*. ISO.
+
+International Organization for Standardization. (2021). *ISO 690:2021 — Information and documentation — Guidelines for bibliographic references and citations to information resources*. ISO.
+
+Internet Engineering Task Force. (1997). *RFC 2119 — Key words for use in RFCs to Indicate Requirement Levels*. IETF.
+
+Khronos Group. (2010). *OpenAL 1.1 Specification*. Khronos.
+
+Khronos Group. (2017). *OpenGL 4.6 Specification*. Khronos.
+
+Khronos Group. (2020). *OpenCL 3.0 Specification*. Khronos.
+
+Krawczyk, H., & Eronen, P. (2010). *HMAC-based extract-and-expand key derivation function (HKDF)* (RFC 5869). Internet Engineering Task Force. https://doi.org/10.17487/RFC5869
+
+Krawczyk, H., Bellare, M., & Canetti, R. (1997). *HMAC: Keyed-hashing for message authentication* (RFC 2104). Internet Engineering Task Force. https://doi.org/10.17487/RFC2104
+
+Linux Kernel Documentation. (2024a). *fs-verity*. The Linux Kernel Organization. https://docs.kernel.org/filesystems/fsverity.html
+
+Linux Kernel Documentation. (2024b). *Seccomp BPF (SECure COMPuting with filters)*. The Linux Kernel Organization. https://docs.kernel.org/userspace-api/seccomp_filter.html
+
+Mamdani, E. H. (1974). Application of fuzzy algorithms for control of simple dynamic plant. *Proceedings of the Institution of Electrical Engineers*, 121(12), 1585–1588. https://doi.org/10.1049/piee.1974.0328
+
+National Institute of Standards and Technology. (2023). *Digital signature standard (DSS)* (FIPS Publication 186-5). https://doi.org/10.6028/NIST.FIPS.186-5
+
+National Institute of Standards and Technology. (2024a). *Module-lattice-based key-encapsulation mechanism standard* (FIPS Publication 203). https://doi.org/10.6028/NIST.FIPS.203
+
+National Institute of Standards and Technology. (2024b). *Module-lattice-based digital signature standard* (FIPS Publication 204). https://doi.org/10.6028/NIST.FIPS.204
+
+Rescorla, E. (2018). *The Transport Layer Security (TLS) protocol version 1.3* (RFC 8446). Internet Engineering Task Force. https://doi.org/10.17487/RFC8446
+
+Shannon, C. E. (1948). A mathematical theory of communication. *Bell System Technical Journal*, 27(3), 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+
+Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., & Salakhutdinov, R. (2014). Dropout: A simple way to prevent neural networks from overfitting. *Journal of Machine Learning Research*, 15(1), 1929–1958.
+
+System V ABI Committee. (2018). *System V Application Binary Interface: AMD64 Architecture Processor Supplement* (Version 1.0). https://gitlab.com/x86-psABIs/x86-64-ABI
+
+The Open Group. (2001). *POSIX.1-2001 — Standard for Information Technology — Portable Operating System Interface (POSIX)*. IEEE.
+
+The Open Group. (2008). *POSIX.1-2008 — Standard for Information Technology — Portable Operating System Interface (POSIX)*. IEEE.
+
+Tool Interface Standard Committee. (1995). *Tool Interface Standard (TIS) Executable and Linking Format (ELF) Specification* (Version 1.2). https://refspecs.linuxfoundation.org/elf/TIS1.2.pdf
+
+Trusted Computing Group. (2019). *TPM 2.0 specification* (Version 1.59). Trusted Computing Group.
+
+W3C. (2023a). *HTML 5 Specification*. World Wide Web Consortium.
+
+W3C. (2023b). *CSS 5 Specification*. World Wide Web Consortium.
+
+W3C. (2023c). *Web Content Accessibility Guidelines (WCAG) 2.2*. World Wide Web Consortium. https://www.w3.org/TR/WCAG22/
+
+Zadeh, L. A. (1965). Fuzzy sets. *Information and Control*, 8(3), 338–353. https://doi.org/10.1016/S0019-9958(65)90241-X
+
+Zaita, D. B., & Zevo Community Teams. (2026). *Zevo 5D AI-Driven Multimodal Interactive Assistant — Academic science computer specification paper* [Technical report]. Zevo Project)
+
+---
+
+## §56. Change Log
+
+| Revision | Change |
+|---|---|
+| — | Prior Zevo revisions (v1.0.0–v5.3.0, Zevo Core v1.0.3, 0.0.1, and intermediates) are **retired**. They are historical antecedents of the canonical identity. |
+| **0 (this paper)** | |
+| | **Established the mandatory single version 0** (§0.5). |
+| | **Introduced three novel contributions** (§1): single-version discipline at zero; constructive isomorphism; complete closure. |
+| | **Proved the collapse theorem** (Th. 1.1.4). |
+| | **Proved the constructive isomorphism theorem** (Th. 1.2.2) with four-part proof (identity, composition, inverse, contradiction). |
+| | **Proved the field-set isomorphism of containers** (Th. 1.2.3, Th. 35.1.1). |
+| | **Proved the topological reconciliation** of the flat pipeline and the nested decision structure (Th. 1.2.4, Th. 46.18.2). |
+| | **Proved the closure theorem** (Th. 1.3.2). |
+| | **Added the effect monad** (§3.4.4). |
+| | **Added the proof obligation hook** (§3.5). |
+| | **Defined the artifact struct** with normative field ordering (§5.5.1). |
+| | **Defined the seven ELF sections** (`.ze_text`, `.ze_vec`, `.ze_core`, `.ze_ipc`, `.ze_sec`, `.ze_hal`, `.note.zevo`) with flags and alignments (§6.2.1). |
+| | **Defined the IPC opcodes** with the statelessness requirement (§8.1.2, Req. 8.2.2). |
+| | **Specified the 14 build stages** (B1–B14) with the build manifest and bit-reproducibility (§30.1). |
+| | **Added the security envelope** (seccomp-bpf default kill, capability bounding, LSM) (§10.2). |
+| | **Added the verification commands** (`readelf`, `scanelf`, `nm`) (§10.4). |
+| | **Added the closing formal statement** (§53) in the form `∀ i, i ⊨ Spec ∧ ...`. |
+| | **Added 44 conformance test vectors** (§43.1). |
+| | **Added 42 normative requirements** (§44). |
+| | **Added 48 errata** (§45). |
+| | **Retained and harmonized** all content from prior lineages: two declared differences, one declared width extension, field-set isomorphism, twelve equivalence conditions, three equivalence classes, fs-verity Merkle relation, POSIX ERE filename regex, six post-match checks, one cross-file constraint, NMN architecture with four rule-base validation checks and four convergence-contract properties. |
+| | **All references cited per ISO 690:2021.** |
+
+---
+
+**End of Specification — Zevo™, An 5D interactive artificial intelligence assistant.**
+
+### Attribution
+
+| Field | Value |
+|---|---|
+| Authorship | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+| Paper | Zevo 5D AI-Driven Multimodal Interactive Assistant — Academic Science Computer Specification Paper |
+| Subtitle | Building the ELF Image for the Zevo 5D AI-Driven Multimodal Interactive Assistant |
+| Document class | Academic science computer specification paper; normative; novel-innovation; mandatory single version |
+| Version | **0 (mandatory, single, canonical, immutable)** |
+| Version field in container | `0x00000000` |
+| Edition discipline | Changes are editions of Zevo 5D AI-Driven Multimodal Interactive Assistant, not new version numbers |
+| Successor version | None defined |
+| Citation standard | ISO 690:2021 |
+| Status | Specification; not evidence of a completed or validated implementation |
+| Realization | Single ELF image (`ET_DYN`), self-contained |
+| Build identifier | `"zevo-0"` |
+| Target ABI | System V x86_64 |
+| Target binary | ELF `ET_DYN` (PIE) |
+| Compiler flags | `-std=c89 -pedantic -Wall -Wextra -Werror` |
+| Static analysis | `nm -g --defined-only` closure; `scanelf -qT`; `readelf -h` |
+| ELF sections | `.ze_text`, `.ze_vec`, `.ze_core`, `.ze_ipc`, `.ze_sec`, `.ze_hal`, `.note.zevo` |
+| Container shape | `MC = (H, M, V, D)` — one payload index |
+| Container equivalence | **100% field-set isomorphic** to GGUF v3 (fixed-3 variant) |
+| Declared differences | Magic (`ZEVO` vs. `GGUF`); `zevo.*` metadata namespace |
+| Declared width extension | `uint64_t[5]` vs. `uint64_t[3]` for `dimensions` |
+| Novelties | Single-version discipline at zero; constructive isomorphism; complete closure |
+| Contradictions resolved | 21 (C-1 through C-21) |
+| Ambiguities resolved | 59 (A-1 through A-59) |
+| Gaps resolved | 56 (G-1 through G-56) |
+| Normative requirements | 42 |
+| Conformance tests | 44 |
+| Build stages | 14 (B1–B14) |
+| Build manifest | Required (8 fields) |
+| Reproducible build | Required for release |
+| NMN nodes | F (FSM), Z (Fuzzy/Mamdani), N (Neural), M (ML), H (Entropy), J (Fusion) |
+| NMN axes | O (Origin), X (Horizontal), Y (Vertical), Z (Depth), R (Radial) |
+| NMN informational channels | Symbolic (O), Subsymbolic (X), Temporal (Y), Epistemic (Z), Affective (R) |
+| NMN rule-base validation checks | 4 (coverage, consistency, termination, diminishing gain) |
+| NMN convergence-contract properties | 4 (bounded drift, diminishing gain, fixed-point existence, session reset) |
+| NMN persistence | Opt-in via §46.15 manifest; default is session-reset |
+| NMN audit | ECDSA P-384, ring buffer `A_max`, signed deltas |
+| Exact title | Zevo™ |
+| Exact subtitle | An 5D interactive artificial intelligence assistant |
+| Pixar disclaimer | Descriptive inspiration only; no affiliation |
+| Language of record | English |
+| Implementation model | Pure-function wrappers on ANSI C89/90, block comments only |
+| Governing formalism | Part IV (mathematical formalization) |
+| Attribution | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+
+---
+
+**End of document.**
+
+---
+
+## Notes on the Novel Contributions
+
+This paper introduces **three novel contributions** to the science of computer specification:
+
+### Contribution 1 — Single-Version Discipline at Zero
+
+**Claim.** The version identifier is **0**. There is exactly one version of Zevo: **0**. No successor version is defined. All prior version identifiers (v1.0.0–v5.3.0, Zevo Core v1.0.3, 0.0.1, and every intermediate) are retired. Changes are **editions of Zevo 5D AI-Driven Multimodal Interactive Assistant**, never new version numbers.
+
+**Why this is novel.** Prior practice in software specification assumes a monotone version sequence (e.g., semantic versioning, date-based versioning, or revision numbering). This paper replaces that with a **single-version discipline**: the version is not a sequence element; it is a **fixed point** (zero) that admits editions but no successors. This eliminates version-arbitration, edition-confusion, and predecessor-conflict as classes of specification defect (Th. 1.1.2, Th. 1.1.3).
+
+### Contribution 2 — Constructive Isomorphism Between Specification and Implementation
+
+**Claim.** There exists a bijective structure-preserving map `Φ : Impl → Spec` such that `Φ(ze_id) = id_spec`, `Φ(f ∘ g) = Φ(f) ∘ Φ(g)`, and `Φ⁻¹(b)` is unique for every observable behavior `b`.
+
+**Why this is novel.** Prior practice in software specification either (a) states the specification in prose and leaves the mapping to the implementer, or (b) states the specification in a formal language and proves refinement. This paper does neither: it **constructs `Φ` explicitly**, component-wise, from the wrapper table of §42.2, and proves it is bijective on the AST of the C89 translation unit. The construction is witnessed by the `ze_proof_obligation()` hook (§3.5), which fires at build time and aborts on any failing obligation.
+
+### Contribution 3 — Complete Closure of Contradictions, Gaps, and Ambiguities
+
+**Claim.** Zevo 5D AI-Driven Multimodal Interactive Assistant is closed with respect to all prior Zevo documents: 21 contradictions, 59 ambiguities, and 56 gaps, each resolved by exactly one of four mechanisms (formal definition, explicit amendment, normative rule, declared failure mode).
+
+**Why this is novel.** Prior practice in software specification frequently leaves residual ambiguity, deferring resolution to the implementer. This paper **enumerates every item** with a resolution column, and proves closure (Th. 49.4.1). The enumeration is independent (the procedure is described in §49.1) and is closed with respect to the prior documents.
+
+### The Three Contributions Together
+
+The three contributions compose: the **single-version discipline** provides a stable identity for the specification; the **constructive isomorphism** provides a stable mapping from specification to implementation; and the **complete closure** provides a stable enumeration of every decision. Together they yield a specification that is **stable, mappable, and enumerable** — a property not previously achieved in the Zevo lineage, and, to the authors' knowledge, not previously achieved in a single specification paper of this scope.
+
+---
+
+**End of Zevo 5D AI-Driven Multimodal Interactive Assistant — Academic Science Computer Specification Paper.**
+
+---
+---
+
 # Zevo 5D AI-Driven Multimodal Interactive Animated Assistant — Complete Academic Specification
 
 ## A Normative Specification of the ELF Image, Its Binary Container Format, and Its Filename Convention, with Formal Resolution of All Contradictions, Gaps, and Ambiguities
