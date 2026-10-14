@@ -68,6 +68,14 @@ Here are some ideas to get you started:
 ---
 ---
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/cca71c16-1515-470b-a63d-156d09a8e28b" />
+
+---
+---
+
+---
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/d4ea7f2b-2c74-464a-b91d-fbd5ac465d5d" />
 
 ---
@@ -1305,11 +1313,6 @@ If you'd like, I can extend this into: the **`verify`, `inspect`, `bnc`, `vector
 ### Zevo™: An ELF-LLM Container Checkpoint.
 
 ### Beta Release Version 0.0.1
-
----
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/cca71c16-1515-470b-a63d-156d09a8e28b" />
 
 ---
 ---
