@@ -8,7 +8,9 @@
 
 ---
 
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/a163b2ef-d5bb-4de9-a00e-f753a2d0ede0" />
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/371bb053-3a48-42a2-83ff-a399a38a68bc" />
+
+---
 
 > **Zevo™** — warm, expressive, family-film-quality 5D animation character —
 > stands at the center of the architecture as the *visual hero*.
