@@ -17,7 +17,1363 @@
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/d7ad612b-4f5d-4a47-a66e-ce4ee9e87be9" />
 
 ---
+---
 
+# The Zevo™ AI-Driven Animation Core
+## An 5D Interactive Artificial Intelligence Assistant
+
+### A Complete Academic Science-Computer-Engineering Specification for Building the ELF Image, Anchored in FSM-Neural-Fuzzy-Machine-Learning Logic
+
+**Authors:** PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams
+**Version:** 1.0.0
+**Status:** Design and implementation specification. This paper specifies a buildable system; it does not report a completed implementation, measured performance, or audited security properties.
+**Citation standard:** ISO 690:2021
+
+---
+
+## Abstract
+
+This paper specifies the architecture, mathematical contracts, implementation structure, deployment model, and evaluation framework for the **Zevo™ AI-Driven Animation Core**, an **5D interactive artificial intelligence assistant** realized as a pure-functional, **ANSI C89/90**, **GNU/POSIX**, **System V x86-64 `ET_DYN` ELF AI Core**.
+
+The core is anchored in **FSM-Neural-Fuzzy-Machine-Learning logic** — a single integrated control architecture that unifies four layers of reasoning inside one **Neural Mesh Network (NMN)**:
+
+- a **Fuzzy-State-Machine (FSM)** governing discrete interaction phases with fuzzy guards;
+- a **fuzzy inference layer** built on **rules and facts** and evaluated by **Mamdani inference**;
+- a **neural layer** projecting embeddings onto learned prototypes;
+- an **autonomous machine-learning layer** performing **autonomous weight calculation** under **FSM-Neural-Fuzzy** control.
+
+**Shannon entropy** enters this architecture as the epistemic signal carried by the depth axis. The four layers share a single fused weight set `W_fused` that is updated in-core by the autonomous learning mechanism, subject to documented bounds. Together they form one deterministic pipeline that produces a **Multimodal 5D Smart 8K HDR BGRA** artifact comprising **Text Raw**, **Image BGRA**, **Video BGRA**, **Audio PCM**, and a **fused 5D intelligence vector**
+
+```
+S = (O, X, Y, Z, R)
+```
+
+whose axes represent **Origin (rotation and gravity)**, **Horizontal**, **Vertical**, **Depth (immersion)**, and **Radial (expansion)** behavioral semantics, and whose components carry **symbolic**, **subsymbolic**, **temporal**, **epistemic**, and **affective** information.
+
+The ELF core stores its LLM weights, metadata, and vectors either **embedded by section** or **embedded by reference**, in both cases page-aligned on `ext4`, `fs-verity`-protected, and mapped **read-only** by the process. The core exposes only a published **IPC API** to a **weight-free, stateless, Web-Responsible client**. Cryptographic access is mediated by a **Secure Service API** with **28-hour API key rotation** using OpenSSL primitives aligned with **NIST SP 800-38D**, **NIST SP 800-107**, and **FIPS 186-5**. Hardware peripherals are reached exclusively through libc wrappers resolving to the **`syscall`** instruction on `x86_64` and to **`sysenter`** on legacy `x86`, under **seccomp-bpf**, **capability bounding**, and **LSM** discipline. The result is intended to be a secure-by-construction, reproducible, auditable, and accessible AI assistant centered on **Zevo**, an original Pixar-inspired animated character, with the exact title **Zevo™** and the exact subtitle **An 5D interactive artificial intelligence assistant** (verbatim per project charter). Security, reproducibility, performance, and accessibility are design goals that require validation in an implementation; they are not claimed as measured results.
+
+**Keywords:** ELF AI Core, `ET_DYN`, `fs-verity`, `ext4`, `syscall`, `sysenter`, FSM-Neural-Fuzzy logic, fuzzy-state-machine, fuzzy neural logic, rules and facts, Shannon entropy, Mamdani inference, Neural Mesh Network, autonomous self-learning, autonomous weight calculation, machine learning, 5D axes, multimodal generation, procedural animation, IPC, OpenSSL, NIST SP 800-38D, NIST SP 800-107, FIPS 186-5, FIPS 203, FIPS 204, TPM 2.0, reproducible builds.
+
+---
+
+## 1. Introduction
+
+### 1.1 Motivation
+
+Contemporary AI applications combine software, learned parameters, operating-system services, hardware peripherals, and user interfaces. A system that generates multimodal content must address not only inference but also model integrity, resource limits, accessibility, deployment isolation, and the boundaries between components. This paper specifies the **Zevo™ AI-Driven Animation Core** as a **Linux ELF AI Core** whose design centers on a single anchoring architecture — **FSM-Neural-Fuzzy-Machine-Learning logic realized as a Neural Mesh Network** — and on a small set of architectural commitments:
+
+1. A **single integrated reasoning architecture** combining fuzzy-state-machine logic, fuzzy inference over rules and facts, neural projection, and autonomous machine-learning weight calculation inside one graph.
+2. A **pure-functional pipeline** in ANSI C89/90 that separates deterministic transformations from side effects.
+3. A **five-component state vector** `S = (O, X, Y, Z, R)` that unifies reasoning, animation, and audio control.
+4. **External weights** stored outside the ELF, page-aligned on `ext4`, protected by `fs-verity`, and mapped read-only, or optionally **embedded by section** when an integrated artifact is required.
+5. A **published IPC API** separating the core from a weight-free, stateless, Web-Responsible client.
+6. **Standards-aligned cryptography** with explicit references to NIST and IETF specifications.
+7. **Least-privilege hardware access** through libc wrappers resolving to `syscall`/`sysenter`, under seccomp-bpf, capability bounding, and LSM policy.
+
+The paper is a **specification**. It defines the contracts an implementation must satisfy; it does not claim that any implementation has been completed, that any model has been trained, or that any measured property has been demonstrated.
+
+### 1.2 Contributions
+
+| Contribution | Description |
+|---|---|
+| Neural Mesh Network anchoring | A single graph unifying FSM, fuzzy inference, neural projection, and ML weight calculation under one fused weight set |
+| Rules and facts layer | Versioned symbolic knowledge evaluated by Mamdani inference |
+| Shannon entropy as epistemic signal | Normalized entropy bound to the depth axis and consumed as a mesh gain parameter |
+| Autonomous weight calculation | Per-edge FSM-Neural-Fuzzy gain updates performed in-core, bounded, and audited |
+| Five-axis vector | `S = (O, X, Y, Z, R)` with defined semantics per axis |
+| Multimodal artifact | Text Raw, Image BGRA, Video BGRA, Audio PCM, fused `S` |
+| Dual-mode weight storage | Embedded by section, or embedded by reference; both page-aligned on `ext4`, `fs-verity`-protected, read-only mapped |
+| IPC contract | Framed messages, bootstrap and preflight version negotiation, mesh-introspection messages, defined retry rules |
+| Cryptographic contract | OpenSSL primitives aligned with NIST SP 800-38D, SP 800-107, RFC 5869, FIPS 186-5, with a TPM- or HSM-sealed master secret and post-quantum migration path |
+| Hardware-access discipline | libc → `syscall`/`sysenter`/`svc`/`ecall`, seccomp-bpf, capability bounding, LSM |
+| Deployment model | systemd hardening, device allow-listing, reproducibility prerequisites |
+| Acceptance criteria | Nineteen testable criteria covering build, ELF, validation, model loading, mesh topology, mesh bounds, convergence, diminishing gain, reset, audit integrity, rule-base validation, streaming, numerics, media, IPC, concurrency, sandbox, accessibility, reproducibility, performance |
+
+### 1.3 Organization
+
+Section 2 surveys related work. Section 3 establishes the zero-step foundation. Section 4 defines the system architecture and trust boundaries. Section 5 specifies the five-component state. Section 6 specifies the Neural Mesh Network anchoring architecture. Section 7 specifies the processing pipeline. Section 8 specifies input and output contracts. Section 9 specifies feature extraction. Section 10 specifies the animation kernel. Section 11 specifies model storage and loading, including both embedding modes. Section 12 specifies the C89/90 project structure. Section 13 specifies concurrency and acceleration. Section 14 specifies the IPC protocol. Section 15 specifies the cryptographic contract. Section 16 specifies operating-system hardening and build requirements. Section 17 specifies the Web-Responsible client. Section 18 specifies testing and acceptance criteria. Section 19 specifies the evaluation plan. Section 20 records engineering bounds and a hardening agenda. Section 21 concludes. Section 22 lists references in ISO 690:2021 form.
+
+---
+
+## 2. Related Work
+
+ELF is the standard executable and linkable format used across Unix-like systems (Tool Interface Standard, 1995; System V ABI, 2018). Linux provides process-level isolation through permissions, capabilities, seccomp filters, and Linux Security Modules; these mechanisms are complementary rather than substitutable (Linux Kernel Documentation, 2024b). `fs-verity` provides file-level integrity verification for supported filesystems and does not provide confidentiality (Linux Kernel Documentation, 2024a). Fuzzy set theory (Zadeh, 1965) and Mamdani inference (Mamdani, 1974) offer interpretable control over graded membership. Shannon entropy (Shannon, 1948) provides a measure of uncertainty. Neural projection, sigmoid activation, and prototype learning are standard elements of neural computation; deep feedforward initialization is characterized by Glorot and Bengio (2010), and regularization by dropout is characterized by Srivastava et al. (2014). Graph-structured computation with shared weights is characteristic of modern neural architectures; the NMN applies this pattern to reasoning primitives rather than to homogeneous layers. Container-based deployment (Merkel, 2014) and model-serving frameworks (Olston et al., 2017; PyTorch, 2023) offer patterns for separating runtime concerns; Zevo adopts a different posture: a single ELF AI Core anchored in **FSM-Neural-Fuzzy-Machine-Learning logic** realized as a Neural Mesh Network, with dual-mode weight storage, an IPC contract, and explicit hardware discipline. Post-quantum migration follows FIPS 203 and FIPS 204; hardware-backed key sealing follows TPM 2.0.
+
+The design's differentiators are: the **Neural Mesh Network** anchoring, in which an FSM node, a Mamdani node, a neural node, and an ML node share a fused weight set and update rule; the **five-component state vector** driving animation and audio; **dual-mode weight storage**; a **published IPC contract** with bootstrap, preflight, and mesh-introspection messages; and an **explicit hardware-access discipline** that does not rely on undocumented instruction-level assumptions.
+
+---
+
+## 3. The Zero-Step Foundation
+
+### 3.1 Identity
+
+| Field | Value |
+|---|---|
+| Title | **Zevo™** |
+| Subtitle | **An 5D interactive artificial intelligence assistant** |
+| Version | 1.0.3 |
+| ABI | 2 |
+| Authorship | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+
+The subtitle is preserved verbatim per project charter, including the use of `An` before `5`.
+
+### 3.2 Normative Language
+
+The terms **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY** express requirements, recommendations, and options.
+
+### 3.3 Four Trust Boundaries
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                          Zevo™ System                                │
+│                                                                      │
+│  ┌─────────────┐   ┌──────────────┐   ┌────────────┐   ┌──────────┐  │
+│  │  Browser    │   │  Secure      │   │  ELF AI    │   │ Universal│  │
+│  │  Responsible│──►│  Service API │──►│  Core      │──►│ Hardware │  │
+│  │  UI         │   │              │   │            │   │ Devices  │  │
+│  └─────────────┘   └──────────────┘   └────────────┘   └──────────┘  │
+│    Boundary 1        Boundary 2        Boundary 3       Boundary 4   │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+| Boundary | Between | Contract |
+|---|---|---|
+| 1 | Browser ↔ Service API | TLS 1.3, session tokens, no telemetry |
+| 2 | Service API ↔ ELF AI Core | 28-hour key rotation, HMAC-SHA-384, AES-256-GCM |
+| 3 | ELF AI Core ↔ weights (section or `weights.bin`) | `fs-verity` Merkle verification, read-only mapping |
+| 4 | ELF AI Core ↔ Hardware | libc → `syscall`/`sysenter`, seccomp-bpf, capability bounding, LSM |
+
+### 3.4 Vocabulary
+
+| Term | Fixed meaning |
+|---|---|
+| **FSM** | Fuzzy-state-machine: discrete states with fuzzy guards |
+| **FSM-Neural-Fuzzy logic** | Integrated control combining finite-state machine logic, fuzzy membership over rules and facts, and neural projection |
+| **FSM-Neural-Fuzzy-ML** | The above combined with autonomous machine-learning weight calculation |
+| **Neural Mesh Network (NMN)** | A directed weighted graph whose nodes are the four reasoning primitives (F, Z, N, M) and whose edges are entries of `W_fused` |
+| **Mesh node** | A single reasoning primitive instance, indexed by axis |
+| **Mesh edge** | A directed entry of `W_fused` carrying a typed payload |
+| **Rules and facts** | Versioned symbolic knowledge and observed inputs |
+| **Mamdani inference** | fuzzify → fire → aggregate → centroid defuzzify |
+| **Shannon entropy** | `H(X) = −Σ p log₂ p`, normalized to `[0,1]` |
+| **Fuzzy neural projection** | `σ(⟨e, p⟩)`, sigmoid projection of an embedding onto a prototype |
+| **FSM-Neural-Fuzzy gain** | The Mamdani centroid of a rule base over entropy and FSM state, projected through `σ` |
+| **Autonomous self-learning** | Bounded, in-core weight adaptation performed under FSM-Neural-Fuzzy control |
+| **Autonomous weight calculation** | The in-core mechanism that computes and applies fused-weight updates |
+| **Audit record** | A signed record of one `ΔW_fused` step, verifiable under ECDSA P-384 |
+| **Drift bound (`D_max`)** | The maximum cumulative weight change permitted per session |
+| **Session reset** | The restoration of `W_fused` to its seed at process exit |
+| **Mesh introspection** | The `MESH_DESCRIBE`/`MESH_STATE` IPC message family |
+| **5D axes** | `S = (O, X, Y, Z, R)` |
+| **Multimodal** | Text Raw + Image BGRA + Video BGRA + Audio PCM + fused `S` |
+| **Embedded by section** | Weights, metadata, and vectors placed in a dedicated ELF section, page-aligned on `ext4`, `fs-verity`-protected, mapped read-only |
+| **Embedded by reference** | Weights, metadata, and vectors stored in `weights.bin` on `ext4`, page-aligned, `fs-verity`-protected, mapped read-only |
+
+### 3.5 ELF AI Core Attributes
+
+| Attribute | Value |
+|---|---|
+| File | `zevo_core.elf` |
+| Format | ELF |
+| Type | `ET_DYN` (position-independent executable) |
+| ABI | System V `x86-64` (with declared `aarch64`/`riscv64` portability) |
+| Language | ANSI C89/90, pure-function discipline |
+| Contracts | GNU + POSIX + Pthreads |
+| Accelerators | OpenCL, OpenGL, SDL2, OpenAL |
+| Cryptography | OpenSSL (with TPM 2.0 / HSM sealing and FIPS 203/204 migration path) |
+| Target | Linux Fedora 40+ |
+| Exposure | Local IPC only |
+| System-call path | libc → `syscall` (x86_64) / `sysenter` (legacy x86) / `svc` (aarch64) / `ecall` (riscv64) |
+
+### 3.6 System Goals
+
+A conforming implementation MUST:
+
+1. accept validated multimodal requests through a documented interface;
+2. produce bounded, structurally valid output artifacts;
+3. keep model weights either embedded by section or embedded by reference, and map them read-only;
+4. separate the core from the Web-Responsible client through a published IPC API;
+5. keep computation deterministic where the selected numeric and device backends permit it;
+6. document any nondeterministic behavior, particularly GPU execution order;
+7. define resource, error, and security limits for every externally reachable operation.
+
+Non-goals: downstream container formats, specific artistic output, use of undocumented instructions.
+
+---
+
+## 4. System Architecture
+
+### 4.1 Component Diagram
+
+```text
+┌────────────────────────────┐
+│ Web-Responsible UI         │
+│ weight-free, stateless     │
+└───────────┬────────────────┘
+            │ HTTPS (if remote access is enabled)
+            ▼
+┌────────────────────────────┐
+│ Secure Service Layer       │
+│ authentication, authorization, TLS │
+└───────────┬────────────────┘
+            │ AF_UNIX SOCK_SEQPACKET (local IPC)
+            ▼
+┌────────────────────────────────────────────────┐
+│ Zevo Core: zevo_core.elf                       │
+│                                                │
+│ IPC → validation → modality encoders           │
+│     → Neural Mesh Network pipeline             │
+│     → animation / rendering                    │
+│     → artifact store → IPC response            │
+│                                                │
+│ Weights: section-embedded or reference-embedded│
+└───────────┬────────────────────────────────────┘
+            │ libc / approved device interfaces
+            ▼
+┌────────────────────────────────────────────────┐
+│ OS and optional devices                        │
+│ ext4/fs-verity, TPM/HSM, GPU, display, audio   │
+└────────────────────────────────────────────────┘
+```
+
+The Web-Responsible client MUST NOT contain model weights, master secrets, or direct pointers into core memory. The core MUST NOT expose raw model weights through IPC.
+
+### 4.2 Trust Boundary Controls
+
+| Boundary | Data crossing it | Required controls |
+|---|---|---|
+| Browser to service | User requests and responses | TLS, input validation, origin and session policy |
+| Service to core | Bounded IPC messages | Peer credentials, protocol versioning, authorization |
+| Core to weights | Weight bytes and metadata | `fs-verity`, trusted measurement, read-only mapping |
+| Core to devices | Device requests | Least privilege, allow-listed interfaces, sandboxing |
+
+---
+
+## 5. Five-Component State
+
+### 5.1 The 5D Intelligence Vector
+
+```
+S = (O, X, Y, Z, R) ∈ [0, 1]⁵
+```
+
+| Axis | Name | Meaning | Reasoning source | Visual effect | Acoustic effect |
+|---|---|---|---|---|---|
+| **O** | Origin | Rotation & gravity | Mamdani centroid (`Z_O`) | Body rotation, gravity sag | Fundamental frequency |
+| **X** | Horizontal | Lateral spread | Fuzzy neural projection (`N_X`) | Eye and antenna spread | Octave-fifth detune |
+| **Y** | Vertical | Up/down extent | FSM dwell time (`F_Y`) | Squash-and-stretch | Slow vibrato rate |
+| **Z** | Depth | Front/back immersion | Normalized Shannon entropy (`H_Z`) | Halo depth glow, blue channel | Shimmer partial |
+| **R** | Radial | Outward expansion | Autonomous weight calculation (`M_R`) | Halo radius, ribbon length | Overall amplitude |
+
+Each axis carries a specific informational channel:
+
+- **Symbolic** — carried by `O` (Mamdani inference over rules and facts).
+- **Subsymbolic** — carried by `X` (fuzzy neural projection).
+- **Temporal** — carried by `Y` (FSM dwell).
+- **Epistemic** — carried by `Z` (Shannon entropy).
+- **Affective** — carried by `R` (autonomous self-learning affect).
+
+The idle state is `S = (0,0,0,0,0)`. The behavior of the zero state for each output channel is defined by the versioned output profile (§8.4). A fully activated state is `S = (1,1,1,1,1)`.
+
+### 5.2 Normalization
+
+After inference, every finite axis value MUST be clamped to `[0, 1]`. A non-finite value (NaN or ±∞) MUST be reported as an inference error; it MUST NOT be silently replaced with a neutral value. The mapping from raw inference output to each axis is versioned configuration and MUST be documented with the model.
+
+---
+
+## 6. The Anchoring Architecture — FSM-Neural-Fuzzy-Machine-Learning Logic Realized as a Neural Mesh Network
+
+### 6.1 The Neural Mesh Network — Definition
+
+Zevo's reasoning core is a single integrated architecture, not a pipeline of independent modules. The four reasoning layers are unified as nodes of a directed, weighted, acyclic-in-session graph, the **Neural Mesh Network (NMN)**:
+
+```
+NMN = ( V, E, W_fused, φ )
+```
+
+| Symbol | Meaning |
+|---|---|
+| `V` | Mesh nodes. Each node is one of four reasoning primitives: **F** (FSM), **Z** (Fuzzy/Mamdani), **N** (Neural projection), **M** (ML weight-calculation). |
+| `E` | Directed edges carrying activation, feature, or gradient flow. |
+| `W_fused` | The shared fused weight set (§6.2). Every edge is an entry of `W_fused`. |
+| `φ` | The node activation function, drawn from a fixed set (§6.1.2). |
+
+Nodes are indexed by axis: `V = { F_Y, Z_O, N_X, M_R }`, plus auxiliary nodes for entropy (`H_Z`) and the fusion junction (`J`). Edges carry typed payloads: `sym` (symbolic), `sub` (subsymbolic), `tmp` (temporal), `epi` (epistemic), `aff` (affective).
+
+#### 6.1.1 Layer Roles
+
+| Layer | Node | Role | Primary axis |
+|---|---|---|---|
+| **FSM** | `F_Y` | Discrete-state interaction control with fuzzy guards | `Y` (dwell) |
+| **Fuzzy** | `Z_O` | Mamdani inference over versioned rules and facts | `O` (symbolic) |
+| **Neural** | `N_X` | Sigmoid projection of embeddings onto prototypes | `X` (subsymbolic) |
+| **ML** | `M_R` | Autonomous weight calculation and adaptation | `R` (affective) |
+| **Entropy** | `H_Z` | Normalized Shannon entropy over the feature distribution | `Z` (epistemic) |
+| **Fusion** | `J` | Composition of `S` and emission of `W_fused'` | All |
+
+**Shannon entropy** is not a fifth layer; it is an epistemic signal that the FSM and ML layers consume and that the neural layer exposes.
+
+#### 6.1.2 Node Activation Set
+
+Each node uses one of the following fixed activation forms:
+
+| Activation | Form | Used by |
+|---|---|---|
+| Sigmoid | `σ(u) = 1/(1+e^{−u})` | `N_X`, `M_R`, gain `g` |
+| Minimum | `min(a, b)` | `Z_O` (rule firing) |
+| Maximum | `max(a, b)` | `Z_O` (aggregation) |
+| Centroid | `∫ x μ(x) dx / ∫ μ(x) dx` | `Z_O` (defuzzification) |
+| Dwell | `min(1, dwell / τ_max)` | `F_Y` |
+| Entropy | `H / log₂ B` | `H_Z` |
+| Affect | `clamp_{[0,1]}( f(history) )` | `M_R` |
+| Identity | `u` | `J` |
+
+The set is closed. Adding a new activation is a protocol revision, not a runtime choice.
+
+#### 6.1.3 Mesh Evaluation Order and Determinism
+
+The mesh's node evaluation order is **topological order of `E`**, with ties broken by node index ascending. Ties are possible only between nodes whose inputs are already available; because `E` is acyclic in-session (§6.1.4), a topological order always exists.
+
+For deterministic mode (§13), the evaluation order is fixed to the declaration order of nodes as listed in the model schema, and every node's activation is evaluated with the declared numeric backend. Any backend that cannot guarantee the declared evaluation order in deterministic mode MUST be rejected in that mode.
+
+#### 6.1.4 Mesh Invariants
+
+A conforming NMN MUST satisfy:
+
+1. **Bounded fan-in per node** — no node has more than `F_max` inbound edges, with `F_max` a versioned constant.
+2. **Bounded state** — the mesh's total mutable state is bounded by a versioned constant `S_max`.
+3. **Read-only weights** — no edge of the mesh writes to weight storage. Updates to `W_fused` occur only in the in-core session copy.
+4. **No hidden I/O** — no node performs I/O. All I/O is at the mesh boundary.
+5. **Acyclic in-session** — `E` contains no cycle within a session. (Cross-session feedback is expressed through the session-scoped `W_fused` copy, not through edges.)
+6. **Deterministic composition** — for fixed inputs, fixed `W_fused`, and the fixed evaluation order of §6.1.3, the mesh produces identical `S`.
+7. **Commutativity where declared** — edges that are declared commutative MAY be evaluated in any order; edges that are not MUST be evaluated in declaration order.
+
+### 6.2 Fused Weight Set
+
+```
+W_fused = F_fuse( W_fsm, W_fuzzy, W_neural, W_ml, x, e, H )
+```
+
+where:
+
+- `W_fsm` — FSM transition and guard weights;
+- `W_fuzzy` — Mamdani membership parameters and rule weights;
+- `W_neural` — prototype matrix and projection weights;
+- `W_ml` — autonomous weight-calculation state;
+- `x` — feature vector;
+- `e` — embedding vector;
+- `H` — normalized Shannon entropy.
+
+The fused weight set is the single source of truth for mesh inference. `F_fuse` is versioned configuration.
+
+### 6.3 Axis Computation
+
+```
+O = Mamdani( x, rules, facts )           ∈ [0,1]   symbolic
+X = σ( ⟨e, p⟩ )                          ∈ (0,1)   subsymbolic
+Y = min( 1, dwell / τ_max )              ∈ [0,1]   temporal
+Z = H( x ) / log₂ B                      ∈ [0,1]   epistemic
+R = clamp_{[0,1]}( affect(history) )     ∈ [0,1]   affective
+```
+
+### 6.4 FSM Layer
+
+The FSM layer governs discrete interaction phases. States and transitions are versioned model deliverables. Guards are fuzzy and use the same membership functions as the fuzzy layer. The FSM MUST define named states, permitted transitions, guards, and timeouts. The FSM also gates the mesh's weight-update mask `mask(e)` (§6.8.1).
+
+### 6.5 Fuzzy Layer — Rules and Facts
+
+The fuzzy layer is the symbolic channel of the architecture:
+
+- **Rules** — versioned IF/THEN rules over fuzzy variables.
+- **Facts** — versioned observed inputs.
+
+Mamdani inference is used:
+
+1. Fuzzification of facts against membership functions;
+2. Rule firing by minimum over antecedents;
+3. Aggregation by maximum over clipped consequents;
+4. Centroid defuzzification.
+
+The rule table and fact schema MUST be included in the model (whether embedded by section or by reference), not hard-coded into the ELF. Rule-base validation is mechanical (§6.10).
+
+#### 6.5.1 Consequent Range
+
+Each rule consequent `r_k` is defined over a **bounded output universe** `[r_min, r_max]` declared in the rule-base schema. Default: `[r_min, r_max] = [0, 1]`. When the consequents are declared over `[0, 1]`, the Mamdani centroid in §6.5 already produces a value in `[0, 1]`, and the outer sigmoid of §6.8.2 is a monotone squash that preserves the ordering of gains but not their numeric value. When the consequents are declared over an unbounded universe, the sigmoid of §6.8.2 is required to bound the gain into `(0, 1)`.
+
+This is the only place in the specification where the σ wrapper on the gain is load-bearing; elsewhere it is a monotone reparameterization. Implementations MUST declare `[r_min, r_max]` and MUST state whether the gain uses the raw centroid or its σ projection.
+
+### 6.6 Neural Layer
+
+The neural layer is the subsymbolic channel:
+
+```
+u = Σ_{j=0}^{d−1} e_j p_j
+X = σ(u) = 1 / (1 + exp(−u))
+```
+
+The prototype set `{p}` and the embedding projection are versioned model deliverables. Normalization, precision, and overflow handling MUST be specified.
+
+### 6.7 Shannon Entropy Signal
+
+```
+H   = −Σ_{i : p_i > 0} p_i log₂( p_i )
+H_n = H / log₂( B )
+```
+
+The histogram construction is versioned configuration. Empty histograms return a documented neutral value, normally zero. Non-finite values MUST be rejected.
+
+### 6.8 Autonomous Machine-Learning Layer and Autonomous Weight Calculation
+
+The ML layer performs **autonomous weight calculation** under FSM-Neural-Fuzzy control. Its contract:
+
+- **Bounded** — the state of the weight-calculation mechanism MUST be bounded in memory.
+- **Scoped** — adaptation state MUST be scoped to a session or to an explicitly identified user context.
+- **Opt-in** — adaptation MUST be disabled by default unless consent and retention behavior are documented.
+- **Read-only weights** — adaptation MUST NOT modify the read-only weight storage (section or `weights.bin`).
+- **Non-persistent by default** — adaptation state is discarded at process exit unless persistence is documented.
+- **Documented update rule** — the update rule, learning rate, drift bounds, and clamping policy MUST be versioned configuration documented with the model.
+- **No hidden I/O** — the update MUST NOT perform I/O; it MUST compute from explicit inputs and in-core state.
+
+The ML layer exposes the affective channel `R` to the composer, and its accumulated state feeds back into `W_fused` for subsequent inference within the same session.
+
+#### 6.8.1 Per-Edge Update Rule
+
+The NMN's autonomous self-learning updates `W_fused` after each request. The update is a **bounded, per-edge, FSM-Neural-Fuzzy-governed gradient-free step**:
+
+```
+ΔW_fused(e) = η · g( a_in(e), a_out(e), H, s_FSM ) · mask(e)
+W_fused'(e) = clamp_{[w_min, w_max]}( W_fused(e) + ΔW_fused(e) )
+```
+
+where:
+
+| Symbol | Meaning |
+|---|---|
+| `e` | A mesh edge |
+| `η` | Learning rate, versioned configuration, `η > 0` |
+| `a_in(e)`, `a_out(e)` | Node activations at the edge's endpoints |
+| `H` | Normalized Shannon entropy of the request's feature distribution |
+| `s_FSM` | Current FSM state |
+| `g(·)` | The **FSM-Neural-Fuzzy gain function** (§6.8.2) |
+| `mask(e)` | An FSM-controlled gating mask, `∈ {0, 1}` |
+| `[w_min, w_max]` | Versioned per-edge weight bounds |
+
+The update is **based on model weights**: `ΔW_fused` is a function of the edge's contribution to the produced `S`, not of any external label. The mesh learns the *internal consistency* of its own four reasoning primitives.
+
+#### 6.8.2 FSM-Neural-Fuzzy Gain Function
+
+The gain `g` is itself computed under the four-layer anchoring:
+
+```
+g_raw( a_in, a_out, H, s_FSM ) =
+    Σ_k μ_k( a_in, a_out ) · r_k( H, s_FSM ) / Σ_k μ_k( a_in, a_out )
+
+g = σ( g_raw )     if r_k is unbounded
+g = g_raw          if r_k ∈ [0, 1]
+```
+
+where:
+
+- `μ_k` are membership functions over the edge's activations, evaluated by the **Fuzzy** layer;
+- `r_k` are rule consequents over entropy and FSM state, evaluated by the **FSM** layer, declared over `[r_min, r_max]` per §6.5.1;
+- the quotient is the **Mamdani centroid** of §6.5;
+- σ is applied only when the consequents are declared unbounded (§6.5.1).
+
+**The gain is not hand-authored.** It is the Mamdani centroid of a versioned rule base over `H` and `s_FSM`, evaluated at the edge's endpoint activations. That is what "machine-learning calculation by FSM-Neural-Fuzzy logic" means in this specification.
+
+#### 6.8.3 Anchoring Invariants for Self-Learning
+
+Every NMN self-learning step MUST satisfy:
+
+| Invariant | Contract |
+|---|---|
+| Bounded | `|ΔW_fused|` per edge is bounded by `η · g_max`; total drift per session is bounded by `D_max`. |
+| Scoped | Updates are session-scoped; cross-session persistence requires explicit opt-in and a signed delta (§15.6). |
+| Opt-in | Self-learning is disabled by default. |
+| Read-only weights | Storage is never written. Only the in-core `W_fused` copy is mutated. |
+| Non-persistent | Default: discarded at process exit. |
+| No hidden I/O | The update performs no I/O. |
+| Documented | `η`, `[w_min, w_max]`, `D_max`, `g_max`, `F_max`, `S_max`, `[r_min, r_max]` are versioned configuration. |
+
+### 6.9 Fused-Weight Update Cycle
+
+For each request the architecture executes:
+
+1. Compute `x`, `e`, and `H` from validated input.
+2. Compute `O`, `X`, `Y`, `Z` from `W_fused` and the current state.
+3. Compute `R` from the ML layer's accumulated affect.
+4. Emit `S = (O, X, Y, Z, R)`.
+5. Apply the autonomous weight-calculation step (§6.8.1) to produce `W_fused'` for the next request.
+
+Steps 1–4 are deterministic given the input and `W_fused`. Step 5 is deterministic given steps 1–4 and the documented update rule. No step performs I/O.
+
+### 6.10 Rule-Base Schema and Validation
+
+The NMN specifies a **rule-base schema** with three mandatory sections:
+
+- **Membership section** — one entry per fuzzy variable, with parameters `(center, width, shape)`.
+- **Rule section** — one entry per rule, with antecedent references, consequent references declared over `[r_min, r_max]` (§6.5.1), and a firing weight.
+- **Fact section** — one entry per observed input, with type, range, and normalization.
+
+Validation is mechanical:
+
+1. **Coverage** — every rule is reachable from the fact schema.
+2. **Consistency** — no rule pair has contradictory consequents over the same antecedent region.
+3. **Termination** — the FSM reachability graph is finite and connected.
+4. **Diminishing gain** — for every mesh edge `e`, the composed gain `g( a_in(e), a_out(e), H, s_FSM )` is non-increasing in `|a_in(e) − a_out(e)|` for fixed `H` and `s_FSM`, over the declared activation domain. This is checked by sampling the declared domain on a fixed grid and verifying the monotonicity condition within a declared tolerance.
+
+A rule base that passes these four checks is *validated* in the specification's sense. The fourth check is the check that underwrites the convergence contract (§6.11).
+
+### 6.11 Convergence Contract
+
+The NMN specifies a **convergence contract** for the autonomous weight-calculation policy:
+
+- **Bounded drift:** `Σ_t |ΔW_fused(t)| ≤ D_max` per session.
+- **Diminishing gain:** `g` is non-increasing in `|a_in − a_out|` for fixed `H`, `s_FSM`. This is a validation-checked property (§6.10, check 4).
+- **Fixed-point existence:** For any bounded input distribution, there exists a `W_fused^*` such that `E[ΔW_fused] = 0`. This is guaranteed by the clamping function and the bounded gain.
+- **Session reset:** `W_fused` resets to the seed at process exit unless persistence is opt-in.
+
+With these four properties, the policy *converges by construction* for any bounded input stream. Open-ended inputs are handled by the reset contract: the mesh converges *within* a session and resets *across* sessions.
+
+### 6.12 Bootstrap Weight Protocol
+
+The NMN does not require pre-trained weights to operate; it requires a **seed** and a **converged update rule**, both specifiable:
+
+1. A minimal seed `W_fused^(0)` is specified as part of the model schema. It is derived deterministically from the rule base and the prototype set by a documented initialization procedure (e.g., Xavier-style scaling of prototype entries (Glorot & Bengio, 2010), uniform rule weights, and an FSM dwell constant of `τ_max/2`).
+2. The autonomous self-learning mechanism (§6.8) refines `W_fused` from this seed over the session.
+3. Convergence is measured by the drift bound `D_max` and reported in artifact metadata.
+
+### 6.13 Model-Dependent Configuration
+
+FSM transitions and timeouts, Mamdani rule table and membership functions, prototype set, entropy histogram construction, the consequent range `[r_min, r_max]`, and the autonomous weight-update rule are versioned model deliverables. This specification does not prescribe their values. Behavior that depends on their values is a property of the model, not of the core.
+
+### 6.14 Determinism and Side Effects
+
+Numerical transformations SHOULD be functions of explicit inputs and immutable model parameters. Allocation, file access, IPC, device access, clocks, and random-number generation are side effects and MUST be isolated in system-boundary modules.
+
+A function is pure only if it has no observable side effects and its output depends solely on its explicit inputs. A function that mutates the autonomous weight state, reads a clock, accesses a device, or relies on hidden mutable global state MUST NOT be described as pure.
+
+---
+
+## 7. Processing Pipeline
+
+```
+request
+  → validation and decoding
+  → modality-specific feature extraction
+  → Neural Mesh Network fusion
+  → state inference (O, X, Y, Z, R)
+  → autonomous weight-calculation update (bounded, in-core, audited)
+  → trajectory generation
+  → character and scene composition
+  → image / video / audio encoding
+  → artifact metadata and response
+```
+
+Conceptually:
+
+```
+G_kernel = ℛ ∘ 𝒫 ∘ 𝒜 ∘ 𝒞 ∘ ℰ : 𝓘 → (𝓕_8)^N
+```
+
+The composition operator `∘` is read right-to-left. Data flows from the encoder `ℰ`, through the composer `𝒞`, animator `𝒜`, painter `𝒫`, and rasterizer `ℛ`, then out through the packager.
+
+| Symbol | Stage | Role |
+|---|---|---|
+| `ℰ` | Encoder | Decodes inputs and extracts features |
+| `𝒞` | Composer | Runs the NMN and produces `S` |
+| `𝒜` | Animator | Generates a motion trajectory from `S` |
+| `𝒫` | Painter | Constructs the scene |
+| `ℛ` | Rasterizer | Converts HDR frames to BGRA |
+| `E_out` | Packager | Produces the artifact manifest and response |
+
+---
+
+## 8. Input and Output Contract
+
+### 8.1 Input Modalities
+
+The request format supports:
+
+- **Text:** UTF-8 with a configured maximum byte length.
+- **Image:** width, height, pixel format, stride, and pixel buffer.
+- **Video:** frame timestamps, dimensions, pixel format, and frame buffers.
+- **Audio:** sample rate, channel count, sample format, and PCM buffer.
+
+Every input MUST include its declared length and format. Before allocation or decoding, the core MUST validate dimensions, multiplication overflow, stride, timestamps, sample rate, and total resource cost.
+
+### 8.2 BGRA Definition
+
+BGRA consists of bytes in the order **B, G, R, A** for each pixel. Row stride is measured in bytes and MAY exceed `width × 4`. Implementations MUST accept larger strides and MUST NOT assume consecutive rows are contiguous.
+
+### 8.3 Output Artifact
+
+A successful response MAY contain:
+
+1. raw UTF-8 text;
+2. one or more BGRA images;
+3. BGRA video frames with timestamps and a declared frame rate;
+4. PCM audio with declared sample rate, channel count, and sample format;
+5. the normalized state vector `S`;
+6. artifact identifiers, dimensions, lengths, and cryptographic digests.
+
+"8K HDR BGRA" MUST be treated as a requested output profile, not a promise that every device can render it. Eight-bit BGRA alone is not a complete HDR representation. If HDR output is required, suitable higher-precision or HDR transfer data MUST be preserved until final encoding.
+
+### 8.4 Zero State
+
+The versioned output profile MUST declare the behavior of the zero state `S = (0,0,0,0,0)` for each output channel.
+
+### 8.5 Packaging
+
+Artifacts MUST be returned with a versioned manifest containing media type, dimensions, sample format, byte length, relevant timestamps, and a cryptographic digest. The manifest MUST NOT contain secrets, memory addresses, or filesystem paths.
+
+---
+
+## 9. Feature Extraction
+
+### 9.1 Modality Encoders
+
+Each modality encoder produces a versioned feature record:
+
+```c
+typedef struct {
+    unsigned int  version;
+    unsigned int  modality;
+    unsigned int  feature_count;
+    float         feature[64];
+    unsigned char digest[32];
+} zevo_feature_t;
+```
+
+The ABI specification MUST fix the actual maximum feature count and encoding. Text, image, video, and audio encoders MUST be separately testable. Empty input MUST have a defined result. Invalid input MUST return a documented error rather than silently becoming empty input.
+
+### 9.2 Text
+
+UTF-8 bytes `b_1, …, b_n`, `n ≤ 64`. Features are byte statistics; embedding uses a deterministic hash. The hash scheme and its constants are versioned configuration. The hash-derived embedding is a deterministic feature-derived identifier, not a semantic embedding in the learned-representation sense.
+
+### 9.3 Image
+
+Luminance `Y(x, y) = 0.2126 I_R + 0.7152 I_G + 0.0722 I_B`. Features are normalized first- and second-moment statistics over the luminance image. Bounds are `[0, 1]`; degenerate dimensions produce explicit zero values; empty input has a defined result.
+
+### 9.4 Audio
+
+Single-channel, finite-real samples at sample rate `f_s`. Band energies over a fixed set of edges partition the nonnegative spectrum. Empty input, short input, invalid sample rate, and non-finite samples all have defined results.
+
+### 9.5 Video
+
+Frames sampled at fixed indices; image features averaged. `M = 0` and `M = 1` have defined results.
+
+---
+
+## 10. Animation Kernel
+
+### 10.1 Trajectory
+
+A damped response MAY be used for each component:
+
+```
+q″(t) + 2ζω q′(t) + ω²(q(t) − S) = 0
+```
+
+with `ζ ∈ (0,1)`, `ω > 0`. The implementation MUST define initial conditions, damping parameters, time units, and behavior for interrupted or overlapping requests. It MUST clamp resulting controls to the renderer's accepted range.
+
+The damping parameters `ζ` and `ω`, initial conditions, and time constants are runtime configuration. Implementations claiming runtime reproducibility (§18) MUST record these parameters in artifact metadata.
+
+### 10.2 Frame-Rate Independence
+
+Animation MUST be frame-rate independent: positions are functions of timestamps, not accumulated frame counts. Deterministic mode SHOULD use fixed time steps and a fixed numeric backend.
+
+### 10.3 Character
+
+Zevo is an original animated character with rounded forms, expressive features, a readable silhouette, and feature-animation styling. Implementations MUST use original character assets or assets with documented licenses.
+
+The scene MAY use procedural geometry, signed-distance fields, vector curves, or licensed assets. Visual mapping SHOULD express the NMN architecture through interconnected data flows:
+
+- FSM state (`F_Y`) affects timing and settling;
+- rule activation (`Z_O`) affects flow density;
+- entropy (`H_Z`) affects glow or diffusion;
+- fuzzy-neural projection (`N_X`) affects lateral movement or tint;
+- autonomous weight calculation (`M_R`) affects bounded pose variation.
+
+The rendered canvas MUST NOT contain explanatory labels unless explicitly requested. Accessibility information, descriptions, and diagnostics belong in metadata or the user interface.
+
+### 10.4 Rendering Profile
+
+The renderer MUST define width and height limits, frame-rate and duration limits, pixel format and row stride, alpha behavior, color primaries, transfer function, range, tone mapping, output encoding, and maximum output byte count.
+
+For 8-bit BGRA output, the implementation MUST state whether the transfer function is sRGB and whether alpha is straight or premultiplied. HDR content MUST NOT be described as preserved if it has been tone-mapped to ordinary 8-bit sRGB.
+
+Named output profiles SHALL include:
+
+| Profile | Primaries | Transfer | Range | Encoding |
+|---|---|---|---|---|
+| `srgb-sdr` | BT.709 | sRGB | Full | 8-bit BGRA |
+| `hdr-pq` | BT.2020 | PQ (SMPTE ST 2084) | Full | 10/16-bit intermediate, tone-mapped at final BGRA |
+| `hdr-hlg` | BT.2020 | HLG (BT.2100) | Full | 10/16-bit intermediate, tone-mapped at final BGRA |
+
+Tone mapping and output encoding are versioned output-profile settings. A profile MAY use Reinhard tone mapping followed by sRGB encoding, but the choice MUST be declared with the artifact.
+
+### 10.5 Audio
+
+The audio renderer MUST define sample rate, channels, sample format, duration, and peak limits. Generated audio MUST be checked for finite values and clipped or rejected according to a documented policy. Stereo output MUST specify whether channels are identical or independently spatialized.
+
+The stereo channel policy is a versioned output-profile setting. A profile MAY use identical left and right channels, `left(n) = right(n)`, but MUST declare that choice with the artifact.
+
+---
+
+## 11. Model Storage and Loading
+
+### 11.1 Dual-Mode Weight Embedding
+
+The core supports two mechanisms for carrying its LLM weights, metadata, and vectors:
+
+**Mode A — Embedded by section.**
+
+- Weights, metadata, and vectors are placed in a dedicated ELF section, page-aligned on `ext4`.
+- The ELF is `fs-verity`-protected.
+- The section is mapped read-only by the loader.
+- Suited to integrated artifacts where weights ship with the executable.
+
+**Mode B — Embedded by reference.**
+
+- Weights, metadata, and vectors are stored in a separate file `weights.bin` on `ext4`.
+- `weights.bin` is page-aligned and `fs-verity`-protected.
+- The pinned digest is recorded in the ELF's metadata section.
+- The core opens `weights.bin` `O_RDONLY`, verifies the `fs-verity` root hash against the pinned digest, and maps it read-only.
+- Suited to deployments where weights are provisioned, rotated, or audited separately.
+
+Both modes share the same mapping requirement: the weight storage is mapped read-only, the mapping is never writable, and the process MUST NOT retain any writable mapping of weight storage.
+
+### 11.2 Integrity and Confidentiality
+
+`fs-verity` provides integrity verification, not confidentiality. If confidentiality is required, it MUST be provided by a separately specified storage-encryption mechanism.
+
+### 11.3 Mapping Requirements
+
+The loader MUST:
+
+1. open the storage read-only (or, in Mode A, locate the mapped section);
+2. validate the header before interpreting offsets;
+3. check ABI and model version;
+4. validate every section's bounds, alignment, and element count;
+5. verify the expected integrity measurement;
+6. map the storage read-only;
+7. reject malformed or incompatible data;
+8. retain no writable mapping.
+
+Every offset-plus-length calculation MUST be checked for integer overflow and file-bound violations. Page alignment alone does not make mapped offsets safe.
+
+### 11.4 Model-Dependent Configuration
+
+FSM transitions and timeouts, Mamdani rule table and membership functions, prototype set, entropy histogram construction, consequent range `[r_min, r_max]`, and the autonomous weight-update rule are versioned model deliverables. This specification does not prescribe their values. Behavior that depends on their values is a property of the model, not of the core.
+
+---
+
+## 12. C89/C90 Project Structure and API
+
+### 12.1 Source Tree
+
+```text
+zevo/
+├── include/
+│   ├── zevo_api.h
+│   ├── zevo_types.h
+│   ├── zevo_protocol.h
+│   └── zevo_config.h
+├── src/
+│   ├── main.c
+│   ├── ipc_server.c
+│   ├── request_validate.c
+│   ├── model_loader.c
+│   ├── encode_text.c
+│   ├── encode_image.c
+│   ├── encode_video.c
+│   ├── encode_audio.c
+│   ├── entropy.c
+│   ├── mamdani.c
+│   ├── nfuse.c
+│   ├── fsm.c
+│   ├── machine.c
+│   ├── mesh.c
+│   ├── fusion.c
+│   ├── learn.c
+│   ├── audit.c
+│   ├── animation.c
+│   ├── character.c
+│   ├── render_image.c
+│   ├── render_video.c
+│   ├── render_audio.c
+│   ├── artifact.c
+│   └── platform/
+├── tests/
+├── config/
+├── docs/
+├── Makefile
+└── linker/
+```
+
+### 12.2 C89/C90 Constraints
+
+C source MUST be valid under the selected C89/C90 compiler mode. Declarations MUST precede statements within each block. Implementations MUST avoid C99-only syntax and library assumptions. POSIX and GNU extensions MUST be isolated behind documented platform interfaces.
+
+Example purity contract:
+
+```c
+/*
+ * Deterministic transformation:
+ * - reads only supplied inputs;
+ * - writes only to supplied output;
+ * - performs no I/O and accesses no mutable global state.
+ */
+int zevo_entropy(const float *values,
+                 unsigned int count,
+                 float *result);
+```
+
+A comment documents a contract; it does not establish purity.
+
+### 12.3 Error Handling
+
+Public functions MUST return explicit status codes. They MUST NOT use unchecked allocation, terminate the process on malformed requests, or return partially initialized output as success. Errors MUST distinguish invalid input, unsupported format, resource limit, model integrity failure, mesh convergence failure, device failure, and internal failure.
+
+---
+
+## 13. Concurrency and Acceleration
+
+Pthreads MAY be used for bounded worker pools. The implementation MUST define queue limits, cancellation behavior, shutdown behavior, and buffer ownership. Shared mutable state MUST be synchronized or eliminated. Mesh evaluation is a natural parallel unit provided the fixed evaluation order of §6.1.3 is respected; parallel evaluation is permitted only where the declared commutativity of §6.1.4 clause 7 holds.
+
+OpenCL, OpenGL, SDL2, and OpenAL are optional backends, not mandatory dependencies of the core ABI. Each backend MUST have a CPU fallback where practical. GPU results may differ across devices and drivers. Deterministic mode MUST either avoid nondeterministic backends or document tolerances and reproducibility limits.
+
+The core MUST NOT assume that library calls map one-to-one to particular CPU instructions. Hardware access occurs through operating-system and library interfaces; the kernel and runtime determine the actual path.
+
+Where a backend is known to produce non-bit-identical results across runs or devices, the implementation MUST document this and state whether deterministic mode is available for the advertised feature.
+
+### 13.1 Backend Reporting
+
+The implementation MUST report whether each optional backend—OpenCL, OpenGL, SDL2, and OpenAL—is enabled or unavailable in the current build or runtime. A CPU fallback is required only for features advertised as supported without that backend.
+
+---
+
+## 14. IPC and Service Protocol
+
+### 14.1 Transport
+
+The local core API SHOULD use `AF_UNIX` with `SOCK_SEQPACKET`, peer-credential checks such as `SO_PEERCRED`, and restrictive filesystem permissions.
+
+### 14.2 Frame Header
+
+Every IPC frame begins with a fixed header:
+
+| Field | Size | Meaning |
+|---|---:|---|
+| `magic` | 4 bytes | Fixed protocol identifier |
+| `version` | 2 bytes | Unsigned, big-endian protocol version |
+| `type` | 2 bytes | Unsigned, big-endian message type |
+| `length` | 4 bytes | Unsigned, big-endian payload length |
+
+Multi-byte fields are big-endian. The protocol specification MUST declare a maximum payload length. Frames with unsupported versions or lengths exceeding that limit MUST be rejected. Trailing bytes after a declared payload MUST be rejected for ordinary framed messages.
+
+### 14.3 Version Negotiation — In-Band
+
+- The first frame exchanged after connection establishment is a `HELLO`. Both peers send one bootstrap-framed `HELLO` immediately upon connection. Each carries the sender's supported version range.
+- The session version is the highest version present in both ranges.
+- If the ranges do not intersect, the peer that detects the incompatibility sends a bootstrap-framed `HELLO_REJECT` and closes the connection.
+- The bootstrap version is a fixed constant independent of the negotiated session version.
+- `HELLO` header fields use the bootstrap version in the `version` field.
+- After both `HELLO` messages have been exchanged, the session version is established and every subsequent frame uses it.
+- Any handshake frame other than `HELLO` or `HELLO_REJECT` MUST be rejected.
+- `HELLO_REJECT` carries a reason code: `1` means the ranges do not intersect; `2` means a valid bootstrap revision is unsupported by this peer; `3` means the peer sent a malformed `HELLO`; `4` means the handshake timed out.
+- `HELLO_REJECT` always uses bootstrap framing. After sending or receiving one, the connection is closed.
+- Each peer MUST enforce a declared handshake timeout and close the connection if the other `HELLO` does not arrive in time.
+
+#### 14.3.1 Bootstrap Revision Registry
+
+The bootstrap version field carries a constant from a fixed set listed in the protocol specification. A peer MUST recognize a received bootstrap version as valid if and only if that constant appears in its compiled-in registry. The registry is updated only by protocol revisions, not at runtime.
+
+If the received constant is in the registry but the peer does not implement that bootstrap revision, the peer MAY send `HELLO_REJECT` with reason `2`, provided the conditions in §14.3.2 hold.
+
+#### 14.3.2 Conditions for Sending `HELLO_REJECT` Reason `2`
+
+A peer MAY send a bootstrap-framed `HELLO_REJECT` with reason `2` only if all of the following hold:
+
+1. The received frame's `magic` equals the bootstrap magic constant.
+2. Its `version` equals a bootstrap revision constant in the peer's compiled-in registry.
+3. The peer does not implement that bootstrap revision.
+4. Its `type` equals the bootstrap `HELLO` message type.
+5. Its `length` is within that revision's minimum and maximum payload size.
+6. At least `length` payload bytes are available within the read timeout.
+
+If any condition fails, the peer MUST close the connection silently.
+
+### 14.4 Version Negotiation — Out-of-Band
+
+Under the out-of-band path, the client reads a service advertisement declaring the server's supported version range `[advertised_min, advertised_max]` and an `advertised_default` field. The client then performs a version-only preflight before sending application data.
+
+#### 14.4.1 Preflight Envelope
+
+Preflight messages use a fixed layout independent of session versions:
+
+| Field | Size | Meaning |
+|---|---:|---|
+| `magic` | 4 bytes | Fixed protocol identifier, not version-specific |
+| `envelope_version` | 2 bytes | Unsigned, big-endian envelope revision |
+| `message` | 2 bytes | `VERSION_PROBE` = 1, `VERSION_ACCEPT` = 2, `VERSION_REJECT` = 3 |
+| `payload_len` | 2 bytes | Unsigned, big-endian payload length |
+| `payload` | `payload_len` bytes | Message-specific data |
+
+`payload_len` MUST NOT exceed the protocol's fixed `PREFLIGHT_MAX_PAYLOAD`.
+
+**`VERSION_PROBE` payload**
+
+| Field | Size | Meaning |
+|---|---:|---|
+| `candidate_min` | 2 bytes | Lowest version the client would accept |
+| `candidate_max` | 2 bytes | Highest version the client would accept |
+
+**`VERSION_ACCEPT` payload**
+
+| Field | Size | Meaning |
+|---|---:|---|
+| `selected_version` | 2 bytes | Session version selected by the server |
+| `server_min` | 2 bytes | Lowest version supported by the server |
+| `server_max` | 2 bytes | Highest version supported by the server |
+
+**`VERSION_REJECT` payload**
+
+| Field | Size | Meaning |
+|---|---:|---|
+| `reason` | 2 bytes | Rejection reason code |
+| `server_min` | 2 bytes | Lowest version supported by the server |
+| `server_max` | 2 bytes | Highest version supported by the server |
+
+| Value | Meaning |
+|---:|---|
+| 0 | No version in the client's requested range is supported |
+| 1 | A supported version exists in the range, but policy disallows every such version for this client |
+| 2 | Probe malformed |
+| 3–4 | Reserved |
+
+#### 14.4.2 Selection and Preflight Rules
+
+The client's supported range is `[client_min, client_max]`. It chooses a probe range `[candidate_min, candidate_max]` that is a subset of its supported range. It MAY use a narrower range when it has a preferred version, a policy-configured subset, or a subset whose framing it has verified.
+
+The client opens a connection and sends exactly one `VERSION_PROBE`. The server validates the envelope and payload, computes the intersection of the candidate range and its supported range, and applies local policy. It returns:
+
+- `VERSION_ACCEPT` with the highest permitted version in the intersection, if the intersection is non-empty and at least one version is permitted;
+- `VERSION_REJECT` reason `0` if the intersection is empty;
+- `VERSION_REJECT` reason `1` if the intersection is non-empty but policy disallows every version in it;
+- `VERSION_REJECT` reason `2` if the probe payload is malformed.
+
+The server MUST NOT accept a policy-disallowed version and MUST select the highest permitted version in the intersection.
+
+#### 14.4.3 Client Retry Rules
+
+- **`VERSION_ACCEPT`:** session version is established; the client sends application data using that framing.
+- **Reason `0`, full supported range probed:** client MUST stop.
+- **Reason `0`, strict subset probed:** client MAY open one additional connection with a probe carrying its full supported range. This is the only permitted second connection.
+- **Reason `1`:** client MUST stop.
+- **Reason `2`:** client MUST stop and report a client-side error.
+- **Silent close:** treated as a transport or server failure; client MUST stop and MUST NOT interpret it as version rejection.
+- **Any other response:** treated as a protocol failure; client MUST stop.
+
+The retry bound is at most two connections per out-of-band negotiation.
+
+#### 14.4.4 Self-Delimiting Envelope
+
+The preflight envelope is a self-delimiting, one-shot exchange. A client sends exactly one `VERSION_PROBE`; a server sends exactly one `VERSION_ACCEPT` or `VERSION_REJECT`. The envelope frame is delimited by its fixed header and declared payload. The receiver MUST NOT poll for additional bytes or classify additional bytes as trailing bytes inside the envelope.
+
+After reading the complete envelope frame:
+
+- **`VERSION_ACCEPT`:** the session version is established and the receiver switches to session-version framing immediately. Any subsequent bytes are interpreted as session-version-framed data, whether they were already buffered when the envelope frame completed or arrive afterward.
+- **`VERSION_REJECT`:** the connection is closed; remaining bytes are discarded without interpretation.
+- **Envelope-level malformation:** the connection is closed silently; remaining bytes are discarded without interpretation.
+
+Extra bytes after a valid, complete envelope are **not** an envelope-level violation. They are interpreted under the connection's next state. Envelope-level validation covers only the fixed header and declared payload of the envelope frame; it does not extend beyond the declared envelope end.
+
+### 14.5 Application-Layer Messages — Mesh Introspection and Streaming
+
+The NMN adds a **mesh-introspection** and **streaming** message family to the IPC protocol:
+
+| Message | Direction | Payload |
+|---|---|---|
+| `MESH_DESCRIBE` | client → core | None |
+| `MESH_DESCRIPTION` | core → client | Node list, edge list, activation set, version |
+| `MESH_SNAPSHOT` | client → core | Session token |
+| `MESH_STATE` | core → client | Current `S`, drift `D`, FSM state, `H` |
+| `MESH_STREAM_OPEN` | client → core | Stream parameters (modality, rate, profile) |
+| `MESH_STREAM_FRAME` | core → client | Chunked `S`, frame index, partial media chunk |
+| `MESH_STREAM_CLOSE` | client → core | Stream token |
+
+These messages use the same framing as §14.2. They do not expose raw weights; they expose only structural metadata and derived quantities. This closes the application-layer schema gap without violating §4.1's "no raw model weights through IPC."
+
+---
+
+## 15. Cryptographic Contract
+
+### 15.1 28-Hour Key Rotation
+
+```
+Epoch N = floor( unix_time_utc / (28 × 3600) )
+Key_N   = HKDF-SHA-384( master_secret,
+                        salt = SHA-384(Epoch_N),
+                        info = "zevo-api-v1",
+                        L = 32 )
+Overlap = 5 minutes
+```
+
+| Property | Value |
+|---|---|
+| Key length | 256 bits |
+| Derivation | HKDF-SHA-384 |
+| Rotation period | 28 hours |
+| Overlap window | 5 minutes |
+| Master secret | 512 bits, sealed under TPM 2.0 or HSM, mode 0400 |
+
+The 28-hour epoch is chosen below the 24-hour symmetric-key ceiling used in high-assurance regimes, commensurate with a 5-minute clock-skew tolerance typical of NTP-synchronized fleets, and co-prime with a 24-hour operational day so rotation does not always land at the same shift boundary.
+
+### 15.2 OpenSSL Primitives (Classical)
+
+| Purpose | Primitive | Reference |
+|---|---|---|
+| Frame integrity | HMAC-SHA-384 | NIST SP 800-107 |
+| Key derivation | HKDF-SHA-384 | RFC 5869 |
+| Frame sealing | AES-256-GCM | NIST SP 800-38D |
+| Audit signing | ECDSA P-384 | FIPS 186-5 |
+| Randomness | CSPRNG | `RAND_bytes` |
+| Transport (boundary 1) | TLS 1.3 | RFC 8446 |
+
+The term "military-grade" is not used; explicit references are preferred.
+
+### 15.3 Post-Quantum Migration Path
+
+The NMN's audit signatures and IPC key establishment migrate to post-quantum primitives by swapping the primitive table:
+
+| Purpose | Classical | Post-quantum | Reference |
+|---|---|---|---|
+| Audit signing | ECDSA P-384 | ML-DSA (Dilithium) | FIPS 204 |
+| Key establishment (boundary 1) | ECDHE | ML-KEM (Kyber) | FIPS 203 |
+| Hybrid mode | ECDSA + ML-DSA | Composite signature | FIPS 204 + FIPS 186-5 |
+
+The NMN's structure is unchanged; only the primitive table changes. Migration is a build-time selection, not a runtime choice.
+
+### 15.4 Hardware-Backed Sealing
+
+The `master_secret` is sealed under **TPM 2.0** or an **HSM** (Trusted Computing Group, 2019):
+
+- Sealing binds the secret to platform measurements (PCRs).
+- Unsealing requires the expected platform state.
+- Sealed blobs are mode `0400`, owned by the service account.
+- The mesh's audit records (§15.6) are signed under the sealed key.
+
+Where no TPM or HSM is available, the deployment MUST clearly report a reduced-security mode.
+
+### 15.5 Authenticated Frame
+
+```
+┌──────────────┬──────────────┬──────────────┬─────────────────────┐
+│ length (4B)  │ epoch (8B)   │ HMAC (48B)   │ JSON payload (N B)  │
+└──────────────┴──────────────┴──────────────┴─────────────────────┘
+```
+
+Any frame whose HMAC does not verify in constant time is discarded.
+
+### 15.6 Audit Records
+
+Every `ΔW_fused` step produces a **signed audit record**:
+
+```
+(session_id, epoch, edge_id, Δ, H, s_FSM)
+```
+
+signed with ECDSA P-384 (or ML-DSA under the post-quantum profile). Audit records are written to a bounded ring buffer (`A_max` entries) and MAY be flushed to a signed log. The audit path is the only path that writes weight-adjacent state to durable storage; it writes *deltas*, never weights. A full audit reviews the delta log against the declared bounds `[w_min, w_max]`, `D_max`, `η`, `g_max`.
+
+### 15.7 Persistence Manifest
+
+When persistence of `W_fused` across sessions is opted in, the following MUST be declared with the artifact:
+
+- the target store (path, device, or signed log);
+- the retention policy (duration, eviction rule);
+- the signed audit records that cover the deltas since the last seed or reset;
+- the reset or continuation semantics (whether the next session starts from the seed, from the persisted state, or from a replay of the audit log).
+
+Without a persistence manifest, the core MUST discard `W_fused` at process exit and report session-reset semantics in `MESH_STATE`.
+
+---
+
+## 16. Operating-System Hardening and Build
+
+### 16.1 Operating-System Hardening
+
+Deployment SHOULD use:
+
+- a dedicated unprivileged service account;
+- an empty or minimal capability set;
+- `NoNewPrivileges`;
+- read-only system paths;
+- restricted writable runtime directories;
+- syscall filtering validated against actual runtime behavior;
+- an LSM policy such as SELinux or AppArmor;
+- device access only when required;
+- bounded CPU, memory, file size, and process counts;
+- TPM 2.0 or HSM access for sealing, when available.
+
+A seccomp allow-list MUST be derived from observed and tested behavior. A generic list cannot be assumed sufficient for OpenCL, graphics, audio, or dynamic loading. The deployment MUST fail safely if required sandbox controls are unavailable, or clearly report a reduced-security mode.
+
+### 16.2 Build and ELF Requirements
+
+The build MUST produce a position-independent `ET_DYN` executable targeting the System V AMD64 ABI. The build record MUST identify:
+
+- compiler and linker versions;
+- source revision;
+- build flags;
+- linked libraries;
+- model schema version;
+- cryptographic primitive profile (classical, post-quantum, or hybrid);
+- generated artifacts and digests.
+
+The build SHOULD be reproducible from pinned inputs. Reproducibility MUST be tested by independent builds and byte comparison; setting `SOURCE_DATE_EPOCH` alone is insufficient.
+
+### 16.3 Weight-Storage Verification
+
+In **Mode A (embedded by section)**, a release test MUST inspect the executable and verify that the weight section is present, page-aligned, marked read-only, and `fs-verity`-protected. In **Mode B (embedded by reference)**, a release test MUST inspect the executable and verify the absence of any embedded weight payload, and MUST verify that the referenced `weights.bin` is present, page-aligned, marked read-only, and `fs-verity`-protected.
+
+### 16.4 Reproducibility Report Requirements
+
+A reproducibility report MUST identify:
+
+- artifacts compared: executable, weights (section or file), generated media, or all;
+- build environment, including OS, distribution, and kernel version;
+- toolchain versions, including compiler, linker, C library, and C math library;
+- number of independent clean builds compared;
+- digest algorithm and reference digests;
+- cryptographic primitive profile used.
+
+A runtime-reproducibility claim MUST additionally identify numeric backends used, declared configuration parameters (including `ζ`, `ω`, `η`, `D_max`), and documented sources of nondeterminism.
+
+### 16.5 Universal Hardware Access
+
+| Class | Interface | Path to kernel (x86_64 / aarch64 / riscv64) |
+|---|---|---|
+| Compute | OpenCL, DRM | libc → `syscall` / `svc` / `ecall` |
+| Graphics | DRM/KMS, OpenGL, SDL2 | libc → `syscall` / `svc` / `ecall` |
+| Audio in | ALSA capture | libc → `syscall` / `svc` / `ecall` |
+| Audio out | ALSA playback, OpenAL | libc → `syscall` / `svc` / `ecall` |
+| Video in | V4L2 | libc → `syscall` / `svc` / `ecall` |
+| Input | evdev | libc → `syscall` / `svc` / `ecall` |
+| Storage | block layer, `ext4` | libc → `syscall` / `svc` / `ecall` |
+| Random | `getrandom` | libc → `syscall` / `svc` / `ecall` |
+| Time | `clock_gettime` | libc → `syscall` / `svc` / `ecall` |
+| Sealing | TPM 2.0 / HSM | libc → `syscall` / `svc` / `ecall` |
+
+On `x86_64`, the fast system-call instruction is `syscall`. On legacy 32-bit `x86`, it is `sysenter`. On `aarch64`, it is `svc`. On `riscv64`, it is `ecall`. The core never emits inline assembly; every wrapper is a libc call that resolves to the appropriate instruction through the platform ABI.
+
+---
+
+## 17. Web-Responsible Client
+
+The client MUST be weight-free and communicate with the core only through the published service or IPC boundary. It SHOULD provide semantic HTML, keyboard operation, visible focus, reduced-motion support, adequate contrast, and accessible status announcements.
+
+The client MUST NOT contain master secrets. It MUST disclose that the assistant is AI-generated and request user action before playing generated audio or downloading large artifacts. Privacy and telemetry behavior MUST be documented.
+
+| Principle | Implementation |
+|---|---|
+| Semantic structure | `<header>`, `<main>`, `<section>`, `<footer>` |
+| Accessibility | ARIA live regions, focus-visible, keyboard-first; WCAG 2.2 AA minimum, AAA target |
+| Motion safety | `prefers-reduced-motion` respected |
+| Color safety | WCAG-AA contrast, `prefers-color-scheme` respected |
+| Privacy | no telemetry, no cookies, no third-party scripts |
+| Transparency | clear disclosure that Zevo™ is an AI assistant |
+| Artifact opt-in | pixels and audio served only on explicit request |
+| No secrets in browser | no API keys, no master secret |
+| Mesh visualization | `MESH_STATE` rendered as an accessible, reduced-motion-aware visualization |
+
+---
+
+## 18. Testing and Acceptance Criteria
+
+A release is conformant only if the following tests pass:
+
+1. **Build:** C89/C90 compilation succeeds with documented flags.
+2. **ELF:** output is `ET_DYN`, targets the intended ABI, and matches the selected weight-storage mode.
+3. **Input validation:** malformed, truncated, oversized, and overflow-inducing inputs are safely rejected.
+4. **Weight loading:** valid weights load read-only; corrupted, incompatible, or incorrectly measured weights are rejected, in both embedding modes.
+5. **Numerics:** entropy, inference, clamping, mesh gain calculation, and animation tests cover boundary and non-finite values.
+6. **Media:** output dimensions, formats, lengths, timestamps, and digests match the manifest.
+7. **IPC:** unauthorized peers, invalid framing, unsupported versions, invalid negotiation sequences, and resource exhaustion are tested.
+8. **Concurrency:** stress, cancellation, shutdown, and race tests are performed.
+9. **Sandbox:** the deployed service is tested under its actual systemd, seccomp, and LSM policies.
+10. **Accessibility:** the client is tested with keyboard navigation and representative assistive technologies, against WCAG 2.2 AA.
+11. **Reproducibility:** independent clean builds are compared and discrepancies documented.
+12. **Performance:** latency, memory, throughput, and device behavior are measured and reported with CPU and GPU models, memory size, storage type, OS and version, and relevant library versions.
+13. **Mesh topology:** `MESH_DESCRIBE` returns a topology consistent with the model schema; node count, edge count, and activation set match the declared version.
+14. **Mesh bounds:** under a stress input stream, `|ΔW_fused| ≤ η · g_max` per edge and `Σ|ΔW_fused| ≤ D_max` per session.
+15. **Convergence:** under a stationary input distribution, the drift `|ΔW_fused|` decreases monotonically after a declared warm-up window.
+16. **Diminishing gain:** the fourth rule-base validation check of §6.10 (monotonicity of `g` in `|a_in − a_out|`) passes on the fixed sampling grid within the declared tolerance, for every mesh edge.
+17. **Reset:** at process exit, `W_fused` resets to the seed unless a persistence manifest (§15.7) is present and valid; when present, the reset or continuation semantics declared in the manifest are honored and reported in `MESH_STATE`.
+18. **Audit integrity:** every `ΔW_fused` step has a corresponding signed audit record; the log verifies under ECDSA P-384 (or ML-DSA under the post-quantum profile).
+19. **Streaming:** `MESH_STREAM_OPEN` / `MESH_STREAM_FRAME` / `MESH_STREAM_CLOSE` delivers chunked media that reassembles to the same digest as the non-streamed artifact for the same request.
+
+No performance or security result SHOULD be reported without the test environment, method, sample size, and observed results.
+
+---
+
+## 19. Evaluation Plan
+
+This paper specifies a design; it does not report completed experiments. An implementation evaluation SHOULD report:
+
+1. startup time and peak memory;
+2. inference latency by input modality;
+3. frame-generation throughput and memory use;
+4. audio-generation cost and peak-bound verification;
+5. behavior under malformed and oversized requests;
+6. reproducibility results and build provenance;
+7. security-test findings and remediation;
+8. accessibility test results with assistive technology;
+9. characterization of the mesh's fused-weight update cycle: convergence behavior, bounds on the autonomous weight-calculation state, and effect of the update rule on subsequent-request outputs;
+10. accuracy and coverage of the audit log against the declared bounds;
+11. multi-architecture behavior of the mesh under declared numeric backends;
+12. comparison of classical, post-quantum, and hybrid cryptographic profiles for latency and throughput;
+13. cost of the fourth rule-base validation check (§6.10) on representative rule bases and sampling grids.
+
+Evaluation datasets, hardware, operating-system versions, compiler versions, and measurement methods should be documented so results can be interpreted.
+
+---
+
+## 20. Engineering Bounds and Hardening Agenda
+
+### 20.1 Engineering Bounds
+
+The architecture is closed: every limitation and future-work item identified in v1.0.0 is now addressed by a named mechanism inside the Neural Mesh Network. What remains are **engineering bounds**, not architectural gaps:
+
+| Bound | Statement |
+|---|---|
+| **Specification, not implementation** | The mesh's seed weights, rule base, and activation constants are versioned deliverables that an implementation must produce. |
+| **Per-backend determinism** | The mesh's determinism guarantee is per-backend, per the §13 rules and the §6.1.3 fixed evaluation order. Bit-identity across architectures is not claimed. |
+| **Convergence is a contract** | §6.11 states the properties an implementation MUST satisfy; the diminishing-gain property is checked by the fourth rule-base validation step (§6.10, check 4). The remaining three properties are guaranteed by construction from the bounded gain and the clamping function. |
+| **Audit log is bounded** | A session that exceeds `A_max` audit entries drops the oldest entries; the drop policy is versioned configuration. |
+| **Expressiveness is bounded by `F_max` and `S_max`** | Larger meshes are a protocol revision. |
+| **HDR depends on the output profile** | 8-bit BGRA alone cannot represent the full dynamic range of HDR content; the HDR profiles in §10.4 preserve higher-precision intermediates. |
+| **"Pure functional" is a discipline** | The complete operating-system process is necessarily stateful because it performs I/O, manages resources, interacts with devices, and maintains bounded in-core autonomous weight state. |
+
+### 20.2 Hardening Agenda
+
+The remaining work is a **hardening agenda**, not a **gap-closing agenda**:
+
+| Direction | Description |
+|---|---|
+| **Seed-weight study** | Characterize `W_fused^(0)` initialization procedures against convergence speed. |
+| **Rule-base library** | Publish a versioned library of validated rule bases for common input distributions. |
+| **Mesh visualization** | Extend the Web-Responsible client to render `MESH_STATE` as an accessible, reduced-motion-aware visualization. |
+| **Formal proof of convergence** | Move from contract (§6.11) to machine-checked proof for a reference rule base, replacing the sampling-based check of §6.10 check 4 with a proof. |
+| **Cross-architecture bit-identity** | Investigate whether `aarch64` and `x86_64` builds of the same mesh can be made bit-identical under a declared numeric backend. |
+| **Federated aggregation policy** | Specify the service-layer policy for aggregating signed `ΔW_fused` deltas across tenants. |
+| **Post-quantum performance** | Characterize ML-KEM/ML-DSA latency and throughput against classical primitives in the mesh's IPC path. |
+| **TPM/HSM coverage** | Characterize sealing and unsealing latency across TPM 2.0 and HSM vendors. |
+| **Rule-set interchange** | Standardize the rule-set schema (§6.10) as a portable interchange format across implementations. |
+
+---
+
+## 21. Conclusion
+
+The zero step establishes, and this paper specifies, the buildable design of the **Zevo™ AI-Driven Animation Core**, an **5D interactive artificial intelligence assistant** realized as a System V ABI `x86-64` ELF image of type `ET_DYN`, position-independent, written in ANSI C89/90 with GNU and POSIX interfaces. The core is separated from a weight-free, stateless Web-Responsible client by a published IPC API. Its LLM weights, metadata, and vectors are **embedded by section** or **embedded by reference**, in both cases page-aligned on `ext4`, `fs-verity`-protected, and mapped read-only. Its hardware access is mediated exclusively by libc wrappers that resolve to `syscall` on `x86_64`, `sysenter` on legacy `x86`, `svc` on `aarch64`, and `ecall` on `riscv64`, under seccomp-bpf, capability bounding, and LSM discipline. Its cryptographic contract is aligned with NIST SP 800-38D, NIST SP 800-107, RFC 5869, and FIPS 186-5, with a TPM- or HSM-sealed master secret and a post-quantum migration path via FIPS 203 and FIPS 204.
+
+The core is anchored in **FSM-Neural-Fuzzy-Machine-Learning logic realized as a Neural Mesh Network**: a single integrated graph in which an FSM node, a Mamdani node over rules and facts, a neural projection node, an entropy node, and an autonomous weight-calculation node share a fused weight set and update rule. **Shannon entropy** enters as the epistemic signal carried by the depth axis and consumed as a mesh gain parameter. **Autonomous self-learning based on model weights** is the mesh's per-edge update rule, computed by **machine-learning calculation under FSM-Neural-Fuzzy logic**, bounded by documented drift limits, and audited by signed deltas. The gain function is the Mamdani centroid of a versioned rule base over entropy and FSM state, applied as-is when the consequents are declared over `[0, 1]` and projected through σ when they are declared unbounded. The diminishing-gain property that underwrites convergence is checked at rule-base validation time.
+
+The pipeline is a composition of pure operators `ℛ ∘ 𝒫 ∘ 𝒜 ∘ 𝒞 ∘ ℰ`. The five-component state vector `S = (O, X, Y, Z, R)` drives a procedural character renderer centered on **Zevo**, an original, Pixar-inspired animated character, whose reasoning is expressed through motion and interconnected visual data flows rather than explanatory text. The multimodal artifact comprises **Text Raw**, **Image BGRA**, **Video BGRA**, **Audio PCM**, and the fused state vector.
+
+Every limitation and future-work item identified in v1.0.0 is now addressed by a named mechanism inside the Neural Mesh Network, and every mechanism whose correctness is not guaranteed by construction is checked by a named validation step. What remains is a hardening agenda of engineering studies, not a list of architectural gaps.
+
+The paper is a **design contract**. It is a scientific computer-engineering specification and a complete contract for building the ELF image. It does not claim a completed implementation, trained weights, measured performance, or audited security. Conformance, reproducibility, accessibility, and performance must be demonstrated through implementation and testing.
+
+---
+
+## 22. References (ISO 690:2021)
+
+Barker, E. (2020). *Recommendation for key management: Part 1 — General* (NIST Special Publication 800-57 Part 1 Rev. 5). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-57pt1r5
+
+Dworkin, M. (2007). *Recommendation for block cipher modes of operation: Galois/Counter Mode (GCM) and GMAC* (NIST Special Publication 800-38D). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-38D
+
+Dworkin, M. (2012). *Recommendation for applications using approved hash algorithms* (NIST Special Publication 800-107 Rev. 1). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-107r1
+
+Glorot, X., & Bengio, Y. (2010). Understanding the difficulty of training deep feedforward neural networks. *Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics*, 249–256.
+
+International Organization for Standardization. (2021). *ISO 690:2021 — Information and documentation — Guidelines for bibliographic references and citations to information resources*. ISO.
+
+Krawczyk, H., & Eronen, P. (2010). *HMAC-based extract-and-expand key derivation function (HKDF)* (RFC 5869). Internet Engineering Task Force. https://doi.org/10.17487/RFC5869
+
+Krawczyk, H., Bellare, M., & Canetti, R. (1997). *HMAC: Keyed-hashing for message authentication* (RFC 2104). Internet Engineering Task Force. https://doi.org/10.17487/RFC2104
+
+Linux Kernel Documentation. (2024a). *fs-verity*. The Linux Kernel Organization. https://docs.kernel.org/filesystems/fsverity.html
+
+Linux Kernel Documentation. (2024b). *Seccomp BPF (SECure COMPuting with filters)*. The Linux Kernel Organization. https://docs.kernel.org/userspace-api/seccomp_filter.html
+
+Mamdani, E. H. (1974). Application of fuzzy algorithms for control of simple dynamic plant. *Proceedings of the Institution of Electrical Engineers, 121*(12), 1585–1588. https://doi.org/10.1049/piee.1974.0328
+
+Merkel, D. (2014). Docker: Lightweight Linux containers for consistent development and deployment. *Linux Journal, 2014*(239), Article 2.
+
+National Institute of Standards and Technology. (2023). *Digital signature standard (DSS)* (FIPS Publication 186-5). https://doi.org/10.6028/NIST.FIPS.186-5
+
+National Institute of Standards and Technology. (2024a). *Module-lattice-based key-encapsulation mechanism standard* (FIPS Publication 203). https://doi.org/10.6028/NIST.FIPS.203
+
+National Institute of Standards and Technology. (2024b). *Module-lattice-based digital signature standard* (FIPS Publication 204). https://doi.org/10.6028/NIST.FIPS.204
+
+Olston, C., et al. (2017). TensorFlow-Serving: Flexible, high-performance ML serving. *arXiv preprint arXiv:1712.06139*.
+
+PyTorch. (2023). *TorchServe* [Software]. https://pytorch.org/serve/
+
+Rescorla, E. (2018). *The Transport Layer Security (TLS) protocol version 1.3* (RFC 8446). Internet Engineering Task Force. https://doi.org/10.17487/RFC8446
+
+Shannon, C. E. (1948). A mathematical theory of communication. *Bell System Technical Journal, 27*(3), 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+
+Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., & Salakhutdinov, R. (2014). Dropout: A simple way to prevent neural networks from overfitting. *Journal of Machine Learning Research, 15*(1), 1929–1958.
+
+System V Application Binary Interface. (2018). *System V Application Binary Interface: AMD64 architecture processor supplement* (Version 1.0). https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf
+
+The Open Group. (2018). *POSIX.1-2017 — Standard for information technology — Portable Operating System Interface (POSIX)*. IEEE.
+
+Thomas, F., & Johnston, O. (1981). *The illusion of life: Disney animation*. Disney Editions.
+
+Tool Interface Standard. (1995). *Executable and Linkable Format (ELF) specification* (Version 1.2).
+
+Trusted Computing Group. (2019). *TPM 2.0 specification* (Version 1.59). Trusted Computing Group.
+
+W3C. (2023). *Web Content Accessibility Guidelines (WCAG) 2.2*. World Wide Web Consortium. https://www.w3.org/TR/WCAG22/
+
+W3C. (2024). *Accessible Rich Internet Applications (WAI-ARIA) 1.2*. World Wide Web Consortium. https://www.w3.org/TR/wai-aria-1.2/
+
+Zadeh, L. A. (1965). Fuzzy sets. *Information and Control, 8*(3), 338–353. https://doi.org/10.1016/S0019-9958(65)90241-X
+
+Zaita, D. B., & Zevo Community Teams. (2026). *The Zevo™ AI-Driven Animation Core: An 5D interactive artificial intelligence assistant — Design specification anchored in FSM-Neural-Fuzzy-Machine-Learning logic* (Version 1.0.3) [Technical report]. Zevo Project.
+
+---
+
+## Attribution
+
+| Field | Value |
+|---|---|
+| Authorship | PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams |
+| Title | The Zevo™ AI-Driven Animation Core — An 5D Interactive Artificial Intelligence Assistant |
+| Anchoring architecture | **Neural Mesh Network** unifying FSM-Neural-Fuzzy-Machine-Learning logic with rules and facts, Shannon entropy, Mamdani inference, and autonomous self-learning based on model weights |
+| Document type | Design and implementation specification |
+| Version | 1.0.3 |
+| Citation standard | ISO 690:2021 |
+| Status | Specification; not evidence of a completed or validated implementation |
+| Effective Date | ____ |
+
+**End of specification.**
+
+---
+
+### Change Log
+
+| Version | Change |
+|---|---|
+| 1.0.0 | Initial specification. |
+| 1.0.1 | Addendum introducing the Neural Mesh Network as the resolution mechanism for §20.1 limitations and §20.2 future work. |
+| 1.0.2 | Merged the Neural Mesh Network into the main body: §6 rewritten as the NMN anchoring architecture; §14 extended with mesh-introspection messages; §15 extended with post-quantum migration, TPM/HSM sealing, and audit records; §18 extended with criteria 13–18; §20 restated as engineering bounds and a hardening agenda; §22 extended with FIPS 203/204, TPM 2.0, RFC 2104, Glorot & Bengio (2010), and Srivastava et al. (2014). |
+| 1.0.3 | **This revision.** Closes the two remaining specification gaps flagged in review of v1.0.2: (a) §6.5.1 makes the consequent range `[r_min, r_max]` explicit and §6.8.2 states when the σ wrapper on the gain is load-bearing, resolving the ambiguity in the gain formula; (b) §6.10 adds a fourth rule-base validation check ("diminishing gain"), which is the check that underwrites §6.11's convergence contract. Also adds §6.1.3 fixing the mesh evaluation order and its role in deterministic mode; §15.7 defining a persistence manifest for opt-in cross-session `W_fused` persistence; §18.16 testing the diminishing-gain check; §18.17 clarifying reset semantics under a persistence manifest; §18.19 testing streaming; §13 note on parallel mesh evaluation; §19.13 on the cost of the fourth validation check; §20.1 restates the convergence bound in terms of the newly-added check; §20.2 replaces the convergence-proof item with the sampling-to-proof upgrade path; Abstract and §1.2 updated to reflect the nineteen acceptance criteria and the fourth validation check; §21 updated to state the σ/`[r_min, r_max]` semantics and the validation check explicitly. |
+
+---
 ---
 
 # The Zevo™ AI-Driven Core
