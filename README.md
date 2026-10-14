@@ -566,7 +566,7 @@ request
   → autonomous weight-calculation update (bounded, in-core, audited)
   → trajectory generation
   → character and scene composition
-  → image / video / audio encoding
+  → text / image / video / audio encoding
   → artifact metadata and response
 ```
 
