@@ -3,7 +3,7 @@
 ---
 ---
 
-# Zevo™  P R O D U C T   A R C H I T E C T U R E  
+# Zevo™ · PRODUCT ARCHITECTURE  
 ## An 5D interactive artificial intelligence animation assistant
 
 ---
