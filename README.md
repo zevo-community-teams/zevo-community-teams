@@ -10,7 +10,7 @@
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/a163b2ef-d5bb-4de9-a00e-f753a2d0ede0" />
 
-> **Zevo™** — warm, expressive, family-film-quality 3D character —
+> **Zevo™** — warm, expressive, family-film-quality 5D animation character —
 > stands at the center of the architecture as the *visual hero*.
 > Every wire below radiates from Zevo, and every wire returns to Zevo.
 
