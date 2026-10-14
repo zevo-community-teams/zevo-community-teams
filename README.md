@@ -1,4 +1,4 @@
-## Zevo community network global teams™
+## Zevo global community network teams™
 
 ---
 
