@@ -3,11 +3,6 @@
 ---
 ---
 
-# Zevo™ · PRODUCT ARCHITECTURE  
-## An 5D interactive artificial intelligence animation assistant
-
----
-
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/371bb053-3a48-42a2-83ff-a399a38a68bc" />
 
 ---
