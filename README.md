@@ -1,6 +1,71 @@
 ## Zevo global community network teams™
 
 ---
+
+<h3>Zevo Smart Nato Box™ - € 50.000 </h3>
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/741c104e-c26f-4e72-98fe-97749290e285" />
+
+---
+
+<h3>Zevo Smart Bono Boxer™ - € 50.000 </h3>
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/40f15cfb-5ca5-4684-a222-4148430f42bf" />
+
+---
+
+<h3>Zevo Smart Savana Defense™ - € 50.000 </h3>
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/359edbc4-9ada-4417-a1d4-29b9383260bf" />
+
+---
+
+<h3>Zevo Smart Beach Soccer™ - € 50.000 </h3>
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/1c1a063e-4c36-4544-a70e-dcfa17925111" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/5ab1c52a-93a2-445f-91b6-e3e64a4b7cce" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/5080168d-bba3-4e23-b7ff-1de7d7d00551" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/73cf3d57-4044-4be2-aba9-a0160a17ee8e" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/d2a4eadb-bf53-4f0e-9687-8c3aa68ecb97" />
+
+---
+
+<!--
+**zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+
+---
 ---
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/371bb053-3a48-42a2-83ff-a399a38a68bc" />
@@ -10206,67 +10271,3 @@ The result is a **four-boundary**, **military-grade**, **rotating-key**, **Respo
 
 ---
 
-<!--
-**zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
----
-
-<h3>Zevo Smart Nato Box™ - € 50.000 </h3>
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/741c104e-c26f-4e72-98fe-97749290e285" />
-
----
-
-<h3>Zevo Smart Bono Boxer™ - € 50.000 </h3>
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/40f15cfb-5ca5-4684-a222-4148430f42bf" />
-
----
-
-<h3>Zevo Smart Savana Defense™ - € 50.000 </h3>
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/359edbc4-9ada-4417-a1d4-29b9383260bf" />
-
----
-
-<h3>Zevo Smart Beach Soccer™ - € 50.000 </h3>
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/1c1a063e-4c36-4544-a70e-dcfa17925111" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/5ab1c52a-93a2-445f-91b6-e3e64a4b7cce" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/5080168d-bba3-4e23-b7ff-1de7d7d00551" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/73cf3d57-4044-4be2-aba9-a0160a17ee8e" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/d2a4eadb-bf53-4f0e-9687-8c3aa68ecb97" />
-
----
