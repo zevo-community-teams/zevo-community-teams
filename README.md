@@ -68,6 +68,11 @@ Here are some ideas to get you started:
 ---
 ---
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/cca71c16-1515-470b-a63d-156d09a8e28b" />
+
+---
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/371bb053-3a48-42a2-83ff-a399a38a68bc" />
 
 ---
