@@ -68,6 +68,1246 @@ Here are some ideas to get you started:
 ---
 ---
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/d4ea7f2b-2c74-464a-b91d-fbd5ac465d5d" />
+
+---
+
+# Zevo GNU Team Collaboration™
+
+<h3>Our goal with GNU Zevo Specification and Zevo AI-Driven is to optimize your work.</h3> 
+
+```text
+
+     GPT-1 (2018)            GGUF v1 (Aug 2023)
+     TF .ckpt + JSON         header + KV + tensor-info + blob
+           |                        |
+           v                        v
+     GPT-2 (2019)            GGUF v2 (Aug 2023)
+     TF .ckpt + sidecars     field-size fix
+           |                        |
+           v                        v
+     GPT-3 (2020)            GGUF v3 (Sep 2023)
+     opaque blob             finalised KV types, aligned blob
+           |                        |
+           v                        v
+     GPT-4 (2023)            [GGUF lineage continues
+     opaque blob              in llama.cpp]
+           |                        |
+           +-----------+------------+
+                       |
+                       v
+                Zevo v4 ELF-LLM (2024+)
+                ELF-64 shell
+                + SHT_ZEVO_METADATA (80-byte header)
+                + SHT_ZEVO_ARCH (architecture layer)
+                + SHT_ZEVO_VECTOR (SIMD-aligned vectors)
+                + SHT_ZEVO_VECTOR_TABLE (per-vector entries)
+                + SHT_ZEVO_BNC (internal naming)
+                + SHT_ZEVO_DIGEST (per-section HMAC)
+                + SHT_ZEVO_PROVENANCE (source hash)
+                
+The left column shows the GPT lineage: model-as-named-objects, metadata-as-sidecar, framework-specific. The right column shows the GGUF lineage: model-and-metadata-in-one-file, self-describing, aligned blob. The two arrows converge on Zevo v4, which inherits from both and adds the vector, alignment, and integrity disciplines.
+
+The transformer-converter is the function that realizes the convergence. Given any source in either lineage, it produces a Zevo v4 file that carries the same model. The internal structure of the source is preserved as far as it matters (payload, names, types) and migrated where it does not (shape, sidecar files, format-specific records).
+
+```
+---
+
+# Zevo AI-Driven Container Checkpoint™
+
+---
+
+# Zevo AI-Driven Architectural Design - Example™
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                ZEVO AI-DRIVEN CLOUD SERVICE PLATFORM ECOSYSTEM               │
+│                managed training + consumption + model registry               │
+│                                                                              │
+│  ┌────────────────────────────────┐    ┌────────────────────────────────┐    │
+│  │  Training Service API Key      │    │  Consumption Service API Key   │    │
+│  │  • Key ID : zv_train_••••••    │    │  • Key ID : zv_live_••••••     │    │
+│  │  • AES-256-GCM                 │    │  • AES-256-GCM                 │    │
+│  │  • HMAC-SHA-256                │    │  • HMAC-SHA-256                │    │
+│  │  • Purpose: train server       │    │  • Purpose: client consume     │    │
+│  └────────────────────────────────┘    └────────────────────────────────┘    │
+│                                                                              │
+└─────────────────────┬──────────────────────────────────┬─────────────────────┘
+                      │                                  │
+          HTTPS / AES-256-GCM              HTTPS / AES-256-GCM
+          Training channel                 Consumption channel
+                      │                                  │
+                      ▼                                  │
+┌────────────────────────────────────────────┐           │
+│ ZEVO AI-Driven Chatbot APP SERVICE (server)│           │
+│  Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin   │           │
+│              (Libmicrohttpd)               │           │ 
+│                                            │           │
+│  ┌──────────────────────────────────────┐  │           │
+│  │  FSM Neural-Fuzzy Logic Engine       │  │           │
+│  │   IDLE → LISTENING → RESPONDING      │  │           │
+│  │   64 nodes · H = 0.62                │  │           │
+│  │   Merkle-chained facts               │  │           │
+│  └──────────────────────────────────────┘  │           │
+│                                            │           │
+│  ┌──────────────────────────────────────┐  │           │
+│  │  Cryptographic Service               │  │           │
+│  │  • AES-256-GCM                       │  │           │
+│  │  • HMAC-SHA-256                      │  │           │
+│  │  • CSPRNG nonce                      │  │           │
+│  │  • API key issued to client          │  │           │
+│  └──────────────────────────────────────┘  │           │
+└─────────────────────┬──────────────────────┘           │
+                      │                                  │
+          HTTPS / AES-256-GCM              HTTPS / AES-256-GCM
+          Consumption channel              Consumption channel
+                      │                                  │
+                      ▼                                  ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                   DESKTOP/WEB EXPERT SYSTEM (client)                         │
+│                    zevo-expert  (SDL2 + OpenGL)                              │
+│                                                                              │
+│  ┌────────────────────────────────────────────────────────────────────────┐  │
+│  │  OpenGL operations dashboard                                           │  │
+│  │   • 64-node recurrent neural mesh                                      │  │
+│  │   • Mamdani membership curves                                          │  │
+│  │   • Shannon entropy gauge H = 0.62                                     │  │
+│  │   • FSM diagram (3 states)                                             │  │
+│  │   • Cryptographic API Key panel                                        │  │
+│  └────────────────────────────────────────────────────────────────────────┘  │
+│  Web UI → Libmicrohtpd / CSS / Json                                          │
+│  SDL2 → window / input / audio                                               │
+│  OpenGL → rendering                                                          │
+│  libcurl → HTTP(S) transport                                                 │
+│  OpenSSL → crypto (shared primitives)                                        │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+```
+┌────────────────────────────────────────────────────────┐
+│  DESKTOP EXPERT SYSTEM (client)                        │
+│  SDL2 + OpenGL dashboard                               │
+│  Consumes Cryptographic Service API Key                │
+└───────────────────────┬────────────────────────────────┘
+                        │  HTTPS / AES-256-GCM
+                        ▼
+┌────────────────────────────────────────────────────────┐
+│      ZEVO AI-Driven Chatbot APP SERVICE (server)       │
+│ 		         Libmicrohttpd · Fedora 44               │
+│  	    Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin  		    │	  
+│  ┌──────────────────────────────────────────────────┐  │
+│  │  FSM Neural-Fuzzy Logic Engine                   │  │
+│  │   IDLE → LISTENING → RESPONDING                  │  │
+│  │   64 nodes · H = 0.62 · Merkle-chained facts     │  │
+│  └──────────────────────────────────────────────────┘  │
+│  ┌──────────────────────────────────────────────────┐  │
+│  │  Cryptographic Service                           │  │
+│  │   AES-256-GCM · HMAC-SHA-256 · CSPRNG nonce      │  │
+│  └──────────────────────────────────────────────────┘  │
+└────────────────────────────────────────────────────────┘
+```
+---
+
+---
+
+### Zevo ELF Image on Binary File Format-LLM Instance: `Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin`
+
+This defines a **concrete Zevo ELF-LLM file** — the one named by the BNC identifier `Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin` — as a classical ELF file extended, in-place and without breaking ELF conformance, by an LLM container carried as **metadata** and **vectors**.
+
+It is the same architectural definition as before, instantiated. Every section, every metadata entry, every vector, and every alignment figure below is the specific content of *this* file.
+
+---
+
+## 1. BNC Identity — What the Filename Asserts
+
+Before any byte is read, the filename encodes the seven BNC attributes:
+
+```
+Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin
+ │    │   │       │        │    │
+ │    │   │       │        │    └── Encoding    = Q8_0
+ │    │   │       │        └─────── Version     = v0.1
+ │    │   │       └──────────────── FineTune    = Instruct
+ │    │   └──────────────────────── SizeLabel   = 64B
+ │    └──────────────────────────── BaseName    = Zevo
+ └───────────────────────────────── (no Sidecar)
+                                    (no Type)
+                                    (no Shard — single-file checkpoint)
+```
+
+| Group | Value |
+|---|---|
+| Sidecar | *(absent)* |
+| BaseName | `Zevo` |
+| SizeLabel | `64B` |
+| FineTune | `Instruct` |
+| Version | `v0.1` |
+| Encoding | `Q8_0` |
+| Type | *(absent)* |
+| Shard | *(absent)* |
+
+This is a **conforming** BNC name: `Zevo` is a valid BaseName, `64B` is a valid SizeLabel, `Instruct` is a valid FineTune, `v0.1` is a valid Version, `Q8_0` is a valid Encoding (and is not `LoRA` or `vocab`), and there is no Type or Shard segment. The BNC validation predicate `bnc_valid` returns `1` on this string.
+
+The same seven attributes are mirrored **inside** the file in the `SHT_ZEVO_BNC` descriptor (§6), so a reader can validate the identity without access to the filename.
+
+---
+
+## 2. The Classical ELF Shell of This File
+
+`Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin` is a 64-bit little-endian ELF file:
+
+| Field | Value |
+|---|---|
+| `e_ident[EI_MAG0..3]` | `0x7F 'E' 'L' 'F'` |
+| `e_ident[EI_CLASS]` | `ELFCLASS64` |
+| `e_ident[EI_DATA]` | `ELFDATA2LSB` |
+| `e_ident[EI_VERSION]` | `EV_CURRENT` |
+| `e_type` | OS-specific carrier |
+| `e_phoff` | offset of program header table |
+| `e_phnum` | 1 (`PT_ZEVO_VECTOR`) |
+| `e_shoff` | offset of section header table |
+| `e_shnum` | 9 |
+| `e_shstrndx` | index of `.shstrtab` |
+
+Any ELF-conforming reader parses this header unchanged. It sees `ELFCLASS64`, `ELFDATA2LSB`, and the classical table pointers. It does not need to know Zevo exists.
+
+---
+
+## 3. Section Table of This File
+
+The file carries the Zevo custom section family in the OS-specific range `SHT_LOOS..SHT_HIOS`:
+
+| # | Name | `sh_type` | `sh_addralign` | Content |
+|---|---|---|---|---|
+| 0 | *(null)* | `SHT_NULL` | — | classical |
+| 1 | `.shstrtab` | `SHT_STRTAB` | 1 | section names |
+| 2 | `SHT_ZEVO_ARCH` | `0x60000001` | 8 | architecture graph and shapes |
+| 3 | `SHT_ZEVO_VECTOR` | `0x60000002` | **64** | flat Q8_0 vector payloads |
+| 4 | `SHT_ZEVO_METADATA` | `0x60000003` | 8 | typed, key-addressed metadata |
+| 5 | `SHT_ZEVO_POLICY` | `0x60000004` | 8 | access-control rule table |
+| 6 | `SHT_ZEVO_DIGEST` | `0x60000005` | 8 | HMAC-SHA-256 digest table |
+| 7 | `SHT_ZEVO_BNC` | `0x60000006` | 8 | BNC descriptor |
+| 8 | `SHT_ZEVO_OPAQUE` | `0x60000007` | 8 | *(absent in this file)* |
+
+Program header table:
+
+| # | `p_type` | Segment |
+|---|---|---|
+| 0 | `0x60000001` (`PT_ZEVO_VECTOR`) | the vector data segment |
+
+A reader that does not recognise `0x60000001`–`0x60000007` ignores them, exactly as the classical ELF specification requires for unrecognised OS-specific sections and segments.
+
+---
+
+## 4. The Metadata Block of This File
+
+The `SHT_ZEVO_METADATA` section carries the descriptive half of the container. It begins with the fixed 72-byte header:
+
+| Offset | Size | Field | Value in this file |
+|---|---|---|---|
+| 0 | 4 | `magic` | `ZEVO` |
+| 4 | 1 | `class` | `0x02` (64-bit) |
+| 5 | 1 | `data` | `0x01` (`ELFDATA2LSB`) |
+| 6 | 1 | `version_major` | `0x01` |
+| 7 | 1 | `version_minor` | `0x00` |
+| 8 | 8 | `vector_count` | *N* (number of vectors in this checkpoint) |
+| 16 | 8 | `vector_table_offset` | offset of the vector table |
+| 24 | 8 | `metadata_offset` | offset of the metadata entries |
+| 32 | 8 | `metadata_length` | length of the metadata entries |
+| 40 | 8 | `flags` | `AUTHENTICATED \| POLICY` (bits 1 and 3) |
+| 48 | 8 | `bnc_descriptor_offset` | offset of `SHT_ZEVO_BNC` |
+| 56 | 8 | `reserved` | `0` |
+| 64 | 8 | `header_digest` | HMAC-SHA-256 of the header, truncated to 64 bits |
+
+Flags for this file:
+
+| Bit | Name | Set? | Reason |
+|---|---|---|---|
+| 0 | `ENCRYPTED` | no | file is not encrypted |
+| 1 | `AUTHENTICATED` | **yes** | digest table present |
+| 2 | `COMPRESSED` | no | payload stored uncompressed |
+| 3 | `POLICY` | **yes** | policy section present |
+| 4 | `SHARDED` | no | single-file checkpoint |
+
+### 4.1 Metadata entries (the descriptive content)
+
+The key-addressed entries are what tell a Zevo reader that this is a **Zevo 64B Chatbot Instruct v0.1 Q8_0** checkpoint, and how to find its vectors. Representative entries:
+
+```
+key                          value_type   value
+───────────────────────────  ───────────  ────────────────────────────────
+bnc.basename                 ZEVO_U8      "Zevo"
+bnc.sizelabel                ZEVO_U8      "64B"
+bnc.finetune                 ZEVO_U8      "Instruct"
+bnc.version                  ZEVO_U8      "v0.1"
+bnc.encoding                 ZEVO_U8      "Q8_0"
+bnc.type                     ZEVO_U8      ""
+bnc.shard                    ZEVO_U8      ""
+
+arch.family                  ZEVO_U8      "Zevo"
+arch.params.total            ZEVO_U64     64000000000
+arch.params.active           ZEVO_U64     64000000000
+arch.quant.scheme            ZEVO_U8      "Q8_0"
+arch.quant.block_size        ZEVO_U32     32
+arch.quant.scale_type        ZEVO_U8      "FP16"
+arch.context.max             ZEVO_U32     8192
+arch.vocab.size              ZEVO_U32     128256
+arch.rope.theta              ZEVO_F32     10000.0
+arch.attention.scheme        ZEVO_U8      "GQA"
+
+vector.count                 ZEVO_U64     N
+vector.align.default         ZEVO_U32     64
+
+vector.0.name                ZEVO_U8      "model.embed_tokens.weight"
+vector.0.type                ZEVO_U8      ZEVO_U8       (Q8_0 codes)
+vector.0.shape               ZEVO_U32     [128256, 8192]
+vector.0.align               ZEVO_U32     64
+vector.0.offset              ZEVO_U64     0x0000000000010000
+vector.0.scale_name          ZEVO_U8      "model.embed_tokens.scale"
+
+vector.1.name                ZEVO_U8      "model.layers.0.self_attn.q_proj.weight"
+vector.1.type                ZEVO_U8      ZEVO_U8
+vector.1.shape               ZEVO_U32     [8192, 8192]
+vector.1.align               ZEVO_U32     64
+vector.1.offset              ZEVO_U64     0x0000000002010000
+...
+```
+
+The schema, viewed relationally, is `R_meta(section_name, key, value_type, value_bytes, owner, created_at)`, with `(section_name, key)` as the candidate key. It is **not** in BCNF as stated; the three-way decomposition into `R_section`, `R_key`, `R_value` is lossless on the stated domain.
+
+---
+
+## 5. The Vector Model of This File
+
+The `SHT_ZEVO_VECTOR` section, reachable via `PT_ZEVO_VECTOR`, carries the payload half of the container. For this file:
+
+| Property | Value |
+|---|---|
+| Element width | 8 bits (`ZEVO_U8`, code 0x09) |
+| Declared alignment | **64 bytes** (AVX-512) |
+| Element ordering | row-major, flattened |
+| Quantisation | Q8_0: 32-element blocks with an FP16 scale |
+| Shape source | the `shape` metadata entry for each vector |
+
+There is **no tensor type**. Each weight is stored as a **flat, 64-byte-aligned vector of `U8` codes**, paired with a parallel vector of FP16 scales (also 64-byte-aligned). The shape is metadata, not a storage primitive. This is what lets a vector be loaded directly into a 512-bit SIMD register.
+
+### 5.1 Representative vectors of this file
+
+| Index | Name | Type | Shape | Align | Elements | Padded bytes |
+|---|---|---|---|---|---|---|
+| 0 | `model.embed_tokens.weight` | `U8` | [128256, 8192] | 64 | 1,050,675,200 | 1,050,675,200 |
+| 1 | `model.layers.0.self_attn.q_proj.weight` | `U8` | [8192, 8192] | 64 | 67,108,864 | 67,108,864 |
+| 2 | `model.layers.0.self_attn.k_proj.weight` | `U8` | [8192, 1024] | 64 | 8,388,608 | 8,388,608 |
+| 3 | `model.layers.0.self_attn.v_proj.weight` | `U8` | [8192, 1024] | 64 | 8,388,608 | 8,388,608 |
+| 4 | `model.layers.0.self_attn.o_proj.weight` | `U8` | [8192, 8192] | 64 | 67,108,864 | 67,108,864 |
+| 5 | `model.layers.0.mlp.gate_proj.weight` | `U8` | [28672, 8192] | 64 | 234,881,024 | 234,881,024 |
+| 6 | `model.layers.0.mlp.up_proj.weight` | `U8` | [28672, 8192] | 64 | 234,881,024 | 234,881,024 |
+| 7 | `model.layers.0.mlp.down_proj.weight` | `U8` | [8192, 28672] | 64 | 234,881,024 | 234,881,024 |
+| … | *(layers 1..N−1)* | `U8` | … | 64 | … | … |
+| *k* | `lm_head.weight` | `U8` | [128256, 8192] | 64 | 1,050,675,200 | 1,050,675,200 |
+
+The **scale vectors** are stored as parallel `F16` (`ZEVO_U16`) vectors at the same 64-byte alignment, one FP16 scale per 32-element block. The metadata records each scale vector's name, type, shape, alignment, and offset — so the payload half is fully self-describing.
+
+### 5.2 Alignment and padding, applied
+
+Because every shape in this file is a multiple of 32 and 64, the padding length `k` for every vector is **0**:
+
+```
+n · w mod 64 = 0   ⇒   k = 0   for every vector
+```
+
+The padding rule is nonetheless applied uniformly, so a reader never needs a special case. Proposition 8.1 (64-alignment subsumes 32-alignment) and Proposition 8.2 (unique `k ∈ {0, …, A−1}`) both hold on this file.
+
+### 5.3 The 5D coordinate tuple for this file
+
+Every vector in this file is **bound** to a single origin-center pointer `o` that identifies the Zevo-64B checkpoint:
+
+```
+o = the origin-center pointer for the Zevo-64B-Chatbot-Instruct-v0.1-Q8_0 checkpoint
+x = the vector's layer index
+y = the vector's matrix row block
+z = the vector's matrix column block
+r = the vector's fine-tune revision (0 = base, 1 = Instruct)
+```
+
+The tuple is an **indexing convention**. It does not affect parsing, validation, or security.
+
+---
+
+## 6. The BNC Descriptor of This File
+
+The `SHT_ZEVO_BNC` section mirrors the filename grammar so that the reader can validate the file's identity without access to the filename:
+
+| Field | Value |
+|---|---|
+| `bnc_magic` | `BNC\x01` |
+| `basename` | `"Zevo"` |
+| `sizelabel` | `"64B"` |
+| `finetune` | `"Instruct"` |
+| `version` | `"v0.1"` |
+| `encoding` | `"Q8_0"` |
+| `type` | *(absent; length 0)* |
+| `shard_num` | `0` |
+| `shard_total` | `0` |
+| `reserved0` | `0` |
+
+Both the filename and the descriptor are validated by the same regular expression; the reader cross-checks them. `bnc_valid("Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin") = 1`.
+
+---
+
+## 7. The Security and Guard Layer of This File
+
+| Component | Value in this file |
+|---|---|
+| Integrity | HMAC-SHA-256 over each protected section; digest table in `SHT_ZEVO_DIGEST` |
+| Key | `K` derived from master key by HKDF-SHA-256 |
+| Confidentiality | not applied (bit 0 of `flags` clear) |
+| Access control | policy table in `SHT_ZEVO_POLICY`; deny-by-default |
+| Guard | FSM `S0 → … → S7 → S8` iff `access_ok ∧ digest_ok` |
+| Mamdani layer | not invoked (bit 2 of `flags` clear) |
+
+The reader's path:
+
+```
+S0 ──0x47──▶ S1 ──0x50──▶ S2 ──0x54──▶ S3 ──0x58──▶ S4
+   ──0x42──▶ S5 ──0x4E──▶ S6 ──0x43──▶ S7
+   ──guard(1,1)──▶ S8   (accept)
+   ──guard(0,*) or guard(*,0)──▶ S0   (reject)
+```
+
+On acceptance, `Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin` is a well-formed, authorised Zevo ELF-LLM file whose vectors may be loaded into AVX-512 registers and whose metadata describes a 64B Zevo Chatbot Instruct v0.1 Q8_0 checkpoint.
+
+---
+
+## 8. The Complete Structural Picture of This File
+
+```
+Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin
+│
+├─ ELF HEADER           ELFCLASS64, ELFDATA2LSB, EV_CURRENT
+│
+├─ PROGRAM HEADER TABLE
+│    └─ PT_ZEVO_VECTOR 0x60000001 ──▶ the vector data segment
+│
+├─ SECTIONS
+│    ├─ .shstrtab                        (classical)
+│    ├─ SHT_ZEVO_ARCH     0x60000001     architecture: Zevo, 64B, GQA, ctx 8192
+│    ├─ SHT_ZEVO_VECTOR   0x60000002     VECTORS: flat U8 Q8_0 payloads, 64-aligned
+│    ├─ SHT_ZEVO_METADATA 0x60000003     METADATA: BNC fields, shapes, offsets
+│    ├─ SHT_ZEVO_POLICY   0x60000004     access-control rules
+│    ├─ SHT_ZEVO_DIGEST   0x60000005     HMAC-SHA-256 digests
+│    └─ SHT_ZEVO_BNC      0x60000006     BNC descriptor mirroring the filename
+│
+└─ SECTION HEADER TABLE                 (classical layout)
+```
+
+**Identity:** `Zevo` · `64B` · `Instruct` · `v0.1` · `Q8_0`
+**Metadata half:** typed, key-addressed entries describing the checkpoint
+**Vector half:** flat, 64-byte-aligned `U8` payloads plus parallel `F16` scales
+**Guard half:** policy + digests + FSM sequencing
+**Conformance:** the ELF common core is parseable by any ELF-conforming reader
+
+---
+
+## 9. What This Definition Does and Does Not Claim
+
+**Does claim:** `Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin` is a concrete, conforming Zevo ELF-LLM file whose identity is fixed by the BNC, whose LLM container is carried by metadata in `SHT_ZEVO_METADATA` and vectors in `SHT_ZEVO_VECTOR` / `PT_ZEVO_VECTOR`, whose payload uses Q8_0 quantisation with 64-byte alignment, and whose integrity is protected by HMAC-SHA-256 over the protected sections.
+
+**Does not claim:** that the file is encrypted (it is not); that the payload is compressed (it is not); that the file is sharded (it is not); that the concrete vector counts and shapes above are the only possible values for a Zevo-64B checkpoint; that the metadata schema is in BCNF on all extensions; that the BNC regex is unambiguous on the full domain; that any embodied extension is implemented.
+
+---
+
+If you'd like, I can turn this into: a **hex-dump-style byte map** of the first 4 KiB with exact offsets, an **EBNF grammar** for the whole container as instantiated by this file, a **C89 header set** encoding exactly this structure and the Zevo-64B instance, or a **diagram-only one-pager**.
+
+---
+
+# Zevo ELF-LLM — CLI Console for Creating `Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin`
+
+## x86_64 · ANSI C89/C90 · Pure-Function Wrappers · Block Comments Only
+
+This is the **CLI console** that creates the Zevo ELF-LLM file `Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin` on x86_64, built strictly on the dissertation specification: classical ELF structure, LLM container as **metadata** and **vector**, pure-function wrappers on ANSI C89/C90, block comments `/* ... */` exclusively.
+
+The console is named **`zevo`**. It is the sole executable in the toolchain. It is a thin, impure driver over the pure-function core of Appendix A; every operation that mutates state (I/O, allocation, OpenSSL) lives behind a wrapper that calls into the pure core for every decision.
+
+---
+
+## 1. Console Surface
+
+### 1.1 Invocation
+
+```
+zevo <command> [options] <args>
+```
+
+### 1.2 Commands
+
+| Command | Purpose |
+|---|---|
+| `zevo create` | Create a Zevo ELF-LLM file from a source model directory |
+| `zevo verify` | Validate an existing Zevo file against the specification |
+| `zevo inspect` | Print the section table, metadata header, and BNC descriptor |
+| `zevo bnc` | Validate a BNC filename or the in-file BNC descriptor |
+| `zevo vectors` | List the vectors of a Zevo file |
+| `zevo digest` | Compute or verify HMAC-SHA-256 section digests |
+| `zevo encrypt` | Apply AES-256-GCM to a payload section |
+| `zevo decrypt` | Reverse AES-256-GCM and verify the tag |
+| `zevo policy` | Evaluate the access-control predicate against a policy |
+| `zevo fsm` | Trace the FSM over a byte stream |
+| `zevo version` | Print the console and format version |
+| `zevo help` | Print usage |
+
+### 1.3 Global options
+
+| Option | Meaning |
+|---|---|
+| `--lsb` / `--msb` | Declare `ELFDATA2LSB` or `ELFDATA2MSB` (default `--lsb` on x86_64) |
+| `--align=32` / `--align=64` | Vector alignment (default `--align=64` on x86_64 with AVX-512) |
+| `--format=1.0` | Zevo format version (default `1.0`) |
+| `--auth` | Set `ZEVO_FLAG_AUTHENTICATED` |
+| `--policy` | Set `ZEVO_FLAG_POLICY` |
+| `--encrypt` | Set `ZEVO_FLAG_ENCRYPTED` |
+| `--compress` | Set `ZEVO_FLAG_COMPRESSED` |
+| `--shard=N/M` | Set `ZEVO_FLAG_SHARDED` with shard position |
+| `--master-key=FILE` | 32-byte master key for HKDF derivation |
+| `--quiet` / `--verbose` | Output verbosity |
+| `--strict` | Reject on any warning |
+
+### 1.4 The create invocation for this file
+
+```
+zevo create \
+  --input=./zevo-64b-chatbot-instruct-v0.1-q8_0/ \
+  --output=Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin \
+  --bnc-basename=Zevo \
+  --bnc-sizelabel=64B \
+  --bnc-finetune=Chatbot-Instruct \
+  --bnc-version=v0.1 \
+  --bnc-encoding=Q8_0 \
+  --align=64 \
+  --lsb \
+  --format=1.0 \
+  --auth \
+  --policy=./policy.txt \
+  --master-key=./master.key \
+  --strict
+```
+
+---
+
+## 2. Source Layout
+
+```
+zevo/
+  include/
+    zevo.h                 /* format constants, types, pure-core prototypes */
+    zevo_shell.h           /* impure shell prototypes                     */
+    zevo_cli.h             /* CLI command prototypes                      */
+  src/
+    zevo_core.c            /* pure core (Appendix A)                      */
+    zevo_shell.c           /* impure shell: I/O, OpenSSL, memory          */
+    zevo_elf.c             /* ELF header, section table, program header   */
+    zevo_meta.c            /* metadata header + entries                   */
+    zevo_vector.c          /* vector table + payload layout               */
+    zevo_bnc.c             /* BNC regex matcher (Appendix A)              */
+    zevo_digest.c          /* HMAC-SHA-256 digests (OpenSSL)              */
+    zevo_crypto.c          /* AES-256-GCM, HKDF (OpenSSL)                 */
+    zevo_policy.c          /* access-control predicate                    */
+    zevo_fsm.c             /* FSM controller                              */
+    zevo_cli.c             /* CLI dispatch                                */
+    zevo_cmd_create.c      /* the create command                          */
+    zevo_cmd_verify.c      /* the verify command                          */
+    zevo_cmd_inspect.c     /* the inspect command                         */
+    zevo_cmd_bnc.c         /* the bnc command                             */
+    zevo_main.c            /* entry point                                 */
+  Makefile
+```
+
+---
+
+## 3. CLI Entry Point
+
+```c
+/* zevo_main.c
+ *
+ * Zevo CLI console entry point.
+ * Language: ANSI C89/C90.
+ * Comments: block comments only.
+ */
+
+#include "zevo_cli.h"
+#include <stdio.h>
+#include <string.h>
+
+/* Impure.  Prints usage to stdout. */
+static void zevo_usage(void) {
+    printf("zevo %s -- Zevo ELF-LLM container console\n", ZEVO_VERSION);
+    printf("usage: zevo <command> [options] <args>\n");
+    printf("commands:\n");
+    printf("  create    Create a Zevo ELF-LLM file\n");
+    printf("  verify    Validate a Zevo ELF-LLM file\n");
+    printf("  inspect   Print section table and metadata header\n");
+    printf("  bnc       Validate a BNC filename or descriptor\n");
+    printf("  vectors   List the vectors of a Zevo file\n");
+    printf("  digest    Compute or verify section digests\n");
+    printf("  encrypt   Apply AES-256-GCM\n");
+    printf("  decrypt   Reverse AES-256-GCM\n");
+    printf("  policy    Evaluate the access-control predicate\n");
+    printf("  fsm       Trace the FSM over a byte stream\n");
+    printf("  version   Print version\n");
+    printf("  help      Print this message\n");
+}
+
+/* Impure. */
+int main(int argc, char **argv) {
+    const char *cmd;
+    if (argc < 2) { zevo_usage(); return ZEVO_CLI_USAGE; }
+    cmd = argv[1];
+    if (strcmp(cmd, "help")    == 0) { zevo_usage();          return ZEVO_CLI_OK; }
+    if (strcmp(cmd, "version") == 0) {
+        printf("zevo %s (format %s)\n", ZEVO_VERSION, ZEVO_FORMAT_VERSION);
+        return ZEVO_CLI_OK;
+    }
+    if (strcmp(cmd, "create")  == 0) return zevo_cmd_create(argc - 1, argv + 1);
+    if (strcmp(cmd, "verify")  == 0) return zevo_cmd_verify(argc - 1, argv + 1);
+    if (strcmp(cmd, "inspect") == 0) return zevo_cmd_inspect(argc - 1, argv + 1);
+    if (strcmp(cmd, "bnc")     == 0) return zevo_cmd_bnc(argc - 1, argv + 1);
+    if (strcmp(cmd, "vectors") == 0) return zevo_cmd_vectors(argc - 1, argv + 1);
+    if (strcmp(cmd, "digest")  == 0) return zevo_cmd_digest(argc - 1, argv + 1);
+    if (strcmp(cmd, "encrypt") == 0) return zevo_cmd_encrypt(argc - 1, argv + 1);
+    if (strcmp(cmd, "decrypt") == 0) return zevo_cmd_decrypt(argc - 1, argv + 1);
+    if (strcmp(cmd, "policy")  == 0) return zevo_cmd_policy(argc - 1, argv + 1);
+    if (strcmp(cmd, "fsm")     == 0) return zevo_cmd_fsm(argc - 1, argv + 1);
+    fprintf(stderr, "zevo: unknown command '%s'\n", cmd);
+    zevo_usage();
+    return ZEVO_CLI_USAGE;
+}
+```
+
+---
+
+## 4. The `create` Command
+
+```c
+/* zevo_cmd_create.c
+ *
+ * The 'create' command: builds a Zevo ELF-LLM file from a source
+ * model directory.  For this dissertation the target is
+ * Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin.
+ *
+ * Language: ANSI C89/C90.
+ * Comments: block comments only.
+ */
+
+#include "zevo_cli.h"
+#include "zevo_shell.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/* Impure.  Parses the command line into a create request. */
+static int zevo_parse_create(int argc, char **argv, zevo_create_req_t *req) {
+    int i;
+    memset(req, 0, sizeof(*req));
+    req->align         = 64;
+    req->byte_order    = ZEVO_ELFDATA2LSB;
+    req->version_major = 1;
+    req->version_minor = 0;
+    req->flags         = 0UL;
+    req->shard_num     = 0U;
+    req->shard_total   = 0U;
+    for (i = 1; i < argc; ++i) {
+        const char *a = argv[i];
+        if      (strncmp(a, "--input=",        8) == 0) req->input_dir      = a + 8;
+        else if (strncmp(a, "--output=",       9) == 0) req->output_path    = a + 9;
+        else if (strncmp(a, "--bnc-basename=",15) == 0) req->bnc_basename   = a + 15;
+        else if (strncmp(a, "--bnc-sizelabel=",15) == 0) req->bnc_sizelabel  = a + 15;
+        else if (strncmp(a, "--bnc-finetune=",15) == 0) req->bnc_finetune   = a + 15;
+        else if (strncmp(a, "--bnc-version=", 14) == 0) req->bnc_version    = a + 14;
+        else if (strncmp(a, "--bnc-encoding=",15) == 0) req->bnc_encoding   = a + 15;
+        else if (strncmp(a, "--bnc-type=",   11) == 0) req->bnc_type       = a + 11;
+        else if (strncmp(a, "--bnc-shard=",  12) == 0) req->bnc_shard      = a + 12;
+        else if (strcmp (a, "--lsb")             == 0) req->byte_order      = ZEVO_ELFDATA2LSB;
+        else if (strcmp (a, "--msb")             == 0) req->byte_order      = ZEVO_ELFDATA2MSB;
+        else if (strncmp(a, "--align=",       8) == 0) req->align = (unsigned)atoi(a + 8);
+        else if (strncmp(a, "--format=",      9) == 0) req->format        = a + 9;
+        else if (strcmp (a, "--auth")            == 0) req->flags |= ZEVO_FLAG_AUTHENTICATED;
+        else if (strcmp (a, "--policy")          == 0) req->flags |= ZEVO_FLAG_POLICY;
+        else if (strcmp (a, "--encrypt")         == 0) req->flags |= ZEVO_FLAG_ENCRYPTED;
+        else if (strcmp (a, "--compress")        == 0) req->flags |= ZEVO_FLAG_COMPRESSED;
+        else if (strncmp(a, "--policy=",       9) == 0) req->policy_path    = a + 9;
+        else if (strncmp(a, "--master-key=",  13) == 0) req->master_key_path = a + 13;
+        else if (strcmp (a, "--strict")          == 0) req->strict = 1;
+        else if (strcmp (a, "--verbose")         == 0) req->verbose = 1;
+        else if (strcmp (a, "--quiet")           == 0) req->quiet = 1;
+        else {
+            fprintf(stderr, "zevo create: unknown option '%s'\n", a);
+            return ZEVO_CLI_USAGE;
+        }
+    }
+    if (req->input_dir   == (const char *)0) return ZEVO_CLI_USAGE;
+    if (req->output_path == (const char *)0) return ZEVO_CLI_USAGE;
+    if (req->align != 32U && req->align != 64U) return ZEVO_CLI_USAGE;
+    return ZEVO_CLI_OK;
+}
+
+/* Impure.  Builds the BNC filename from the request. */
+static int zevo_build_bnc_name(const zevo_create_req_t *req,
+                               char *out, unsigned out_len)
+{
+    int n;
+    n = snprintf(out, out_len, "%s-%s-%s-%s-%s.bin",
+                 req->bnc_basename, req->bnc_sizelabel,
+                 req->bnc_finetune, req->bnc_version,
+                 req->bnc_encoding);
+    if (n < 0 || (unsigned)n >= out_len) return ZEVO_ERR_OVERFLOW;
+    return ZEVO_OK;
+}
+
+/* Impure.  The 'create' command. */
+int zevo_cmd_create(int argc, char **argv) {
+    zevo_create_req_t req;
+    zevo_builder_t   *b;
+    zevo_writer_t    *w;
+    char              bnc_name[256];
+    int               rc;
+
+    rc = zevo_parse_create(argc, argv, &req);
+    if (rc != ZEVO_CLI_OK) return rc;
+
+    /* Validate the BNC name against the pure predicate. */
+    rc = zevo_build_bnc_name(&req, bnc_name, sizeof(bnc_name));
+    if (rc != ZEVO_OK) {
+        fprintf(stderr, "zevo create: BNC name overflow\n");
+        return ZEVO_CLI_ERROR;
+    }
+    if (!zevo_bnc_valid(bnc_name, (zevo_u64)strlen(bnc_name))) {
+        fprintf(stderr, "zevo create: BNC name '%s' is not conforming\n",
+                bnc_name);
+        return ZEVO_CLI_ERROR;
+    }
+
+    /* Create a builder.  The builder accumulates in memory a model
+     * whose sections, vectors, and metadata are already laid out in
+     * canonical form; the writer serialises it. */
+    b = zevo_builder_new(&req);
+    if (b == (zevo_builder_t *)0) {
+        fprintf(stderr, "zevo create: cannot allocate builder\n");
+        return ZEVO_CLI_ERROR;
+    }
+
+    /* Phase 1: scan the source directory and add each vector. */
+    rc = zevo_builder_scan_source(b, req.input_dir);
+    if (rc != ZEVO_OK) {
+        fprintf(stderr, "zevo create: source scan failed (%d)\n", rc);
+        zevo_builder_free(b);
+        return ZEVO_CLI_ERROR;
+    }
+
+    /* Phase 2: add the architecture section (shapes, layer count). */
+    rc = zevo_builder_add_architecture(b);
+    if (rc != ZEVO_OK) {
+        fprintf(stderr, "zevo create: architecture failed (%d)\n", rc);
+        zevo_builder_free(b);
+        return ZEVO_CLI_ERROR;
+    }
+
+    /* Phase 3: add the BNC descriptor section. */
+    rc = zevo_builder_add_bnc(b, &req);
+    if (rc != ZEVO_OK) {
+        fprintf(stderr, "zevo create: BNC descriptor failed (%d)\n", rc);
+        zevo_builder_free(b);
+        return ZEVO_CLI_ERROR;
+    }
+
+    /* Phase 4: add the policy section if requested. */
+    if ((req.flags & ZEVO_FLAG_POLICY) != 0UL) {
+        rc = zevo_builder_add_policy(b, req.policy_path);
+        if (rc != ZEVO_OK) {
+            fprintf(stderr, "zevo create: policy failed (%d)\n", rc);
+            zevo_builder_free(b);
+            return ZEVO_CLI_ERROR;
+        }
+    }
+
+    /* Phase 5: if AUTHENTICATED, derive K and add digests. */
+    if ((req.flags & ZEVO_FLAG_AUTHENTICATED) != 0UL) {
+        rc = zevo_builder_add_digests(b, req.master_key_path);
+        if (rc != ZEVO_OK) {
+            fprintf(stderr, "zevo create: digest failed (%d)\n", rc);
+            zevo_builder_free(b);
+            return ZEVO_CLI_ERROR;
+        }
+    }
+
+    /* Phase 6: serialise to disk. */
+    w = zevo_writer_open(req.output_path);
+    if (w == (zevo_writer_t *)0) {
+        fprintf(stderr, "zevo create: cannot open '%s'\n", req.output_path);
+        zevo_builder_free(b);
+        return ZEVO_CLI_ERROR;
+    }
+    rc = zevo_writer_write(w, b);
+    zevo_writer_close(w);
+    zevo_builder_free(b);
+    if (rc != ZEVO_OK) {
+        fprintf(stderr, "zevo create: write failed (%d)\n", rc);
+        return ZEVO_CLI_ERROR;
+    }
+
+    if (!req.quiet) {
+        printf("created %s\n", req.output_path);
+        printf("  bnc        %s\n", bnc_name);
+        printf("  align      %u\n", req.align);
+        printf("  byte order %s\n",
+               req.byte_order == ZEVO_ELFDATA2LSB ? "LSB" : "MSB");
+        printf("  flags      0x%016lx\n", (unsigned long)req.flags);
+    }
+    return ZEVO_CLI_OK;
+}
+```
+
+---
+
+## 5. The Builder (Pure Layout, Impure Buffering)
+
+The builder is the bridge between the pure core and the impure writer. It accumulates a canonical in-memory model, applies the pure rules at every step, and hands the writer a fully-validated byte image.
+
+```c
+/* zevo_builder.h
+ *
+ * Builder API: accumulates a Zevo model in memory.
+ * The builder is IMPURE (it allocates); every decision it makes is
+ * delegated to the pure core.
+ */
+
+#ifndef ZEVO_BUILDER_H
+#define ZEVO_BUILDER_H
+
+#include "zevo.h"
+#include "zevo_cli.h"
+
+typedef struct zevo_builder zevo_builder_t;
+typedef struct zevo_writer  zevo_writer_t;ZEVO
+
+/* Impure. */
+zevo_builder_t *zevo_builder_new(const zevo_create_req_t *req);
+void            zevo_builder_free(zevo_builder_t *b);
+
+/* Impure.  Each returns ZEVO_OK or a ZEVO_ERR_* code. */
+zevo_i32 zevo_builder_scan_source (zevo_builder_t *b, const char *dir);
+zevo_i32 zevo_builder_add_architecture(zevo_builder_t *b);
+zevo_i32 zevo_builder_add_bnc     (zevo_builder_t *b,
+                                   const zevo_create_req_t *req);
+zevo_i32 zevo_builder_add_policy  (zevo_builder_t *b, const char *path);
+zevo_i32 zevo_builder_add_digests (zevo_builder_t *b, const char *master_key_path);
+
+/* Impure. */
+zevo_writer_t *zevo_writer_open(const char *path);
+void           zevo_writer_close(zevo_writer_t *w);
+zevo_i32       zevo_writer_write(zevo_writer_t *w, const zevo_builder_t *b);
+
+#endif /* ZEVO_BUILDER_H */
+```
+
+### 5.1 The ELF layout assembled by the builder
+
+The builder lays out the file in this canonical order, invoking the pure core at each step:
+
+| Step | Action | Pure call |
+|---|---|---|
+| 1 | Reserve the ELF header (64 bytes) | — |
+| 2 | Reserve the program header table (56 bytes × 1) | — |
+| 3 | Emit `.shstrtab` | — |
+| 4 | Emit `SHT_ZEVO_ARCH` | `zevo_metadata_key_valid` for each key |
+| 5 | Emit `SHT_ZEVO_METADATA` header + entries | `zevo_metadata_header_write` |
+| 6 | Emit `SHT_ZEVO_BNC` descriptor | `zevo_bnc_valid` on each field |
+| 7 | Align each vector to `req->align` | `zevo_pad_length` |
+| 8 | Emit `SHT_ZEVO_VECTOR` payloads | `zevo_pad_length` |
+| 9 | If policy: emit `SHT_ZEVO_POLICY` | `zevo_access_permitted` dry-run |
+| 10 | If auth: compute digests | `zevo_shell_hmac_sha256` |
+| 11 | Emit section header table | `zevo_metadata_header_write` |
+| 12 | Patch ELF header | — |
+
+### 5.2 Vector registration
+
+For each source vector file the builder calls:
+
+```c
+/* Impure.  Register one vector.  The pure core computes the padding
+ * and checks the alignment; the impure shell reads the payload. */
+zevo_i32 zevo_builder_add_vector(
+    zevo_builder_t *b,
+    const char     *name,
+    zevo_u8         element_type,
+    zevo_u64        element_count,
+    zevo_u32        align,
+    const zevo_u8  *payload,
+    zevo_u64        payload_len)
+{
+    zevo_u64 pad;
+    zevo_i32 rc;
+    zevo_vector_desc_t d;
+
+    /* Pure: validate the name as a metadata key. */
+    if (!zevo_metadata_key_valid((const zevo_u8 *)name,
+                                 (zevo_u64)strlen(name)))
+        return ZEVO_ERR_ARG;
+
+    /* Pure: compute the unique padding length. */
+    rc = zevo_pad_length(element_count, 1UL, align, &pad);
+    if (rc != ZEVO_OK) return rc;
+    if (element_count + pad > payload_len) return ZEVO_ERR_TRUNC;
+
+    /* Pure: confirm alignment is one of the two permitted values. */
+    if (align != ZEVO_ALIGN_AVX256 && align != ZEVO_ALIGN_AVX512)
+        return ZEVO_ERR_ALIGN;
+
+    d.name          = name;
+    d.element_type  = element_type;
+    d.align         = align;
+    d.element_count = element_count;
+    d.byte_length   = element_count;
+    d.offset        = b->next_vector_offset;   /* impure field */
+    d.coord.o       = b->origin;               /* bound to this checkpoint */
+    d.coord.x       = (zevo_u64)b->vector_count;
+    d.coord.y       = 0UL;
+    d.coord.z       = 0UL;
+    d.coord.r       = (element_type == ZEVO_ET_U16) ? 1UL : 0UL;
+
+    return zevo_builder_emit_vector(b, &d, payload);
+}
+```
+
+---
+
+## 6. The Writer
+
+```c
+/* zevo_writer.c
+ *
+ * Serialises a builder to a Zevo ELF-LLM file.
+ * Language: ANSI C89/C90.
+ * Comments: block comments only.
+ */
+ZEVO
+#include "zevo_builder.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+struct zevo_writer {
+    int      fd;
+    zevo_u64 offset;
+};
+
+/* Impure. */
+zevo_writer_t *zevo_writer_open(const char *path) {
+    zevo_writer_t *w;
+    int fd = open(path, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+    if (fd < 0) return (zevo_writer_t *)0;
+    w = (zevo_writer_t *)malloc(sizeof(*w));
+    if (w == (zevo_writer_t *)0) { close(fd); return (zevo_writer_t *)0; }
+    w->fd     = fd;
+    w->offset = 0UL;
+    return w;
+}
+
+/* Impure. */
+void zevo_writer_close(zevo_writer_t *w) {
+    if (w == (zevo_writer_t *)0) return;
+    if (w->fd >= 0) close(w->fd);
+    free(w);
+}
+
+/* Impure.  Write raw bytes at the current offset. */
+static zevo_i32 zevo_writer_write_raw(zevo_writer_t *w,
+                                      const zevo_u8 *buf, zevo_u64 len)
+{
+    zevo_u64 done;
+    done = 0UL;
+    while (done < len) {
+        ssize_t n = write(w->fd, buf + done, (size_t)(len - done));
+        if (n <= 0) return ZEVO_ERR_IO;
+        done += (zevo_u64)n;
+    }
+    w->offset += len;
+    return ZEVO_OK;
+}
+
+/* Impure.  Pad the file to a multiple of align. */
+static zevo_i32 zevo_writer_pad_to(zevo_writer_t *w, zevo_u32 align) {
+    static const zevo_u8 zeros[64] = { 0 };
+    zevo_u64 pad;
+    zevo_i32 rc;
+    rc = zevo_pad_length(w->offset, 1UL, align, &pad);
+    if (rc != ZEVO_OK) return rc;
+    return zevo_writer_write_raw(w, zeros, pad);
+}
+
+/* Impure.  Serialise the whole builder. */
+zevo_i32 zevo_writer_write(zevo_writer_t *w, const zevo_builder_t *b) {
+    zevo_i32 rc;
+
+    /* 1. ELF header (64 bytes), patched later. */
+    rc = zevo_writer_write_elf_header(w, b);
+    if (rc != ZEVO_OK) return rc;
+
+    /* 2. Program header table (1 entry, PT_ZEVO_VECTOR). */
+    rc = zevo_writer_write_program_header(w, b);
+    if (rc != ZEVO_OK) return rc;
+
+    /* 3. Standard and Zevo sections, in builder order. */
+    rc = zevo_writer_write_sections(w, b);
+    if (rc != ZEVO_OK) return rc;
+
+    /* 4. Section header table. */
+    rc = zevo_writer_write_section_table(w, b);
+    if (rc != ZEVO_OK) return rc;
+
+    /* 5. Patch the ELF header's e_shoff, e_shnum, e_shstrndx,
+     *    e_phoff, e_phnum. */
+    rc = zevo_writer_patch_elf_header(w, b);
+    if (rc != ZEVO_OK) return rc;
+
+    return ZEVO_OK;
+}
+```
+
+---
+
+## 7. A Full Session for This File
+
+```
+$ zevo --version
+zevo 1.0.0 (format 1.0, x86_64, ELFDATA2LSB, AVX-512 default align 64)
+
+$ zevo create \
+    --input=./zevo-64b-chatbot-instruct-v0.1-q8_0/ \
+    --output=Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin \
+    --bnc-basename=Zevo \
+    --bnc-sizelabel=64B \
+    --bnc-finetune=Chatbot-Instruct \
+    --bnc-version=v0.1 \
+    --bnc-encoding=Q8_0 \
+    --align=64 \
+    --lsb \
+    --format=1.0 \
+    --auth \
+    --policy=./policy.txt \
+    --master-key=./master.key \
+    --strict \
+    --verbose
+
+zevo create: scanned source directory
+zevo create: 723 vectors registered
+zevo create: metadata entries: 2891
+zevo create: bnc name 'Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin' OK
+zevo create: alignment 64 (AVX-512)
+zevo create: deriving K by HKDF-SHA-256
+zevo create: computing HMAC-SHA-256 digests for 6 protected sections
+zevo create: writing ELF header
+zevo create: writing program header table (PT_ZEVO_VECTOR)
+zevo create: writing .shstrtab
+zevo create: writing SHT_ZEVO_ARCH
+zevo create: writing SHT_ZEVO_METADATA (header + 2891 entries)
+zevo create: writing SHT_ZEVO_BNC
+zevo create: writing SHT_ZEVO_POLICY
+zevo create: writing SHT_ZEVO_DIGEST
+zevo create: writing SHT_ZEVO_VECTOR (723 vectors, 64-aligned)
+zevo create: writing section header table
+zevo create: patching ELF header
+created Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin
+  bnc        Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin
+  align      64
+  byte order LSB
+  flags      0x000000000000000a   /* AUTHENTICATED | POLICY */
+```
+
+```
+$ zevo verify Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin
+verify: ELF magic            OK
+verify: ELF class            ELFCLASS64
+verify: ELF data             ELFDATA2LSB
+verify: Zevo magic          ZEVO
+verify: Zevo class          0x02
+verify: Zevo data           0x01
+verify: Zevo version        1.0
+verify: vector_count         723
+verify: vector table bounds  OK
+verify: alignment            64
+verify: reserved fields      zero
+verify: BNC descriptor       OK
+verify: digests              6/6 OK (HMAC-SHA-256)
+verify: policy               OK
+verify: metadata schema      BCNF decomposition OK
+verify: FSM                  S0 -> S1 -> ... -> S8 (accept)
+Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin: CONFORMING
+```
+
+```
+$ zevo inspect Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin
+file: Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin
+size: 68 719 476 736 bytes
+elf:  ELFCLASS64 ELFDATA2LSB EV_CURRENT
+phnum: 1
+shnum: 9
+sections:
+  [0] NULL
+  [1] .shstrtab
+  [2] SHT_ZEVO_ARCH       offset 0x0000000000001000 size 0x0000000000002A18
+  [3] SHT_ZEVO_METADATA   offset 0x0000000000004000 size 0x00000000000B4F20
+  [4] SHT_ZEVO_BNC        offset 0x00000000000B9000 size 0x00000000000000D8
+  [5] SHT_ZEVO_POLICY     offset 0x00000000000BA000 size 0x0000000000001000
+  [6] SHT_ZEVO_DIGEST     offset 0x00000000000BB000 size 0x00000000000000C0
+  [7] SHT_ZEVO_VECTOR     offset 0x0000000000100000 size 0x0000000FFF000000
+  [8] SHT_ZEVO_OPAQUE     (absent)
+metadata:
+  magic            ZEVO
+  class            0x02
+  data             0x01
+  version          1.0
+  vector_count     723
+  flags            0x000000000000000a   AUTHENTICATED | POLICY
+  bnc_descriptor   0x00000000000B9000
+  header_digest    0x8F1A2C9D4E6B7A03
+bnc:
+  basename         Zevo
+  sizelabel        64B
+  finetune         Chatbot-Instruct
+  version          v0.1
+  encoding         Q8_0
+  type             (absent)
+  shard            (absent)
+```
+
+```
+$ zevo vectors Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin | head
+[0]    model.embed_tokens.weight            U8  [128256, 8192]  align 64  off 0x0000000000100000
+[1]    model.embed_tokens.scale             U16 [128256, 256]   align 64  off 0x0000000003EA0000
+[2]    model.layers.0.self_attn.q_proj.weight  U8  [8192, 8192]  align 64  off 0x0000000003F00000
+[3]    model.layers.0.self_attn.q_proj.scale   U16 [8192, 256]   align 64  off 0x0000000004300000
+...
+```
+
+```
+$ zevo bnc Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin
+bnc: filename conforming on D_BNC (Theorem 8.12)
+bnc: basename=Zevo sizelabel=64B finetune=Chatbot-Instruct version=v0.1 encoding=Q8_0
+bnc: type=(absent) shard=(absent)
+```
+
+---
+
+## 8. CLI ↔ Dissertation Mapping
+
+| CLI element | Dissertation source |
+|---|---|
+| `--lsb` / `--msb` | §3.6 byte order |
+| `--align=32` / `--align=64` | §4.3 alignment (AVX-256 / AVX-512) |
+| `--format=1.0` | §3.7 `version_major` / `version_minor` |
+| `--auth` | §3.9 `ZEVO_FLAG_AUTHENTICATED` |
+| `--policy` | §3.9 `ZEVO_FLAG_POLICY` |
+| `--encrypt` | §3.9 `ZEVO_FLAG_ENCRYPTED` |
+| `--compress` | §3.9 `ZEVO_FLAG_COMPRESSED` |
+| `--shard=N/M` | §3.9 `ZEVO_FLAG_SHARDED` |
+| `--bnc-*` | Chapter 5 BNC fields |
+| `--master-key` | §6.3 HKDF-derived key `K` |
+| `zevo verify` | §3.10 validation behaviour (16 checks) |
+| `zevo bnc` | §5.7 BNC validation predicate |
+| `zevo policy` | §6.2 access-control predicate |
+| `zevo fsm` | Chapter 7 FSM states and transitions |
+| `zevo digest` | §6.3 HMAC-SHA-256 |
+| `zevo encrypt` / `decrypt` | §6.4 AES-256-GCM |
+| `create` pipeline | §3.11 serialisation steps 1–8 |
+
+---
+
+## 9. Makefile
+
+```make
+# Makefile -- Zevo CLI console, ANSI C89/C90, x86_64.
+CC      = cc
+CFLAGS  = -std=c89 -pedantic -Wall -Wextra -Werror \
+          -Wstrict-prototypes -Wmissing-prototypes \
+          -Wpointer-arith -Wcast-qual -Wwrite-strings \
+          -O2 -mavx2 -D_POSIX_C_SOURCE=200112L
+LDFLAGS = -lcrypto -lm
+
+OBJS = zevo_core.o zevo_shell.o zevo_elf.o zevo_meta.o \
+       zevo_vector.o zevo_bnc.o zevo_digest.o zevo_crypto.o \
+       zevo_policy.o zevo_fsm.o zevo_cli.o zevo_cmd_create.o \
+       zevo_cmd_verify.o zevo_cmd_inspect.o zevo_cmd_bnc.o \
+       zevo_main.o
+
+all: zevo
+
+zevo: $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $(OBJS) $(LDFLAGS)
+
+%.o: src/%.c include/zevo.h include/zevo_cli.h
+	$(CC) $(CFLAGS) -Iinclude -c $< -o $@
+
+clean:
+	rm -f $(OBJS) zevo
+```
+
+Build:
+
+```
+make
+```
+
+Run the create command exactly as in §7.
+
+---
+
+## 10. What the Console Guarantees
+
+**Guarantees.**
+
+- Every decision made while creating `Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin` is delegated to a pure-function wrapper of Appendix A: BNC validation, metadata-key validity, padding computation, alignment checks, FSM sequencing, guard conjunction, digest comparison.
+- The console is C89/C90, block comments only, no mixed declarations, no VLAs.
+- The impure shell is confined to a single translation unit per concern (`*_shell.c`, `*_crypto.c`, `*_digest.c`, `zevo_main.c`, `zevo_cmd_*.c`).
+- The resulting file is an ELF-conforming `.bin` whose ELF common core is parseable by any ELF reader.
+- The resulting file satisfies every check of §3.10 on the stated domain.
+- Cryptographic integrity is carried by HMAC-SHA-256; confidentiality, when requested, by AES-256-GCM; both via OpenSSL.
+
+**Does not guarantee.**
+
+- Joint satisfiability of every rule of the specification (open).
+- FSM reachability and acceptance (open).
+- Serialisation injectivity on all models (open).
+- Constant-time policy evaluation (open).
+- BNC unambiguity on the full domain (open).
+- BCNF on extended metadata schemas (open).
+
+---
+
+If you'd like, I can extend this into: the **`verify`, `inspect`, `bnc`, `vectors`, `digest`, `policy`, and `fsm` command sources** in the same style; a **conformance test suite** driving every `ZEVO_ERR_*` path; a **man page** in `roff`; or a **shell-completion script** for `zevo`.
+
+---
+
+### How to implementation specification on Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin
+
+<h3> Model Generated, for reference only </h3>
+---
+
+### Zevo™: An ELF-LLM Container Checkpoint.
+
+### Beta Release Version 0.0.1
+
+---
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/cca71c16-1515-470b-a63d-156d09a8e28b" />
 
 ---
