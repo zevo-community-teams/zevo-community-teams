@@ -1,20 +1,355 @@
 ## Zevo global community network teams™
 
 ---
+---
 
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/cca71c16-1515-470b-a63d-156d09a8e28b" />
+# Zevo™
+## An 5D interactive artificial intelligence animation assistant
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║        Z E V O ™   ·   P R O D U C T   A R C H I T E C T U R E               ║
+║                                                                              ║
+║        An 5D interactive artificial intelligence animation assistant         ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
 ---
 
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/22eb7002-7324-46c0-a3db-761a81587061" />
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/a163b2ef-d5bb-4de9-a00e-f753a2d0ede0" />
+
+> **Zevo™** — warm, expressive, family-film-quality 3D character —
+> stands at the center of the architecture as the *visual hero*.
+> Every wire below radiates from Zevo, and every wire returns to Zevo.
 
 ---
 
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/7392416f-d072-4cd3-835d-40112442ab55" />
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        § 1 ·  MULTIMODAL INPUTS                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+     ┌───────────────┐   ┌───────────────┐   ┌───────────────┐
+     │  Text Raw     │   │  Image BGRA   │   │  Video BGRA   │
+     └───────┬───────┘   └───────┬───────┘   └───────┬───────┘
+             │                   │                   │
+             │                   │                   │
+     ┌───────────────┐           │                   │
+     │  Audio PCM    │           │                   │
+     └───────┬───────┘           │                   │
+             │                   │                   │
+             │           ┌───────┴───────┐           │
+             │           │ 5D intelligence vector    │
+             │           └───────┬───────┘           │
+             │                   │                   │
+             └─────────┬─────────┴─────────┬─────────┘
+                       │                   │
+                       ▼                   ▼
+        ╔══════════════════════════════════════════════╗
+        ║      DETERMINISTIC FUSION PIPELINE           ║
+        ║      pure fold · fixed reduction order       ║
+        ╚══════════════════════════╤═══════════════════╝
+                                   │
+                                   ▼
+                 ┌───────────────────────────────────┐
+                 │    5D Smart 8K HDR BGRA artifact  │
+                 └───────────────────────────────────┘
+```
+
+### The 5D Intelligence Vector — Axis Legend
+
+```
+                              Y (Vertical)
+                                   ▲
+                  R (Radial)  \    │
+                               \   │
+                                \  │
+                                 \ │
+                                  \│
+              O (Origin) ──────────●──────────►  X (Horizontal)
+                                  ╱
+                                 ╱
+                                ╱
+                               ╱
+                              ╱
+                             ▼
+                        Z (Depth)
+
+     ●  O — Origin      : invariant anchor of the 5D frame
+     →  X — Horizontal  : lateral semantic axis
+     ↑  Y — Vertical    : orthogonal semantic axis
+     ▼  Z — Depth       : forward / receding semantic axis
+     ↙  R — Radial      : outward confidence axis
+```
 
 ---
 
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/d7ad612b-4f5d-4a47-a66e-ce4ee9e87be9" />
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│   § 2 ·  ELF IMAGE AS THE ZEVO 5D AI CORE ANIMATED ENGINE                    │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+        ╔═══════════════════════════════════════════════════════════════╗
+        ║                                                               ║
+        ║              Z E V O   5 D   A I   C O R E                    ║
+        ║              A N I M A T E D   E N G I N E                    ║
+        ║                                                               ║
+        ║  ┌─────────────────────────────────────────────────────────┐  ║
+        ║  │  ELF Image (ET_DYN) · System V x86_64 · GNU/POSIX       │  ║
+        ║  │  Pure function wrappers · ANSI C89/90                   │  ║
+        ║  │  Functional programming paradigms inside /* … */        │  ║
+        ║  └─────────────────────────────────────────────────────────┘  ║
+        ║                                                               ║
+        ║  ┌─────────────────────────────────────────────────────────┐  ║
+        ║  │  External open-source libraries                         │  ║
+        ║  │  Pthreads · OpenCL · OpenGL · SDL2 · OpenAL · OpenSSL   │  ║
+        ║  └─────────────────────────────────────────────────────────┘  ║
+        ║                                                               ║
+        ║  ┌─────────────────────────────────────────────────────────┐  ║
+        ║  │  Exclusive SIMD vectors                                 │  ║
+        ║  │  AVX / AVX-2  —  32-byte alignment memory               │  ║
+        ║  │  AVX-512      —  64-byte alignment memory               │  ║
+        ║  └─────────────────────────────────────────────────────────┘  ║
+        ║                                                               ║
+        ╚═══════════════════════════════════════════════════════════════╝
+                                   │
+                                   ▼
+                    ┌──────────────────────────────┐
+                    │ processing & decision engine │
+                    └──────────────┬───────────────┘
+                                   │
+```
+
+### Processing & Decision Engine — Interconnected Subsystems
+
+```
+                     ╔════════════════════════════════════╗
+                     ║       DECISION  ENGINE             ║
+                     ╚════════════════════════════════════╝
+                                    │
+        ┌───────────────────────────┼───────────────────────────┐
+        │                           │                           │
+        ▼                           ▼                           ▼
+ ┌─────────────┐            ┌──────────────┐            ┌──────────────┐
+ │  finite-    │            │  fuzzy-      │            │  rules       │
+ │  state      │◄──────────►│  neural      │◄──────────►│  and         │
+ │  machine    │            │  mesh        │            │  facts       │
+ │  (FSM)      │            │  network     │            │              │
+ └──────┬──────┘            └──────┬───────┘            └──────┬───────┘
+        │                          │                           │
+        │                          ▼                           │
+        │                   ┌──────────────┐                   │
+        │                   │  Shannon     │                   │
+        │                   │  entropy     │                   │
+        │                   └──────┬───────┘                   │
+        │                          │                           │
+        │                          ▼                           │
+        │                   ┌──────────────┐                   │
+        │                   │  Mamdani     │                   │
+        │                   │  inference   │                   │
+        │                   └──────┬───────┘                   │
+        │                          │                           │
+        └──────────────┬───────────┴───────────────┬───────────┘
+                       │                           │
+                       ▼                           ▼
+        ╔══════════════════════════════════════════════════════╗
+        ║   real-time autonomous weight calculation            ║
+        ║   for machine learning                               ║
+        ╚══════════════════════════╤═══════════════════════════╝
+                                   │
+                                   ▼
+```
+
+---
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│   § 3 ·  ELF STORAGE AND ACCESS                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+        ╔═══════════════════════════════════════════════════════════╗
+        ║             ELF IMAGE  ·  ET_DYN  ·  x86_64               ║
+        ║                                                           ║
+        ║   ┌─────────────────────────────────────────────────┐     ║
+        ║   │  .text          — pure function wrappers        │     ║
+        ║   ├─────────────────────────────────────────────────┤     ║
+        ║   │  .rodata        — exact strings, constants      │     ║
+        ║   ├─────────────────────────────────────────────────┤     ║
+        ║   │  .zevo_manifest — verity root, build ID         │     ║
+        ║   ├─────────────────────────────────────────────────┤     ║
+        ║   │  .zevo_metadata — descriptors                   │     ║
+        ║   ├─────────────────────────────────────────────────┤     ║
+        ║   │  .zevo_vectors  — 5D vector tables              │     ║
+        ║   └─────────────────────────────────────────────────┘     ║
+        ║                                                           ║
+        ║   LLM weights — NOT embedded in .text                     ║
+        ║   stored as page-aligned data structure                   ║
+        ║   on ext4 · protected by fs-verity · mapped read-only     ║
+        ╚══════════════════════════╤════════════════════════════════╝
+                                   │
+                                   ▼
+                    ┌──────────────────────────────┐
+                    │  published IPC API           │
+                    │  AF_UNIX · SOCK_SEQPACKET    │
+                    │  CBOR · SCM_CREDENTIALS      │
+                    └──────────────┬───────────────┘
+                                   │
+                                   ▼
+                    ┌──────────────────────────────┐
+                    │  weight-free, stateless,     │
+                    │  web-responsible client      │
+                    └──────────────────────────────┘
+```
+
+### Storage Layout — Page-Aligned on ext4, fs-verity-Protected
+
+```
+     ┌───────────────────────────────────────────────────────────┐
+     │   ext4 volume                                             │
+     │                                                           │
+     │   ┌───────────────────┐  ← page-aligned (4096 bytes)      │
+     │   │  weights.bin      │  ← fs-verity protected            │
+     │   └───────────────────┘  ← mapped read-only by the core   │
+     │                                                           │
+     │   ┌───────────────────┐  ← page-aligned                   │
+     │   │  metadata.bin     │  ← fs-verity protected            │
+     │   └───────────────────┘  ← mapped read-only               │
+     │                                                           │
+     │   ┌───────────────────┐  ← page-aligned                   │
+     │   │  vectors.bin      │  ← fs-verity protected            │
+     │   └───────────────────┘  ← mapped read-only               │
+     │                                                           │
+     └───────────────────────────────────────────────────────────┘
+```
+
+---
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│   § 4 ·  SECURITY AND HARDWARE                                               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+        ╔═══════════════════════════════════════════════════════════╗
+        ║              SECURE SERVICE API                           ║
+        ║                                                           ║
+        ║   mediates cryptographic access                           ║
+        ║                                                           ║
+        ║   · 28-hour API-key rotation                              ║
+        ║   · OpenSSL primitives                                    ║
+        ║   · NIST SP 800-38D                                       ║
+        ║   · NIST SP 800-107                                       ║
+        ║   · FIPS 186-5                                            ║
+        ╚══════════════════════════╤════════════════════════════════╝
+                                   │
+                                   ▼
+        ╔═══════════════════════════════════════════════════════════╗
+        ║              HARDWARE ACCESS                              ║
+        ║                                                           ║
+        ║   exclusively through libc wrappers                       ║
+        ║                                                           ║
+        ║       ┌──────────────────────────────┐                    ║
+        ║       │  x86_64 → syscall            │                    ║
+        ║       └──────────────────────────────┘                    ║
+        ║       ┌──────────────────────────────┐                    ║
+        ║       │  legacy x86 → sysenter       │                    ║
+        ║       └──────────────────────────────┘                    ║
+        ║                                                           ║
+        ╚═══════════════════════════════════════════════════════════╝
+                                   │
+                                   ▼
+        ╔═══════════════════════════════════════════════════════════╗
+        ║              SECURITY LAYERS                              ║
+        ║                                                           ║
+        ║       ┌────────────────────┐                              ║
+        ║       │  seccomp-bpf       │                              ║
+        ║       ├────────────────────┤                              ║
+        ║       │  capability        │                              ║
+        ║       │  bounding          │                              ║
+        ║       ├────────────────────┤                              ║
+        ║       │  LSM discipline    │                              ║
+        ║       └────────────────────┘                              ║
+        ║                                                           ║
+        ╚═══════════════════════════════════════════════════════════╝
+```
+
+---
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│   § 5 ·  MULTIMODAL OUTPUT OUTCOME                                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+        ┌──────────────────────────────────────────────────────────┐
+        │                                                          │
+        │    Text Raw   ·   Image BGRA   ·   Video BGRA            │
+        │                                                          │
+        │    Audio PCM  ·   5D intelligence vector                 │
+        │                                                          │
+        │    ─────────────────────────────────────────             │
+        │                                                          │
+        │    fused into                                            │
+        │                                                          │
+        │        5D Smart 8K HDR BGRA artifact                     │
+        │                                                          │
+        │    axes :  O (Origin)  ·  X (Horizontal)                 │
+        │            Y (Vertical) ·  R (Radial)                    │
+        │                                                          │
+        └──────────────────────────────────────────────────────────┘
+```
+
+---
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                                                                              ║
+║          secure-by-construction, reproducible, auditable, accessible         ║
+║                                                                              ║
+║                                                                              ║
+║                         —  Z e v o ™  —                                      ║
+║                                                                              ║
+║          An 5D interactive artificial intelligence animation assistant       ║
+║                                                                              ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+### Visual & Typographic Notes (for the layout team)
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  Art Direction                                                               │
+│                                                                              │
+│  · Zevo is the hero: large, centered, expressive, family-film-quality        │
+│    3D character with warm palette and readable silhouette                    │
+│                                                                              │
+│  · Palette:                                                                  │
+│      Warm amber  ·  soft teal  ·  deep navy  ·  porcelain white              │
+│                                                                              │
+│  · Typography:                                                               │
+│      Display  — rounded geometric sans, high optical size                    │
+│      Body     — humanist sans, generous leading                              │
+│      Mono     — diagrams, labels, code fragments                             │
+│                                                                              │
+│  · Connections:                                                              │
+│      precise orthogonal runs · consistent stroke weight                      │
+│      no crossing without a bridge glyph · subtle glow on Zevo's spine        │
+│                                                                              │
+│  · Spacing:                                                                  │
+│      generous margins · clear module cadence · no crowding                   │
+│                                                                              │
+│  · Labels:                                                                   │
+│      all technical labels reproduced exactly as written,                     │
+│      no misspellings, no pseudo-text                                         │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+**End of info-paper.**
 
 ---
 ---
