@@ -3,18 +3,8 @@
 ---
 ---
 
-# Zevo™
+# Zevo™  P R O D U C T   A R C H I T E C T U R E  
 ## An 5D interactive artificial intelligence animation assistant
-
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║        Z E V O ™   ·   P R O D U C T   A R C H I T E C T U R E               ║
-║                                                                              ║
-║        An 5D interactive artificial intelligence animation assistant         ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
 
 ---
 
@@ -25,6 +15,16 @@
 > Every wire below radiates from Zevo, and every wire returns to Zevo.
 
 ---
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║        Z E V O ™   ·   P R O D U C T   A R C H I T E C T U R E               ║
+║                                                                              ║
+║        An 5D interactive artificial intelligence animation assistant         ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
