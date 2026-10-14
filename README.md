@@ -199,7 +199,7 @@ The transformer-converter is the function that realizes the convergence. Given a
 ┌────────────────────────────────────────────────────────┐
 │      ZEVO AI-Driven Chatbot APP SERVICE (server)       │
 │ 		         Libmicrohttpd · Fedora 44               │
-│  	    Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin  		    │	  
+│  	    Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin  		 │	  
 │  ┌──────────────────────────────────────────────────┐  │
 │  │  FSM Neural-Fuzzy Logic Engine                   │  │
 │  │   IDLE → LISTENING → RESPONDING                  │  │
@@ -1299,6 +1299,7 @@ If you'd like, I can extend this into: the **`verify`, `inspect`, `bnc`, `vector
 ### How to implementation specification on Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin
 
 <h3> Model Generated, for reference only </h3>
+
 ---
 
 ### Zevo™: An ELF-LLM Container Checkpoint.
@@ -1514,7 +1515,7 @@ If you'd like, I can extend this into: the **`verify`, `inspect`, `bnc`, `vector
 
 ```
      ┌───────────────────────────────────────────────────────────┐
-     │            Zevo-MoE-8x7B-v0.1-KQ2.bin					 │
+     │          Zevo-64B-Chatbot-Instruct-v0.1-Q8_0.bin			 │
      │                 ext4 volume                               │
      │                                                           │
      │   ┌───────────────────┐  ← page-aligned (4096 bytes)      │
