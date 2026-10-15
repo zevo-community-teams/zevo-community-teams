@@ -2,12 +2,6 @@
 
 ---
 
-### Bonnie Tyler - Total Eclipse of the Heart 
-
-https://www.youtube.com/watch?v=lcOxhH8N3Bo
-
----
-
 <h3>Zevo Smart Nato Box™ - € 50.000 </h3>
 
 ---
@@ -71,6 +65,26 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+---
+
+### Bonnie Tyler - Total Eclipse of the Heart 
+
+https://www.youtube.com/watch?v=lcOxhH8N3Bo
+
+---
+
+### Alphaville - Forever Young 
+
+https://www.youtube.com/watch?v=YHRvDo8rUoQ
+
+---
+
+### A-ha - Take On Me
+
+
+https://www.youtube.com/watch?v=djV11Xbc914
+
+---
 ---
 ---
 
