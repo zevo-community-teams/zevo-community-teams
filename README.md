@@ -2,6 +2,10 @@
 
 ---
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/80d690d4-2d02-4a3e-b38e-a50301c09a65" />
+
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/1f08171e-a738-4765-940b-c7247f71b1c3" />
 
 ---
@@ -11,6 +15,10 @@
 ---
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/18cc3fc3-1217-4242-8b7c-f07627075964" />
+
+---
+
+<h3>Reference: https://github.com/zevo-community-teams/zevo-community-virtual-assistance</h3>
 
 ---
 
