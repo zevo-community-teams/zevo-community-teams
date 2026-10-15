@@ -1,5 +1,11 @@
 ## Zevo global community network teams™
 
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/1f08171e-a738-4765-940b-c7247f71b1c3" />
+
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/18cc3fc3-1217-4242-8b7c-f07627075964" />
 
 ---
