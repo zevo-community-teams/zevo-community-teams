@@ -2,9 +2,9 @@
 
 ---
 
-# IA-32 Architecture: The Contract, the Engine, and the Workload
+## IA-32 Architecture: The Contract, the Engine, and the Workload
 
-## An Academic Paper on the Layered Specification, Implementation, and Convention of IA-32 Execution
+### An Academic Paper on the Layered Specification, Implementation, and Convention of IA-32 Execution
 
 **Authors:** PHD AI. Computer Engineering, Davada Beni Zaita and Zevo Community Teams
 **Version:** 1.0.0
