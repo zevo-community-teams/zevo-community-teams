@@ -2,6 +2,14 @@
 
 ---
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/ce5a8a07-19f7-4de1-8c58-e0e7d999ef5b" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/9557c397-f53d-4bcb-a448-6908771e245e" />
+
+---
+
 ## IA-32 Architecture: The Contract, the Engine, and the Workload
 
 ### An Academic Paper on the Layered Specification, Implementation, and Convention of IA-32 Execution
@@ -277,8 +285,6 @@ These distinctions are not merely academic. They are the foundation of binary co
 | Simulated Memory | Architectural memory | Memory seen by the workload |
 
 ---
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/9557c397-f53d-4bcb-a448-6908771e245e" />
 
 ## The Service Architecture
 
