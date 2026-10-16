@@ -1,5 +1,7 @@
 # Zevo global community network teams™
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/9557c397-f53d-4bcb-a448-6908771e245e" />
+
 ## The Service Architecture
 
 <h3>Clarification: The engine is the service. The workload is a file the service loads. The service is native; the workload is simulated.</h3>
