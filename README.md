@@ -2,9 +2,6 @@
 
 ---
 
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/80672bfb-69cb-4a69-ae6f-54d247ee9e79" />
-
----
 ```text
 ┌─────────────────────────────────────────────────────────────┐
 │  FEDORA HOST (native)                                       │
@@ -41,9 +38,17 @@
 │  │  CLIENTS (curl, custom apps)                          │  │
 │  └───────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────┘
+```
+---
+
+```text
 
 An IA-32 workload application service running native on Linux Fedora means: a C89 engine — ia32svc — compiled natively for x86-64, installed as an ordinary Fedora binary, managed by systemd as a service, using Fedora's glibc, POSIX APIs, filesystem, and network — which loads AI-32.bin into simulated memory and interprets it. The engine is native in every sense: native execution (host CPU), native compilation (x86-64 ELF), native deployment (systemd unit, RPM). The workload is not native: it is IA-32 machine code, interpreted by the engine, running in simulated memory, with no access to Fedora's filesystem, network, or system calls unless the engine explicitly grants it. The engine is the service; the workload is its data. systemd manages the engine; the engine manages the workload. Fedora's security mechanisms (SELinux, seccomp, cgroups, namespaces) confine the engine; the workload is hermetically sealed inside it. The distinction is architectural and must remain unmistakable: native means executed by the host CPU; simulated means interpreted by a native program. The engine is native; the workload is simulated; and the two are different kinds of things. This is the final clarification in the sequence: the ISA is the contract; the workload is the purpose; the engine is the native service; and AI-32.bin is what the service serves.
 ```
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/80672bfb-69cb-4a69-ae6f-54d247ee9e79" />
+
 
 ---
 
