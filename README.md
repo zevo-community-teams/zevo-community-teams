@@ -1,6 +1,49 @@
-## Zevo global community network teams™
+# Zevo global community network teams™
+
+## The Service Architecture
+
+<h3>Clarification: The engine is the service. The workload is a file the service loads. The service is native; the workload is simulated.</h3>
 
 ---
+
+```text
+┌─────────────────────────────────────────────────────────────┐
+│  CLIENT                                                     │
+│  • curl, nc, or a custom client                             │
+│  • Sends a request (e.g., JSON with input vector)           │
+└─────────────────────────────────────────────────────────────┘
+                          │
+                          │  TCP / Unix socket
+                          ▼
+┌─────────────────────────────────────────────────────────────┐
+│  ia32svc — NATIVE FEDORA SERVICE                            │
+│                                                             │
+│  ┌───────────────────────────────────────────────────────┐  │
+│  │  Network listener (accept)                            │  │
+│  ├───────────────────────────────────────────────────────┤  │
+│  │  Request parser                                       │  │
+│  ├───────────────────────────────────────────────────────┤  │
+│  │  IA-32 engine (fetch–decode–execute)                  │  │
+│  │  • Loads AI-32.bin into simulated memory              │  │
+│  │  • Writes input into simulated memory                 │  │
+│  │  • Runs the workload                                  │  │
+│  │  • Reads output from simulated memory                 │  │
+│  ├───────────────────────────────────────────────────────┤  │
+│  │  Response writer                                      │  │
+│  └───────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────┘
+                          │
+                          │  reads/writes
+                          ▼
+┌─────────────────────────────────────────────────────────────┐
+│  FEDORA FILESYSTEM                                          │
+│  /var/lib/ia32svc/AI-32.bin                                 │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## The Complete Picture — Native and Simulated
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
