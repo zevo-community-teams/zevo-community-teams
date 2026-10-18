@@ -2,7 +2,13 @@
 
 ---
 
-## Zevo Smart Messenger™
+## Zevo Smart Messenger - Responsive Layout™
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/5876f0f3-ec65-47f8-b7b0-024864f8a401" />
+
+---
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/6416383c-78db-43be-9048-050b5f0602e9" />
 
