@@ -2,6 +2,12 @@
 
 ---
 
+## Zevo Smart Messenger™
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/6416383c-78db-43be-9048-050b5f0602e9" />
+
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/da86e654-49f2-47ef-a09b-a82c88517ccd" />
 
 ---
