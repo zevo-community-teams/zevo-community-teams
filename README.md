@@ -11,6 +11,14 @@
 
 ---
 
+<h3>Back when I used to go back, there was oversight to make sure people didn't include any "shitty" letters.</h3>
+
+---
+
+<h3>na época em que voltava tinha a fiscalização para o pessoal não colocar uma carta cagada</h3>
+
+---
+
 <h3>COMO ASSIM, DADOS NAO ENCONTRADOS, NÃO COMPARECEU PARA NANHAHAH, O POBRE COITADO. AHAHAHHAH</h3>
 
 ---
