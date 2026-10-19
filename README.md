@@ -9,7 +9,7 @@
 
 ---
 
-<h3>Points (nodes), lines (edges = weight-vectors), and vector blocks (V₀ shards of the transformer).</h3>
+<h3>Points (nodes), lines (edges), and vectors blocks (weight-vectors).</h3>
 
 ---
 
