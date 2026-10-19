@@ -3,6 +3,15 @@
 ---
 ---
 
+<h3>Man, I learned this back in my school days—back when I used to play soccer, too—that if an electronic device that stores data conks out, you need to recover that data before replacing the unit, so that the new one is ready to go with all the original information restored. Hahahaha</h3> 
+
+---
+
+<h3>Cara, aprendi lá nos tempos de escola na época em que eu também jogava futebol,  se um dispositivo eletrônico que armazena dados pifar, você precisa recuperar esses dados antes de substituir o aparelho, para que o novo já comece a funcionar com as informações originais restauradas. Hahahaha</h3>
+
+---
+---
+
 <h3>Já avisei que vai dá merda isso - AHAHHAHA </h3>
 
 https://www.youtube.com/watch?v=Xzy9wRm-oW8
