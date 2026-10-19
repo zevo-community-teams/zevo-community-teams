@@ -3,7 +3,7 @@
 ---
 ---
 
-<h3>á avisei que vai dá merda isso - AHAHHAHA </h3>
+<h3>Já avisei que vai dá merda isso - AHAHHAHA </h3>
 
 https://www.youtube.com/watch?v=Xzy9wRm-oW8
 
