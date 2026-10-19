@@ -3,6 +3,11 @@
 ---
 ---
 
+<h3>Ask your super-intelligence to create an ASCII art drawing using chat prompt text, starting from 0D, 1D, 2D, 3D, 4D, and 5D—let’s see how far it can take this. </h3>h3>
+
+---
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/1234eb1e-d72d-47e6-8749-3291fbf9e7cb" />
 
 ---
