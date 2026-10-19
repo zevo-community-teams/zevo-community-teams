@@ -4,14 +4,14 @@
 
 ---
 
-# In-memory vector database™
+# In-memory vector database
 
 <h3>An in-memory vector database is a specialized data storage system that holds high-dimensional vector embeddings entirely in a computer's volatile memory (RAM) to deliver sub-millisecond similarity search latency.</h3>
 
 ---
 ---
 
-# 5D Point, Line and Weight Vectors™
+# 5D Point, Line and Weight Vectors
 
 ---
 
