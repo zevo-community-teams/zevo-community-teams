@@ -1,43 +1,13 @@
 # Zevo global community network teams™
 
----
----
-
-<h3>Man, I learned this back in my school days—back when I used to play soccer, too—that if an electronic device that stores data conks out, you need to recover that data before replacing the unit, so that the new one is ready to go with all the original information restored. Hahahaha</h3> 
-
----
-
-<h3>Cara, aprendi lá nos tempos de escola na época em que eu também jogava bola, se um dispositivo eletrônico que armazena dados pifar, você precisa recuperar esses dados antes de substituir o aparelhado, para que o novo comece a funcionar com os dados ressuscitado. Hahahaha</h3>
-
----
-
-<h3>Back when I used to go back, there was oversight to make sure people didn't include any "shitty" letters.</h3>
-
----
-
-<h3>na época em que voltava da privada tinha a fiscalização para o pessoal não colocar uma carta cagada na caixa da privada, para bacia nao ficar toda cagada...AHAHAHA</h3>
-
----
-
-<h3>COMO ASSIM, DADOS NAO ENCONTRADOS, NÃO COMPARECEU PARA NANHAHAH, O POBRE COITADO. AHAHAHHAH</h3>
-
----
----
-
-<h3>Já avisei que vai dá merda isso - AHAHHAHA </h3>
-
-https://www.youtube.com/watch?v=Xzy9wRm-oW8
-
----
-
-<h3>"Speirs, get yourself over here!" - FEZ CONCURSO PARA MORRER CONGELADO - AHAHHAHA</h3>
-
-https://www.youtube.com/watch?v=WXusCl05hG0
-
----
----
-
 <h3>Ask your super-intelligence to create a drawing ("CUBE") in ASCII Art using text commands, starting from 0D, 1D, 2D, 3D, 4D, and 5D — let’s see how far it can take this ???</h3>
+
+---
+---
+
+# Point, Line and Weight Vectors™
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/44a4e03a-89e7-4812-b695-5a3138fe0845" />
 
 ---
 ---
