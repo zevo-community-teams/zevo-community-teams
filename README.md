@@ -4,6 +4,12 @@
 
 ## The Zevo Game Station Seven - 5D BGRA 8K HDR™
 
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/e8c1ab71-d51a-44aa-96d7-950966d38178" />
+
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/68a8c8d0-3c17-4f33-baf9-52c89957389c" />
 
 ---
