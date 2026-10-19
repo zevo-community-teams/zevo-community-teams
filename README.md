@@ -9,6 +9,10 @@
 
 ---
 
+<h3>Points (nodes), lines (edges = weight-vectors), and vector blocks (V₀ shards of the transformer).</h3>
+
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/d606fc20-cac4-478d-b0c6-9ebf0c54fbbd" />
 
 ---
