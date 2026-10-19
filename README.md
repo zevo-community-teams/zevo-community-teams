@@ -3,7 +3,7 @@
 ---
 ---
 
-<h3>Ask your super-intelligence to create an ASCII art drawing using chat prompt text, starting from 0D, 1D, 2D, 3D, 4D, and 5D—let’s see how far it can take this. </h3>h3>
+<h3>Ask your super-intelligence to create an ASCII art drawing using chat prompt text, starting from 0D, 1D, 2D, 3D, 4D, and 5D—let’s see how far it can take this.??? </h3>
 
 ---
 ---
