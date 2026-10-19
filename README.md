@@ -8,6 +8,8 @@
 
 <h3>An in-memory vector database is a specialized data storage system that holds high-dimensional vector embeddings entirely in a computer's volatile memory (RAM) to deliver sub-millisecond similarity search latency.</h3>
 
+<h3>An in-memory vector database is a core component inside popular LLM guardrail frameworks. Instead of using heavy, external database clusters, guardrail systems embed a lightweight, zero-dependency vector index directly into the application's RAM.</h3>
+
 ---
 ---
 
