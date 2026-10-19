@@ -3,7 +3,7 @@
 ---
 ---
 
-# Point, Line, and Vector Semantics Anchored on IA-32, IA-64, and x86-64, with EFER Context — ISO 690:2021 Referenced
+### Difference Between Point, Line, and Vector Semantics Anchored on IA-32, IA-64, and x86-64, with EFER Context 
 
 <h3>By Davada Beni Zaita and Zevo Community Team</h3>
 
