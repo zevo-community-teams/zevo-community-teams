@@ -3,6 +3,12 @@
 ---
 ---
 
+<h3>á avisei que vai dá merda isso - AHAHHAHA </h3>
+
+https://www.youtube.com/watch?v=Xzy9wRm-oW8
+
+---
+
 <h3>"Speirs, get yourself over here!" - FEZ CONCURSO PARA MORRER CONGELADO - AHAHHAHA</h3>
 
 https://www.youtube.com/watch?v=WXusCl05hG0
