@@ -5,7 +5,7 @@
 ---
 ---
 
-# Point, Line and Weight Vectors™
+# 5D Point, Line and Weight Vectors™
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/44a4e03a-89e7-4812-b695-5a3138fe0845" />
 
