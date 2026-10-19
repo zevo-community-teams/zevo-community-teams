@@ -3,6 +3,8 @@
 ---
 ---
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/1234eb1e-d72d-47e6-8749-3291fbf9e7cb" />
+
 ### Difference Between Point, Line, and Vector Semantics Anchored on IA-32, IA-64, and x86-64, with EFER Context 
 
 <h3>By Davada Beni Zaita and Zevo Community Team</h3>
