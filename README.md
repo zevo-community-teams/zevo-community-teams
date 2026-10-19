@@ -13,7 +13,7 @@
 ---
 ---
 
-## Point, Line, and Weight Vector anchored in EFER on IA-32, IA-64, and x86-64
+## Point, Line, and Weight Vector in EFER on IA-32, IA-64, and x86-64
 
 This note resolves the terminology (**point**, **line**, **weight vector**) and the architecture anchoring (**IA-32**, **IA-64**, **x86-64**; Intel and AMD; **EFER**) with a complete ISO 690:2021 reference apparatus. It is a **clarification delta** on the consolidated production-grade specification in the prior turn. It adds **no new visual strata** unless you request them (see §12, Q4). Its purpose is to pin the semantics so the diagram's labels cannot be misread.
 
