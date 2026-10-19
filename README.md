@@ -4,7 +4,7 @@
 
 ---
 
-<h3>Ask your super-intelligence to create a drawing ("CUBE") in ASCII Art using text commands, starting from 0D, 1D, 2D, 3D, 4D, and 5D — let’s see how far it can take this ???</h3>
+<h3>Ask your super-intelligence to create a drawing ("CUBE") in ASCII Art using prompt text, starting from 0D, 1D, 2D, 3D, 4D, and 5D — let’s see how far it can take this ???</h3>
 
 ---
 
