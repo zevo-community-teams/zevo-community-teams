@@ -15,7 +15,7 @@
 
 # Clarification: Point, Line, and Vector Weight on IA-32, IA-64, and x86-64, Anchored on EFER and ISO 690:2021
 
-This note resolves the terminology (**point**, **line**, **vector weight**) and the architecture anchoring (**IA-32**, **IA-64**, **x86-64**; Intel and AMD; **EFER**) with a complete ISO 690:2021 reference apparatus. It is a **clarification delta** on the consolidated production-grade specification in the prior turn. It adds **no new visual strata** unless you request them (see §12, Q4). Its purpose is to pin the semantics so the diagram's labels cannot be misread.
+This note resolves the terminology (**point**, **line**, **weight vector**) and the architecture anchoring (**IA-32**, **IA-64**, **x86-64**; Intel and AMD; **EFER**) with a complete ISO 690:2021 reference apparatus. It is a **clarification delta** on the consolidated production-grade specification in the prior turn. It adds **no new visual strata** unless you request them (see §12, Q4). Its purpose is to pin the semantics so the diagram's labels cannot be misread.
 
 Three framing corrections must be applied first, because the request as worded repeats factual errors that have been corrected in earlier turns of this thread.
 
@@ -137,9 +137,9 @@ Sources: [4] §3 and [5] §5.8; original AMD definition in [8].
 - **On IA-32, `SYSENTER` does not require EFER** (EFER doesn't exist there); it uses `IA32_SYSENTER_CS`, `IA32_SYSENTER_ESP`, `IA32_SYSENTER_EIP` MSRs ([1] Vol. 3B ch. 6).
 - **On IA-64, the equivalent is not `SYSENTER`/`SYSCALL`** — it is `break` with a kernel function index in `r2` ([3] Vol. 2 ch. 6).
 
-### §4.5 Conclusion on "vector weight"
+### §4.5 Conclusion on "weight vector"
 
-The phrase "vector weight" is resolved as **ML weight vector** when attached to the weight slab's `VECTOR SEGMENTS`, as **SIMD vector** when attached to `Zevo Vector Primitive`, and as **mathematical vector magnitude** when attached to the 5D panel — but the 5D panel renders only the **component form** `V = (O, X, Y, Z, R)`, not the magnitude form. The three meanings live on three panels and are never conflated.
+The phrase "weight vector" is resolved as **ML weight vector** when attached to the weight slab's `VECTOR SEGMENTS`, as **SIMD vector** when attached to `Zevo Vector Primitive`, and as **mathematical vector magnitude** when attached to the 5D panel — but the 5D panel renders only the **component form** `V = (O, X, Y, Z, R)`, not the magnitude form. The three meanings live on three panels and are never conflated.
 
 ---
 
@@ -258,7 +258,7 @@ ISO 690:2021 — *Information and documentation — Guidelines for bibliographic
 
 [15] LANG, Serge. *Undergraduate Algebra*. 3rd ed. New York: Springer, 2005. ISBN 978-0-387-22025-3. — affine spaces, vector spaces, the point–vector distinction, weighted vectors.
 
-**Machine-learning references (for "vector weight" as weight vector)**
+**Machine-learning references (weight vector)**
 
 [16] GOODFELLOW, Ian, BENGIO, Yoshua and COURVILLE, Aaron. *Deep Learning*. Cambridge, MA: MIT Press, 2016. ISBN 978-0-262-03561-3. — weight vectors at §5.1, gradient-based optimization at ch. 8.
 
