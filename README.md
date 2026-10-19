@@ -13,7 +13,7 @@
 ---
 ---
 
-# Clarification: Point, Line, and Vector Weight on IA-32, IA-64, and x86-64, Anchored on EFER and ISO 690:2021
+# Clarification: Point, Line, and Weight Vector on IA-32, IA-64, and x86-64, Anchored on EFER and ISO 690:2021
 
 This note resolves the terminology (**point**, **line**, **weight vector**) and the architecture anchoring (**IA-32**, **IA-64**, **x86-64**; Intel and AMD; **EFER**) with a complete ISO 690:2021 reference apparatus. It is a **clarification delta** on the consolidated production-grade specification in the prior turn. It adds **no new visual strata** unless you request them (see §12, Q4). Its purpose is to pin the semantics so the diagram's labels cannot be misread.
 
@@ -88,7 +88,7 @@ Sources: [1] Intel SDM Vol. 1; [2] AMD APM Vol. 1; [3] Intel Itanium SDM Vol. 1.
 
 ---
 
-## §4. Vector Weight — Three Meanings, Anchored on ISA and EFER
+## §4. Weight Vector — Three Meanings, Anchored on ISA and EFER
 
 ### §4.1 Mathematical definitions
 
@@ -137,13 +137,13 @@ Sources: [4] §3 and [5] §5.8; original AMD definition in [8].
 - **On IA-32, `SYSENTER` does not require EFER** (EFER doesn't exist there); it uses `IA32_SYSENTER_CS`, `IA32_SYSENTER_ESP`, `IA32_SYSENTER_EIP` MSRs ([1] Vol. 3B ch. 6).
 - **On IA-64, the equivalent is not `SYSENTER`/`SYSCALL`** — it is `break` with a kernel function index in `r2` ([3] Vol. 2 ch. 6).
 
-### §4.5 Conclusion on "weight vector"
+### §4.5 Conclusion on "Weight vector"
 
 The phrase "weight vector" is resolved as **ML weight vector** when attached to the weight slab's `VECTOR SEGMENTS`, as **SIMD vector** when attached to `Zevo Vector Primitive`, and as **mathematical vector magnitude** when attached to the 5D panel — but the 5D panel renders only the **component form** `V = (O, X, Y, Z, R)`, not the magnitude form. The three meanings live on three panels and are never conflated.
 
 ---
 
-## §5. Consolidated Mapping — Point / Line / Vector Weight
+## §5. Consolidated Mapping — Point / Line / Weight Vector
 
 | Term | Mathematical object | CS meaning in this diagram | ISA-width note | Diagram token |
 |---|---|---|---|---|
@@ -151,7 +151,7 @@ The phrase "weight vector" is resolved as **ML weight vector** when attached to 
 | **Line** | 1-D affine subspace | byte span `START` + `LENGTH` | 32/32 (IA-32), 64/64 (x86-64, IA-64) | horizontal ruler |
 | **Vector (mathematical)** | element of vector space | 5D coordinate `(O, X, Y, Z, R)` | independent of ISA | five-axis panel + `V₀` origin |
 | **Vector (SIMD)** | fixed-width multi-lane register | `Zevo Vector Primitive` | 128/256/512 (x86-64), 64/128 (IA-32), non-SSE/AVX (IA-64) | Ring A element |
-| **Vector weight (ML)** | learned parameter vector | rows inside `VECTOR SEGMENTS` | independent of ISA | `Q4_0 BLOCK` hatched glyph |
+| **Weight Vector (ML)** | learned parameter vector | rows inside `VECTOR SEGMENTS` | independent of ISA | `Q4_0 BLOCK` hatched glyph |
 | **EFER** | not a mathematical object | `IA32_EFER` MSR enabling `SYSCALL` | **x86-64 only** | footnote `EFER.SCE` |
 
 ---
@@ -186,7 +186,7 @@ Added to prior locks. All prior rows remain in force.
 | **Point** | affine-space element / byte offset | a vector; a line |
 | **Line** | affine 1-D subspace / byte span | a geometric line; a trend line |
 | **Vector** | element of vector space, **or** SIMD register | any other usage in this diagram |
-| **Vector weight** | ML weight vector when attached to the weight slab; SIMD vector when attached to the Ring A primitive; magnitude when attached to the 5D panel | a single meaning across all three panels |
+| **Weight Vector** | ML weight vector when attached to the weight slab; SIMD vector when attached to the Ring A primitive; magnitude when attached to the 5D panel | a single meaning across all three panels |
 
 ---
 
