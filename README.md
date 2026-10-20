@@ -8,7 +8,7 @@
 
 ---
 
-### `Zevo-32B-core-v0.1-Q4_0.bin` or `Zevo-64B-core-v0.1-Q8_0.bin` for x86_64 Architecture
+#### `Zevo-32B-core-v0.1-Q4_0.bin` or `Zevo-64B-core-v0.1-Q8_0.bin` for x86_64 Architecture
 
 ---
 
