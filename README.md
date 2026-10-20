@@ -1,6 +1,6 @@
 # Zevo global community network teams™
 
-## What do you say to that, hahaha !!!
+---
 
 <h3>Tip: Develop the algorithms using ANSI C89/90 within standard /* ... */ comment blocks and the Pthreads library, employing vectors compatible with SIMD AVX/AVX2/AVX-256 architectures (with 32-byte memory alignment) and AVX-512 (with 64-byte memory alignment). Use OpenGL (via SDL2), OpenCL, and OpenAL, as well as OpenSSL, to perform validation and display the results on screen. </h3>
 
