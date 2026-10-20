@@ -8,6 +8,10 @@
 
 ---
 
+## `Zevo-32B-Flat-v0.1-Q4_0.bin` or `Zevo-64B-Flat-v0.1-Q8_0.bin` for x86_64 Architecture
+
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/cfed2ab4-17c5-4d99-af83-26d3e24ec753" />
 
 ---
