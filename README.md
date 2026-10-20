@@ -2,6 +2,10 @@
 
 ---
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/9106fc39-7e85-4a7c-92ff-d9c6acd0ff9e" />
+
+---
+
 <h3>Tip: Develop the algorithms using ANSI C89/90 within standard /* ... */ comment blocks and the Pthreads library, employing vectors compatible with SIMD AVX/AVX2/AVX-256 architectures (with 32-byte memory alignment) and AVX-512 (with 64-byte memory alignment). Use OpenGL (via SDL2), OpenCL, and OpenAL, as well as OpenSSL, to perform validation and display the results on screen. </h3>
 
 <h3>Eg: Implement a system that utilizes an expert system—specifically a Finite State Machine (FSM) integrated with fuzzy logic—incorporating rules and facts, while employing Shannon entropy and Mamdani inference to facilitate automated decision-making based on automatically calculated weights. This should be combined with a neural-mesh-network architecture that leverages machine learning, in which weights are calculated automatically to enable autonomous learning. </h3>
