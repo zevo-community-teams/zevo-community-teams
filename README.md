@@ -2,6 +2,10 @@
 
 ---
 
+<h3>Ask your super-intelligence to create a drawing ("CUBE") in ASCII Art Draw using prompt text, starting from 0D, 1D, 2D, 3D, 4D, and 5D — let’s see how far it can take this ???</h3>
+
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/9106fc39-7e85-4a7c-92ff-d9c6acd0ff9e" />
 
 ---
@@ -51,20 +55,6 @@
                     │                                             │
                     └─────────────────────────────────────────────┘
 ```
-
----
-
-<h3>Ask your super-intelligence to create a drawing ("CUBE") in ASCII Art using prompt text, starting from 0D, 1D, 2D, 3D, 4D, and 5D — let’s see how far it can take this ???</h3>
-
----
-
-# Other attempts and frustrations Opensource
-
-<h3>Reference: https://github.com/nomic-ai/gpt4all<h3>
-
-<h3>Reference: https://github.com/ggml-org/ggml/blob/master/docs/gguf.md<h3>
-
-<h3>Reference: https://github.com/safetensors/safetensors<h3>
 
 ---
 
