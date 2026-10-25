@@ -2,7 +2,7 @@
 
 ---
 
-<h3>Ask your super-intelligence to create a drawing ("CUBE") in ASCII Art Draw using prompt text, starting from 0D, 1D, 2D, 3D, 4D, and 5D — let’s see how far it can take this ???</h3>
+<h3>Ask your super-intelligence to create a drawing (a "CUBE") using ASCII art or a text diagram—via a text prompt in any chat interface—starting from 0D, 1D, 2D, 3D, and 4D, all the way up to a 5D hypercube. Let’s see just how far it can take this???</h3>
 
 <!--
 **zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
