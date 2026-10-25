@@ -2,6 +2,10 @@
 
 ---
 
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/c4cdad52-1e27-46a6-9d0f-ef1659008d51" />
+
+---
+
 <h3>Ask your super-intelligence to create a drawing (a "CUBE") using ASCII art or a text diagram—via a text prompt in any chat interface—starting from 0D, 1D, 2D, 3D, and 4D, all the way up to a 5D hypercube. Let’s see just how far it can take this???</h3>
 
 <!--
