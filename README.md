@@ -2,6 +2,12 @@
 
 ---
 
+#### VAO ACABAR COM A SACANAGEM NINGUEM TRANSA MAIS COM KUKUKU NA GARAFA
+
+<img width="379" height="527" alt="Image" src="https://github.com/user-attachments/assets/849fd03d-78d8-4d67-99c6-ca583683e1da" />
+
+---
+
 ### Boa é KASHORADA NA SIARADA - Evanescence - Going Under (Official HD Music Video)
 
 ---
@@ -45,12 +51,6 @@
 ---
 
 <h3>https://www.youtube.com/watch?v=1MBr8cQeKTM</h3>
-
----
-
-#### VAO ACABAR COM A SACANAGEM NINGUEM TRANSA MAIS COM KUKUKU NA GARAFA
-
-<img width="379" height="527" alt="Image" src="https://github.com/user-attachments/assets/849fd03d-78d8-4d67-99c6-ca583683e1da" />
 
 ---
 
