@@ -1,4 +1,8 @@
-### BIZU: IT’S STUPIDLY OBVIOUS: AI IS 5D AND MULTIMODAL 
+### BIZU: IT’S STUPIDLY OBVIOUS: AI IS 5D AND MULTIMODAL
+
+---
+
+### The multidimensional cartesian plane system
 
 ---
 
@@ -11,10 +15,6 @@
 ---
 
 ### YTINIFNI FO NOITAZIMIXAM  6 = 4 + 2 DNA 4 = 2 + 2 DNA 2 = 1 + 1 EHT 
-
----
-
-### The multidimensional cartesian plane system
 
 ---
 
