@@ -4,10 +4,6 @@
 
 ---
 
-<h3>Pense no vetor como uma regua escalar de medição </h3>
-
----
-
 ### The multidimensional cartesian plane
 
 <h3> 5D OLAP Hypercube (O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Base Axes) </h3>
