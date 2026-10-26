@@ -1,4 +1,10 @@
-### Eu gosto dela vendendo diamates (KALSINHA. BATOM E SUTIAO)
+### Depois do show do intevalo tem sacanagem no barro - Where Have You Been
+
+<h3>https://www.youtube.com/watch?v=HBxt_v0WF6Y</h3>
+
+---
+
+### Eu gosto dela vendendo diamates (KALSINHA, BATOM E SUTIAO)
 
 <h3>https://www.youtube.com/watch?v=p9Ygppti7YI</h3>
 
