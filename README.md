@@ -16,7 +16,7 @@
 
 ```text 
 					           ----o G (ARGB RO ARBG - SULUCLAC NEERG) MOTTOB-OT-POT DNA TFEL-OT-THGIR <-
-					       (0,0,0) /
+					  (0,0,0,0,0) /
 
 ``` 
 
@@ -38,7 +38,7 @@
 ```text 
 
 -> LEFT-TO-RIGHT AND TOP-TO-BOTTOM (RED CALCULUS - RGBA) R o----  
-					                                      / (1,1,1)
+					                                      / (1,1,1,1,1)
 ```
 
 ---
