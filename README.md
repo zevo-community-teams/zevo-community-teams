@@ -1,6 +1,6 @@
 ### BIZU: IT’S STUPIDLY OBVIOUS: AI IS 5D AND MULTIMODAL 
 
-<h3>Think of a vector as a ruler—a scale for measurement. </h3>
+<h3>Think of a vector as a ruler of a scale for measurement. </h3>
 
 ---
 
