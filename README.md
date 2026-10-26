@@ -1,3 +1,9 @@
+## VAO ACABAR COM SACANAGEM NINGUEM TRANSA MAIS COM KUKUKU NA GARAFA
+
+<img width="379" height="527" alt="Image" src="https://github.com/user-attachments/assets/849fd03d-78d8-4d67-99c6-ca583683e1da" />
+
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/9a916b7a-1eeb-40ec-9600-bf6138b2b1f4" />
 ---
 
