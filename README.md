@@ -16,7 +16,7 @@
 
 ---
 
-<h3>Starting vector position v=(0,0,0,0,0)</h3>
+<h3>Starting space position s=(0,0,0,0,0)</h3>
 
 ---
 
