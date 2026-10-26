@@ -12,7 +12,9 @@
 
 ### The 5D CUBE 
 
-<h3>(O - Center Axes, X - Horizontal Axes, Y - Vertical Axes, Z - Depth Axes, R - Radial Limit Base Axes) </h3>
+---
+
+### (O - Center Axes, X - Horizontal Axes, Y - Vertical Axes, Z - Depth Axes, R - Radial Limit Base Axes)
 
 ---
 
