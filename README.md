@@ -2,7 +2,7 @@
 
 ---
 
-### The multidimensional cartesian plane
+### The multidimensional cartesian plane system
 
 ---
 
