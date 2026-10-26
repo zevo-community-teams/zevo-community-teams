@@ -35,7 +35,7 @@
 ---
 
 ```text 
-					              ----o G (ARBG - SULUCLAC NEERG) MOTTOB-OT-POT DNA TFEL-OT-THGIR <-
+					              ----o G (ARGB RO ARBG - SULUCLAC NEERG) MOTTOB-OT-POT DNA TFEL-OT-THGIR <-
 						     (0,0,0) /
 
 ``` 
