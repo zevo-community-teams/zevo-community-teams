@@ -1,60 +1,9 @@
-### Exercito do Barro de Danones
-
----
-
-#### VAO ACABAR COM A SACANAGEM NINGUEM TRANSA MAIS COM KUKUKU NA GARAFA
-
-<img width="379" height="527" alt="Image" src="https://github.com/user-attachments/assets/849fd03d-78d8-4d67-99c6-ca583683e1da" />
-
----
-
-### Boa é KASHORADA NA SIARADA - Evanescence - Going Under (Official HD Music Video)
-
----
-
-<img width="547" height="365" alt="Image" src="https://github.com/user-attachments/assets/21af8231-af55-4837-a330-7e48d5945275" />
-
----
-
-<h3>https://www.youtube.com/watch?v=CdhqVtpR2ts</h3>
-
----
-
-### Depois do show do intevalo tem sacanagem no barro - Where Have You Been
-
-<h3>https://www.youtube.com/watch?v=HBxt_v0WF6Y</h3>
-
----
-
-### Eu gosto dela vendendo diamates (KALSINHA, BATOM E SUTIAO)
-
-<h3>https://www.youtube.com/watch?v=p9Ygppti7YI</h3>
-
----
-
-### Essa kaxasa é boa - Eminem - Lose Yourself
-
-<h3>https://www.youtube.com/watch?v=Cbtgk20s6wA</h3>
-
----
-
-### Oh, cavala para mintir, sera que ele vai fujir - “Love the Way You Lie / Not Afraid”
-
----
-
-<h3>https://www.youtube.com/watch?v=Ul-b1-ar0p0</h3>
-
----
-
-#### Que resenha é essa da cavala - hahahha
-
----
-
-<h3>https://www.youtube.com/watch?v=1MBr8cQeKTM</h3>
+### BIZU FATAL: LINES (Edges) and POSITION (Weights) 
 
 ---
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/9a916b7a-1eeb-40ec-9600-bf6138b2b1f4" />
+
 ---
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/c8033293-7cd0-4309-a959-2cff1e89e6fe" />
