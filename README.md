@@ -1,74 +1,4 @@
-### BIZU: IT’S STUPIDLY OBVIOUS: AI IS 5D AND MULTIMODAL
-
----
-
-### The multidimensional cartesian plane system
-
----
-
-#### (O - Center Axes, X - Horizontal Axes, Y - Vertical Axes, Z - Depth Axes, R - Radial Limit Base Axes)
-
----
-
-```text 
-					      ----o G (ARGB RO ARBG - SULUCLAC NEERG) MOTTOB-OT-POT DNA TFEL-OT-THGIR <-
-		    	  (0,0,0,0,0) /
-``` 
-
----
-
-```text 
-                 o----o   
-                /|   /|
-               o----o |
-               | o--|-o
-               |/ / | /
-               o----o 
-```
----
-
-```text 
-
--> LEFT-TO-RIGHT AND TOP-TO-BOTTOM (RED CALCULUS - RGBA) R o----  
-					                                      / (1,1,1,1,1)
-```
----
-
-```text 
-                 o----o   
-                /|   /|
-               o----o |
-               | o--|-o
-               |/ \ | /
-               o----o 
-```
----
-
-<h3>The multidimensional cartesian plane system inside pure functions wrappers an ANSI C89/90 freestanding within In-Line Assembly for control device I/O adopting functional programming paradigms within standard block comments /*...*/, adopting unsigned long using ANSI C89/90 on x86_64 Architecture, anchored on System V ABI x86_64, GNU, Posix, Checksum MD5 Validation for safeguard CIA Triad Security compliance. </h3>
-
----
-
-<h3>Think of a vector as a ruler of a scale for measurement. </h3>
-
----
-
-<h3> 5D OLAP Hypercube (O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Base Axes) </h3>
-
----
-
-<h3> Control Device I/O Multimodel (Raw Text and PCM Stereo Audio and BGRA Image and BGRA Video)</h3>
-
----
-
-<h3> POINTS (Nodes), LINES (Edges) and POSITION (Weights). Use `vector` for calculations—compatible with SIMD vectors such as those in AVX2 (32-bit) and AVX-512 (64-bit)—and then store everything as `VECTOR` in Binary.</h3>
-
----
-
-<h3>Starting multidimensional space position is s=(0,0,0,0,0)</h3>
-
----
-
-<h3> On flat binary file format model. (**zevo-1.1b-chat-v1.0.Q4_K_M.bin**) </h3>
+<h3>Ask your super-intelligence to create a drawing (a "CUBE") using ASCII art or a text diagram—via a text prompt in any chat interface—starting from 0D, 1D, 2D, 3D, and 4D, all the way up to a 5D hypercube. Let’s see just how far it can take this???</h3>
 
 ---
 
@@ -103,8 +33,6 @@
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/35cc1c70-eca6-46fd-9908-a8cba4a5ede2" />
 
 ---
-
-<h3>Ask your super-intelligence to create a drawing (a "CUBE") using ASCII art or a text diagram—via a text prompt in any chat interface—starting from 0D, 1D, 2D, 3D, and 4D, all the way up to a 5D hypercube. Let’s see just how far it can take this???</h3>
 
 <!--
 **zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -1022,4 +950,76 @@ Confirm **Q1**–**Q6**, and this point/line/vector-weight/EFER clarification is
 
 ---
 
+### BIZU: IT’S STUPIDLY OBVIOUS: AI IS 5D AND MULTIMODAL
 
+---
+
+### The multidimensional cartesian plane system
+
+---
+
+#### (O - Center Axes, X - Horizontal Axes, Y - Vertical Axes, Z - Depth Axes, R - Radial Limit Base Axes)
+
+---
+
+```text 
+					      ----o G (ARGB RO ARBG - SULUCLAC NEERG) MOTTOB-OT-POT DNA TFEL-OT-THGIR <-
+		    	  (0,0,0,0,0) /
+``` 
+
+---
+
+```text 
+                 o----o   
+                /|   /|
+               o----o |
+               | o--|-o
+               |/ / | /
+               o----o 
+```
+---
+
+```text 
+
+-> LEFT-TO-RIGHT AND TOP-TO-BOTTOM (RED CALCULUS - RGBA) R o----  
+					                                      / (1,1,1,1,1)
+```
+---
+
+```text 
+                 o----o   
+                /|   /|
+               o----o |
+               | o--|-o
+               |/ \ | /
+               o----o 
+```
+---
+
+<h3>The multidimensional cartesian plane system inside pure functions wrappers an ANSI C89/90 freestanding within In-Line Assembly for control device I/O adopting functional programming paradigms within standard block comments /*...*/, adopting unsigned long using ANSI C89/90 on x86_64 Architecture, anchored on System V ABI x86_64, GNU, Posix, Checksum MD5 Validation for safeguard CIA Triad Security compliance. </h3>
+
+---
+
+<h3>Think of a vector as a ruler of a scale for measurement. </h3>
+
+---
+
+<h3> 5D OLAP Hypercube (O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Base Axes) </h3>
+
+---
+
+<h3> Control Device I/O Multimodel (Raw Text and PCM Stereo Audio and BGRA Image and BGRA Video)</h3>
+
+---
+
+<h3> POINTS (Nodes), LINES (Edges) and POSITION (Weights). Use `vector` for calculations—compatible with SIMD vectors such as those in AVX2 (32-bit) and AVX-512 (64-bit)—and then store everything as `VECTOR` in Binary.</h3>
+
+---
+
+<h3>Starting multidimensional space position is s=(0,0,0,0,0)</h3>
+
+---
+
+<h3> On flat binary file format model. (**zevo-1.1b-chat-v1.0.Q4_K_M.bin**) </h3>
+
+---
