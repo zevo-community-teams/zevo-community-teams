@@ -2,6 +2,12 @@
 
 ---
 
+## STEP NUMBER ZERO: MATHEMATICAL CALCULUS ON PAPER FOR 5D CUBE AND DRAW 5D CUBE
+
+---
+
+## STEP NUMBER ONE: MATHEMATICAL CALCULUS IMPLEMENTATION IN C FOR TEXT DRAW 5D CUBE
+
 <h3>EXERCISE: USING CHAT PROMPT TEXT OF SUPER-AI FOR REFERENCE ONLY: The implementation TEXT 5D cube isometric perspective view set using pure functions wrappers an ANSI C89/90 freestanding, adopting functional programming paradigms within standard block comments /* ... */, adopting unsigned long using ANSI C89/90 on x86_64 Architecture, anchored on System V ABI x86_64, GNU, Posix, Checksum MD5 Validation for safeguard CIA Triad Security compliance. The multidimensional cartesian plan system is (O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Base Axes). The O, is center position on the multidimensional cartesian plan system and R is Radial Limit Base, starting in O to R. Starting implementation   5D cube isometric perspective view set though center position is s=(0,0,0,0,0), for all axes. Using POINTS (Nodes), LINES (Edges) and POSITION (Weights). Use `vector` for calculations—compatible with SIMD vectors such as those in AVX2 (32-bit) and AVX-512 (64-bit)—and then store everything as `VECTOR` in Binary.</h3>  
 
 ---
