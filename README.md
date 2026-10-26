@@ -2,7 +2,7 @@
 
 ---
 
-### Who is the alien from the past??? BAFO (PHARAOH OF RA = RA-MAN)
+### Who is the alien from the past??? BAFO (PHARAOH OF RA (MARS) ON THE EARTH = RA-MAN)
 
 ---
 
@@ -19,8 +19,8 @@
 ---
 
 ```text 
-					           ----o G (ARGB RO ARBG - SULUCLAC NEERG) MOTTOB-OT-POT DNA TFEL-OT-THGIR <-
-					  (0,0,0,0,0) /
+					      ----o G (ARGB RO ARBG - SULUCLAC NEERG) MOTTOB-OT-POT DNA TFEL-OT-THGIR <-
+		    	  (0,0,0,0,0) /
 ``` 
 
 ---
