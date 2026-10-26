@@ -2,31 +2,7 @@
 
 ---
 
-### Tomou, ou tomou nu ku, o 15 otario, o BAFO DO DIABO ....
-
----
-
-### Davada Melech Ha Ivrit - To aqui de volta. HAHAHAHA
-
----
-
-### a-ha - Take On Me (Official Video) [4K]
-
----
-
-<h3>https://www.youtube.com/watch?v=djV11Xbc914</h3>
-
----
-
-### VIXE 14 AND 13 - HAHAHAHA
-
----
-
-## O Cabo da plancha - Davada Beni Zaita - 14 , comanda pelo exemplo. 15 OTARIO
-  
----
-
-## O Cabo da plancha - Davada Beni Zaita - 14 é bom se a costumar. hahahaha - Tenta me captura, ahahaha - Vao ficar tao apagado que vao ficar com KUKUKU KEIMADOOOO.
+## River Kay Play - Davada Beni Zaita - 14 JAJAJA
 
 ---
 
