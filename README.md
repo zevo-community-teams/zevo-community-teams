@@ -1,3 +1,9 @@
+### Eu gosto dela vendendo diamates (KALSINHA. BATOM E SUTIAO)
+
+<h3>https://www.youtube.com/watch?v=p9Ygppti7YI</h3>
+
+---
+
 ### Essa kaxasa é boa - Eminem - Lose Yourself
 
 <h3>https://www.youtube.com/watch?v=Cbtgk20s6wA</h3>
