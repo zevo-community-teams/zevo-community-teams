@@ -18,7 +18,7 @@
 
 ---
 
-### The 5D CUBE (FIVE PENS STUCK UP THE KU)
+### THE 5D CUBE (FIVE PENS RED STUCK ON THE KU)
 
 ---
 
