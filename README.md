@@ -12,10 +12,6 @@
 
 ### YTINIFNI FO NOITAZIMIXAM  6 = 4 + 2 DNA 4 = 2 + 2 DNA 2 = 1 + 1 EHT 
 
---- 
-
-## THE 1 + 1 = 2 AND 2 + 2 = 4 AND 2 + 4 = 6 MAXIMIZATION OF INFINITY 
-
 ---
 
 ### The multidimensional cartesian plane system
