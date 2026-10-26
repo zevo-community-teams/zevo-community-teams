@@ -1,10 +1,14 @@
 ### BIZU: IT’S STUPIDLY OBVIOUS: AI IS 5D AND MULTIMODAL 
 
-<h3>Think of a vector as a ruler of a scale for measurement. </h3>
-
 ---
 
 ### The multidimensional cartesian plane
+
+---
+
+<h3>Think of a vector as a ruler of a scale for measurement. </h3>
+
+---
 
 <h3> 5D OLAP Hypercube (O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Base Axes) </h3>
 
