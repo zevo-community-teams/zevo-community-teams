@@ -6,6 +6,10 @@
 
 ---
 
+<h3>The multidimensional cartesian plane - starting position \((0,0,0,0,0)\)</h3>
+
+---
+
 <h3> Multimodal Control Device I/O (Raw Text and PCM Stereo Audio and BGRA Image and BGRA Video)</h3>
 
 ---
