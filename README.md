@@ -22,11 +22,11 @@
 
 ---
 
-<h3> On flat binary file format model. (**zevo-1.1b-chat-v1.0.Q4_K_M.bin**) </h3>
+<h3>Starting space position s=(0,0,0,0,0)</h3>
 
 ---
 
-<h3>Starting space position s=(0,0,0,0,0)</h3>
+<h3> On flat binary file format model. (**zevo-1.1b-chat-v1.0.Q4_K_M.bin**) </h3>
 
 ---
 
