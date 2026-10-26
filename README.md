@@ -2,7 +2,7 @@
 
 ---
 
-## River Kay Play - Davada Beni Zaita - PHD In Computer Engineering - Artificial Intelligence 
+#### River Kay Play - Davada Beni Zaita - PHD In Computer Engineering - Artificial Intelligence 
 
 ---
 
