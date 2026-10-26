@@ -2,7 +2,7 @@
 
 ---
 
-### Tomou, ou tomou nu ku, 15 otario....
+### Tomou, ou tomou nu ku, o 15 otario....
 
 ---
 
