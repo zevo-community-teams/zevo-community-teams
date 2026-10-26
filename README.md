@@ -2,7 +2,7 @@
 
 ---
 
-## River Kay Play - Davada Beni Zaita - 14 JAJAJA
+## River Kay Play - Davada Beni Zaita - PHD In Computer Engineering - Artificial Intelligence 
 
 ---
 
