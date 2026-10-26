@@ -6,26 +6,6 @@
 
 ---
 
-#### Who is the alien from the past??? BAFO (PHARAOH OF RA (MARS) ON THE EARTH = RA-MARS)
-
----
-
-### THE 1 + 1 = 11 AND  2 + 2 = 22  AND 11 + 22 = 33 = 6 REDUCTION OF EXTREME
-
----
-
-### YTINIFNI FO NOITAZIMIXAM  6 = 4 + 2 DNA 4 = 2 + 2 DNA 2 = 1 + 1 EHT 
-
----
-
-### THE 5D MAGIC CUBE - The 5D Rubik's Cube / Penteract (Multi-Dimensional Puzzle) 
-
----
-
-###  THE 5D MAGIC CUBE - MATHEMATICAL MODEL (FIVE PENS RED STUCK ON THE KU)
-
----
-
 #### (O - Center Axes, X - Horizontal Axes, Y - Vertical Axes, Z - Depth Axes, R - Radial Limit Base Axes)
 
 ---
