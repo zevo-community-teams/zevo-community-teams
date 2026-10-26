@@ -2,11 +2,13 @@
 
 ---
 
+### The multidimensional cartesian plane
+
 <h3> 5D OLAP Hypercube (O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Base Axes) </h3>
 
 ---
 
-<h3>The multidimensional cartesian plane - starting position v=(0,0,0,0,0)</h3>
+<h3>starting vector position v=(0,0,0,0,0)</h3>
 
 ---
 
