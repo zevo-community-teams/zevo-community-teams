@@ -6,11 +6,11 @@
 
 ---
 
-## THE 1 + 1 = 11 AND  2 + 2 = 22  AND 11 + 22 = 33 = 6 REDUCTION OF EXTREME
+### THE 1 + 1 = 11 AND  2 + 2 = 22  AND 11 + 22 = 33 = 6 REDUCTION OF EXTREME
 
 ---
 
-## YTINIFNI FO NOITAZIMIXAM  6 = 4 + 2 DNA 4 = 2 + 2 DNA 2 = 1 + 1 EHT 
+### YTINIFNI FO NOITAZIMIXAM  6 = 4 + 2 DNA 4 = 2 + 2 DNA 2 = 1 + 1 EHT 
 
 --- 
 
