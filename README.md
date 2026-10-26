@@ -2,7 +2,7 @@
 
 ---
 
-<h3> 5D OLAP Hypercube (O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Axes) </h3>
+<h3> 5D OLAP Hypercube (O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Base Axes) </h3>
 
 ---
 
