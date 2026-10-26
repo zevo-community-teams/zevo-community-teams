@@ -2,11 +2,7 @@
 
 ---
 
-#### River Kay Play - Davada Beni Zaita - PHD In Computer Engineering - The 5D Artificial Intelligence 
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/3ef3c06b-10ed-4ecc-801c-1d52ab3fbddb" />
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/1e58f937-6f84-4f34-99c7-faac2a6b52db" />
 
 ---
 
