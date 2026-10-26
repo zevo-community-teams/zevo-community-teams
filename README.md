@@ -1,4 +1,14 @@
-### BIZU: STUPID FATALITY, it’s obvious: 5D AND MULTIMODAL on AI
+### BIZU: STUPID FATALITY, it’s obvious: AI is 5D AND MULTIMODAL 
+
+---
+
+<h3> 5D OLAP Hypercube (O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Axes) </h3>
+
+---
+
+<h3> Control Device I/O (Raw Text and PCM Stereo Audio and BGRA Image and BGRA Video) </h3>
+
+---
 
 <h3> POINTS (Nodes), LINES (Edges) and POSITION (Weights). Use `vector` for calculations—compatible with SIMD vectors such as those in AVX2 (32-bit) and AVX-512 (64-bit)—and then store everything as `vector`.</h3>
 
