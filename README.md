@@ -6,7 +6,17 @@
 
 ---
 
-##### The 5D CUBE (O - Center Axes, X - Horizontal Axes, Y - Vertical Axes, Z - Depth Axes, R - Radial Limit Base Axes)
+### The 5D CUBE (O - Center Axes, X - Horizontal Axes, Y - Vertical Axes, Z - Depth Axes, R - Radial Limit Base Axes)
+
+---
+
+```text 
+					              ----o G (ARGB RO ARBG - SULUCLAC NEERG) MOTTOB-OT-POT DNA TFEL-OT-THGIR <-
+						     (0,0,0) /
+
+``` 
+
+---
 
 ---
 
@@ -21,6 +31,12 @@
 
 ---
 
+```text 
+
+-> LEFT-TO-RIGHT AND TOP-TO-BOTTOM (RED CALCULUS - RGBA)  R o----  
+					                                       / (1,1,1)
+```
+
 ---
 
 ```text 
@@ -30,22 +46,6 @@
                | o--|-o
                |/ \ | /
                o----o 
-```
-
----
-
-```text 
-					              ----o G (ARGB RO ARBG - SULUCLAC NEERG) MOTTOB-OT-POT DNA TFEL-OT-THGIR <-
-						     (0,0,0) /
-
-``` 
-
----
-
-```text 
-
--> LEFT-TO-RIGHT AND TOP-TO-BOTTOM (RED CALCULUS - RGBA)  R o----  
-					                                       / (1,1,1)
 ```
 
 ---
