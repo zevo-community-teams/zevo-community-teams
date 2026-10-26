@@ -18,7 +18,11 @@
 
 ---
 
-<h3> POINTS (Nodes), LINES (Edges) and POSITION (Weights). Use `vector` for calculations—compatible with SIMD vectors such as those in AVX2 (32-bit) and AVX-512 (64-bit)—and then store everything as `VECTOR` in Binary, on flat binary file format model. (**zevo-1.1b-chat-v1.0.Q4_K_M.bin**).</h3>
+<h3> POINTS (Nodes), LINES (Edges) and POSITION (Weights). Use `vector` for calculations—compatible with SIMD vectors such as those in AVX2 (32-bit) and AVX-512 (64-bit)—and then store everything as `VECTOR` in Binary.</h3>
+
+---
+
+<h3> On flat binary file format model. (**zevo-1.1b-chat-v1.0.Q4_K_M.bin**) </h3>
 
 ---
 
