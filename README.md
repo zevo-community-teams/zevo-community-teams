@@ -6,6 +6,37 @@
 
 ---
 
+# The 5D CUBE (O - Center Axes, X - Horizontal Axes, Y - Vertical Axes, Z - Depth Axes, R - Radial Limit Base Axes)
+
+---
+
+```text 
+                 o----o   
+                /|   /|
+               o----o |
+               | o--|-o
+               |/ \ | /
+               o----o 
+```
+
+---
+
+```text 
+					              ----o G (ARBG - SULUCLAC NEERG) MOTTOB-OT-POT DNA TFEL-OT-THGIR <-
+						        (0,0,0) /
+
+``` 
+
+---
+
+```text 
+
+-> LEFT-TO-RIGHT AND TOP-TO-BOTTOM (RED CALCULUS - RGBA)  R o----  
+					                                                 / (1,1,1)
+```
+
+---
+
 <h3>The multidimensional cartesian plane system inside pure functions wrappers an ANSI C89/90 freestanding within In-Line Assembly for control device I/O adopting functional programming paradigms within standard block comments /*...*/, adopting unsigned long using ANSI C89/90 on x86_64 Architecture, anchored on System V ABI x86_64, GNU, Posix, Checksum MD5 Validation for safeguard CIA Triad Security compliance. </h3>
 
 ---
