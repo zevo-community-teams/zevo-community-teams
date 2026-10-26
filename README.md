@@ -1,6 +1,6 @@
-### BIZU: STUPID FATALITY: 
+### BIZU: STUPID FATALITY, it’s obvious: 5D AND MULTIMODAL on AI
 
-<h3>5D ARTIFICIAL INTELLIGENCE: POINTS (Nodes), LINES (Edges) and POSITION (Weights) USING VECTOR FOR CALCULATION COMPATIBLE WITHIN SIMD VECTOR ON AVX2 32BIT AND AVX-512 64BITS.</h3>
+<h3> POINTS (Nodes), LINES (Edges) and POSITION (Weights). Use `vector` for calculations—compatible with SIMD vectors such as those in AVX2 (32-bit) and AVX-512 (64-bit)—and then store everything as `vector`.</h3>
 
 ---
 
