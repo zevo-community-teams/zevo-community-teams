@@ -18,7 +18,11 @@
 
 ---
 
-### THE 5D MAGIC CUBE (FIVE PENS RED STUCK ON THE KU)
+### THE 5D MAGIC CUBE - The 5D Rubik's Cube / Penteract (Multi-Dimensional Puzzle) 
+
+---
+
+###  THE 5D MAGIC CUBE - MATHEMATICAL MODEL (FIVE PENS RED STUCK ON THE KU)
 
 ---
 
