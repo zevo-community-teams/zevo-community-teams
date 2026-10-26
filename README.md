@@ -1,3 +1,8 @@
+#### Que Resenha é essa da cavala - hahahha
+
+https://www.youtube.com/watch?v=1MBr8cQeKTM
+
+
 #### VAO ACABAR COM A SACANAGEM NINGUEM TRANSA MAIS COM KUKUKU NA GARAFA
 
 <img width="379" height="527" alt="Image" src="https://github.com/user-attachments/assets/849fd03d-78d8-4d67-99c6-ca583683e1da" />
