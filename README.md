@@ -8,15 +8,15 @@
 
 ---
 
-<h3>starting vector position v=(0,0,0,0,0)</h3>
-
----
-
 <h3> Multimodal Control Device I/O (Raw Text and PCM Stereo Audio and BGRA Image and BGRA Video)</h3>
 
 ---
 
-<h3> POINTS (Nodes), LINES (Edges) and POSITION (Weights). Use `vector` for calculations—compatible with SIMD vectors such as those in AVX2 (32-bit) and AVX-512 (64-bit)—and then store everything as `vector`.</h3>
+<h3> POINTS (Nodes), LINES (Edges) and POSITION (Weights). Use `vector` for calculations—compatible with SIMD vectors such as those in AVX2 (32-bit) and AVX-512 (64-bit)—and then store everything as `VECTOR`.</h3>
+
+---
+
+<h3>Starting vector position v=(0,0,0,0,0)</h3>
 
 ---
 
