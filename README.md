@@ -22,7 +22,7 @@
 
 ---
 
-<h3>Starting space position s=(0,0,0,0,0)</h3>
+<h3>Starting multidimensional space position is s=(0,0,0,0,0)</h3>
 
 ---
 
