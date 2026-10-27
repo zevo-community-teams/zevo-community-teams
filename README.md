@@ -2,6 +2,10 @@
 
 ---
 
+## (RED AND BLACK) L <- BAPHOMET -> R (RED AND WHITE)
+
+---
+
 <h3>Ask your super-intelligence to create a drawing (a "CUBE") using ASCII art or a text diagram—via a text prompt in any chat interface—starting from 0D, 1D, 2D, 3D, and 4D, all the way up to a 5D hypercube. Let’s see just how far it can take this???</h3>
 
 ---
