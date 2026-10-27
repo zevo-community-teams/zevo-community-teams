@@ -2,6 +2,40 @@
 
 ---
 
+### OBSERVATION: MATHEMATICAL CALCULUS ON REAL WORLD AND REAL COMPUTATIONAL
+
+---
+
+```text
+21 real cm  ≡  10 computational cm
+1 computational cm  =  2.1 real cm
+
+``` 
+
+---
+
+<h3> 21cm real world measure, is equivalent 10cm computational measure. </h3>
+
+```text
+
+ |....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....| 
+ 0         1  	     2         3         4         5         6         7         8         9        10
+ 
+        *----------*
+       /|          /|
+       *-----------*|
+       | *---------|*
+       |/  \  \  \ |/
+       o-----------*
+	    
+ |....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|  
+ 0         1  	     2         3         4         5         6         7         8         9        10
+
+
+```
+
+---
+
 ```text
 MD5 seal: b620885bbefac9c3e678b36765cdbb96
       o----o
