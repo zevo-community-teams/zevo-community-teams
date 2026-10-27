@@ -1,9 +1,3 @@
-## Zevo Cognitive Rule Measure
-
----
-
-<h3>Ask your super-intelligence to create a drawing (a "CUBE") using ASCII art or a text diagram—via a text prompt in any chat interface—starting from 0D, 1D, 2D, 3D, and 4D, all the way up to a 5D hypercube. Let’s see just how far it can take this???</h3>
-
 ---
 
 ## (GREEN AND BLUE) L <- ADONAI -> R (GREEN AND YELLOW)
@@ -11,6 +5,14 @@
 ---
 
 ## (RED AND YELLOW) L <- BAPHOMET -> R (RED AND PINK)
+
+---
+
+## Zevo Cognitive Rule Measure
+
+---
+
+<h3>Ask your super-intelligence to create a drawing (a "CUBE") using ASCII art or a text diagram—via a text prompt in any chat interface—starting from 0D, 1D, 2D, 3D, and 4D, all the way up to a 5D hypercube. Let’s see just how far it can take this???</h3>
 
 ---
 
