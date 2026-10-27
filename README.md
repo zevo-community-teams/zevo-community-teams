@@ -29,7 +29,7 @@ MD5 seal: b77c5a8ad2219ad721a61784d52b84d4
     requested s = 10.0 comp cm = 21.00 real cm
 
   === micro-ruler: glyph space = 0,5 comp cm ===
-               0,5
+          0,5
       |....:....|
       0         1
 
