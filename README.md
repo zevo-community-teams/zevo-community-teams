@@ -2,6 +2,65 @@
 
 ---
 
+```text
+
+=== 5D PENTERACT — calibration R=(1,1,1,1,1), start 1 comp cm = 2.10 real cm ===
+  Cube size in COMPUTATIONAL centimetres, 1..10 (default 1.0): 10
+
+  using X-edge = 10.0 comp cm (21.00 real cm)
+
+Frame R = (1,1,1,1,1)  axes (R,X,Y,Z,B)  - JOINT 5-axis calc
+  R=Center X=Horizontal Y=Vertical Z=Depth B=RadialLimitBase
+  LOBE (frozen): POS=+1(UP)  CENTER=1(void)  NEG=-1(DOWN)
+  V(mask) = R + lobe  ->  cart in {0,2}^5  center at VOID=1
+  calculus: POINTS(32) + LINES(80) + POSITION(32)
+MD5 seal: b77c5a8ad2219ad721a61784d52b84d4
+
+  === CALIBRATION ===
+    21 real cm  =  10 comp cm
+     1 comp cm  =   2.10 real cm
+     1 real cm  =   0.47619 comp cm
+  === GLYPH SPACE ===
+    1 column    = 0.10 comp cm = 0.21 real cm
+    ':' (half)  = 0.50 comp cm = 1.05 real cm
+    '|' (int)   = 1.00 comp cm = 2.10 real cm
+  === FRAME START ===
+    R = (1,1,1,1,1)   start s = 1.0 comp cm = 2.10 real cm
+    requested s = 10.0 comp cm = 21.00 real cm
+
+  === micro-ruler: glyph space = 0,5 comp cm ===
+               0,5
+      |....:....|
+      0         1
+
+  --- full computational rule (above drawing) ---
+ |....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|
+ 0         1         2         3         4         5         6         7         8         9        10
+
+  === 10.0 comp cm 5D CUBE (= 21.00 real cm, k = 10) ===
+  square width = 111 chars = 11.10 comp cm = 23.31 real cm
+
+      *--------------------------------------------------------------------------------------------------------------*
+      /|                                                                                                            /|
+      *--------------------------------------------------------------------------------------------------------------*|
+      | *------------------------------------------------------------------------------------------------------------|*
+      |/                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    \                                    |/
+      o--------------------------------------------------------------------------------------------------------------*
+
+  --- full computational rule (below drawing) ---
+ |....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|....:....|
+ 0         1         2         3         4         5         6         7         8         9        10
+
+  drawing reads: 10.0 comp cm = 21.00 real cm (square width 111 chars)
+
+INTEGRITY: OK  (CIA Triad - POINTS/LINES/POSITION verified)
+
+
+
+``` 
+
+---
+
 #### OBSERVATION: MATHEMATICAL CALCULUS ON REAL WORLD AND REAL COMPUTATIONAL
 
 ---
