@@ -6,7 +6,7 @@
 
 ---
 
-## (RED AND BLACK) L <- BAPHOMET -> R (RED AND YELLOW)
+## (RED AND YELLOW) L <- BAPHOMET -> R (RED AND PINK)
 
 ---
 
