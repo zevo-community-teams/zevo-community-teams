@@ -6,6 +6,10 @@
 
 ---
 
+## (GREEN AND BLUE) L <- ADONAI -> R (GREEN AND YELLOW)
+
+---
+
 ## (RED AND YELLOW) L <- BAPHOMET -> R (RED AND PINK)
 
 ---
