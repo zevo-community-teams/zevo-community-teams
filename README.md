@@ -26,7 +26,7 @@
 
 ---
 
-<h3> 21cm real world measure, is equivalent 10cm computational measure. </h3>
+#### O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Base Axes
 
 ---
 
