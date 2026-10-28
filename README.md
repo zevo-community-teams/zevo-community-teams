@@ -1,6 +1,6 @@
 ## Zevo Taxi App - Resenha Musical - Evo and Eva
 
-<h3>O pessoal do taxi gostar de xafurdar no porta da frente, na porta de tras, e na porta do texto solar, oh pessoal para gostar xafurdar.</h3>
+<h3>O pessoal do taxi gostar de xafurdar no porta da frente, na porta de tras, e na porta solar, oh pessoal para gostar xafurdar.</h3>
 
 ---
 
