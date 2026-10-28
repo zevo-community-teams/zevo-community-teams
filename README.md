@@ -6,6 +6,10 @@
 
 ---
 
+<img width="667" height="458" alt="Image" src="https://github.com/user-attachments/assets/931030e7-8a5f-47d3-a0c5-bbdaa163a3d7" />
+
+---
+
 <h3>O Zevo Taxi, é uma da inicitiva privativa professional da Davada Corporation™, não é iniciativa de Governo ou Cooperativa Governamental, pois o governo e a cooperativa governativa cuida da coletividade social. O governo regulamenta as atividades privativas para que a empresas atendam de forma correcta os interesses individual da coletividade. As empresas cuidam da particularidade do social que não é de responsabilidade governamental.</h3>
 
 ---
