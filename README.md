@@ -2,6 +2,14 @@
 
 ---
 
+### Vixe, oia o fast car que ele dizem que o meu fast car
+
+---
+
+<h3>https://www.youtube.com/watch?v=m52kwKDKj4c</h3>
+
+---
+
 <h3> Tem como melhorar o que esta no ar ??? Tem, Para cada situação tem uma correcao ou seja uma linha do governo que atende a populacao com qualidade estabelecendo o padrao para sociedade, não existe super lotação, obrigando o empresario adotar o padrao. Exemplo Cooperativa Governamental: Posto de Combutivel BR, Educação, Cobal, CTC, Policia, SUS, SESC ... and Exemplo Iniciativa Particular: Posto de Combutivel, Educação, Mercantao, Busao, Seguranca Privadao, Plano de Saude, Restaurante com Wisk Long Life... </h3>
 
 ---
