@@ -4,6 +4,14 @@
 
 <h3> Tem como melhorar o que esta no ar ??? Tem, Para cada situação tem uma correcao ou seja uma linha do governo que atende a populacao com qualidade estabelecendo o padrao para sociedade, não existe super lotação, obrigando o empresario adotar o padrao. Exemplo Cooperativa Governamental: Posto de Combutivel BR, Educação, Cobal, CTC, Policia, SUS, SESC ... and Exemplo Iniciativa Particular: Posto de Combutivel, Educação, Mercantao, Busao, Seguranca Privadao, Plano de Saude, Restaurante com Wisk Long Life... </h3>
 
+--
+
+### E OS IMPOSTOS ??? COMO FICA COM O VALOR MINIMO SOBRE TUDO PRODUZIDO PELA COOPERATIVA. 
+
+<h3>EXEMPLO: 01 KG ARROZ COOPERATIVA R5 5,00 COM TODOS OS IMPOSTOS E LUCRO CORRECTO</h3>
+
+<h3>EXEMPLO: 01 KG ARROZ BOM SAFADO R5 10,00 COM TODOS OS IMPOSTOS E LUCRO SYPERFATURADO</h3>
+
 ---
 
 ## RESENHA MUSICAL - FAST CAR - QUE LOIRA GATA !!!
