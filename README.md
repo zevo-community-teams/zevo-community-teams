@@ -2,7 +2,7 @@
 
 ---
 
-<h3> Tem como melhorar o que esta no ar ??? Tem, Para cada situação tem uma correcaoou seja uma linha do governo que atende a populacao com qualidade estabelecendo o padrao para sociedade, não existe super lotação, obrigando o empresario adotar o padrao. Exemplo: Posto de Combutivel BR, Educação, Cobal, CTC, Policia, SUS, SESC ... </h3>
+<h3> Tem como melhorar o que esta no ar ??? Tem, Para cada situação tem uma correcaoou seja uma linha do governo que atende a populacao com qualidade estabelecendo o padrao para sociedade, não existe super lotação, obrigando o empresario adotar o padrao. Exemplo Governamental: Posto de Combutivel BR, Educação, Cobal, CTC, Policia, SUS, SESC ... and Exemplo Particular: Posto de Combutivel, Educação, Mercantao, Busao, Seguranca Privadao, Plano de Saude, Restaurante com Wisk Long File... </h3>
 
 ---
 
