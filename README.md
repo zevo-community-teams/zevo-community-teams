@@ -2,6 +2,10 @@
 
 ---
 
+### Como pode ele serem oposicao livro determinante sobre qualquer questão????
+
+---
+
 ## Zevo Taxi App or Zevo Radio Taxi - Resenha Musical - Evo and Eva
 
 ---
