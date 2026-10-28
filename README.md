@@ -2,7 +2,7 @@
 
 ---
 
-### Como pode ele serem oposicao ao livro determinante sobre qualquer questão ????
+### Como pode ele serem oposicao ao livro determinante sobre qualquer questão, anotado pelo mosão do egitao ????
 
 ---
 
