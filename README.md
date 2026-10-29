@@ -2,7 +2,7 @@
 
 ---
 
-<h3>The Red Christ is Gay Men, the Incarnation of "THE AMERICAN BAPHOMET" is a figure or concept within eschatology that refers to a supreme adversary or deceiver, who stands in opposition to Adonai’s Tzevaot and King David as **Davada Zaita** And Elijah Prophet as *Alaia Tisiba**. The Red Christ falsely lays claim to the role of a savior and to divine authority. </h3>
+<h3>The Red Christ is Gay Men, the demoniac incarnation power of "THE AMERICAN BAPHOMET" is a figure or concept within eschatology that refers to a supreme adversary or deceiver, who stands in opposition to Adonai’s Tzevaot and King David as **Davada Zaita** And Elijah Prophet as *Alaia Tisiba**. The Red Christ falsely lays claim to the role of a savior and to divine authority. </h3>
 
 ---
 
