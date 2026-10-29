@@ -1,4 +1,4 @@
-## Zevo Cube - The Best Of Cube™
+## Zevo Peba - The Best Of Peba Cube™
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/3513d77e-c1dd-4871-bc9b-dcbcff3390d4" />
 
