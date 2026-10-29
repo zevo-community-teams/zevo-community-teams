@@ -1,5 +1,7 @@
 ## Zevo Peba Truck - The Best Of Peba Truck Cube™
 
+<h3>O objectivo deste carro é jogar na cara do diabo a esteira de arasto. hahaha </h3>
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/3513d77e-c1dd-4871-bc9b-dcbcff3390d4" />
 
 ---
