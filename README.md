@@ -1,5 +1,3 @@
-<img width="960" height="542" alt="Image" src="https://github.com/user-attachments/assets/ae8faa49-c2e4-4e2a-9f94-31caba5766db" />
-
 ---
 
 ### The 5D CUBE bottom-to-up and left to right 
@@ -37,6 +35,10 @@
 -1         1         2         3         4         5         6         7         8         9        10  
 
 ```
+---
+
+<img width="960" height="542" alt="Image" src="https://github.com/user-attachments/assets/ae8faa49-c2e4-4e2a-9f94-31caba5766db" />
+
 ---
 
 ## Zevo Peba Truck - The Best Of Peba Truck Cube™
