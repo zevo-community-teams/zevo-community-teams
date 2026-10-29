@@ -2,7 +2,7 @@
 
 ---
 
-<h3>The RED Antichrist of "THE AMERICAN BAPHOMET" is a figure or concept in eschatology that refers to an ultimate adversary or deceiver who opposes Green Hebrew **Melech Ha Maschiach Ba** as **Davada Zaita** of Adonai and falsely claims the role of savior or divine authority. hahaha </h3>
+<h3>The Red Christ of "THE AMERICAN BAPHOMET" is a figure or concept in eschatology that refers to an ultimate adversary or deceiver who opposes Green Hebrew **Melech Ha Maschiach Ba** as **Davada Zaita** of Adonai and falsely claims the role of savior or divine authority. hahaha </h3>
 
 ---
 
