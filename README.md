@@ -2,7 +2,7 @@
 
 ---
 
-### ARMAS DOS BUNDA ENXADA
+### AS ARMAS DOS BUNDA ENXADA
 
 <img width="599" height="510" alt="Image" src="https://github.com/user-attachments/assets/c1ded0d5-514d-4aee-9ee6-dda0f236f767" />
 
