@@ -2,7 +2,7 @@
 
 ---
 
-<h3>The Red Christ of "THE AMERICAN BAPHOMET" is a figure or concept within eschatology that refers to a supreme adversary or deceiver, who stands in opposition to Adonai’s and King David as **Melech Ha-Mashiach Davada Zaita**. The Red Christ falsely lays claim to the role of a savior and to divine authority. </h3>
+<h3>The Red Christ Incarnation of "THE AMERICAN BAPHOMET" is a figure or concept within eschatology that refers to a supreme adversary or deceiver, who stands in opposition to Adonai’s Tzevato and King David as **Melech Ha-Mashiach Davada Zaita**. The Red Christ falsely lays claim to the role of a savior and to divine authority. </h3>
 
 ---
 
