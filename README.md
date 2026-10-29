@@ -1,6 +1,6 @@
 ## Zevo Peba Truck - The Best Of Peba Truck Cube™
 
-<h3>The whole point of this car is to shove the entire wake of turbulence right in the devil's face—that's what happens when you just grab stuff as-is, without re-engineering it, just so you don't end up looking like a total fool. hahaha </h3>
+<h3>The main purpose of this car is to throw all that turbulent wake right in the devil’s face—which is what happens when you simply take things from others exactly as they are, without redesigning a single thing, and without coming across as a total jerk. hahaha </h3>
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/3513d77e-c1dd-4871-bc9b-dcbcff3390d4" />
 
