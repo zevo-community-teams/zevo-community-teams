@@ -2,7 +2,7 @@
 
 ---
 
-<h3>The Antichrist "THE AMERICAN BAPHOMET" is a figure or concept in eschatology that refers to an ultimate adversary or deceiver who opposes Hebrew **Maschiach Beni Davada Zaita** and falsely claims the role of savior or divine authority. hahaha </h3>
+<h3>The Antichrist "THE AMERICAN BAPHOMET" is a figure or concept in eschatology that refers to an ultimate adversary or deceiver who opposes Hebrew **Melech Maschiach Ben David** as **Davada Zaita** and falsely claims the role of savior or divine authority. hahaha </h3>
 
 <img width="678" height="452" alt="Image" src="https://github.com/user-attachments/assets/c65d2620-43fa-47c8-8dac-a801fb24035d" />
 
