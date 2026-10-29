@@ -6,7 +6,7 @@
 
 ---
 
-### The 5D CUBE botton-to-up and left to right 
+### The 5D CUBE bottom-to-up and left to right 
 
 ---
 
@@ -17,7 +17,7 @@
 *---------*    |
 |    |    |    |
 |    *---------*
-|  /  R \ | / 
+|  /  R | | / 
 o---------*     R IS RADIAL (\) 
 
 ```
@@ -31,7 +31,7 @@ o---------*     R IS RADIAL (\)
 |    *---------*	
 |    | 	  |    |
 o----|----*    |
-  \  | R /  \  |
+  \  | R \  \  |
      *---------*  R IS RADIAL (/) 
 ```
 ---
