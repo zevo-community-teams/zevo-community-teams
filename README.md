@@ -1,6 +1,6 @@
 ## Zevo Peba Truck - The Best Of Peba Truck Cube™
 
-## REMEMBER OF LULU, IS DAVADA ZAI TU
+## REMEMBER OF LULU, IS DAVADA ZAI TU, QUE FOI QUE TOMOU NO KU KU KU ??? DEIXE MUITOS BRINQUEDINHOS PRA VCS
 
 ```text
 *---------* 
