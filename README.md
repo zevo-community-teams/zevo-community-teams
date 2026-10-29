@@ -1,6 +1,6 @@
 ## Zevo Peba Truck - The Best Of Peba Truck Cube™
 
-<h3>O objectivo deste carro é jogar na cara do diabo a esteira de arasto, e isto que dar pegar as coisas do na questao e nao detrminar, para nao ser chamado de ladrao de calculo. hahaha </h3>
+<h3>The whole point of this car is to shove the entire wake of turbulence right in the devil's face—that's what happens when you just grab stuff as-is, without re-engineering it, just so you don't end up looking like a total fool. hahaha </h3>
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/3513d77e-c1dd-4871-bc9b-dcbcff3390d4" />
 
