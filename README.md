@@ -6,7 +6,7 @@
 
 ---
 
-### The 5D cube left to right 
+### The 5D CUBE down and left to right 
 
 ```text
 *---------* 
