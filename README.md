@@ -1,4 +1,4 @@
-## Zevo Peba - The Best Of Peba Cube™
+## Zevo Peba Truck - The Best Of Peba Truck Cube™
 
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/3513d77e-c1dd-4871-bc9b-dcbcff3390d4" />
 
