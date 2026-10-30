@@ -10,7 +10,19 @@
 
 ---
 
-<h3>Starting implementation **5D Cube** using pure functions wrappers on ANSI C89/90 adopting functional programming paradigms within standard block comments /* ... */, using exclusive vector compatible with SIMD vectors such as those in AVX2 (32-bit) or AVX-512 (64-bit) using Pthreads and Math anchored on System V ABI x86_64, GNU, Posix, and CIA Triad within SHA-256 for file integrity and MD5 validation and Logger System Auditable Compliance. The Render **5D CUBE** animation, implements **getenv** for loading flat binary AI LLM Workload Inference Model (eg: **zevo-5D-Core-Multimodal-v0.1.bin** implemented by your or other model for test **tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf**), for read only data model storage. The AI LLM Workload Inference Model supports the following data types as inference precision of internal primitives: INT8(I8/U8), FP16. </h3>
+<h3>Starting implementation **5D Cube** using pure functions wrappers on ANSI C89/90 adopting functional programming paradigms within standard block comments /* ... */, using exclusive vector compatible with SIMD vectors such as those in AVX2 (32-bit) or AVX-512 (64-bit) using Pthreads and Math anchored on System V ABI x86_64, GNU, Posix, and CIA Triad within SHA-256 for file integrity and MD5 validation and Logger System Auditable Compliance. The Render **5D CUBE** animation, implements **getenv** for loading flat binary AI LLM Workload Inference Model (eg: **zevo-5D-Core-Multimodal-v0.1.bin** implemented by your or other model for test **tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf**), for read only data model storage. The AI LLM Workload Inference Model supports the following data types as inference precision of internal primitives: INT8(I8/U8), FP16. The project implementation Console CLI TOOLS Commands for using AI LLM Workload, data storage on flat binary. (eg: **zevo-5D-Core-Multimodal-v0.1.bin** implemented by your or other model for test **tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf**) </h3>
+
+---
+
+<h3>Eg: `./zevo-team forward <file>.bin <prompt-text>` **Inference Pipeline - forward command** </h3>
+
+---
+
+<h3>Eg: zevo team@fedora:~/Projects/zevo-team/Debug$ ./zevo-team forward zevo-5D-Core-Multimodal-v0.1.bin hello world </h3>
+
+---
+
+<h3>Eg: zevo team@fedora:~/Projects/zevo-team/Debug$ ./zevo-team forward tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf hello world </h3>
 
 ---
 
