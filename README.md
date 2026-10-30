@@ -44,6 +44,10 @@
 
 (**OBS1: The transformer command implement incremental transfer update validation for other data model storage**);
 
+---
+
+(**OBS2: The transformer command (converting GGUF tensor to the BCNF-compliant flat binary format Zevo vectors**);
+
 ```
 ---
 
