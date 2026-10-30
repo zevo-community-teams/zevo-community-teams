@@ -20,7 +20,7 @@
 
 **Console CLI TOOLS Commands Terminal implemented for using AI LLM Workload Inference on flat binary file**
 
-`./zevo-team created <file>.bin` 
+`./zevo-team create <file>.bin` 
 `./zevo-team verify <file>.bin` 
 `./zevo-team selftest <file>.bin` 
 `./zevo-team trace <file>.bin` 
@@ -31,18 +31,18 @@
 
 **The Console CLI TOOLS Commands Terminal**:
 
-~/Projects/zevo-team$ ./zevo-team created zevo-1.1b-chat-v1.0.Q4_K_M.bin
+~/Projects/zevo-team$ ./zevo-team create zevo-1.1b-chat-v1.0.Q4_K_M.bin
 ~/Projects/zevo-team$ ./zevo-team verify zevo-1.1b-chat-v1.0.Q4_K_M.bin
 ~/Projects/zevo-team$ ./zevo-team transformer tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf zevo-5D-Core-Multimodal-v0.1.bin
 ~/Projects/zevo-team$ ./zevo-team forward zevo-1.1b-chat-v1.0.Q4_K_M.bin "hello world"
 
 ---
 
-(**OBS0: Transformer command is incremental transfer inference validation update data model storage**)
+(**OBS0: The transformer command implement incremental update data model storage validation**);
 
 ---
 
-(**OBS1: The Name Convection and Regex validation for zevo-1.1b-chat-v1.0.Q4_K_M.bin**)
+(**OBS1: The create command implement name convection within regex validation for zevo-1.1b-chat-v1.0.Q4_K_M.bin**).
 
 ```
 ---
