@@ -2,7 +2,7 @@
 
 ---
 
-### Bizu - Mathematical Calculus
+### Bizu - Mathematical Calculus Applied Computer Technologies 
 
 ---
 
