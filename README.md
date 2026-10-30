@@ -14,7 +14,7 @@
 
 ---
 
-<h3>Eg: `./zevo-team forward <file>.bin <prompt-text>` **Inference Pipeline - forward command** </h3>
+<h3>Eg: `./zevo-team forward <file>*.bin <prompt-text>` **Inference Pipeline - forward command** </h3>
 
 ---
 
