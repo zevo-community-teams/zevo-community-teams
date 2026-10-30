@@ -22,7 +22,7 @@
 
 ---
 
-<h3>Reference GNU: The ELF Documentation and Binultis Commands Documentation for ELF64 and Binary64 </h3>
+<h3>Reference: The GNU Project: The ELF Documentation and Binultis Commands Documentation for ELF64 and Binary64 files </h3>
 	
 ---
 
