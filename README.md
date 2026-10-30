@@ -38,7 +38,7 @@
 
 ---
 
-(**OBS: Transformer is incremental transfer inference validation update data model storage**)
+(**OBS: Transformer command is incremental transfer inference validation update data model storage**)
 
 ```
 ---
