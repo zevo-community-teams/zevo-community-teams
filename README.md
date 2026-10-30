@@ -14,6 +14,10 @@
 
 ---
 
+<h3>Attention here: The implementation flat binary data model structure for storage vectors compatible with SIMD vectors such as those in AVX2 (32-bit) or AVX-512 (64-bit). </h3>
+
+---
+
 <h3>Attention here: Implementation pure functions wrappers for building  Window GUI Multimodel within Opengl and SDL2 and Openal and Opencl for acceleration, on parse binary for memory implementation Data Structure, In-Memory Database. </h3>
 
 ---
