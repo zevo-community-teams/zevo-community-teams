@@ -32,7 +32,8 @@
 **The CLI TOOLS Commands Terminal**:
 ~/Projects/zevo-team$ ./zevo-team created zevo-1.1b-chat-v1.0.Q4_K_M.bin
 ~/Projects/zevo-team$ ./zevo-team verify zevo-1.1b-chat-v1.0.Q4_K_M.bin
-~/Projects/zevo-team$ ./zevo-team transformer tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf zevo-5D-Core-Multimodal-v0.1.bin (**incremental inference update validation data model storage**)
+~/Projects/zevo-team$ ./zevo-team transformer tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf zevo-5D-Core-Multimodal-v0.1.bin
+(**OBS: Transformer is incremental transfer inference validation update data model storage**)
 ~/Projects/zevo-team$ ./zevo-team forward zevo-1.1b-chat-v1.0.Q4_K_M.bin "hello world"
 
 ```
