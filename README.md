@@ -14,6 +14,8 @@
 
 ---
 
+### The Zevo architecture provides integrated command-line interface (CLI) tools that allow for secure interventions by the user on terminal.
+
 ```text
 
 **Console CLI TOOLS Commands implemented for using AI LLM Workload Inference**
@@ -25,30 +27,15 @@
 `./zevo-team transformer <in>.gguf <out>.bin` 
 `./zevo-team forward <file>.bin <prompt-text>` **Inference Pipeline - forward command**
 
-The Zevo architecture provides integrated command-line interface (CLI) tools that allow for secure interventions by the user on terminal.
+---
 
 **The CLI TOOLS Commands Terminal**:
 ~/Projects/zevo-team$ ./zevo-team created zevo-1.1b-chat-v1.0.Q4_K_M.bin
 ~/Projects/zevo-team$ ./zevo-team verify zevo-1.1b-chat-v1.0.Q4_K_M.bin
 ~/Projects/zevo-team$ ./zevo-team transformer tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf zevo-1.1b-chat-v1.0.Q4_K_M.bin
-~/Projects/zevo-team$ ./zevo-team transformer tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf zevo-1.1b-core-v1.0.Q4_K_M.bin
 ~/Projects/zevo-team$ ./zevo-team forward zevo-1.1b-chat-v1.0.Q4_K_M.bin "hello world"
 
 ```
-
-
----
-
-<h3>Eg: `./zevo-team forward <file>*.bin <prompt-text>` **Inference Pipeline - forward command** </h3>
-
----
-
-<h3>Eg: zevo-team@fedora:~/Projects/zevo-team/Debug$ ./zevo-team forward zevo-5D-Core-Multimodal-v0.1.bin hello world </h3>
-
----
-
-<h3>Eg: zevo-team@fedora:~/Projects/zevo-team/Debug$ ./zevo-team forward tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf hello world </h3>
-
 ---
 
 <h3>Attention here: The implementation flat binary data model structure applied Boyce-Codd Normal Form (BCNF), using exclusive vectors compatible with SIMD vectors such as those in AVX2 (32-bit) or AVX-512 (64-bit), on calculation and storage Nodes (point) and Edge (line) and Weight (distance). </h3>
