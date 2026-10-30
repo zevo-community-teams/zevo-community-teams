@@ -41,17 +41,6 @@ https://github.com/user-attachments/assets/b2017186-9da2-46cc-976b-b594ed0e04da
 -1         1         2         3         4         5         6         7         8         9        10  
 
 ```
----
-
-<img width="960" height="542" alt="Image" src="https://github.com/user-attachments/assets/ae8faa49-c2e4-4e2a-9f94-31caba5766db" />
-
----
-
-## Zevo Peba Truck - The Best Of Peba Truck Cube™
-
-<h3>The main purpose of this car is to throw all that turbulent wake right in the devil’s face—which is what happens when you simply take things from others exactly as they are, without redesigning a single thing, and without coming across as a total jerk. hahaha </h3>
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/3513d77e-c1dd-4871-bc9b-dcbcff3390d4" />
 
 ---
 
@@ -1154,6 +1143,12 @@ Confirm **Q1**–**Q6**, and this point/line/vector-weight/EFER clarification is
 ---
 ---
 
+---
+
+<img width="960" height="542" alt="Image" src="https://github.com/user-attachments/assets/ae8faa49-c2e4-4e2a-9f94-31caba5766db" />
+
+---
+
 ### I've already watched that soap novel. The Antichrist.
 
 ---
@@ -1163,3 +1158,13 @@ Confirm **Q1**–**Q6**, and this point/line/vector-weight/EFER clarification is
 ---
 
 <img width="678" height="452" alt="Image" src="https://github.com/user-attachments/assets/c65d2620-43fa-47c8-8dac-a801fb24035d" />
+
+---
+
+---
+
+## Zevo Peba Truck - The Best Of Peba Truck Cube™
+
+<h3>The main purpose of this car is to throw all that turbulent wake right in the devil’s face—which is what happens when you simply take things from others exactly as they are, without redesigning a single thing, and without coming across as a total jerk. hahaha </h3>
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/3513d77e-c1dd-4871-bc9b-dcbcff3390d4" />
