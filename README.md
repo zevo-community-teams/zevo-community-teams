@@ -2,7 +2,11 @@
 
 ---
 
-### Bizu - Remember of Mathematical Calculus - Nodes (point) and Edge (line) and Weight (distance) 
+### Bizu - Mathematical Calculus:
+
+---
+
+<h3>Nodes (point) and Edge (line) and Weight (distance)</h3> 
 
 ---
 
