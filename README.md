@@ -18,7 +18,7 @@
 
 ---
 
-<h3>Attention here: Implementation pure functions wrappers for building  Window GUI Multimodel within Opengl and SDL2 and Openal and Opencl for acceleration, on parse binary for memory implementation Data Structure, In-Memory Database. </h3>
+<h3>Attention here: Implementation pure functions wrappers for building  Window GUI Multimodel within Opengl and SDL2 and Openal and Opencl for acceleration, on parse binary for memory implementation Data Structure, In-Memory Database, for quickly indexation. </h3>
 
 ---
 
