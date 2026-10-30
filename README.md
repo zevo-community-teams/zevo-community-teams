@@ -18,7 +18,7 @@
 
 ```text
 
-**Console CLI TOOLS Commands implemented for using AI LLM Workload Inference**
+**Console CLI TOOLS Commands Terminal implemented for using AI LLM Workload Inference**
 
 `./zevo-team created <file>.bin` 
 `./zevo-team verify <file>.bin` 
@@ -29,12 +29,16 @@
 
 ---
 
-**The CLI TOOLS Commands Terminal**:
+**The Console CLI TOOLS Commands Terminal**:
+
 ~/Projects/zevo-team$ ./zevo-team created zevo-1.1b-chat-v1.0.Q4_K_M.bin
 ~/Projects/zevo-team$ ./zevo-team verify zevo-1.1b-chat-v1.0.Q4_K_M.bin
 ~/Projects/zevo-team$ ./zevo-team transformer tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf zevo-5D-Core-Multimodal-v0.1.bin
-(**OBS: Transformer is incremental transfer inference validation update data model storage**)
 ~/Projects/zevo-team$ ./zevo-team forward zevo-1.1b-chat-v1.0.Q4_K_M.bin "hello world"
+
+---
+
+(**OBS: Transformer is incremental transfer inference validation update data model storage**)
 
 ```
 ---
