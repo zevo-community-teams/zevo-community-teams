@@ -1,4 +1,4 @@
-### Zevo Research and Prototype Team - 5D Cube™ 
+### Zevo Research and Prototype Team - 5D Multimodal AI Cube Friendly™ 
 
 ---
 
