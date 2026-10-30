@@ -1,4 +1,4 @@
-### Zevo 5D Cube - Research and Prototype™ 
+### Zevo Research and Prototype Team - 5D Cube™ 
 
 ---
 
