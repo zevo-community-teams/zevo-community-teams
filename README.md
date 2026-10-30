@@ -18,11 +18,11 @@
 
 ---
 
-<h3>Eg: zevo team@fedora:~/Projects/zevo-team/Debug$ ./zevo-team forward zevo-5D-Core-Multimodal-v0.1.bin hello world </h3>
+<h3>Eg: zevo-team@fedora:~/Projects/zevo-team/Debug$ ./zevo-team forward zevo-5D-Core-Multimodal-v0.1.bin hello world </h3>
 
 ---
 
-<h3>Eg: zevo team@fedora:~/Projects/zevo-team/Debug$ ./zevo-team forward tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf hello world </h3>
+<h3>Eg: zevo-team@fedora:~/Projects/zevo-team/Debug$ ./zevo-team forward tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf hello world </h3>
 
 ---
 
