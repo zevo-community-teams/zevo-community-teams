@@ -1,4 +1,4 @@
-### Zevo 5D Cube AI LLM Workload Inference 
+### Zevo 5D Cube™ - AI LLM Workload Inference 
 
 ---
 
