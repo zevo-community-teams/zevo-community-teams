@@ -34,6 +34,19 @@ zevo-team@fedora:~/Projects/zevo-team$ tree
 
 ---
 
+```text
+
+    /* 
+     * Regex Pattern Breakdown:
+     * ^zevo-                  : Must start with "zevo-"
+     * [0-9]+\.[0-9]+          : Model version number (e.g., 1.1)
+     * -[a-z]+                 : Model architecture tag (e.g., -chat)
+     * -v[0-9]+\.[0-9]+        : Version tag (e.g., -v1.0)
+     * \.[A-Za-z0-9_]+\.bin$   : Quantization / variant suffix ending in .bin (e.g., .Q4_K_M.bin)
+     */
+```
+---
+
 ### The Zevo architecture provides integrated console for command-line interface (CLI) that allow for secure interventions by the root user on terminal.
 
 ```text
