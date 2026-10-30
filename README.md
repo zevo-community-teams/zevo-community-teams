@@ -18,11 +18,11 @@
 
 ---
 
-<h3>zevoteam@fedora:~/Projects/zevo-team/Debug$ objcopy -O binary zevo-team zevo-5D-Core-Multimodal-v0.1.bin Documentation</h3>
+<h3>zevoteam@fedora:~/Projects/zevo-team/Debug$ objcopy -O binary zevo-team zevo-5D-Core-Multimodal-v0.1.bin</h3>
 
 ---
 
-<h3>Reference GNU: The ELF Documentation and Binultis Commands Documentation </h3>
+<h3>Reference GNU: The ELF Documentation and Binultis Commands Documentation for ELF64 and Binary64 </h3>
 	
 ---
 
