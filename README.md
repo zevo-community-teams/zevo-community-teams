@@ -22,7 +22,7 @@
 
 ---
 
-<h3>AI LLM Workload Inference on flat binary ELF64 converted on Binary64 file</h3>
+<h3>AI LLM Workload Inference on flat binary ELF64 converted on Binary64 file.</h3>
 
 ---
 
