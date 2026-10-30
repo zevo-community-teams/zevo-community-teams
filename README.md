@@ -38,11 +38,11 @@
 
 ---
 
-(**OBS0: The transformer command implement incremental update data model storage validation**);
+(**OBS: The create command implement name convection within regex validation for zevo-1.1b-chat-v1.0.Q4_K_M.bin**).
 
 ---
 
-(**OBS1: The create command implement name convection within regex validation for zevo-1.1b-chat-v1.0.Q4_K_M.bin**).
+(**OBS1: The transformer command implement incremental transfer update data model storage validation**);
 
 ```
 ---
