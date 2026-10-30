@@ -14,7 +14,7 @@
 
 ---
 
-### The Zevo architecture provides integrated command-line interface (CLI) tools that allow for secure interventions by the user on terminal.
+### The Zevo architecture provides integrated console for command-line interface (CLI) that allow for secure interventions by the root user on terminal.
 
 ```text
 
