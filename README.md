@@ -14,6 +14,31 @@
 
 ---
 
+```text
+
+**Console CLI TOOLS Commands implemented for using AI LLM Workload Inference**
+
+`./zevo-team created <file>.bin` 
+`./zevo-team verify <file>.bin` 
+`./zevo-team selftest <file>.bin` 
+`./zevo-team trace <file>.bin` 
+`./zevo-team transformer <in>.gguf <out>.bin` 
+`./zevo-team forward <file>.bin <prompt-text>` **Inference Pipeline - forward command**
+
+The Zevo architecture provides integrated command-line interface (CLI) tools that allow for secure interventions by the user on terminal.
+
+**The CLI TOOLS Commands Terminal**:
+~/Projects/zevo-team$ ./zevo-team created zevo-1.1b-chat-v1.0.Q4_K_M.bin
+~/Projects/zevo-team$ ./zevo-team verify zevo-1.1b-chat-v1.0.Q4_K_M.bin
+~/Projects/zevo-team$ ./zevo-team transformer tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf zevo-1.1b-chat-v1.0.Q4_K_M.bin
+~/Projects/zevo-team$ ./zevo-team transformer tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf zevo-1.1b-core-v1.0.Q4_K_M.bin
+~/Projects/zevo-team$ ./zevo-team forward zevo-1.1b-chat-v1.0.Q4_K_M.bin "hello world"
+
+```
+
+
+---
+
 <h3>Eg: `./zevo-team forward <file>*.bin <prompt-text>` **Inference Pipeline - forward command** </h3>
 
 ---
