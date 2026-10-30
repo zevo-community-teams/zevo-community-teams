@@ -14,7 +14,7 @@
 
 ```text
 
-zevo-team @fedora:~/Projects/zevo-team $ tree
+zevo-team@fedora:~/Projects/zevo-team$ tree
 .
 ├── main.c
 └── src
