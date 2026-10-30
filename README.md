@@ -1,6 +1,8 @@
 ### Zevo 5D Cube AI LLM Workload Inference 
 
-<h3>https://github.com/user-attachments/assets/b2017186-9da2-46cc-976b-b594ed0e04da</h3>
+---
+
+https://github.com/user-attachments/assets/b2017186-9da2-46cc-976b-b594ed0e04da
 
 ---
 
