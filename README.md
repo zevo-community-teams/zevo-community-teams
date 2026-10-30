@@ -42,7 +42,7 @@
 
 ---
 
-(**OBS1: The transformer command implement incremental transfer update data model storage validation**);
+(**OBS1: The transformer command implement incremental transfer update validation for other data model storage**);
 
 ```
 ---
