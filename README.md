@@ -14,7 +14,7 @@
 
 ---
 
-<h3>Attention here: The implementation flat binary data model structure for storage vectors compatible with SIMD vectors such as those in AVX2 (32-bit) or AVX-512 (64-bit). </h3>
+<h3>Attention here: The implementation flat binary data model structure for storage vectors compatible with SIMD vectors such as those in AVX2 (32-bit) or AVX-512 (64-bit). The is Nodes (point) and Edge (line) and Weight (distance), using vector implementation for calculus and storage on data model storage on flat binary. </h3>
 
 ---
 
