@@ -10,7 +10,7 @@
 
 ---
 
-<h3>The project zevo-team directory tree implementation on single file main.c within headers and sources necessary<h3>
+<h3>The project zevo-team directory tree implementation on single file main.c within headers and sources necessary.<h3>
 
 ```text
 
