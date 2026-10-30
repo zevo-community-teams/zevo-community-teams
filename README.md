@@ -36,8 +36,8 @@ zevo-team@fedora:~/Projects/zevo-team$ tree
 
 ```text
 
-    /* 
-     * Regex Pattern Breakdown:
+    /* zevo-1.1b-chat-v1.0.Q4_K_M.bin
+     * Regex Pattern Breakdown for Name Convection:
      * ^zevo-                  : Must start with "zevo-"
      * [0-9]+\.[0-9]+          : Model version number (e.g., 1.1)
      * -[a-z]+                 : Model architecture tag (e.g., -chat)
