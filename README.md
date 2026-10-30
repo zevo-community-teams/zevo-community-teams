@@ -14,7 +14,7 @@
 
 ---
 
-<h3>AI LLM Workload Inference on Flat Binary ELF64 Converted on Binary</h3>
+<h3>AI LLM Workload Inference on Flat Binary ELF64 Converted on Binary64</h3>
 
 ---
 
