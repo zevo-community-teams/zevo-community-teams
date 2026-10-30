@@ -34,17 +34,24 @@ zevo-team@fedora:~/Projects/zevo-team$ tree
 
 ---
 
-```text
+<h3>Attention here: The implementation flat binary data model structure applied Boyce-Codd Normal Form (BCNF), using exclusive vectors compatible with SIMD vectors such as those in AVX2 (32-bit) or AVX-512 (64-bit), on calculation and storage Nodes (point) and Edge (line) and Weight (distance). </h3>
 
-    /* zevo-1.1b-chat-v1.0.Q4_K_M.bin
-     * Regex Pattern Breakdown for Name Convection:
-     * ^zevo-                  : Must start with "zevo-"
-     * [0-9]+\.[0-9]+          : Model version number (e.g., 1.1)
-     * -[a-z]+                 : Model architecture tag (e.g., -chat)
-     * -v[0-9]+\.[0-9]+        : Version tag (e.g., -v1.0)
-     * \.[A-Za-z0-9_]+\.bin$   : Quantization / variant suffix ending in .bin (e.g., .Q4_K_M.bin)
-     */
-```
+---
+
+<h3>Attention here: Implementation pure functions wrappers for building Window GUI Multimodel within Opengl and SDL2 and Openal and Opencl for acceleration, and implementation parse binary data model for memory using Data Structure, In-Memory Database, for quickly indexation. </h3>
+
+---
+
+<h3>AI LLM Workload Inference on flat binary ELF64 converted on Binary64 file.</h3>
+
+---
+
+<h3>zevoteam@fedora:~/Projects/zevo-team/Debug$ objcopy -O binary zevo-team zevo-5D-Core-Multimodal-v0.1.bin</h3>
+
+---
+
+<h3>Reference: The GNU Project: The ELF Documentation and Binultis Commands Documentation for ELF64 and Binary64 files </h3>
+	
 ---
 
 ### The Zevo architecture provides integrated console for command-line interface (CLI) that allow for secure interventions by the root user on terminal.
@@ -84,24 +91,17 @@ zevo-team@fedora:~/Projects/zevo-team$ tree
 ```
 ---
 
-<h3>Attention here: The implementation flat binary data model structure applied Boyce-Codd Normal Form (BCNF), using exclusive vectors compatible with SIMD vectors such as those in AVX2 (32-bit) or AVX-512 (64-bit), on calculation and storage Nodes (point) and Edge (line) and Weight (distance). </h3>
+```text
 
----
-
-<h3>Attention here: Implementation pure functions wrappers for building Window GUI Multimodel within Opengl and SDL2 and Openal and Opencl for acceleration, and implementation parse binary data model for memory using Data Structure, In-Memory Database, for quickly indexation. </h3>
-
----
-
-<h3>AI LLM Workload Inference on flat binary ELF64 converted on Binary64 file.</h3>
-
----
-
-<h3>zevoteam@fedora:~/Projects/zevo-team/Debug$ objcopy -O binary zevo-team zevo-5D-Core-Multimodal-v0.1.bin</h3>
-
----
-
-<h3>Reference: The GNU Project: The ELF Documentation and Binultis Commands Documentation for ELF64 and Binary64 files </h3>
-	
+    /* zevo-1.1b-chat-v1.0.Q4_K_M.bin
+     * Regex Pattern Breakdown for Name Convection:
+     * ^zevo-                  : Must start with "zevo-"
+     * [0-9]+\.[0-9]+          : Model version number (e.g., 1.1)
+     * -[a-z]+                 : Model architecture tag (e.g., -chat)
+     * -v[0-9]+\.[0-9]+        : Version tag (e.g., -v1.0)
+     * \.[A-Za-z0-9_]+\.bin$   : Quantization / variant suffix ending in .bin (e.g., .Q4_K_M.bin)
+     */
+```
 ---
 
 https://github.com/user-attachments/assets/80894f77-bcf2-472a-a215-dbd5bdbb72a8
