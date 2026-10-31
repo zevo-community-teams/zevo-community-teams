@@ -1,3 +1,54 @@
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/9a916b7a-1eeb-40ec-9600-bf6138b2b1f4" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/c8033293-7cd0-4309-a959-2cff1e89e6fe" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/1e58f937-6f84-4f34-99c7-faac2a6b52db" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/ac64d764-0dd9-4c30-ad1a-6d72ebb8168f" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/579f0df5-0b20-45f1-8d07-8aa6dd567f51" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/c4cdad52-1e27-46a6-9d0f-ef1659008d51" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/36d40572-50d4-4f6c-94e0-5ede6f512f7a" />
+
+---
+
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/35cc1c70-eca6-46fd-9908-a8cba4a5ede2" />
+
+---
+
+<!--
+**zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+
+---
+
 ## WORKFLOW SEQUENCE: 
 
 ## (GOVERNMENT ACADEMIC PROJECT) RESEARCH AND PROTOTYPE -> (COOPERATIVE BUSINESS PROCESS) RESEARCH AND DEVELOPMENT 
@@ -428,23 +479,6 @@ https://github.com/user-attachments/assets/68050d05-7553-4ecd-b58f-f8de969e828a
 
 ---
 
-<!--
-**zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
----
-
 ### Zevo Research and Prototype Team - Zevo 5D Multimodal AI Cube Friendly™ 
 
 ### Bizu - Mathematical Calculus Applied Computer Technologies 
@@ -663,38 +697,6 @@ o---------*  0=(0,0,0,0,0) GREEN CUBE
 ---
 
 <h3>EXERCISE: USING CHAT PROMPT TEXT OF SUPER-AI FOR REFERENCE ONLY: The implementation TEXT 5D cube isometric perspective view set using pure functions wrappers an ANSI C89/90 adopting functional programming paradigms within standard block comments /* ... */, adopting unsigned long using ANSI C89/90 on x86_64 Architecture, anchored on System V ABI x86_64, GNU, Posix, Checksum MD5 Validation for safeguard CIA Triad Security compliance. The multidimensional cartesian plan system is (O - Center Axes, X - Horizontal Axes ,Y - Vertical Axes , Z - Depth Axes, R - Radial Limit Base Axes). The O, is center position on the multidimensional cartesian plan system and R is Radial Limit Base, starting in O to R. Starting implementation   5D cube isometric perspective view set though center position is s=(0,0,0,0,0), for all axes. Using POINTS (Nodes), LINES (Edges) and POSITION (Weights). Use `vector` for calculations—compatible with SIMD vectors such as those in AVX2 (32-bit) and AVX-512 (64-bit).</h3>  
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/9a916b7a-1eeb-40ec-9600-bf6138b2b1f4" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/c8033293-7cd0-4309-a959-2cff1e89e6fe" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/1e58f937-6f84-4f34-99c7-faac2a6b52db" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/ac64d764-0dd9-4c30-ad1a-6d72ebb8168f" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/579f0df5-0b20-45f1-8d07-8aa6dd567f51" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/c4cdad52-1e27-46a6-9d0f-ef1659008d51" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/36d40572-50d4-4f6c-94e0-5ede6f512f7a" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/35cc1c70-eca6-46fd-9908-a8cba4a5ede2" />
 
 ---
 
