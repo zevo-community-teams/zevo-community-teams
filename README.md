@@ -1,5 +1,3 @@
-### Zevo Research and Prototype Team - Zevo 5D Multimodal AI Cube Friendly™ 
-
 ---
 
 ### PART ZERO VIDEO - FAKE SNAKE - 5D MULTIMODAL AI CORAL
@@ -438,6 +436,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+---
+
+### Zevo Research and Prototype Team - Zevo 5D Multimodal AI Cube Friendly™ 
 
 ### Bizu - Mathematical Calculus Applied Computer Technologies 
 
