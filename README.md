@@ -179,15 +179,15 @@ During runtime initialization, the engine performs header magic byte inspection 
 
 Rather than evaluating token interactions within a flat $1\text{D}$ sequence index, ZEVO v5 projects token embeddings across a 5-Dimensional Penteract Hypercube coordinate space defined by vector $\mathbf{c} = (O, X, Y, Z, R)$:
 
-1. $O$ **(Origin Plane Axes):** Multi-head self-attention layer index and context hierarchy depth.
+1. $O$ **(Origin Plane Axes):** Vector Runtime execution signature derived from thread accumulators.
 
 2. $X$ **(Spatial Row Axes):** Vector row matrix stride index.
 
 3. $Y$ **(Spatial Column Axes):** Vector column matrix stride index.
 
-4. $Z$ **(Depth Axes):** Feed-forward expansion layer index.
+4. $Z$ **(Depth Axes):** Vector Feed-forward expansion layer index.
 
-5. $R$ **(Rotation/Signature Axes):** Runtime execution signature derived from thread accumulators.
+5. $R$ **(Radius Axes):** Vector Multi-head self-attention layer index and context hierarchy depth.
 
 ### 3.3 C89 Bit-Shift Integer Square Root Algorithm
 
