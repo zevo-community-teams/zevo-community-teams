@@ -8,6 +8,8 @@
 
 ### O ZERO É MEU, O RESTO É NOSSO...
 
+<img width="389" height="500" alt="Image" src="https://github.com/user-attachments/assets/c1c4453c-675a-42fd-bcca-e6bec4c6d52d" />
+
 ---
 
 ### PART ZERO VIDEO - FAKE SNAKE - 5D MULTIMODAL AI CORAL
