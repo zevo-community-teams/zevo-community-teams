@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/68050d05-7553-4ecd-b58f-f8de969e828a
 
 ---
 
-# 5D Spatial Processing Unit (SPU) Inference Engine in ANSI C89/90
+## 5D Spatial Processing Unit (SPU) Inference Engine in ANSI C89/90
 
 **Author:** Davada Beni Zaita and Zevo Team Academic
 
