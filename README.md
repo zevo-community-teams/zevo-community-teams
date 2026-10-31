@@ -1,6 +1,6 @@
 ## 5D Spatial Processing Unit (SPU) Inference Engine in ANSI C89/90
 
-**Author:** Davada Beni Zaita and Zevo Team Academic
+**Author:** Davada Beni Zaita Team Lider and Zevo Team Academic
 
 **Academic Specification Paper**
 
