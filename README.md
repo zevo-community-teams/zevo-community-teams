@@ -1,3 +1,7 @@
+## WORKFLOW SEQUENCE: 
+
+## ACADEMIC RESEARCH AND PROTOTYPE (GOVERNMENT) -> BUSINESS RESEARCH AND DEVELOPMENT (COOPERATIVE)   
+
 ## Academic Specification Paper
 
 **5D Spatial Processing Unit (SPU) Inference Engine in ANSI C89/90**
