@@ -120,7 +120,7 @@ $$
 W_{2i+1} = (H - 8.0) \times S
 $$
 
-where $i \in [0, 63]$, $L = \text{byte}_i \ \& \ 0x0F$, and $H = (\text{byte}_i \gg 4) \ \& \ 0x0F$.
+where $i \in [0, 63]$, $L = \text{byte}_i\ \&\ 0x0F$, and $H = (\text{byte}_i \gg 4)\ \&\ 0x0F$.
 
 ### 2.3 ANSI C89/90 Technical Constraints
 
