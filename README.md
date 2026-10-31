@@ -1,5 +1,7 @@
 ### Zevo Research and Prototype Team - Zevo 5D Multimodal AI Cube Friendly™ 
 
+---
+
 ### PART ZERO VIDEO - FAKE SNAKE - 5D MULTIMODAL AI CORAL
 
 ---
@@ -16,7 +18,7 @@ https://github.com/user-attachments/assets/68050d05-7553-4ecd-b58f-f8de969e828a
 
 ---
 
-# 5D Spatial Processing Unit (SPU) Inference Engine in ANSI C89/90
+### 5D Spatial Processing Unit (SPU) Inference Engine in ANSI C89/90
 
 **Academic Specification Paper**
 
