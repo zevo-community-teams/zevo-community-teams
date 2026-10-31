@@ -350,9 +350,9 @@ $$
 
 Test artifacts included:
 
-1. **TinyLlama-1.1B Chat (Q4_K_M GGUF):** $2.2 \text{ GB}$ container size.
+1. **TinyLlama-1.1B Chat (Q4_K_M GGUF):** $668.8 \text{ MB}$ container size.
 
-2. **ZEVO 5D Core Multimodal (Flat Binary `.bin`):** $1.8 \text{ GB}$ container size.
+2. **ZEVO 5D Core Multimodal (Flat Binary `.bin`):** $668.8 \text{ MB}$ container size.
 
 ### 5.2 Empirical Latency and Memory Measurements
 
