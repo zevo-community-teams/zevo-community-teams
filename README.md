@@ -674,7 +674,7 @@ Two spelling issues must be resolved before anything else.
 4. **Point, line, and vector are three different mathematical objects** and must not be conflated. Standard CS/mathematics definitions apply, not ad-hoc ones:
    - **Point** = 0-dimensional element of an affine space, identified by a coordinate tuple.
    - **Line** = 1-dimensional affine subspace, identified by two points or by a point and a direction.
-   - **Vector** = element of a vector space, identified by a **magnitude and direction** relative to an origin; equivalently, an ordered n-tuple of scalars.
+   - **Position** = element of a vector space, identified by a **magnitude and direction** relative to an origin; equivalently, an ordered n-tuple of scalars.
    
    See §2, §3 and refs [9]–[12] for the mathematical definitions, and §5 for how each maps to storage addressing.
 
@@ -778,7 +778,7 @@ Sources: [4] §3 and [5] §5.8; also [8] for AMD's original EFER definition.
 |---|---|---|---|---|
 | **Point** | 0-D element of affine space | byte offset `(segment, block, byte)` | 32 (IA-32), 64 (x86-64), 64+region (IA-64) | square marker on slab edge |
 | **Line** | 1-D affine subspace | byte span `START` + `LENGTH` | 32/32 (IA-32), 64/64 (x86-64, IA-64) | horizontal ruler |
-| **Position (mathematical)** | element of vector space | 5D coordinate `(O, X, Y, Z, R)` | independent of ISA | five-axis panel + `V₀` origin |
+| **Position** | element of vector space | 5D coordinate `(O, X, Y, Z, R)` | independent of ISA | five-axis panel + `V₀` origin |
 | **Vector (SIMD)** | fixed-width multi-lane register | `Zevo Vector Primitive` | 128/256/512 (x86-64), 64/128 (IA-32), non-SSE/AVX (IA-64) | `Zevo Vector Primitive` element in Ring A |
 | **EFER** | not a mathematical object | `IA32_EFER` MSR enabling `SYSCALL` | **x86-64 only** | small footnote `EFER.SCE` attached to `SYSENTER / SYSCALL` |
 
@@ -906,7 +906,7 @@ Confirm **Q1**–**Q5**, and this point/line/position/EFER clarification is rend
 
 ---
 
-# 5D Point, Line and Positon
+# 5D Multimodel Point, Line and Position
 
 ## Point, Line, and Position in EFER on IA-32, IA-64, and x86-64
 
@@ -983,7 +983,7 @@ Sources: [1] Intel SDM Vol. 1; [2] AMD APM Vol. 1; [3] Intel Itanium SDM Vol. 1.
 
 ---
 
-## §4. Weight Vector — Three Meanings, Anchored on ISA and EFER
+## §4. Position — Three Meanings, Anchored on ISA and EFER
 
 ### §4.1 Mathematical definitions
 
