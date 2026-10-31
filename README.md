@@ -18,11 +18,11 @@ https://github.com/user-attachments/assets/68050d05-7553-4ecd-b58f-f8de969e828a
 
 ---
 
-### 5D Spatial Processing Unit (SPU) Inference Engine in ANSI C89/90
+# 5D Spatial Processing Unit (SPU) Inference Engine in ANSI C89/90
+
+**Author:** Davada Beni Zaita and Zevo Team Academic
 
 **Academic Specification Paper**
-
-**Author:** Davada Beni Zaita and Zevo Academic Team
 
 **Target Standard:** ISO ANSI C89/90 (`-std=c90 -ansi -pedantic -Werror`)
 
@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/68050d05-7553-4ecd-b58f-f8de969e828a
 
 Modern Large Language Model (LLM) inference engines typically rely on complex C runtimes, dynamic memory managers, and extensive third-party software dependencies. While these frameworks cater to high-level cloud abstractions, they introduce significant memory overhead, initialization latency, and portability barriers on resource-constrained embedded systems and safety-critical execution environments.
 
-This paper presents the design, implementation, and empirical evaluation of **ZEVO v5**, a high-performance 5D Spatial Processing Unit (SPU) inference engine written strictly within the boundaries of the ISO ANSI C89/90 standard (`-std=c90 -ansi -pedantic -Werror`). By unifying POSIX zero-copy virtual memory mapping (`mmap`), block-level 4-bit ($Q4$) tensor dequantization, static domain-decomposed multithreading via POSIX threads (`pthread`), and a novel 5D penteract hypercube coordinate routing model, ZEVO v5 achieves ultra-low execution latency without external runtime dependencies.
+This paper presents the design, implementation, and empirical evaluation of **ZEVO v5**, a high-performance 5D Spatial Processing Unit (SPU) inference engine written strictly within the boundaries of the ISO ANSI C89/90 standard (`-std=c90 -ansi -pedantic -Werror`). By unifying POSIX zero-copy virtual memory mapping (`mmap`), block-level 4-bit ($Q4$) vector dequantization, static domain-decomposed multithreading via POSIX threads (`pthread`), and a novel 5D penteract hypercube coordinate routing model, ZEVO v5 achieves ultra-low execution latency without external runtime dependencies.
 
 Empirical benchmarks conducted on POSIX Linux platforms confirm sub-millisecond container initialization latency (a $452\times$ speedup over traditional buffered stream loading), strict Resident Set Size (RSS) memory control (a $154\times$ reduction during lazy page inspection), and a parallel efficiency of $92\%$ across multi-core systems.
 
@@ -48,7 +48,7 @@ Empirical benchmarks conducted on POSIX Linux platforms confirm sub-millisecond 
 
   * [2.1 Virtual Memory Architecture & Zero-Copy I/O Systems](#21-virtual-memory-architecture--zero-copy-io-systems)
 
-  * [2.2 Quantization & Bit-Packed Tensor Representation](#22-quantization--bit-packed-tensor-representation)
+  * [2.2 Quantization & Bit-Packed Vector Representation](#22-quantization--bit-packed-vector-representation)
 
   * [2.3 ANSI C89/90 Technical Constraints](#23-ansi-c8990-technical-constraints)
 
@@ -124,9 +124,9 @@ $$
 \text{Virtual Address Space} \longrightarrow \text{Kernel Page Cache} \longleftrightarrow \text{Physical Storage (NVMe/SSD)}
 $$
 
-Memory pages are brought into physical RAM on-demand via minor page faults as execution touches specific tensor byte offsets. This zero-copy paradigm eliminates user-space buffer allocations and enables instant model container inspection.
+Memory pages are brought into physical RAM on-demand via minor page faults as execution touches specific vector byte offsets. This zero-copy paradigm eliminates user-space buffer allocations and enables instant model container inspection.
 
-### 2.2 Quantization & Bit-Packed Tensor Representation
+### 2.2 Quantization & Bit-Packed Vector Representation
 
 Deep neural networks exhibit significant parameter redundancy, enabling floating-point weights ($32$-bit IEEE-754) to be quantized into low-bit representations with negligible perplexity loss. In uniform block quantization (such as $Q4\_0$ and $Q4\_K\_M$), weights are grouped into discrete blocks containing a single-precision floating-point scale factor $S$ and an array of bit-packed integers.
 
@@ -158,7 +158,7 @@ Adhering strictly to standard C89/90 (`-std=c90 -ansi -pedantic -Werror`) impose
 
 ### 3.1 Container Layout & Multi-Format Detection
 
-The ZEVO v5 binary file layout consists of a 24-byte static header followed by metadata streams, topology tables, and raw $Q4$ tensor weight blocks.
+The ZEVO v5 binary file layout consists of a 24-byte static header followed by metadata streams, topology tables, and raw $Q4$ vector weight blocks.
 
 ```
 +-------------------------------------------------------------------------+
@@ -183,9 +183,9 @@ Rather than evaluating token interactions within a flat $1\text{D}$ sequence ind
 
 1. $O$ **(Origin Plane Axes):** Multi-head self-attention layer index and context hierarchy depth.
 
-2. $X$ **(Spatial Row Axes):** Tensor row matrix stride index.
+2. $X$ **(Spatial Row Axes):** Vector row matrix stride index.
 
-3. $Y$ **(Spatial Column Axes):** Tensor column matrix stride index.
+3. $Y$ **(Spatial Column Axes):** Vector column matrix stride index.
 
 4. $Z$ **(Depth Axes):** Feed-forward expansion layer index.
 
@@ -303,7 +303,7 @@ int zevo_decode_q4_nibbles(const unsigned char *weight_blob,
         return 0;
     }
 
-    if (zevo_inspect_q4_tensor_block(weight_blob, block_index, &scale) != 0) {
+    if (zevo_inspect_q4_vector_block(weight_blob, block_index, &scale) != 0) {
         return 0;
     }
 
@@ -333,21 +333,21 @@ int zevo_decode_q4_nibbles(const unsigned char *weight_blob,
 
 ### 4.3 Lock-Free Parallel Thread Decomposition (`zevo_thread.c`)
 
-Parallel tensor processing divides total matrix rows $N$ evenly across $T$ worker threads. Thread arguments pass memory offsets directly into mapped space:
+Parallel vector processing divides total matrix rows $N$ evenly across $T$ worker threads. Thread arguments pass memory offsets directly into mapped space:
 
 ```
 static void* zevo_worker_thread_func(void *arg) {
     struct zevo_thread_args *t_args;
     unsigned long i;
     unsigned long local_accumulator;
-    const unsigned char *tensor_ptr;
+    const unsigned char *vector_ptr;
 
     t_args = (struct zevo_thread_args*) arg;
     local_accumulator = 0;
 
     for (i = t_args->start_row; i < t_args->end_row; i++) {
-        tensor_ptr = t_args->weight_blob + (i * 1024);
-        local_accumulator += (unsigned long) (*tensor_ptr);
+        vector_ptr = t_args->weight_blob + (i * 1024);
+        local_accumulator += (unsigned long) (*vector_ptr);
     }
 
     *(t_args->output_vector) = local_accumulator;
@@ -421,6 +421,8 @@ This paper presented ZEVO v5, a lightweight, highly portable 5D Spatial Processi
 3. KERNIGHAN, Brian W. and RITCHIE, Dennis M. *The C Programming Language*. 2nd ed. Englewood Cliffs: Prentice Hall, 1988. ISBN 0-13-110362-8.
 
 4. STEVENS, W. Richard and RAGO, Stephen A. *Advanced Programming in the UNIX Environment*. 3rd ed. Boston: Addison-Wesley, 2013. ISBN 978-0-321-63773-4.
+
+---
 
 <!--
 **zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
