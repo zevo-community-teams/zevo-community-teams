@@ -108,7 +108,7 @@ Memory pages are brought into physical RAM on-demand via minor page faults as ex
 
 ### 2.2 Quantization & Bit-Packed Vector Representation
 
-Deep neural networks exhibit significant parameter redundancy, enabling floating-point weights ($32$-bit IEEE-754) to be quantized into low-bit representations with negligible perplexity loss. In uniform block quantization (such as $Q4\_0$ and $Q4\_K\_M), weights are grouped into discrete blocks containing a single-precision floating-point scale factor $S$ and an array of bit-packed integers.
+Deep neural networks exhibit significant parameter redundancy, enabling floating-point weights ($32$-bit IEEE-754) to be quantized into low-bit representations with negligible perplexity loss. In uniform block quantization (such as $Q4\_0$ and Q4\_K\_M), weights are grouped into discrete blocks containing a single-precision floating-point scale factor $S$ and an array of bit-packed integers.
 
 For a 132-byte $Q4$ block containing a $4$-byte IEEE-754 scale factor followed by $128$ packed bytes ($256$ nibble weights), the mathematical dequantization formula for low nibble $L$ and high nibble $H$ is defined as:
 
