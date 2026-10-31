@@ -1,21 +1,5 @@
 ---
 
-### PART ZERO VIDEO - FAKE SNAKE - 5D MULTIMODAL AI CORAL
-
----
-
-https://github.com/user-attachments/assets/28771793-de24-4a0b-8c74-75bf9efced66
-
----
-
-### PART ONE VIDEO - FAKE SNAKE - 5D MULTIMODAL AI CORAL
-
----
-
-https://github.com/user-attachments/assets/68050d05-7553-4ecd-b58f-f8de969e828a
-
----
-
 ## 5D Spatial Processing Unit (SPU) Inference Engine in ANSI C89/90
 
 **Author:** Davada Beni Zaita and Zevo Team Academic
@@ -419,6 +403,22 @@ This paper presented ZEVO v5, a lightweight, highly portable 5D Spatial Processi
 3. KERNIGHAN, Brian W. and RITCHIE, Dennis M. *The C Programming Language*. 2nd ed. Englewood Cliffs: Prentice Hall, 1988. ISBN 0-13-110362-8.
 
 4. STEVENS, W. Richard and RAGO, Stephen A. *Advanced Programming in the UNIX Environment*. 3rd ed. Boston: Addison-Wesley, 2013. ISBN 978-0-321-63773-4.
+
+---
+
+### PART ZERO VIDEO - FAKE SNAKE - 5D MULTIMODAL AI CORAL
+
+---
+
+https://github.com/user-attachments/assets/28771793-de24-4a0b-8c74-75bf9efced66
+
+---
+
+### PART ONE VIDEO - FAKE SNAKE - 5D MULTIMODAL AI CORAL
+
+---
+
+https://github.com/user-attachments/assets/68050d05-7553-4ecd-b58f-f8de969e828a
 
 ---
 
