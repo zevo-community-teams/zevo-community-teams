@@ -39,15 +39,15 @@ Here are some ideas to get you started:
 
 ---
 
-# An Minimal Spatial Cognitive Processing Unit (SCPU)™
+# Architecture and Implementation of a Minimal Spatial Cognitive Processing Unit (SCPU) for Interactive 5A OLAP Hypercube Cascade Wave Rendering
 
-**Authors:** Davada Beni Zaita1, Zevo Research and Prototype Team1
+**Authors:** Davada Beni Zaita¹, Zevo Research and Prototype Team¹
 
-1 *Zevo Research Laboratory, Advanced Computing Architecture Division*
+¹ *Zevo Research Laboratory, Advanced Computing Architecture Division*
 
 ## Abstract
 
-This paper presents the conceptual design, mathematical framework, and low-level software implementation of a minimal Spatial Cognitive Processing Unit (SCPU). The proposed SCPU architecture bridges classical Von Neumann CPU determinism with Spiking Neural Network (SNN) event-driven dynamics to execute real-time, interactive 5A hypercube projections of complex cascade wave patterns. Designed exclusively using standard ANSI C89/90 native libraries (`math.h`, POSIX Threads `pthreads`), and OpenCL for Heterogeneous GPGPU execution, the SCPU achieves vendor-independent hardware acceleration without reliance on proprietary frameworks such as OpenCL. We detail the memory layout, temporal-spatial integration algorithms, cross-platform thread synchronization primitives, and OpenCL kernel pipelining required to render high-dimensional Online Analytical Processing (OLAP) data structures in real-time. Performance benchmarks demonstrate sub-millisecond hypercube slice projections under heavy cascade wave interference conditions.
+This paper presents the conceptual design, mathematical framework, and low-level software implementation of a minimal Spatial Cognitive Processing Unit (SCPU). The proposed SCPU architecture bridges classical Von Neumann CPU determinism with Spiking Neural Network (SNN) event-driven dynamics to execute real-time, interactive 5A hypercube projections of complex cascade wave patterns. Designed exclusively using standard ANSI C (C89/C90) native libraries (`math.h`, POSIX Threads `pthreads`), and OpenCL for Heterogeneous GPGPU execution, the SCPU achieves vendor-independent hardware acceleration without reliance on proprietary frameworks such as NVIDIA CUDA. We detail the memory layout, temporal-spatial integration algorithms, cross-platform thread synchronization primitives, and OpenCL kernel pipelining required to render high-dimensional Online Analytical Processing (OLAP) data structures in real-time. Performance benchmarks demonstrate sub-millisecond hypercube slice projections under heavy cascade wave interference conditions.
 
 **Keywords:** Spatial Cognitive Processing Unit (SCPU), 5A OLAP Hypercube, Spiking Neural Networks, Von Neumann Architecture, OpenCL, POSIX Threads, Cascade Wave Projection.
 
@@ -55,14 +55,12 @@ This paper presents the conceptual design, mathematical framework, and low-level
 
 Traditional computing paradigms remain divided between deterministic Von Neumann architectures—optimized for sequential instruction flow and structured memory addressing—and neuromorphic architectures, which excel at asynchronous, event-driven temporal processing. As Online Analytical Processing (OLAP) extends into high-dimensional spatial-temporal analysis, conventional rendering and processing frameworks struggle to maintain interactive frame rates for dynamic multi-dimensional projections.
 
-To resolve this bottleneck, we introduce the **Spatial Cognitive Processing Unit (SCPU)**, a lightweight software processing architecture that integrates temporal spike-timing-dependent principles directly into a continuous 5 Axes ($G, X, Y, Z, R$). By anchoring multi-dimensional OLAP hypercubes to dynamic cascade wave functions, the SCPU achieves high-speed interactive rendering of complex spatial-cognitive state spaces.
+To resolve this bottleneck, we introduce the **Spatial Cognitive Processing Unit (SCPU)**, a lightweight software processing architecture that integrates temporal spike-timing-dependent principles directly into a continuous 5-Axes vector space ($G, X, Y, Z, R$). By anchoring multi-dimensional OLAP hypercubes to dynamic cascade wave functions, the SCPU achieves high-speed interactive rendering of complex spatial-cognitive state spaces.
 
 To ensure maximal portability across heterogeneous hardware architectures, the SCPU relies solely on:
 
 1. Standard C mathematical operations (`math.h`).
-
 2. POSIX Threads (`pthreads`) for multi-core CPU task parallelism and asynchronous wave orchestration.
-
 3. OpenCL (Open Computing Language) for cross-vendor GPGPU acceleration.
 
 ## 2. Architectural Paradigm: Von Neumann & Spike Fusion
@@ -91,7 +89,6 @@ The core mechanism of the SCPU rests upon the fusion of structured instruction e
                    +-----------------------------+
                    |    OpenCL GPGPU Pipeline    |
                    +-----------------------------+
-
 ```
 
 ### 2.1 Spatial Spiking Mechanics
@@ -103,14 +100,10 @@ V_i(t + \Delta t) = \gamma V_i(t) + \sum_{j \in \mathcal{N}} W_{ij} \cdot S_j(t 
 $$
 
 Where:
-
 * $\gamma \in (0, 1)$ is the temporal decay constant.
-
 * $W_{ij}$ represents spatial coupling weights between hypercube nodes.
-
-* $\tau_{ij}$ is the spatial propagation delay along the 5A manifold.
-
-* $\Psi(\mathbf{x}_i, t)$ represents the input cascade wave scalar field at position $\mathbf{x}_i = (x, y, z, w, v)^T$.
+* $\tau_{ij}$ is the spatial propagation delay along the 5-Axes manifold.
+* $\Psi(\mathbf{x}_i, t)$ represents the input cascade wave scalar field at position $\mathbf{x}_i = (g, x, y, z, r)^T$.
 
 When $V_i(t) \ge V_{\text{threshold}}$, the node fires ($S_i(t)=1$), resetting $V_i(t)$ to $V_{\text{reset}}$, and emits a localized directional cascade wave perturbation into the hypercube space.
 
@@ -120,17 +113,17 @@ When $V_i(t) \ge V_{\text{threshold}}$, the node fires ($S_i(t)=1$), resetting $
 
 A point $\mathbf{P} = (g, x, y, z, r)^T \in \mathbb{R}^5$ in the hypercube space undergoes transformation using 5A rotation matrices composed of 10 primary planar rotation angles $\theta_{ab}$ (where $a, b \in \{1,2,3,4,5\}, a < b$).
 
-The projected spatial coordinates $\mathbf{P}' \in \mathbb{R}^3$ onto the 3D viewport under dual perspective division are computed via:
+Let $\mathbf{P}_{\text{rot}} = (g', x', y', z', r')^T = \mathbf{R}_{5\text{D}}(\mathbf{\Theta}) \cdot \mathbf{P}$ represent the rotated coordinates in 5A space. The projected spatial coordinates $\mathbf{P}' \in \mathbb{R}^3$ onto the 3D viewport under dual perspective division across axes $r'$ and $g'$ are computed via:
 
 $$
-d_1 = \frac{f_1}{f_1 + v}, \quad d_2 = \frac{f_2}{f_2 + w \cdot d_1}
+d_1 = \frac{f_1}{f_1 + r'}, \quad d_2 = \frac{f_2}{f_2 + g' \cdot d_1}
 $$
 
 $$
-\begin{bmatrix} X_{\text{proj}} \\ Y_{\text{proj}} \\ Z_{\text{proj}} \end{bmatrix} = d_2 \cdot d_1 \cdot \mathbf{R}_{5\text{D}}(\mathbf{\Theta}) \cdot \begin{bmatrix} x \\ y \\ z \end{bmatrix}
+\begin{bmatrix} X_{\text{proj}} \\ Y_{\text{proj}} \\ Z_{\text{proj}} \end{bmatrix} = d_2 \cdot d_1 \cdot \begin{bmatrix} x' \\ y' \\ z' \end{bmatrix}
 $$
 
-Where $f_1, f_2$ represent focal distance scalars along the 4th ($w$) and 5th ($v$) axes respectively.
+Where $f_1, f_2$ represent focal distance scalars along the 4th ($r$) and 5th ($g$) axes respectively.
 
 ### 3.2 Dynamic Cascade Wave Field
 
@@ -140,17 +133,17 @@ $$
 \nabla^2_5 \Psi - \frac{1}{c^2} \frac{\partial^2 \Psi}{\partial t^2} = -\rho(\mathbf{x}, t)
 $$
 
-Where $\nabla^2_5 = \sum_{k=1}^5 \frac{\partial^2}{\partial x_k^2}$ represents the 5A Laplacian operator, and $\rho(\mathbf{x}, t)$ denotes localized spiking activity sources.
+Where $\nabla^2_5 = \frac{\partial^2}{\partial g^2} + \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2} + \frac{\partial^2}{\partial r^2}$ represents the 5-Axes Laplacian operator, and $\rho(\mathbf{x}, t)$ denotes localized spiking activity sources.
 
 ## 4. Software Implementation Details
 
-The reference implementation is developed in pure C89/90 without external high-level frameworks. Thread synchronization for spatial slicing is executed via `pthreads`, while OpenCL handles high-throughput vector processing.
+The reference implementation is developed in pure ANSI C (C89/C90) without external high-level frameworks. Thread synchronization for spatial slicing is executed via `pthreads`, while OpenCL handles high-throughput vector processing.
 
 ### 4.1 Native Threading Model (`pthreads`)
 
 The CPU workload distributes 5A spatial slice evaluations across worker threads. Thread synchronization relies on lock-free double buffering and low-latency POSIX mutex condition variables:
 
-```
+```c
 #include <pthread.h>
 #include <math.h>
 
@@ -158,7 +151,7 @@ The CPU workload distributes 5A spatial slice evaluations across worker threads.
 #define HYPERCUBE_SIZE_5A 32 /* 32^5 grid resolution */
 
 typedef struct {
-    float coords[5];
+    float coords[5]; /* g, x, y, z, r */
     float potential;
     float spike_state;
 } SCPU_Node5A;
@@ -172,15 +165,18 @@ typedef struct {
 } ThreadWorkerArgs;
 
 void* scpu_process_cascade_slice(void* arg) {
+    int i;
+    float current_v, decay, wave_phase;
     ThreadWorkerArgs* t_args = (ThreadWorkerArgs*)arg;
-    for (int i = t_args->slice_start; i < t_args->slice_end; ++i) {
+
+    decay = 0.95f;
+    for (i = t_args->slice_start; i < t_args->slice_end; ++i) {
         /* Leaky integration step */
-        float current_v = t_args->grid_ref[i].potential;
-        float decay = 0.95f;
+        current_v = t_args->grid_ref[i].potential;
         
         /* Spatial wave interference using math.h */
-        float wave_phase = sinf(t_args->grid_ref[i].coords[0] * 0.5f) * 
-                           cosf(t_args->grid_ref[i].coords[4] * 0.2f);
+        wave_phase = sinf(t_args->grid_ref[i].coords[0] * 0.5f) * 
+                     cosf(t_args->grid_ref[i].coords[4] * 0.2f);
                            
         t_args->grid_ref[i].potential = (current_v * decay) + wave_phase;
         
@@ -192,69 +188,68 @@ void* scpu_process_cascade_slice(void* arg) {
         }
     }
     pthread_exit(NULL);
+    return NULL;
 }
-
 ```
 
 ### 4.2 Portable GPGPU Acceleration Engine (OpenCL)
 
-To avoid proprietary API lock-in, the parallel rendering core uses OpenCL 1.2/2.0 compatible kernel code execution.
+To avoid proprietary API lock-in (e.g., NVIDIA CUDA), the parallel rendering core uses OpenCL 1.2/2.0 compatible kernel code execution.
 
-```
-/* OpenCL Kernel: 5A Hypercube Projection & Spike Field Rendering
+```c
+/* OpenCL Kernel: 5A Hypercube Projection & Spike Field Rendering */
 __kernel void render_scpu_5d_cascade(
-    __global const float* node_positions, /* 5 float elements per node
-    __global const float* spike_states,   /* 1 float element per node
-    __global float* output_pixels,        /* RGBA Output buffer
+    __global const float* node_positions, /* 5 float elements per node: g, x, y, z, r */
+    __global const float* spike_states,   /* 1 float element per node */
+    __global float* output_pixels,        /* RGBA Output buffer */
     const unsigned int total_nodes,
-    const float16 rotation_matrix_5d,
-    const float focal_w,
-    const float focal_v) 
+    const float focal_r,
+    const float focal_g) 
 {
     int gid = get_global_id(0);
-    if (gid >= total_nodes) return;
+    if (gid >= (int)total_nodes) return;
 
-    /* Load 5A coordinate
+    /* Load 5A coordinates (G, X, Y, Z, R) */
     float g = node_positions[gid * 5 + 0];
     float x = node_positions[gid * 5 + 1];
     float y = node_positions[gid * 5 + 2];
     float z = node_positions[gid * 5 + 3];
     float r = node_positions[gid * 5 + 4];
 
-    /* Compute perspective factors for 5A to 3D reduction
-    float d1 = focal_v / (focal_v + v);
-    float d2 = focal_w / (focal_w + (w * d1));
+    /* Compute perspective factors for 5A to 3D/2D reduction */
+    float d1 = focal_r / (focal_r + r);
+    float d2 = focal_g / (focal_g + (g * d1));
 
-    /* Spatial projection mapping
+    /* Spatial projection mapping */
     float proj_x = x * d1 * d2;
     float proj_y = y * d1 * d2;
 
-    /* Fetch spiking activation value
+    /* Fetch spiking activation value */
     float spike = spike_states[gid];
 
-    /* Color intensity determined by spike output & wave potential
+    /* Color intensity determined by spike output & wave potential */
     int screen_x = (int)((proj_x + 1.0f) * 0.5f * 1920.0f);
     int screen_y = (int)((proj_y + 1.0f) * 0.5f * 1080.0f);
 
     if (screen_x >= 0 && screen_x < 1920 && screen_y >= 0 && screen_y < 1080) {
         int idx = (screen_y * 1920 + screen_x) * 4;
-        output_pixels[idx + 0] = spike * 255.0f; /* Red channel for spikes
-        output_pixels[idx + 1] = d1 * 128.0f;   /* Green channel for 4D depth
-        output_pixels[idx + 2] = d2 * 255.0f;   /* Blue channel for 5A depth
-        output_pixels[idx + 3] = 255.0f;        /* Alpha
+        output_pixels[idx + 0] = spike * 255.0f; /* Red channel for spikes */
+        output_pixels[idx + 1] = d1 * 128.0f;    /* Green channel for 4D depth */
+        output_pixels[idx + 2] = d2 * 255.0f;    /* Blue channel for 5A depth */
+        output_pixels[idx + 3] = 255.0f;         /* Alpha */
     }
 }
-
 ```
 
 ## 5. Experimental Results and Performance Analysis
 
 Tests were conducted across heterogeneous computing environments to evaluate latency and compute throughput.
 
-| **Hardware Configuration** | **Compute API** | **Workload (5A Grid Size)** | **Frame Time (ms)** | **Throughput (MSpikes/sec)** | 
-| Intel i7-12700K (8 Cores) | POSIX Threads | $16^5$ ($1.04 \times 10^6$ nodes) | 4.12 ms | 252.4 | 
-| AMD Radeon RX 6800 XT | OpenCL 2.1 | $32^5$ ($3.35 \times 10^7$ nodes) | 0.84 ms | 39,880.9 | 
-| Intel Iris Xe Graphics | OpenCL 1.2 | $16^5$ ($1.04 \times 10^6$ nodes) | 2.95 ms | 352.5 | 
+| **Hardware Configuration** | **Compute API** | **Workload (5A Grid Size)** | **Frame Time (ms)** | **Throughput (MSpikes/sec)** |
+| :--- | :--- | :--- | :--- | :--- |
+| Intel i7-12700K (8 Cores) | POSIX Threads | $16^5$ ($1.04 \times 10^6$ nodes) | 4.12 ms | 252.4 |
+| AMD Radeon RX 6800 XT | OpenCL 2.1 | $32^5$ ($3.35 \times 10^7$ nodes) | 0.84 ms | 39,880.9 |
+| Intel Iris Xe Graphics | OpenCL 1.2 | $16^5$ ($1.04 \times 10^6$ nodes) | 2.95 ms | 352.5 |
 
 The empirical results validate that OpenCL vector execution scales efficiently across both integrated and discrete hardware targets, confirming the performance capability of open non-CUDA implementations.
 
@@ -265,14 +260,10 @@ This paper presented the conceptual design and implementation of a minimal Spati
 ## References
 
 * \[1\] INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. *ISO 690:2021 Information and documentation — Guidelines for bibliographic references and citations to information resources*. 4th ed. Geneva: ISO, 2021.
-
 * \[2\] VON NEUMANN, John. First Draft of a Report on the EDVAC. *IEEE Annals of the History of Computing*, 1993, vol. 15, no. 4, pp. 27–75.
-
 * \[3\] GERSTNER, Wulfram and KISTLER, Werner M. *Spiking Neuron Models: Single Neurons, Populations, Plasticity*. Cambridge: Cambridge University Press, 2002. ISBN 978-0-521-89001-4.
-
 * \[4\] STONE, John E., GOHARA, David and SHI, Guochun. OpenCL: A Standard Platform for Programming Heterogeneous Parallel Computers. *IEEE Micro*, 2010, vol. 30, no. 3, pp. 33–47. DOI 10.1109/MM.2010.61.
-
-* \[5\] KHRO NOGUS GROUP. *The OpenCL Specification, Version 2.0*. Beaverton: Khronos Group, 2020. Available at: https:/*www.khronos.org/registry/OpenCL/
+* \[5\] KHRONOS GROUP. *The OpenCL Specification, Version 2.0*. Beaverton: Khronos Group, 2020. Available at: https://www.khronos.org/registry/OpenCL/
 
 ---
 
