@@ -1,31 +1,3 @@
-### "Spatial Cognitive Processing Unit (SCPU)™: The cartesian plane system within N-Spaces, minimal zero space, and N-Axes, minimal zero axe, and N-Dimensions, minimal zero dimension, using node (point) and edge (line) and edge weight (distance).™"
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/cbad6d62-b525-4cc6-b331-04fc7664d866" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/ac64d764-0dd9-4c30-ad1a-6d72ebb8168f" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/579f0df5-0b20-45f1-8d07-8aa6dd567f51" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/c4cdad52-1e27-46a6-9d0f-ef1659008d51" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/36d40572-50d4-4f6c-94e0-5ede6f512f7a" />
-
----
-
-<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/35cc1c70-eca6-46fd-9908-a8cba4a5ede2" />
-
----
-
 <!--
 **zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -41,9 +13,13 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-===
+---
 
-# A Spatial Cognitive Framework (SCF) for the Construction of Spatial Cognitive Processing Units (SCPUs): Foundations for Interactive 5A Projections of OLAP Hypercubes via Cascaded Wave Fusion of Von Neumann and Spiking Neuron Principles
+### "Spatial Cognitive Processing Unit (SCPU)™: The cartesian plane system within N-Spaces, minimal zero space, and N-Axes, minimal zero axe, and N-Dimensions, minimal zero dimension, using node (point) and edge (line) and edge weight (distance).™"
+
+---
+
+### A Spatial Cognitive Framework (SCF) for the Construction of Spatial Cognitive Processing Units (SCPUs): Foundations for Interactive 5A Projections of OLAP Hypercubes via Cascaded Wave Fusion of Von Neumann and Spiking Neuron Principles
 
 **Abstract**—This paper introduces the Spatial Cognitive Framework (SCF), a formal theoretical foundation for the design and construction of Spatial Cognitive Processing Units (SCPUs). The SCF provides a comprehensive set of principles, axioms, and architectural patterns that govern how a software system can achieve spatial cognition over multidimensional OLAP hypercubes. We formalize the SCF as a layered framework consisting of an ontological layer, a representational layer, a computational layer, and a projection layer. The SCF is anchored on the minimal spatial system defined as a Cartesian plane system within N-Spaces, with minimal zero space, N-Axes, minimal zero axis, and N-Dimensions, minimal zero dimension, utilizing nodes (points), edges (lines), and edge weights (distances). The SCPU, which emerges from the SCF, is a software engine that renders interactive 5A projections of OLAP hypercubes using a cascade wave model that fuses Von Neumann CPU determinism with Spiking Neuron event dynamics. This paper details the SCF's axioms, its layered architecture, the construction methodology for SCPUs, and the formal semantics of cascade wave fusion.
 
@@ -372,7 +348,7 @@ The SCF represents a foundational contribution to the emerging field of spatial 
 
 **Disclaimer:** The terms "Spatial Cognitive Processing Unit (SCPU)™" and "Spatial Cognitive Framework (SCF)" and their associated descriptions are presented here as conceptual frameworks for academic discussion. This paper is a speculative and theoretical work and does not represent a product or a patented technology. The trademark symbol is used for illustrative purposes only.
 
-====
+---
 
 # The Spatial Cognitive Processing Unit (SCPU): A Minimal Architecture for Interactive 5A Hypercube Projections via Cascaded Wave Fusion of Von Neumann and Spiking Neuron Principles
 
@@ -501,4 +477,4 @@ The SCPU represents a significant step towards creating cognitive computing syst
 
 **Disclaimer:** The terms "Spatial Cognitive Processing Unit (SCPU)™" and its associated description are presented here as a conceptual framework for academic discussion. This paper is a speculative and theoretical work and does not represent a product or a patented technology. The trademark symbol is used for illustrative purposes only.
 
-====
+---
