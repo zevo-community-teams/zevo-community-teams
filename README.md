@@ -55,7 +55,7 @@ This paper presents the conceptual design, mathematical framework, and low-level
 
 Traditional computing paradigms remain divided between deterministic Von Neumann architectures—optimized for sequential instruction flow and structured memory addressing—and neuromorphic architectures, which excel at asynchronous, event-driven temporal processing. As Online Analytical Processing (OLAP) extends into high-dimensional spatial-temporal analysis, conventional rendering and processing frameworks struggle to maintain interactive frame rates for dynamic multi-dimensional projections.
 
-To resolve this bottleneck, we introduce the **Spatial Cognitive Processing Unit (SCPU)**, a lightweight software processing architecture that integrates temporal spike-timing-dependent principles directly into a continuous 5D vector space ($X, Y, Z, W, V$). By anchoring multi-dimensional OLAP hypercubes to dynamic cascade wave functions, the SCPU achieves high-speed interactive rendering of complex spatial-cognitive state spaces.
+To resolve this bottleneck, we introduce the **Spatial Cognitive Processing Unit (SCPU)**, a lightweight software processing architecture that integrates temporal spike-timing-dependent principles directly into a continuous 5D vector space ($G, X, Y, Z, R$). By anchoring multi-dimensional OLAP hypercubes to dynamic cascade wave functions, the SCPU achieves high-speed interactive rendering of complex spatial-cognitive state spaces.
 
 To ensure maximal portability across heterogeneous hardware architectures, the SCPU relies solely on:
 
