@@ -37,6 +37,12 @@ Here are some ideas to get you started:
 
 ---
 
+## **“Zevo Cognitive LLM Transformer Architecture™”**
+
+
+
+---
+
 ## WORKFLOW SEQUENCE: 
 
 ## (GOVERNMENT ACADEMIC PROJECT) RESEARCH AND PROTOTYPE -> (COOPERATIVE BUSINESS PROCESS) RESEARCH AND DEVELOPMENT 
