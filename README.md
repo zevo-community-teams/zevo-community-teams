@@ -1,4 +1,4 @@
-#### "Spatial Cognitive Processing Unit (SCPU)™: N-Spaces, minimal zero space, and N-Axes, minimal zero axe, and N-Dimensions, minimal zero dimension.™"
+### "Spatial Cognitive Processing Unit (SCPU)™: N-Spaces, minimal zero space, and N-Axes, minimal zero axe, and N-Dimensions, on cartesian plane system.™"
 
 ---
 
