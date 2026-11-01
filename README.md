@@ -350,7 +350,7 @@ The SCF represents a foundational contribution to the emerging field of spatial 
 
 ---
 
-# The Spatial Cognitive Processing Unit (SCPU): A Minimal Architecture for Interactive 5A Hypercube Projections via Cascaded Wave Fusion of Von Neumann and Spiking Neuron Principles
+### The Spatial Cognitive Processing Unit (SCPU): A Minimal Architecture for Interactive 5A Hypercube Projections via Cascaded Wave Fusion of Von Neumann and Spiking Neuron Principles
 
 **Abstract**—This paper introduces the Spatial Cognitive Processing Unit (SCPU), a novel software architecture designed for the interactive rendering and analysis of high-dimensional OLAP hypercubes. The SCPU leverages a "cascade wave" processing model that conceptually fuses the deterministic control flow of the Von Neumann architecture with the event-driven, temporal dynamics of biological spiking neurons. We define a minimal formal system for spatial cognition based on a Cartesian plane system within N-Spaces, characterized by minimal zero space, N-Axes, minimal zero axis, and N-Dimensions (minimal zero dimension), utilizing nodes (points), edges (lines), and edge weights (distances). The SCPU enables interactive 5A (Anytime, Anywhere, Anyhow, Anywhat, Anywho) projections of complex data, providing a scalable and cognitively resonant framework for multidimensional data exploration. This paper details the architectural principles, the mathematical formalization of the minimal spatial system, and the cascaded wave fusion model that underpins the SCPU's operation.
 
