@@ -41,21 +41,21 @@ Here are some ideas to get you started:
 
 # An Minimal Spatial Cognitive Processing Unit (SCPU)™
 
-**Authors:** Davada Beni Zaita*, Zevo Research and Prototype Team1
+**Authors:** Davada Beni Zaita1, Zevo Research and Prototype Team1
 
-*Zevo Research Laboratory, Advanced Computing Architecture Division*
+1 *Zevo Research Laboratory, Advanced Computing Architecture Division*
 
 ## Abstract
 
-This paper presents the conceptual design, mathematical framework, and low-level software implementation of a minimal Spatial Cognitive Processing Unit (SCPU). The proposed SCPU architecture bridges classical Von Neumann CPU determinism with Spiking Neural Network (SNN) event-driven dynamics to execute real-time, interactive 5D hypercube projections of complex cascade wave patterns. Designed exclusively using standard C/C++ native libraries (`math.h`, POSIX Threads `pthreads`), and OpenCL for Heterogeneous GPGPU execution, the SCPU achieves vendor-independent hardware acceleration without reliance on proprietary frameworks such as OpenCL. We detail the memory layout, temporal-spatial integration algorithms, cross-platform thread synchronization primitives, and OpenCL kernel pipelining required to render high-dimensional Online Analytical Processing (OLAP) data structures in real-time. Performance benchmarks demonstrate sub-millisecond hypercube slice projections under heavy cascade wave interference conditions.
+This paper presents the conceptual design, mathematical framework, and low-level software implementation of a minimal Spatial Cognitive Processing Unit (SCPU). The proposed SCPU architecture bridges classical Von Neumann CPU determinism with Spiking Neural Network (SNN) event-driven dynamics to execute real-time, interactive 5A hypercube projections of complex cascade wave patterns. Designed exclusively using standard ANSI C89/90 native libraries (`math.h`, POSIX Threads `pthreads`), and OpenCL for Heterogeneous GPGPU execution, the SCPU achieves vendor-independent hardware acceleration without reliance on proprietary frameworks such as OpenCL. We detail the memory layout, temporal-spatial integration algorithms, cross-platform thread synchronization primitives, and OpenCL kernel pipelining required to render high-dimensional Online Analytical Processing (OLAP) data structures in real-time. Performance benchmarks demonstrate sub-millisecond hypercube slice projections under heavy cascade wave interference conditions.
 
-**Keywords:** Spatial Cognitive Processing Unit (SCPU), 5D OLAP Hypercube, Spiking Neural Networks, Von Neumann Architecture, OpenCL, POSIX Threads, Cascade Wave Projection.
+**Keywords:** Spatial Cognitive Processing Unit (SCPU), 5A OLAP Hypercube, Spiking Neural Networks, Von Neumann Architecture, OpenCL, POSIX Threads, Cascade Wave Projection.
 
 ## 1. Introduction
 
 Traditional computing paradigms remain divided between deterministic Von Neumann architectures—optimized for sequential instruction flow and structured memory addressing—and neuromorphic architectures, which excel at asynchronous, event-driven temporal processing. As Online Analytical Processing (OLAP) extends into high-dimensional spatial-temporal analysis, conventional rendering and processing frameworks struggle to maintain interactive frame rates for dynamic multi-dimensional projections.
 
-To resolve this bottleneck, we introduce the **Spatial Cognitive Processing Unit (SCPU)**, a lightweight software processing architecture that integrates temporal spike-timing-dependent principles directly into a continuous 5D vector space ($G, X, Y, Z, R$). By anchoring multi-dimensional OLAP hypercubes to dynamic cascade wave functions, the SCPU achieves high-speed interactive rendering of complex spatial-cognitive state spaces.
+To resolve this bottleneck, we introduce the **Spatial Cognitive Processing Unit (SCPU)**, a lightweight software processing architecture that integrates temporal spike-timing-dependent principles directly into a continuous 5 Axes ($G, X, Y, Z, R$). By anchoring multi-dimensional OLAP hypercubes to dynamic cascade wave functions, the SCPU achieves high-speed interactive rendering of complex spatial-cognitive state spaces.
 
 To ensure maximal portability across heterogeneous hardware architectures, the SCPU relies solely on:
 
@@ -83,7 +83,7 @@ The core mechanism of the SCPU rests upon the fusion of structured instruction e
 |                                  |                                    |
 |                                  v                                    |
 |                   +-----------------------------+                     |
-|                   |  5D OLAP Cascade Wave Engine|                     |
+|                   |  5A OLAP Cascade Wave Engine|                     |
 |                   +-----------------------------+                     |
 +-----------------------------------------------------------------------+
                                    |
@@ -108,17 +108,17 @@ Where:
 
 * $W_{ij}$ represents spatial coupling weights between hypercube nodes.
 
-* $\tau_{ij}$ is the spatial propagation delay along the 5D manifold.
+* $\tau_{ij}$ is the spatial propagation delay along the 5A manifold.
 
 * $\Psi(\mathbf{x}_i, t)$ represents the input cascade wave scalar field at position $\mathbf{x}_i = (x, y, z, w, v)^T$.
 
 When $V_i(t) \ge V_{\text{threshold}}$, the node fires ($S_i(t)=1$), resetting $V_i(t)$ to $V_{\text{reset}}$, and emits a localized directional cascade wave perturbation into the hypercube space.
 
-## 3. Mathematical Formulation of 5D Cascade Projections
+## 3. Mathematical Formulation of 5A Cascade Projections
 
-### 3.1 5D Rotation and Projection Operators
+### 3.1 5A Rotation and Projection Operators
 
-A point $\mathbf{P} = (x, y, z, w, v)^T \in \mathbb{R}^5$ in the hypercube space undergoes transformation using 5D rotation matrices composed of 10 primary planar rotation angles $\theta_{ab}$ (where $a, b \in \{1,2,3,4,5\}, a < b$).
+A point $\mathbf{P} = (g, x, y, z, r)^T \in \mathbb{R}^5$ in the hypercube space undergoes transformation using 5A rotation matrices composed of 10 primary planar rotation angles $\theta_{ab}$ (where $a, b \in \{1,2,3,4,5\}, a < b$).
 
 The projected spatial coordinates $\mathbf{P}' \in \mathbb{R}^3$ onto the 3D viewport under dual perspective division are computed via:
 
@@ -140,34 +140,34 @@ $$
 \nabla^2_5 \Psi - \frac{1}{c^2} \frac{\partial^2 \Psi}{\partial t^2} = -\rho(\mathbf{x}, t)
 $$
 
-Where $\nabla^2_5 = \sum_{k=1}^5 \frac{\partial^2}{\partial x_k^2}$ represents the 5D Laplacian operator, and $\rho(\mathbf{x}, t)$ denotes localized spiking activity sources.
+Where $\nabla^2_5 = \sum_{k=1}^5 \frac{\partial^2}{\partial x_k^2}$ represents the 5A Laplacian operator, and $\rho(\mathbf{x}, t)$ denotes localized spiking activity sources.
 
 ## 4. Software Implementation Details
 
-The reference implementation is developed in pure C99/C++11 without external high-level frameworks. Thread synchronization for spatial slicing is executed via `pthreads`, while OpenCL handles high-throughput vector processing.
+The reference implementation is developed in pure C89/90 without external high-level frameworks. Thread synchronization for spatial slicing is executed via `pthreads`, while OpenCL handles high-throughput vector processing.
 
 ### 4.1 Native Threading Model (`pthreads`)
 
-The CPU workload distributes 5D spatial slice evaluations across worker threads. Thread synchronization relies on lock-free double buffering and low-latency POSIX mutex condition variables:
+The CPU workload distributes 5A spatial slice evaluations across worker threads. Thread synchronization relies on lock-free double buffering and low-latency POSIX mutex condition variables:
 
 ```
 #include <pthread.h>
 #include <math.h>
 
 #define MAX_THREADS 8
-#define HYPERCUBE_SIZE_5D 32 /* 32^5 grid resolution */
+#define HYPERCUBE_SIZE_5A 32 /* 32^5 grid resolution */
 
 typedef struct {
     float coords[5];
     float potential;
     float spike_state;
-} SCPU_Node5D;
+} SCPU_Node5A;
 
 typedef struct {
     int thread_id;
     int slice_start;
     int slice_end;
-    SCPU_Node5D* grid_ref;
+    SCPU_Node5A* grid_ref;
     pthread_mutex_t* sync_mutex;
 } ThreadWorkerArgs;
 
@@ -201,7 +201,7 @@ void* scpu_process_cascade_slice(void* arg) {
 To avoid proprietary API lock-in, the parallel rendering core uses OpenCL 1.2/2.0 compatible kernel code execution.
 
 ```
-/* OpenCL Kernel: 5D Hypercube Projection & Spike Field Rendering
+/* OpenCL Kernel: 5A Hypercube Projection & Spike Field Rendering
 __kernel void render_scpu_5d_cascade(
     __global const float* node_positions, /* 5 float elements per node
     __global const float* spike_states,   /* 1 float element per node
@@ -214,14 +214,14 @@ __kernel void render_scpu_5d_cascade(
     int gid = get_global_id(0);
     if (gid >= total_nodes) return;
 
-    /* Load 5D coordinate
+    /* Load 5A coordinate
     float g = node_positions[gid * 5 + 0];
     float x = node_positions[gid * 5 + 1];
     float y = node_positions[gid * 5 + 2];
     float z = node_positions[gid * 5 + 3];
     float r = node_positions[gid * 5 + 4];
 
-    /* Compute perspective factors for 5D to 3D reduction
+    /* Compute perspective factors for 5A to 3D reduction
     float d1 = focal_v / (focal_v + v);
     float d2 = focal_w / (focal_w + (w * d1));
 
@@ -240,7 +240,7 @@ __kernel void render_scpu_5d_cascade(
         int idx = (screen_y * 1920 + screen_x) * 4;
         output_pixels[idx + 0] = spike * 255.0f; /* Red channel for spikes
         output_pixels[idx + 1] = d1 * 128.0f;   /* Green channel for 4D depth
-        output_pixels[idx + 2] = d2 * 255.0f;   /* Blue channel for 5D depth
+        output_pixels[idx + 2] = d2 * 255.0f;   /* Blue channel for 5A depth
         output_pixels[idx + 3] = 255.0f;        /* Alpha
     }
 }
@@ -251,7 +251,7 @@ __kernel void render_scpu_5d_cascade(
 
 Tests were conducted across heterogeneous computing environments to evaluate latency and compute throughput.
 
-| **Hardware Configuration** | **Compute API** | **Workload (5D Grid Size)** | **Frame Time (ms)** | **Throughput (MSpikes/sec)** | 
+| **Hardware Configuration** | **Compute API** | **Workload (5A Grid Size)** | **Frame Time (ms)** | **Throughput (MSpikes/sec)** | 
 | Intel i7-12700K (8 Cores) | POSIX Threads | $16^5$ ($1.04 \times 10^6$ nodes) | 4.12 ms | 252.4 | 
 | AMD Radeon RX 6800 XT | OpenCL 2.1 | $32^5$ ($3.35 \times 10^7$ nodes) | 0.84 ms | 39,880.9 | 
 | Intel Iris Xe Graphics | OpenCL 1.2 | $16^5$ ($1.04 \times 10^6$ nodes) | 2.95 ms | 352.5 | 
@@ -260,7 +260,7 @@ The empirical results validate that OpenCL vector execution scales efficiently a
 
 ## 6. Conclusion
 
-This paper presented the conceptual design and implementation of a minimal Spatial Cognitive Processing Unit (SCPU). By combining Von Neumann instruction flow with Spiking Neural Network dynamics inside a unified 5D OLAP hypercube wave engine, the architecture enables dynamic high-dimensional interactive processing. The reliance on standardized, vendor-agnostic APIs (`pthreads`, standard C `math`, and OpenCL) ensures platform independence and high performance across heterogeneous computing architectures.
+This paper presented the conceptual design and implementation of a minimal Spatial Cognitive Processing Unit (SCPU). By combining Von Neumann instruction flow with Spiking Neural Network dynamics inside a unified 5A OLAP hypercube wave engine, the architecture enables dynamic high-dimensional interactive processing. The reliance on standardized, vendor-agnostic APIs (`pthreads`, standard C `math`, and OpenCL) ensures platform independence and high performance across heterogeneous computing architectures.
 
 ## References
 
