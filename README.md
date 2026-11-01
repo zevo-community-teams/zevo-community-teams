@@ -39,7 +39,7 @@ Here are some ideas to get you started:
 
 ---
 
-# Architecture and Implementation of a Minimal Spatial Cognitive Processing Unit (SCPU) for Interactive 5A OLAP Hypercube Cascade Wave Rendering
+# Architecture Design of a Minimal Spatial Cognitive Processing Unit (SCPU) 
 
 **Authors:** Davada Beni Zaita¹, Zevo Research and Prototype Team¹
 
