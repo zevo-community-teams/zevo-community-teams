@@ -1,3 +1,7 @@
+<img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/20b07800-cd1e-4306-89f4-6ecda0afd61e" />
+
+---
+
 <!--
 **zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
