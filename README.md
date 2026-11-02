@@ -19,28 +19,28 @@ Here are some ideas to get you started:
 
 ---
 
-### "Spatial Cognitive Processing Unit (SCPU)™: The cartesian plane system within N-Spaces, minimal zero space, and N-Axes, minimal zero axe, and N-Dimensions, minimal zero dimension, using node (point) and edge (line) and edge weight (distance).™"
+### "The Spatial Cognitive Framework Architecture (SCFA) and Spatial Cognitive Processing Unit Architecture (SCPUA): The cartesian plane system within N-Spaces, minimal zero space, and N-Axes, minimal zero axe, and N-Dimensions, minimal zero dimension, using node (point) and edge (line) and edge weight (distance)."
 
 ---
 
-### A Spatial Cognitive Framework (SCF) for the Construction of Spatial Cognitive Processing Units (SCPUs): Foundations for Interactive 5A Projections of OLAP Hypercubes via Cascaded Wave Fusion of Von Neumann and Spiking Neuron Principles
+### A Spatial Cognitive Framework Architecture (SCFA) for the Construction of Spatial Cognitive Processing Unit Architecture (SCPUA): Foundations for Interactive 5A Projections of OLAP Hypercubes via Cascaded Wave Fusion of Von Neumann and Spiking Neuron Principles
 
-**Abstract**—This paper introduces the Spatial Cognitive Framework (SCF), a formal theoretical foundation for the design and construction of Spatial Cognitive Processing Units (SCPUs). The SCF provides a comprehensive set of principles, axioms, and architectural patterns that govern how a software system can achieve spatial cognition over multidimensional OLAP hypercubes. We formalize the SCF as a layered framework consisting of an ontological layer, a representational layer, a computational layer, and a projection layer. The SCF is anchored on the minimal spatial system defined as a Cartesian plane system within N-Spaces, with minimal zero space, N-Axes, minimal zero axis, and N-Dimensions, minimal zero dimension, utilizing nodes (points), edges (lines), and edge weights (distances). The SCPU, which emerges from the SCF, is a software engine that renders interactive 5A projections of OLAP hypercubes using a cascade wave model that fuses Von Neumann CPU determinism with Spiking Neuron event dynamics. This paper details the SCF's axioms, its layered architecture, the construction methodology for SCPUs, and the formal semantics of cascade wave fusion.
+**Abstract**—This paper introduces the Spatial Cognitive Framework Architecture (SCFA), a formal theoretical foundation for the design and construction of Spatial Cognitive Processing Unit Architecture (SCPUA). The SCFA provides a comprehensive set of principles, axioms, and architectural patterns that govern how a software system can achieve spatial cognition over multidimensional OLAP hypercubes. We formalize the SCF as a layered framework consisting of an ontological layer, a representational layer, a computational layer, and a projection layer. The SCF is anchored on the minimal spatial system defined as a Cartesian plane system within N-Spaces, with minimal zero space, N-Axes, minimal zero axis, and N-Dimensions, minimal zero dimension, utilizing nodes (points), edges (lines), and edge weights (distances). The SCPU, which emerges from the SCF, is a software engine that renders interactive 5A projections of OLAP hypercubes using a cascade wave model that fuses Von Neumann CPU determinism with Spiking Neuron event dynamics. This paper details the SCF's axioms, its layered architecture, the construction methodology for SCPUs, and the formal semantics of cascade wave fusion.
 
-**Index Terms**—Spatial Cognitive Framework (SCF), Spatial Cognitive Processing Unit (SCPU), OLAP Hypercube, 5A Projections, Cascade Wave Fusion, Spiking Neural Networks, Von Neumann Architecture, Multidimensional Data Cognition.
+**Index Terms**—Spatial Cognitive Framework Architecture (SCFA), Spatial Cognitive Processing Unit (SCPU), OLAP Hypercube, 5A Projections, Cascade Wave Fusion, Spiking Neural Networks, Von Neumann Architecture, Multidimensional Data Cognition.
 
 ## I. INTRODUCTION
 
 The proliferation of high-dimensional data in modern analytics has created a critical need for computational frameworks that can process, represent, and interact with multidimensional information in cognitively intuitive ways. Online Analytical Processing (OLAP) hypercubes, the dominant paradigm for multidimensional data analysis, present significant challenges when dimensionality exceeds human perceptual capabilities. Traditional visualization and interaction methods, grounded in conventional Von Neumann architectures, offer deterministic precision but lack the adaptive, event-driven responsiveness required for real-time cognitive interaction.
 
-This paper introduces the Spatial Cognitive Framework (SCF), a formal theoretical foundation for building Spatial Cognitive Processing Units (SCPUs). The SCF provides the axiomatic, representational, and computational scaffolding necessary to construct software systems capable of spatial cognition—the ability to reason about, manipulate, and project multidimensional data using spatially grounded cognitive primitives.
+This paper introduces the Spatial Cognitive Framework Architecture (SCFA), a formal theoretical foundation for building Spatial Cognitive Processing Unit Architecture (SCPUA). The SCF provides the axiomatic, representational, and computational scaffolding necessary to construct software systems capable of spatial cognition—the ability to reason about, manipulate, and project multidimensional data using spatially grounded cognitive primitives.
 
 The SCF is explicitly anchored on the definition of the SCPU as a software OLAP hypercube renderer that produces interactive 5A (Anytime, Anywhere, Anyhow, Anywhat, Anywho) projections through a cascade wave model. This model represents a conceptual fusion between the deterministic control flow of the Von Neumann CPU and the event-driven, temporal dynamics of biological spike neurons. The SCF's foundational spatial system is the Cartesian plane system extended to N-Spaces, defined by minimal zero space, N-Axes, minimal zero axis, and N-Dimensions with minimal zero dimension, constructed from nodes (points), edges (lines), and edge weights (distances).
 
 **A. Contributions**
 
 The primary contributions of this paper are:
-1.  The formal definition of the Spatial Cognitive Framework (SCF) as a four-layer architecture (ontological, representational, computational, projection) for building SCPUs.
+1.  The formal definition of the Spatial Cognitive Framework Architecture (SCFA) as a four-layer architecture (ontological, representational, computational, projection) for building SCPUs.
 2.  The articulation of foundational axioms and principles governing spatial cognition over OLAP hypercubes.
 3.  A construction methodology for deriving SCPU instances from the SCF.
 4.  The formal semantics of cascade wave fusion as the computational core of SCPU operation.
@@ -305,7 +305,7 @@ Empirical validation will involve:
 
 ## X. CONCLUSION AND FUTURE WORK
 
-This paper has introduced the Spatial Cognitive Framework (SCF), a formal theoretical foundation for building Spatial Cognitive Processing Units (SCPUs). The SCF provides:
+This paper has introduced the Spatial Cognitive Framework Architecture (SCFA), a formal theoretical foundation for building Spatial Cognitive Processing Unit Architecture (SCPUA). The SCF provides:
 1.  A foundational spatial system based on the Cartesian plane extended to N-Spaces, with minimal zero space, N-Axes, minimal zero axis, and N-Dimensions, minimal zero dimension.
 2.  Eight axioms governing spatial cognition over OLAP hypercubes.
 3.  A four-layer architecture (ontological, representational, computational, projection).
@@ -350,13 +350,13 @@ The SCF represents a foundational contribution to the emerging field of spatial 
 
 ---
 
-**Disclaimer:** The terms "Spatial Cognitive Processing Unit (SCPU)™" and "Spatial Cognitive Framework (SCF)" and their associated descriptions are presented here as conceptual frameworks for academic discussion. This paper is a speculative and theoretical work and does not represent a product or a patented technology. The trademark symbol is used for illustrative purposes only.
+**Disclaimer:** The terms "Spatial Cognitive Processing Unit (SCPU)™" and "Spatial Cognitive Framework Architecture (SCFA)" and their associated descriptions are presented here as conceptual frameworks for academic discussion. This paper is a speculative and theoretical work and does not represent a product or a patented technology. The trademark symbol is used for illustrative purposes only.
 
 ---
 
-### The Spatial Cognitive Processing Unit (SCPU): A Minimal Architecture for Interactive 5A Hypercube Projections via Cascaded Wave Fusion of Von Neumann and Spiking Neuron Principles
+# The Spatial Cognitive Processing Unit (SCPU): A Minimal Architecture for Interactive 5A Hypercube Projections via Cascaded Wave Fusion of Von Neumann and Spiking Neuron Principles
 
-**Abstract**—This paper introduces the Spatial Cognitive Processing Unit (SCPU), a novel software architecture designed for the interactive rendering and analysis of high-dimensional OLAP hypercubes. The SCPU leverages a "cascade wave" processing model that conceptually fuses the deterministic control flow of the Von Neumann architecture with the event-driven, temporal dynamics of biological spiking neurons. We define a minimal formal system for spatial cognition based on a Cartesian plane system within N-Spaces, characterized by minimal zero space, N-Axes, minimal zero axis, and N-Dimensions (minimal zero dimension), utilizing nodes (points), edges (lines), and edge weights (distances). The SCPU enables interactive 5A (Anytime, Anywhere, Anyhow, Anywhat, Anywho) projections of complex data, providing a scalable and cognitively resonant framework for multidimensional data exploration. This paper details the architectural principles, the mathematical formalization of the minimal spatial system, and the cascaded wave fusion model that underpins the SCPU's operation.
+**Abstract**—This paper introduces the Spatial Cognitive Processing Unit Architecture (SCPUA), a novel software architecture designed for the interactive rendering and analysis of high-dimensional OLAP hypercubes. The SCPUA leverages a "cascade wave" processing model that conceptually fuses the deterministic control flow of the Von Neumann architecture with the event-driven, temporal dynamics of biological spiking neurons. We define a minimal formal system for spatial cognition based on a Cartesian plane system within N-Spaces, characterized by minimal zero space, N-Axes, minimal zero axis, and N-Dimensions (minimal zero dimension), utilizing nodes (points), edges (lines), and edge weights (distances). The SCPU enables interactive 5A (Anytime, Anywhere, Anyhow, Anywhat, Anywho) projections of complex data, providing a scalable and cognitively resonant framework for multidimensional data exploration. This paper details the architectural principles, the mathematical formalization of the minimal spatial system, and the cascaded wave fusion model that underpins the SCPU's operation.
 
 **Index Terms**—Spatial Cognitive Processing Unit (SCPU), OLAP Hypercube, Spiking Neural Networks (SNN), Von Neumann Architecture, High-Dimensional Data Visualization, 5A Projections, Cascaded Wave Fusion.
 
