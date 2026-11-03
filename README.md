@@ -2,7 +2,7 @@
 
 ---
 
-####  Don't you believe it—it continues just as it did with Nato in the past. When he arrives in the infernal dimension—much like Nato—he’ll already show up with his tail scorched, set ablaze by Raman, the devil in the affair involving Natanel Banach Elohim, back at the very beginning of the past...
+####  Don't you believe it—it continues just as it did with Nato in the past. When he arrives in the infernal dimension—much like Nato—he’ll already show up with his tail scorched, set ablaze by Raman, the devil in the affair involving (NATO) Natanel Banach Elohim, back at the very beginning of the past...
 
 ---
 
