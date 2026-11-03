@@ -1,3 +1,15 @@
+## ONE SPACE AND FIVES AXES (O,X,Y,Z,R) AND N DIMENSIONS ON DRAW IMAGE - HAHAHA
+
+---
+
+<h3>LOOK CENTER AXE AND FOUR AXES ON THE TEXT DRAW - INTERNET FILE IMAGE</h3>
+
+---
+
+<img width="468" height="654" alt="Image" src="https://github.com/user-attachments/assets/73766960-a898-485e-b9e4-d8dbb98d8b14" />
+
+---
+
 <img width="832" height="448" alt="Image" src="https://github.com/user-attachments/assets/20b07800-cd1e-4306-89f4-6ecda0afd61e" />
 
 ---
