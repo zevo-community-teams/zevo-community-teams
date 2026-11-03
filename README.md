@@ -2,6 +2,14 @@
 
 ---
 
+####  Don't you believe it—it continues just as it did with Nato in the past. When he arrives in the infernal dimension—much like Nato—he’ll already show up with his tail scorched, set ablaze by Raman, the devil in the affair involving Natanel Banach Elohim, back at the very beginning of the past...
+
+---
+
+#### NAO ACREDITA, IGUAL O NATO NO PASSADO CONTINUA, QUANDO CHEGAR NA DIMENSAO INFERNAO IGUAL AO NATO, JA CHEGA O RABO QUEIMADO, FOGO ATEADO PELO O RAMAN O DIABO DA QUESTAO DO NATANEL BANACH ELOHIM, NO PRINCIPIO DO PASSADO...
+
+---
+
 ###### ADONAI = (0,1,2,3,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22)
 
 ---
