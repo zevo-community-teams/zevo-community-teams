@@ -2,11 +2,11 @@
 
 ---
 
-<h5>Neste portao so passa o messias davada beni elohim and zaita zim zim zim ate o fim sem fim.</h5>
+<h4>Neste portao so passa o messias davada beni elohim and zaita zim zim zim ate o fim sem fim.</h4>
 
 ---
 
-<h5>Only the Ancestral Messiah, Davada, son of Jesse, will pass through this gate, Davada Beni Elohim.</h5>
+<h4>Only the Ancestral Messiah, Davada, son of Jesse, will pass through this gate, Davada Beni Elohim.</h4>
 
 ---
 
