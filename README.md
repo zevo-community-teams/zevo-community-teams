@@ -2,7 +2,7 @@
 
 ---
 
-<h3>Neste portao so vai passa o messias davada beni zaita elohim</h3>
+<h3>Neste portao so passa o messias davada beni elohim</h3>
 
 ---
 
