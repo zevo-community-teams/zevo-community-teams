@@ -1,4 +1,4 @@
-### ONDE ESTA A CONTRADICAO AO MEU RESPEITO: Ivan Dragon vs Apollo Creed full fight | Rocky IV
+### ONDE ESTA A CONTRADICAO AO MEU RESPEITO: Ivan Dragon (Davada) vs Apollo Creed (Ranzinzo) and Rock (Nato) full fight | Rocky IV
 
 ---
 
