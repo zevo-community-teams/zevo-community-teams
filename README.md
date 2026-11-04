@@ -4,6 +4,8 @@
 
 </h3>9Thou shalt break them with a rod of iron; Thou shalt dash them in pieces like a potter’s vessel.’</h3>
 
+---
+
 </h3>Salmo 2:9: É a base original da expressão, onde o Salmo messiânico descreve o Ungido de Elohim recebendo as nações por herança: "Com vara de ferro as regerás e as despedaçarás como a um vaso de oleiro".</h3>
 
 
