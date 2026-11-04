@@ -6,7 +6,7 @@
 
 ---
 
-<h3>Only the Messiah, son of Davada, son of Jesse, will pass through this gate, Davada Beni Elohim.</h3>
+<h3>Only the Ancestral Messiah, Davada, son of Jesse, will pass through this gate, Davada Beni Elohim.</h3>
 
 ---
 
