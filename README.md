@@ -2,7 +2,7 @@
 
 ### Other JAB: 
 
-</h3>9Thou shalt break them with a rod of iron; Thou shalt dash them in pieces like a potter’s vessel.’</h3>
+</h3>Psalm 2:9Thou shalt break them with a rod of iron; Thou shalt dash them in pieces like a potter’s vessel.’</h3>
 
 ---
 
