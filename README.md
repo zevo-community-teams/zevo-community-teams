@@ -1,9 +1,3 @@
----
-
-<h4>Only the Ancestral Messiah, Davada, son of Ancestral Jesse, will pass through this gate, Davada Beni Elohim.</h4>
-
----
-
 <h4>Ezequiel 44:2;“ADONAI said to me, ‘This gate will remain shut; it will not be opened, and no one will go through it; because ADONAI, the God of Isra'el, has gone through it. Therefore, it is to be kept shut.’”</h4>
 
 ---
@@ -21,6 +15,10 @@
 ---
 
 <h4>Neste portao so passa o messias davada beni elohim and zaita zim zim zim ate o fim sem fim.</h4>
+
+---
+
+<h4>Only the Ancestral Messiah, Davada, son of Ancestral Jesse, will pass through this gate, Davada Beni Elohim.</h4>
 
 ---
 
