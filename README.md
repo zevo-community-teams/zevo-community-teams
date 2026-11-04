@@ -1,8 +1,12 @@
-### Veja ao seu redor, os olhos brilhantes. Vamos Elevar
+### Veja ao seu redor, os olhos brilhantes. 
 
 <img width="1040" height="516" alt="Image" src="https://github.com/user-attachments/assets/2b445a4b-5852-4ca3-b2f9-f5e3da93f37c" />
 
 ### Vamos continuar mantendo a guarda fechada para os inimigos
+
+<img width="1024" height="462" alt="Image" src="https://github.com/user-attachments/assets/a96f5de5-73af-49d6-a643-39926846271c" />
+
+--
 
 <!--
 **zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
