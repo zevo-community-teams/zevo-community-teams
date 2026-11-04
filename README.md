@@ -1,3 +1,11 @@
+### A JAB: TO THE USELESS IDIOTS—GO AHEAD AND TEAR DOWN THE BRICKS OF THE GATE, AND SEE IF ANYTHING CHANGES REGARDING THE DECREE OF ADONAI TZEVAOT, OUR CREATOR AND OUR WONDERFUL, DEAR FATHER.
+
+---
+
+### ALFINETADA: PARA OS IDIOTAS INÚTEIS, VAO LA E DERRUBA OS TIJOLOS DO PORTAO, PARA VER SE ALGUMA COISA VAI MUDAR, NA DETERMINACAO DE ADONAI TZEVAOT O NOSSO CRIADOR E PAIZAO, AMADAO
+
+---
+
 <h4>Ezequiel 44:2;“ADONAI said to me, ‘This gate will remain shut; it will not be opened, and no one will go through it; because ADONAI, the God of Isra'el, has gone through it. Therefore, it is to be kept shut.’”</h4>
 
 ---
