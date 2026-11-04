@@ -10,6 +10,10 @@
 
 ---
 
+<h4>Ezequiel 44:2;“ADONAI said to me, ‘This gate will remain shut; it will not be opened, and no one will go through it; because ADONAI, the God of Isra'el, has gone through it. Therefore, it is to be kept shut.’”</h4>
+
+---
+
 <h4>Ezequiel 44:2; Esta porta permanecerá fechada, não se abrirá; ninguém entrará por ela, porque ADONAI, Deus de Israel, entrou por ela; por isso, permanecerá fechada.</h4>
 
 ---
