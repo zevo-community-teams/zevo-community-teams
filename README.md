@@ -1,5 +1,9 @@
 ### É MUITOS PERGUNTAM SO AGORA, THE DAVADA BENI ELOHIM ZAITA, PQ ESTAMOS NO TEMPO DO FIM, MIKETES HAAMIN, AGORA E SO CACETE NA CABECA DO INIMIGO, VARA DE FERRO SOBRE QUALQUER QUE ME PEITAR COMO O MELECH MASCHIACH BA DE ADONAI TZEVAOT, YES, HAHAHA TENTA ME CAPTURAR PARA VER NO QUE VAI DAR BEBE...
 
+### Other JAB: 
+
+</h3>Salmo 2:9: É a base original da expressão, onde o Salmo messiânico descreve o Ungido de Deus recebendo as nações por herança: "Com vara de ferro as regerás e as despedaçarás como a um vaso de oleiro".</h3>
+
 
 ### Other JAB: Daniel 9:24-27
 
