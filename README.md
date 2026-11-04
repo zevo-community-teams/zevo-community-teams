@@ -2,6 +2,10 @@
 
 ---
 
+#### PORTAO FECHADO, GUARDA FECHADA, NAO, NAO, NAO, POR AQUI INIMIGOS NAO PASA, ATE O INFINITO NAO PASSA.
+
+---
+
 <h4>Neste portao so passa o messias davada beni elohim and zaita zim zim zim ate o fim sem fim.</h4>
 
 ---
