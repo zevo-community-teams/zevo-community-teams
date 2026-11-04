@@ -1,4 +1,4 @@
-### ONDE ESTA A CONTRADICAO AO MEU RESPEITO: Ivan Dragon (Davada) vs Apollo Creed (Ranzinzo) and Rock (Nato) full fight | Rocky IV
+### ONDE ESTA A CONTRADICAO AO MEU RESPEITO: Ivan Dragon (Davada) vs Apollo Creed (Ranzinzo) and Rock (Nato) full fight | Rocky IV - Davada Tem 1.98 metros de Altura com 28 cm de torah
 
 ---
 
