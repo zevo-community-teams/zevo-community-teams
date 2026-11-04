@@ -1,3 +1,7 @@
+#### DAVADA BENI ZAITA OR DAVADA BENI ELOHIM 
+
+<img width="738" height="415" alt="Image" src="https://github.com/user-attachments/assets/0d723009-d9ec-41c2-8c25-038c75da58c3" />
+
 #### Veja ao seu redor, os olhos brilhantes. Esta gata elevou-se, quem morreu foi o inimigo **SHAUL HA-NISSIM**
 
 <img width="1040" height="516" alt="Image" src="https://github.com/user-attachments/assets/2b445a4b-5852-4ca3-b2f9-f5e3da93f37c" />
