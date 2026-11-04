@@ -1,4 +1,4 @@
-#### DAVADA BENI ZAITA OR DAVADA BENI ELOHIM 
+#### DAVADA BENI ZAITA OR DAVADA BENI ELOHIM (GATE CLOSED)
 
 <img width="738" height="415" alt="Image" src="https://github.com/user-attachments/assets/0d723009-d9ec-41c2-8c25-038c75da58c3" />
 
