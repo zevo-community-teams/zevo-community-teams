@@ -1,4 +1,4 @@
-### ONDE ESTA A CONTRADICAO AO MEU RESPEITO: Apollo Creed vs Ivan Dragon full fight | Rocky IV
+### ONDE ESTA A CONTRADICAO AO MEU RESPEITO: Ivan Dragon vs Apollo Creed full fight | Rocky IV
 
 ---
 
