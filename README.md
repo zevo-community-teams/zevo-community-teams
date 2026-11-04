@@ -1,3 +1,9 @@
+### Baroleta Kakatua Play
+
+<img width="414" height="483" alt="Image" src="https://github.com/user-attachments/assets/c359dabe-b4ca-4747-b324-9f0a72c2e41b" />
+
+---
+
 ### ONDE ESTA A CONTRADICAO AO MEU RESPEITO: Ivan Dragon (Davada) vs Apollo Creed (Ranzinzo) and Rock (Nato) full fight | Rocky IV - Davada Tem 1.98 metros de Altura com 28 cm de torah, as duas loiras que aparecem nas contradicoes e eu como eu mesmo ou seja minha esposas primeiro, pois foram tiradas de mim mesmo.
 
 ---
