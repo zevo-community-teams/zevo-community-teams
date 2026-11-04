@@ -1,4 +1,4 @@
-#### Veja ao seu redor, os olhos brilhantes. Esta gata se elevou-se, quem morreu foi os inimigos **SHAUL HA-NISSIM**...
+#### Veja ao seu redor, os olhos brilhantes. Esta gata elevou-se, quem morreu foi o inimigo **SHAUL HA-NISSIM**
 
 <img width="1040" height="516" alt="Image" src="https://github.com/user-attachments/assets/2b445a4b-5852-4ca3-b2f9-f5e3da93f37c" />
 
