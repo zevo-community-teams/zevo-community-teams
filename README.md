@@ -2,7 +2,7 @@
 
 ---
 
-<h3>Neste portao so passa o messias davada beni elohim and zaita zim zim zim ate o fim sem fim./h3>
+<h3>Neste portao so passa o messias davada beni elohim and zaita zim zim zim ate o fim sem fim.</h3>
 
 ---
 
