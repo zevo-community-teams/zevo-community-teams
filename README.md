@@ -1,6 +1,6 @@
 #### DAVADA BENI ZAITA OR DAVADA BENI ELOHIM (GATE CLOSED)
 
-<h4>Ezequiel 44:2; Esta porta permanecerá fechada, não se abrirá; ninguém entrará por ela, porque o SENHOR, Deus de Israel, entrou por ela; por isso, permanecerá fechada.</h4>
+<h4>Ezequiel 44:2; Esta porta permanecerá fechada, não se abrirá; ninguém entrará por ela, porque ADONAI, Deus de Israel, entrou por ela; por isso, permanecerá fechada.</h4>
 
 ---
 
