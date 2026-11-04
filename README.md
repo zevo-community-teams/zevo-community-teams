@@ -1,4 +1,4 @@
-### Veja so seu redor, os olhos brilhantes. Vamos Elevar
+### Veja ao seu redor, os olhos brilhantes. Vamos Elevar
 
 <img width="1040" height="516" alt="Image" src="https://github.com/user-attachments/assets/2b445a4b-5852-4ca3-b2f9-f5e3da93f37c" />
 
