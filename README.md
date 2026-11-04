@@ -1,5 +1,17 @@
 #### DAVADA BENI ZAITA OR DAVADA BENI ELOHIM (GATE CLOSED)
 
+---
+
+<h3>Neste portao so vai passa o messias davada beni zaita elohim</h3>
+
+---
+
+<h3>Only the Messiah, son of David, son of Jesse, will pass through this gate.</h3>
+
+---
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9d4e36b9-a185-4a08-a8b4-c836d79b8df7" />
+
 <img width="738" height="415" alt="Image" src="https://github.com/user-attachments/assets/0d723009-d9ec-41c2-8c25-038c75da58c3" />
 
 #### Veja ao seu redor, os olhos brilhantes. Esta gata elevou-se, quem morreu foi o inimigo **SHAUL HA-NISSIM**
