@@ -1,15 +1,18 @@
 ### É MUITOS PERGUNTAM SO AGORA, THE DAVADA BENI ELOHIM ZAITA, PQ ESTAMOS NO TEMPO DO FIM, MIKETES HAAMIN, AGORA E SO CACETE NA CABECA DO INIMIGO, VARA DE FERRO SOBRE QUALQUER QUE ME PEITAR COMO O MELECH MASCHIACH BA DE ADONAI TZEVAOT, YES, HAHAHA TENTA ME CAPTURAR PARA VER NO QUE VAI DAR BEBE...
 
-### Other JAB: 
+### Other JAB: Psalm 2:9
 
-</h3>Psalm 2:9Thou shalt break them with a rod of iron; Thou shalt dash them in pieces like a potter’s vessel.’</h3>
+</h3>Psalm 2:9: Thou shalt break them with a rod of iron; Thou shalt dash them in pieces like a potter’s vessel.’</h3>
 
 ---
 
 </h3>Salmo 2:9: É a base original da expressão, onde o Salmo messiânico descreve o Ungido de Elohim recebendo as nações por herança: "Com vara de ferro as regerás e as despedaçarás como a um vaso de oleiro".</h3>
 
+---
 
 ### Other JAB: Daniel 9:24-27
+
+---
 
 </h3>24 Setenta semanas estão determinadas sobre o teu povo, e sobre a tua santa cidade, para cessar a transgressão, e para dar fim aos pecados, e para expiar a iniquidade, e trazer a justiça eterna, e selar a visão e a profecia, e para ungir o SANTO DO SANTOS. 25 Sabe e entende: desde a saída da ordem para restaurar, e para edificar a Jerusalém, até ao Messias, o **Príncipe Davada**, haverá sete semanas, e sessenta e duas semanas; as ruas e o muro se reedificarão, mas em tempos angustiosos. 26 E depois das sessenta e duas semanas será cortado o Falso Messias (**OBS: QUALQUER UM QUE NAO SEJA O FILHO PRIMEIRO DE ELOHIM - SEU NOME É DAVADA BENI ELOHIM/ZAITA OR KING DAVID SON OF JESSE**), mas não para si mesmo; e o povo do príncipe, que há de vir, destruirá a cidade e o santuário, e o seu fim será com uma complete destruição; e até ao fim haverá guerra; estão determinadas as assolações. 27 E ele firmará aliança com muitos por uma semana; e na metade da semana fará cessar o sacrifício e a oblação; e sobre a asa das abominações virá o assolador, e isso até à consumação; e o que está determinado será derramado sobre o assolador.</h3>
 
