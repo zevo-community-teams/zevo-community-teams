@@ -45,26 +45,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-#### Proibido na Torah de Adonai: Ninguem pode morrer para salvar alguem - Não serve pra nada: 
-
-```text 
-
-Os principais registros desse ensinamento na Bíblia estão em:
-
-• Deuteronômio 24:16: "Os pais não serão mortos em lugar dos filhos, nem os filhos, em lugar dos pais; cada qual será morto pelo seu pecado."
-
-• Ezequiel 18:20: "Aquele que pecar é que morrerá. O filho não levará a culpa do pai nem o pai levará a culpa do filho."
-
-``` 
-
----
-
-### Where is Bonnie Tyler? In a dimension of question, beyond the earthly plane existing in her own elevated form, alongside others to settle accounts that remained unresolved from her time on Earth. 
-
----
-
-### By Davada Elohim Zaita, on If I were to lie or go back on my word instead of doing what must be done, as commanded by the *Tohar* of Adonai. I would become what the **NATO** was in the past; I would have accepted being contradicted by the *Bafo*.
-
 ---
 
 ### "The Spatial Cognitive Framework Architecture (SCFA) and Spatial Cognitive Processing Unit Architecture (SCPUA): The cartesian plane system within N-Spaces, minimal zero space, and N-Axes, minimal zero axe, and N-Dimensions, minimal zero dimension, using node (point) and edge (line) and edge weight (distance)."
