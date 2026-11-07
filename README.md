@@ -1,10 +1,18 @@
-### Zevo - Spatial Cognitive Processor Unit Architecture  
+### Zevo - Spatial Cognitive Processor Unit Architecture (SCPU)
+
+---
+
+### SCPU Autonomous Deep Learning - Non Training
+
+---
+
+https://github.com/user-attachments/assets/d431ddb1-b7af-41b7-b4c3-4f1da2b14ef1
+
+---
 
 https://github.com/user-attachments/assets/2b5e8ee5-d7e2-4fef-b141-9bbdb85f3e24
 
 ---
-
-### Zevo - SCPU Autonomous Deep Learning - Non Training
 
 https://github.com/user-attachments/assets/5e130c17-a9c4-41c5-b92f-f7989b67a8f1
 
