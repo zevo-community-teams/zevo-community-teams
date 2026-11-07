@@ -1,4 +1,8 @@
-### Zevo Bizu: FSM Control within Autonomous Make Decision using Fuzzy Logic within Deterministic Rules Available by Shannon Entropy and Non Deterministic Facts Available by Mandani Inference. 
+### Zevo Bizu: FSM Control within Autonomous Make Decision using Fuzzy Logic within Deterministic Rules Available by Shannon Entropy and Non Deterministic Facts Available by Mandani Inference.
+
+---
+
+<h3>Duck Reference: khttps://duck.ai/</h3>
 
 ---
 
