@@ -1,3 +1,15 @@
+### Resenha Musical:
+
+---
+
+</h3>Berlin - Take My Breath Away</h3>
+
+---
+
+https://www.youtube.com/watch?v=Bx51eegLTY8
+
+---
+
 ### Zevo Bizu: 
 
 ---
