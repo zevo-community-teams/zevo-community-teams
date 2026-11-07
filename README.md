@@ -1,3 +1,7 @@
+### Zevo Bizu: FSM Control using Fuzzy Logic within Deterministic Rules Available by Shannon Entropy and Non Deterministic Facts Available by Mandani Inference. 
+
+---
+
 ### Zevo - Spatial Cognitive Processor Unit Architecture (SCPU)
 
 ---
