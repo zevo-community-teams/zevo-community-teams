@@ -1,4 +1,4 @@
-### Ninguem pode morrer para salvar alguem: Proibido na Torah de Adonai - Não serve pra nada
+### Proibido na Torah de Adonai: Ninguem pode morrer para salvar alguem - Não serve pra nada : 
 
 ```text 
 
