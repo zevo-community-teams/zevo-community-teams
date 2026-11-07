@@ -2,7 +2,7 @@
 
 ---
 
-<h3>The autonomous system makes decisions by combining FSM Control using fuzzy‑logic with deterministic rules and non deterministic inference facts : The deterministic rules are applied when Shannon‑entropy analysis shows low uncertainty, while fuzzy‑logic using Mamdani inference handles high‑entropy, non‑deterministic situations; both are guided by neural networks and machine‑learning that storage I/O on the ELF Image Model Application or Binary File Format Model Non Application. Search reference about GNU Project ELF and Binultis Commands.
+<h3>The autonomous system combines finite-state-machine (FSM) control, fuzzy logic, and deterministic rules with probabilistic inference. When Shannon entropy indicates low uncertainty, the system applies deterministic rules. In high-uncertainty situations, it uses fuzzy logic with Mamdani inference. Neural networks and machine-learning models guide both processes and operate on stored data associated with either the ELF executable-image model or the binary-file-format model for non-executable files. Search reference about GNU Project ELF and Binultis Commands.
     
 ---
 
