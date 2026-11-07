@@ -1,4 +1,11 @@
-### Zevo Bizu: FSM Control within Autonomous Make Decision using Fuzzy Logic within Deterministic Rules Available by Shannon Entropy and Non Deterministic Facts Available by Mandani Inference.
+### Zevo Bizu: 
+
+---
+
+```text
+The autonomous system makes decisions by combining FSM Control using fuzzy‑logic with deterministic rules and non deterministic inference facts : The deterministic rules are applied when Shannon‑entropy analysis shows low uncertainty, while fuzzy‑logic using Mamdani inference handles high‑entropy, non‑deterministic situations; both are guided by deep‑learning neural networks that process flat binary inputs.
+
+```
 
 ---
 
