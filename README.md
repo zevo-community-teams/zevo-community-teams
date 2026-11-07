@@ -1,6 +1,6 @@
 ### Spatial Cognitive Processor Unit - SCPU 
 
-<h3>https://github.com/user-attachments/assets/2b5e8ee5-d7e2-4fef-b141-9bbdb85f3e24</h3>
+https://github.com/user-attachments/assets/2b5e8ee5-d7e2-4fef-b141-9bbdb85f3e24
 
 ---
 
