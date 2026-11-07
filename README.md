@@ -1,3 +1,7 @@
+### ZEVO BIZU FGPA: 
+
+<h3>Is it possible to implement an SCPU (Spatial Cognitive Processing Unit) on an FPGA within a closed-loop circuit? Yes—but it functions as an expert system; its maximum supported scope must be clearly defined. It is not an AI based on autonomous neural networks.</h3>
+
 ### Resenha Musical:
 
 ---
@@ -6,7 +10,7 @@
 
 ---
 
-https://www.youtube.com/watch?v=Bx51eegLTY8
+<h3>https://www.youtube.com/watch?v=Bx51eegLTY8
 
 ---
 
@@ -14,7 +18,7 @@ https://www.youtube.com/watch?v=Bx51eegLTY8
 
 ---
 
-<h3>The autonomous system combines finite-state-machine (FSM) control, fuzzy logic, and deterministic rules with probabilistic inference. When Shannon entropy indicates low uncertainty, the system applies deterministic rules. In high-uncertainty situations, it uses fuzzy logic with Mamdani inference. Neural networks and machine-learning models guide both processes and operate on stored data associated with either the ELF executable-image model or the binary-file-format model for non-executable files. Search reference about SIMD Vector on AVX/AVX-2 and AVX-512 and GNU Project ELF and Binultis Commands.
+<h3>The autonomous system combines finite-state-machine (FSM) control, fuzzy logic, and deterministic rules with probabilistic inference. When Shannon entropy indicates low uncertainty, the system applies deterministic rules. In high-uncertainty situations, it uses fuzzy logic with Mamdani inference. Neural networks and machine-learning models guide both processes and operate on stored data associated with either the ELF executable-image model or the binary-file-format model for non-executable files. Search reference about SIMD Vector on AVX/AVX-2 and AVX-512 and GNU Project ELF and Binultis Commands.</h3>
     
 ---
 
