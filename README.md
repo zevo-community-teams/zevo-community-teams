@@ -1,3 +1,34 @@
+### Zevo - Spatial Cognitive Processor Unit Architecture  
+
+https://github.com/user-attachments/assets/2b5e8ee5-d7e2-4fef-b141-9bbdb85f3e24
+
+---
+
+### Zevo - SCPU Autonomous Deep Learning - Non Training
+
+https://github.com/user-attachments/assets/5e130c17-a9c4-41c5-b92f-f7989b67a8f1
+
+---
+
+https://github.com/user-attachments/assets/3fab365b-b8a0-49e4-81fa-43d06199f611
+
+---
+
+<!--
+**zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+
 ### Proibido na Torah de Adonai: Ninguem pode morrer para salvar alguem - Não serve pra nada : 
 
 ```text 
@@ -17,35 +48,6 @@ Os principais registros desse ensinamento na Bíblia estão em:
 ---
 
 ### By Davada Elohim Zaita, on If I were to lie or go back on my word instead of doing what must be done, as commanded by the *Tohar* of Adonai. I would become what the **NATO** was in the past; I would have accepted being contradicted by the *Bafo*.
-
----
-
-### Zevo - Spatial Cognitive Processor Unit Architecture  
-
-https://github.com/user-attachments/assets/2b5e8ee5-d7e2-4fef-b141-9bbdb85f3e24
-
----
-
-### Zevo - SCPU Autonomous Deep Learning - Non Training
-
-https://github.com/user-attachments/assets/5e130c17-a9c4-41c5-b92f-f7989b67a8f1
-
----
-
-<!--
-**zevo-community/zevo-community** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 
 ---
 
