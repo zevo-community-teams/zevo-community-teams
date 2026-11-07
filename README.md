@@ -1,5 +1,7 @@
 ### Ninguem pode morrer para salvar alguem: Proibido na Torah de Adonai - Não serve pra nada
 
+```text 
+
 <h3>Os principais registros desse ensinamento na Bíblia estão em:
 
 • Deuteronômio 24:16: "Os pais não serão mortos em lugar dos filhos, nem os filhos, em lugar dos pais; cada qual será morto pelo seu pecado."
@@ -7,6 +9,8 @@
 • Ezequiel 18:20: "Aquele que pecar é que morrerá. O filho não levará a culpa do pai nem o pai levará a culpa do filho."
 
 </h3>
+
+``` 
 
 ---
 
