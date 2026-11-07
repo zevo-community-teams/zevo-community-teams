@@ -2,7 +2,7 @@
 
 ---
 
-<h3>Duck Reference: khttps://duck.ai/</h3>
+<h3>Duck Reference: https://duck.ai/</h3>
 
 ---
 
