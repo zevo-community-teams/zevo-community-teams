@@ -1,4 +1,4 @@
-### Where is Bonnie Tyler? In a dimension beyond the earthly plane—existing in her own elevated form, alongside others—to settle accounts that remained unresolved from her time on Earth. 
+### Where is Bonnie Tyler? In a dimension beyond the earthly plane existing in her own elevated form, alongside others to settle accounts that remained unresolved from her time on Earth. 
 
 ---
 
