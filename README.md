@@ -1,4 +1,8 @@
-### Where is Bonnie Tyler? In a dimension beyond the earthly plane existing in her own elevated form, alongside others to settle accounts that remained unresolved from her time on Earth. 
+### Where is Bonnie Tyler? In a dimension of question, beyond the earthly plane existing in her own elevated form, alongside others to settle accounts that remained unresolved from her time on Earth. 
+
+---
+
+### If I were to lie or go back on my word instead of doing what must be done, as commanded by the *Tohar* of Adonai. I would become what the **NATO** was in the past; I would have accepted being contradicted by the *Bafo*.
 
 ---
 
