@@ -2,7 +2,7 @@
 
 ---
 
-### If I were to lie or go back on my word instead of doing what must be done, as commanded by the *Tohar* of Adonai. I would become what the **NATO** was in the past; I would have accepted being contradicted by the *Bafo*.
+### By Davada Elohim Zaita, on If I were to lie or go back on my word instead of doing what must be done, as commanded by the *Tohar* of Adonai. I would become what the **NATO** was in the past; I would have accepted being contradicted by the *Bafo*.
 
 ---
 
