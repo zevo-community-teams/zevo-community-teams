@@ -1,3 +1,7 @@
+### I’ve never seen a car thief who knew anything about manufacturing.
+
+---
+
 ### ZEVO BIZU FGPA: 
 
 <h3>Is it possible to implement an SCPU (Spatial Cognitive Processing Unit) on an FPGA within a closed-loop circuit? Yes—but it functions as an expert system; its maximum supported scope must be clearly defined. It is not an AI based on autonomous neural networks.</h3>
