@@ -22,7 +22,7 @@
     
 ---
 
-<h3>Digital Library - GTP-OSS in Duck - https://duck.ai</h3>
+<h3>Digital Library - Duck - https://duck.ai</h3>
 
 ---
 
