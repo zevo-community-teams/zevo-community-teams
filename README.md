@@ -2,15 +2,19 @@
 
 ---
 
-### Zevo Bizu: Building LLM Using Transformers (translate) from Scratch
+<h3>Duck Reference: https://duck.ai/</h3>
+
+---
+
+### Zevo Bizu: The human-machine interaction [HUMAN - MACHINE - HUMAN] 
+
+---
+
+<h3>Building LLM Using Transformers (translate) from Scratch</h3>
 
 ---
 
 <img width="2816" height="1536" alt="Image" src="https://github.com/user-attachments/assets/605c50c0-588f-44d2-8d44-b7b6dda02463" />
-
----
-
-<h3>Duck Reference: https://duck.ai/</h3>
 
 ---
 
