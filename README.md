@@ -2,7 +2,7 @@
 
 ---
 
-### Zevo Bizu: Building LLM Using Transformers from Scratch
+### Zevo Bizu: Building LLM Using Transformers (translate) from Scratch
 
 ---
 
