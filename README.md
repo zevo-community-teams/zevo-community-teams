@@ -1,3 +1,7 @@
+### Look, I’ll say it again and again: the day a monkey climbs down from its branch—well, I was once challenged on this, but the point is, there’s just no getting away from the facts.
+
+---
+
 ### I’ve never seen a car thief who knew anything about manufacturing. If you arrive at the result I defined in my calculation—which my brother NATO BANACH determined—then go fuck yourself, you cheeky monkey. That cheeky monkey takes NATO BANACH’s stuff, and then has the nerve to claim it’s his own—the proof is that there’s absolutely nothing of substance behind his hot air. Tithes, offerings, vows, and donations—all in accordance with the Tanakh of Adonai, our great Father. I have many scores to settle when it comes to taking jabs at people. 
 
 ---
