@@ -2,7 +2,7 @@
 
 ---
 
-### I’d love to see them solve the issue of this breaking in convertible cars. I’d love to see them fix the problems with electric vehicle batteries, or address the issue of "fake AI"—they’re programming systems just to fool the user. What about planes that freeze up, helicopters that become unstable in thin air, or ships that stop dead in the water—even out on the open ocean—if something gets too close to the bow? Hahahaha. hahahaha
+### I’d love to see them solve the issue of this breaking down in a convertible car. I’d love to see them fix the problems with electric vehicle batteries, or address the issue of "fake AI" systems—they’re actually programming these systems to deceive the user. Then there are planes that freeze up, helicopters that become unstable in thin air, ships that lose their heading if they stop—even out on the open ocean—and car engines that sputter and cut out... Hahahaha Hahahaha. hahahaha
 
 ---
 
