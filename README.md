@@ -1,4 +1,4 @@
-### Look, I’ll say it again and again: the moment a monkey leaves its branch—well, I was once told otherwise, but the truth is, there’s no escaping the inevitable. When you finally kick the bucket, your restless soul heads straight for the new home that the big guy downstairs has prepared for all you fools. Hahaha!
+### Look, I’ll repeat this as many times as necessary: ​​the moment a monkey lets go of the branch—well, I’ve been told otherwise, but the truth is, there’s no escaping the inevitable. When you finally kick the bucket, your restless soul heads straight for the new home (DIMENSION RA - MARS) that the big boss down below has prepared for all of you—you fools! Hahaha!
 
 ---
 
