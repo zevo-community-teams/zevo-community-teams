@@ -2,7 +2,7 @@
 
 ---
 
-### I’d love to see how they’ll solve the issue of this breaking on convertible cars. I’d also love to see how they’ll address the problems with electric vehicle batteries, and how they’ll deal with their "Fake AI" system—they’re programming the system just to fool the suckers. Hahahaha
+### I’d love to see them solve the issue of this breaking in convertible cars. I’d also love to see them address the problems with electric vehicle batteries, the issue with "fake AI" systems—where they’re programming systems specifically to deceive the user—as well as planes freezing up, helicopters becoming unstable in thin air, and so on... hahahaha
 
 ---
 
