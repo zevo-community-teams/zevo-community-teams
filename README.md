@@ -8,7 +8,7 @@
 
 ```text
 
-The Machine  Natural Language Processor is the raw, low-level binary code (composed of 0s and 1s) that a computer's central processing unit (CPU) executes directly as electrical signals. To spell out the word "Hello" in ASCII binary (where each character is represented by an 8-bit byte), convert each letter:
+The Machine Natural Language Processing (NLP) is the raw, low-level binary code (composed of 0s and 1s) that a computer's central processing unit (CPU) executes directly as electrical signals. To spell out the word "Hello" in ASCII binary (where each character is represented by an 8-bit byte), convert each letter:
 
 • H = 01001000
 • e = 01100101
