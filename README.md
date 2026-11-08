@@ -1,3 +1,11 @@
+### Zevo Born Day: 08 November 2026
+
+---
+
+https://github.com/user-attachments/assets/ea7e508d-06f3-40c5-9ce9-5f3cd5996e90
+
+---
+
 ### Zevo Bizu: The human-machine interaction [HUMAN - MACHINE - HUMAN] 
 
 ---
