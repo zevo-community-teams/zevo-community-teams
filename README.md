@@ -1,32 +1,10 @@
-### Look, I’ll repeat this as many times as necessary: ​​the moment a monkey lets go of the branch—well, I’ve been told otherwise, but the truth is, there’s no escaping the inevitable. When you finally kick the bucket, your restless soul heads straight for the new home (DIMENSION RA - MARS) that the big boss down below has prepared for all of you—you fools! Hahaha!
-
----
-
-### I’ve never seen a car thief who knew anything about manufacturing. If you arrive at the result I defined in my calculation—which my brother NATO BANACH determined—then go fuck yourself, you cheeky monkey. That cheeky monkey takes NATO BANACH’s stuff, and then has the nerve to claim it’s his own—the proof is that there’s absolutely nothing of substance behind his hot air. Tithes, offerings, vows, and donations—all in accordance with the Tanakh of Adonai, our great Father. I have many scores to settle when it comes to taking jabs at people. 
-
----
-
-### ALI BABA AND THE 40 THIEVES --- I’d love to see them solve the issue of this breaking down in a convertible car. I’d love to see them fix the problems with electric vehicle batteries, or address the issue of "Fake AI" systems—they’re actually programming these systems to deceive the user. Then there are planes that freeze up, helicopters that become unstable in thin air, ships that lose their heading if they stop—even out on the open ocean—and car engines that sputter and cut out... Hahahaha Hahahaha. hahahaha
-
----
-
-### "O Nato em sua didatica original disse: Eu nao vi para abolir a torah e os mensageiros de Adonai...".  The Nato’s original teaching concerns how to obey the Torah of Adonai. The settling of accounts regarding the modified Didache falls to Nato and Batach.
+### If you need vocabulary, grammar, or fragments of words in your source code—that’s not calculus-based mathematics; that’s a goddamn disaster, an infernal disgrace, a piece of shit from the deepest, darkest abyss.
 
 ---
 
 ### ZEVO BIZU FGPA: 
 
 <h3>Is it possible to implement an SCPU (Spatial Cognitive Processing Unit) on an FPGA within a closed-loop circuit? Yes—but it functions as an expert system; its maximum supported scope must be clearly defined. It is not an AI based on autonomous neural networks.</h3>
-
-### Resenha Musical:
-
----
-
-</h3>Berlin - Take My Breath Away</h3>
-
----
-
-<h3>https://www.youtube.com/watch?v=Bx51eegLTY8
 
 ---
 
