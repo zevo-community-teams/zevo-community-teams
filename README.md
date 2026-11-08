@@ -1,4 +1,4 @@
-### I’ve never seen a car thief who knew anything about manufacturing. If you get a result that I’ve determined in my calculation, go fuck yourself, you cheeky monkey.
+### I’ve never seen a car thief who knew anything about manufacturing. If you arrive at the result I defined in my calculation—which my brother NATO BANACH determined—then go fuck yourself, you cheeky monkey.
 
 ---
 
