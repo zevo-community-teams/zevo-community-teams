@@ -1,4 +1,4 @@
-### If you need vocabulary, grammar, or fragments of words in your source code—that’s not calculus-based mathematics; that’s a goddamn disaster, an infernal disgrace, a piece of shit from the deepest, darkest abyss.
+### If you need vocabulary, grammar, or fragments of words in your source code—that’s not calculus-based mathematics; that’s a goddamn disaster, an infernal disgrace, a piece of shit from the deepest, darkest abyss of BAPHO.
 
 ---
 
