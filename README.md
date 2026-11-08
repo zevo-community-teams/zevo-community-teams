@@ -2,6 +2,14 @@
 
 ---
 
+## Resenha Music: Roxette - Joyride (Official Video)
+
+---
+
+https://www.youtube.com/watch?v=xCorJG9mubk
+
+---
+
 https://github.com/user-attachments/assets/ea7e508d-06f3-40c5-9ce9-5f3cd5996e90
 
 ---
