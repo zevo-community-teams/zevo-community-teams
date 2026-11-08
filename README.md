@@ -1,6 +1,6 @@
 ### I’ve never seen a car thief who knew anything about manufacturing. If you arrive at the result I defined in my calculation—which my brother NATO BANACH determined—then go fuck yourself, you cheeky monkey. That cheeky monkey takes NATO BANACH’s stuff, and then has the nerve to claim it’s his own—the proof is that there’s absolutely nothing of substance behind his hot air. Tithes, offerings, vows, and donations—all in accordance with the Tanakh of Adonai, our great Father. I have many scores to settle when it comes to taking jabs at people. The settling of accounts regarding the modified Didache falls to Nato and Batach. Nato’s original teaching concerns how to obey the Torah of Adonai.
 
-### "O Nato em sua didatica original disse: Eu nao vi para abolir a torah e mensangeiros de Adonai..."
+### "O Nato em sua didatica original disse: Eu nao vi para abolir a torah e mensageiros de Adonai..."
 
 ---
 
