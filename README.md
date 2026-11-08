@@ -2,6 +2,10 @@
 
 ---
 
+### I’d love to see how they’ll solve the issue of this breaking on convertible cars. I’d also love to see how they’ll address the problems with electric vehicle batteries, and how they’ll deal with their "fake AI" system—they’re programming the system just to fool the suckers. Hahahaha
+
+---
+
 ### "O Nato em sua didatica original disse: Eu nao vi para abolir a torah e os mensageiros de Adonai...".  The Nato’s original teaching concerns how to obey the Torah of Adonai. The settling of accounts regarding the modified Didache falls to Nato and Batach.
 
 ---
