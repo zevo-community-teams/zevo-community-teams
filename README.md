@@ -1,4 +1,4 @@
-### Zevo Born Day: 08 November 2026
+### Zevo Scorpion - The Born Day: 08 November 2026
 
 ---
 
