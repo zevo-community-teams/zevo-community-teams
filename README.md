@@ -1,3 +1,24 @@
+### Zevo Bizu: The human-machine interaction [HUMAN - MACHINE - HUMAN] 
+
+---
+
+<h3>HUMAN **HELLO** -- MACHINE LANGUAGE BINARY --- **HELLO** HUMAN </h3>
+
+---
+
+```text
+
+The Machine language is the raw, low-level binary code (composed of 0s and 1s) that a computer's central processing unit (CPU) executes directly as electrical signals. To spell out the word "Hello" in ASCII binary (where each character is represented by an 8-bit byte), convert each letter:
+
+• H = 01001000
+• e = 01100101
+• l = 01101100
+• l = 01101100
+• o = 01101111
+
+``` 
+---
+
 ### If you need vocabulary, grammar, or fragments of words in your source code—that’s not calculus-based mathematics; that’s a goddamn disaster, an infernal disgrace, a piece of shit from the deepest, darkest abyss of BAPHO.
 
 ---
