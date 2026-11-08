@@ -2,7 +2,7 @@
 
 ---
 
-### ALI BABA AND THE 40 THIEVES --- I’d love to see them solve the issue of this breaking down in a convertible car. I’d love to see them fix the problems with electric vehicle batteries, or address the issue of "fake AI" systems—they’re actually programming these systems to deceive the user. Then there are planes that freeze up, helicopters that become unstable in thin air, ships that lose their heading if they stop—even out on the open ocean—and car engines that sputter and cut out... Hahahaha Hahahaha. hahahaha
+### ALI BABA AND THE 40 THIEVES --- I’d love to see them solve the issue of this breaking down in a convertible car. I’d love to see them fix the problems with electric vehicle batteries, or address the issue of "Fake AI" systems—they’re actually programming these systems to deceive the user. Then there are planes that freeze up, helicopters that become unstable in thin air, ships that lose their heading if they stop—even out on the open ocean—and car engines that sputter and cut out... Hahahaha Hahahaha. hahahaha
 
 ---
 
