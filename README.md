@@ -6,7 +6,7 @@
 
 ---
 
-<h4> Zevo Clarification: Notice how the initial prefix changes as your prompt changes:hello zevo $\rightarrow$ zabo - you speak javanes? $\rightarrow$ babo - no understand you, now. $\rightarrow$ vabovixe $\rightarrow$ fabo - you crazy? $\rightarrow$ habo </h4>
+<h4> Zevo Clarification: Notice how the initial prefix changes as your prompt changes:hello zevo $\rightarrow$ zabo - you speak javanes? $\rightarrow$ babo - no understand you, now. $\rightarrow$ vabo - vixe $\rightarrow$ fabo - you crazy? $\rightarrow$ - habo </h4>
 
 ---
 
