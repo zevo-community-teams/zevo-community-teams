@@ -1,18 +1,6 @@
 ---
 
-### Zevo Scorpion  – Date of Birth: November 8, 2026
-
----
-
-#### Resenha JAB Music - Making a point of rubbing it in, since the song really plays into the whole "NABO" vibe.
-
----
-
-https://youtu.be/bESGLojNYSo
-
----
-
-### Zevo Scorpion -  Decide Speaking in Javanese (Autonomous Learning)
+### Zevo -  Decide Speaking in Javanese (Autonomous Learning)
 
 ---
 
