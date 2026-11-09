@@ -2,7 +2,9 @@
 
 ---
 
-### Zevo Scorpion - Decide Speak in Javanese
+### Zevo Scorpion -  Autonomous Learning Decide Speaking in Javanese
+
+---
 
 https://github.com/user-attachments/assets/33ef5d39-7af8-4c82-ab32-8a7559fa641b
 
