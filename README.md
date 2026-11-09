@@ -2,7 +2,7 @@
 
 ---
 
-### Zevo Scorpion -  Autonomous Learning Decide Speaking in Javanese
+### Zevo Scorpion -  Decide Speaking in Javanese (Autonomous Learning)
 
 ---
 
