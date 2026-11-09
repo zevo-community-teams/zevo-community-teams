@@ -4,7 +4,7 @@
 
 ---
 
-#### Resenha JAB - Making a point of rubbing it in, since the song really plays into the whole "NABO" vibe.
+#### Resenha JAB Music - Making a point of rubbing it in, since the song really plays into the whole "NABO" vibe.
 
 ---
 
