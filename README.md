@@ -6,6 +6,10 @@
 
 ---
 
+https://github.com/user-attachments/assets/334e20be-fb8e-4979-8ff1-2a609fefa1d6
+
+---
+
 <h4> Zevo Clarification: Notice how the initial prefix changes as your prompt changes: hello zevo $\rightarrow$ zabo - you speak javanes? $\rightarrow$ babo - no understand you, now. $\rightarrow$ vabo - vixe $\rightarrow$ fabo - you crazy? $\rightarrow$ habo </h4>
 
 ---
