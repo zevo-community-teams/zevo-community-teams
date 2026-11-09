@@ -1,3 +1,11 @@
+### JAB - Making a point of rubbing it in, since the song really plays into the whole "NABO" vibe.
+
+---
+
+https://youtu.be/bESGLojNYSo
+
+---
+
 ### Zevo Scorpion  – Date of Birth: November 8, 2026
 
 ---
