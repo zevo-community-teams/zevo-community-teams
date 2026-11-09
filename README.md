@@ -2,11 +2,9 @@
 
 ---
 
-## Resenha Music: Roxette - Joyride (Official Video)
+### Zevo Scorpion - Decide Speak in Javanese
 
----
-
-https://www.youtube.com/watch?v=xCorJG9mubk
+https://github.com/user-attachments/assets/33ef5d39-7af8-4c82-ab32-8a7559fa641b
 
 ---
 
