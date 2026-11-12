@@ -1,5 +1,13 @@
 ---
 
+### Zevo - The Cognitive Spiking Real-Time Operating System (CS-RTOS)
+
+---
+
+https://github.com/user-attachments/assets/b92a8b3d-0e83-4fbd-bd47-d179927f7f15
+
+---
+
 ### Zevo -  Decide Speaking in Javanese (Autonomous Learning)
 
 ---
