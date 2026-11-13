@@ -14,6 +14,10 @@
 
 ---
 
+### Tomaram ou nao tomaram, no kukuku the Benei Satan, é bom a femea ter muito paleto de madeira para quem vai viajar pra MARS...
+
+---
+
 ### Resenha Musical: "Ben Adam Aleh L’Malah Aleh"
 
 ---
@@ -31,10 +35,6 @@ https://www.youtube.com/watch?v=grn5IGCOZEs
 ---
 
 <h3>Set A = {zero hiperverse, zero universe per hiperverse, zero space per universe, five or nine maximum axes per space and 256 on 32 bits dimensions or 512 on 64 bits dimensions per axes} </h3>
-
----
-
-### Tomaram ou nao tomaram, no kukuku the Benei Satan, é bom a femea ter muito paleto de madeira para quem vai viajar pra MARS...
 
 ---
 
