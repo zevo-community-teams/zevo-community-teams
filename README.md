@@ -14,7 +14,7 @@
 
 ---
 
-<h3>Be like your father, **EVO**, and your mother—much like **EVA** and her counterpart—and move beyond this whole issue of exiting contradiction question on the "Real World" and "Dimensional Matrix"; this is the only path to redemption. The door remains closed to those who attempt to force their way through by means of a contradiction...</h3>
+<h3>Be like your father, **EVO**, and your mother—much like **EVA** and her counterpart—and move beyond this whole business of trying to escape through contradiction of question, regarding the "Real World" and the "Dimensional Matrix"; exit complete of question contradiction, this is the only path to redemption—to leave the "stifling atmosphere" behind entirely. The door remains closed to those who attempt to force their way through by means of contradiction of baphomet...</h3>
 
 ---
 
