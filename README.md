@@ -1,3 +1,5 @@
+### Zevo Bizu : Thoco Vevo - Set A = {h,u,s,a,d}  
+
 ---
 
 ### Zevo - The Cognitive Spiking Real-Time Operating System (CS-RTOS)
