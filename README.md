@@ -18,7 +18,11 @@
 
 ---
 
-<h3>Do thieves happen to go to the police to ask for permission to rob, kill, and deceive???  </h3>
+<h3>Do thieves happen to go to the police to ask for permission to rob, kill, and destroy???  </h3>
+
+---
+
+<h3>Por acaso ladrao vai ate a policia pedir permissao para roubar, matar e destruir???  </h3>
 
 ---
 
