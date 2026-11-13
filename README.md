@@ -6,6 +6,10 @@
 
 ---
 
+### Tomaram ou nao tomaram, no kukuku
+
+---
+
 ### Resenha Musical: "Ben Adam Aleh L’Malah Aleh"
 
 ---
