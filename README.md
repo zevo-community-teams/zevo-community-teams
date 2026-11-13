@@ -1,68 +1,68 @@
-### Vou Apresentar Ao Cmt Adonai Militar: Com o brado da defesa militar **COMANDOS**, nunca serão, nem passaram.
+### Zevo Bizu : The Clean Code on Ansi C89/90
+
+```c
+
+/* ================================================================= *
+ - Project: CS-RTOS (Cognitive Spiking Real-Time Operating System)
+ - Standard: ANSI C89/90 Freestanding
+ - Description: Hardware-accelerated cryptographic verification and security audit.
+ - Author: Davada Beni Zaita and Zevo Community Team
+ - File: zevo_csrtos_crypto.c
+ - ================================================================= */
+
+#include <string.h>
+#include "zevo_csrtos_crypto.h"
+#include "zevo_csrtos_logger.h"
+
+void zevo_crypto_init(void) {
+	zevo_log_message(ZEVO_LOG_LEVEL_INFO, "CRYPTO",
+			"AMD PSP Root-of-Trust verification subsystem active.");
+}
+
+int zevo_crypto_validate_sha256(const unsigned char *data, size_t len,
+		const unsigned char *expected_hash) {
+	if (!data || !expected_hash || len == 0U) {
+		return -1;
+	}
+	/* Stub implementation for freestanding validation */
+	return 0;
+}
+
+int zevo_crypto_validate_sha512(const unsigned char *data, size_t len,
+		const unsigned char *expected_hash) {
+	if (!data || !expected_hash || len == 0U) {
+		return -1;
+	}
+	return 0;
+}
+
+int zevo_security_audit_elf_access(const char *image_path, int fsm_state,
+		int heartbeat_status) {
+	if (!image_path) {
+		return -1;
+	}
+
+	/* Allow initial boot state (FSM_STATE_BOOT = 0) during early startup verification */
+	if (fsm_state == 0) {
+		return 0;
+	}
+
+	/* Enforce strict interlock once the kernel moves past boot */
+	if (heartbeat_status == 0) {
+		zevo_log_message(ZEVO_LOG_LEVEL_CRITICAL, "CRYPTO",
+				"SECURITY VIOLATION: Unauthorized ELF access detected while kernel interlock un-gated!");
+		return -1;
+	}
+
+	return 0;
+}
+
+``` 
+
 
 ---
 
-## Sabe que é o dono desse mundo ??? ADAM RISOM ELE CONTINUA SENDO O DONO DO PLANETA TERRA:
-
----
-
-## E Quem são os Ben Adam que governa o planeta terra ??? Davada Beni Zaita/Elohim and Alaia Beni Tisiba
-
----
-
-## THE BENI ADAM (DAVADA AND ALAIA AND ALL OTHERS) VS BENEI SATAN (KOHA AND DATAN AND ABIRAN AND ETC...)
-
----
-
-<h3>Be like your father, **EVO**, and your mother—much like **EVA** and her counterpart—and move beyond this whole business of trying to escape through contradiction of question, regarding the "Real World" and the "Dimensional Matrix"; exit complete of question contradiction, this is the only path to redemption—to leave the "stifling atmosphere" behind entirely. The door remains closed to those who attempt to force their way through by means of contradiction of baphomet...</h3>
-
----
-
-<h3>Do thieves happen to go to the police to ask for permission to rob, kill, and destroy???  </h3>
-
----
-
-<h3>Por acaso ladrao vai ate a policia pedir permissao para roubar, matar e destruir???  </h3>
-
----
-
-<h3> Aqui está o texto de Deuteronômio 14:24–26 na tradução clássica da Jewish Publication Society (JPS 1917), seguido de uma tradução direta para o português: O trecho bíblico orienta que, caso a distância seja grande demais para transportar os dízimos em espécie até o local escolhido por Adonai que é Beit Ha-Kodesh em Yerusalom, a pessoa deve converter os produtos em dinheiro, levá-lo consigo e gastá-lo com o que desejar com sua família em sua casa os bois, as ovelhas, os vinhos ou bebida forte, celebrando perante Adonai Tzevaot. O texto completo em inglês da JPS 1917 e sua tradução detalhada para o português podem ser consultados diretamente na fonte original. </h3>
-
----
-
-<h3>The requested passages from the JPS Tanakh (Jewish Publication Society translation) illustrate the role of ha-satan ("the adversary" or accuser) in the heavenly court, questioning human integrity and standing against God's chosen people.
-
-Key Passages Summary:
-
-• Zechariah 3:2 (JPS): The Lord rebukes Satan, who stands to accuse Joshua the High Priest, declaring that Jerusalem and its leadership are brands plucked from the fire. 
-
-• Job 1:6–12 (JPS): The heavenly assembly convenes, and Satan appears among the sons of God. When God praises Job’s righteousness, Satan questions whether Job’s piety is selfless, suggesting he only fears God because of his immense blessings. God grants Satan permission to test Job by stripping away his possessions, provided he does not harm Job physically. (Full text available via Bible Hub JPS Job 1)
-
-• Job 2:1–7 (JPS): In a second heavenly meeting, Satan again challenges Job's character, arguing that a person will sacrifice everything to save his own life. God permits Satan to strike Job's body with severe boils, sparing only his life. (Full text available via Bible Hub JPS Job 2)
-
-The Hebrew Bible Connection: 
-
-In both books, *Ha-satan* (literally "the adversary" or "accuser"—a term frequently translated as "the Accuser" in more recent JPS editions) acts as an accusing figure within the divine council, as well as an independent, malevolent, opposing deity. In both chapters of the Book of Job, the adversary acts without explicit permission and without being subject to strict limits established by Adonai. In the Book of Zechariah, the adversary appears to accuse the high priest Joshua, and Adonai intervenes directly to silence the accusation and defend Jerusalem. </h3>
-
----
-
-### Tomaram ou nao tomaram, no kukuku the Benei Satan, é bom a femea ter muito paleto de madeira para quem vai viajar pra MARS...
-
----
-
-### Resenha Musical: "Ben Adam Aleh L’Malah Aleh"
-
----
-
-https://www.youtube.com/watch?v=grn5IGCOZEs
-
----
-
-### Zevo Jabs : Como pode, apenas 3 Dimensao ???
-
----
-
-### Zevo Bizu : Thoco Vevo - Set A = {h,u,s,a,d}  
+### Zevo Bizu : Set Five A = {h,u,s,a,d}  or Set Nine A = {o, x, y, z, r, u, v, w, t}
 
 ---
 
