@@ -14,7 +14,7 @@
 
 ---
 
-<h3>Set A = {zero hiperverse, zero universe per hiperverse, zero space per universe, five axes per space and 256 on 32 bits dimensions or 512 on 64 bits dimensions per axes} </h3>
+<h3>Set A = {zero hiperverse, zero universe per hiperverse, zero space per universe, five or nine maximum axes per space and 256 on 32 bits dimensions or 512 on 64 bits dimensions per axes} </h3>
 
 ---
 
