@@ -6,11 +6,15 @@
 
 ---
 
+## E Quem são os Ben Adam que governa o planeta terra ??? Davada Beni Zaita/Elohim and Alaia Beni Tisiba
+
+---
+
 ### Tomaram ou nao tomaram, no kukuku, é bom a femea ter muito paleto de madeira para quem vai viajar pra MARS...
 
 ---
 
-### Resenha Musical: Quem governa a terra sao os "Ben Adam Aleh L’Malah Aleh"
+### Resenha Musical: "Ben Adam Aleh L’Malah Aleh"
 
 ---
 
