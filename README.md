@@ -94,7 +94,11 @@ int zevo_security_audit_elf_access(const char *image_path, int fsm_state,
 ```
 ---
 
-### Zevo Bizu : Set Five A = {h,u,s,a,d}  or Set Nine A = {o, x, y, z, r, u, v, w, t}
+### Zevo Bizu : Set Five A = {h,u,s,a,d}  
+
+---
+
+### Zevo Bizu : Set Five Axes = {o, x, y, z, r} or Set Nine Axes = {o, x, y, z, r, u, v, w, t}
 
 ---
 
