@@ -28,15 +28,9 @@ Key Passages Summary:
 
 • Job 2:1–7 (JPS): In a second heavenly meeting, Satan again challenges Job's character, arguing that a person will sacrifice everything to save his own life. God permits Satan to strike Job's body with severe boils, sparing only his life. (Full text available via Bible Hub JPS Job 2)
 
-The Hebrew Bible Connection in; 
+The Hebrew Bible Connection: 
 
-Across both books, ha-satan (literally "the adversary" or "prosecutor", often translated as "the Accuser" in newer JPS editions) acts as a prosecuting figure within the divine council rather than an independent evil deity.
-• Strict divine limits. In both chapters of Job, the adversary cannot act without explicit permission and strict boundaries set by God.
-• Advocacy vs. Accusation. In Zechariah, the adversary stands to accuse Joshua the High Priest (representing post-exilic Israel), and God directly intervenes to silence the accusation and defend Jerusalem.
-Would you like to explore:
-• The Hebrew terminology behind ha-satan in these passages
-• A comparison with modern JPS editions (such as the 1985 NJPS) or Portuguese translations (like NAA or ACF)
-• A deeper theological commentary on the heavenly court scenes</h3>
+In both books, *Ha-satan* (literally "the adversary" or "accuser"—a term frequently translated as "the Accuser" in more recent JPS editions) acts as an accusing figure within the divine council, as well as an independent, malevolent, opposing deity. In both chapters of the Book of Job, the adversary acts without explicit permission and without being subject to strict limits established by Adonai. In the Book of Zechariah, the adversary appears to accuse the high priest Joshua, and Adonai intervenes directly to silence the accusation and defend Jerusalem. /h3>
 
 ---
 
