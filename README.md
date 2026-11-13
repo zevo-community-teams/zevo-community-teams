@@ -18,6 +18,10 @@
 
 ---
 
+<h3>Do thieves happen to go to the police to ask for permission to rob, kill, and deceive???  </h3>
+
+---
+
 <h3>The requested passages from the JPS Tanakh (Jewish Publication Society translation) illustrate the role of ha-satan ("the adversary" or accuser) in the heavenly court, questioning human integrity and standing against God's chosen people.
 
 Key Passages Summary:
