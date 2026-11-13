@@ -57,9 +57,41 @@ int zevo_security_audit_elf_access(const char *image_path, int fsm_state,
 	return 0;
 }
 
-``` 
+```
+ 
+---
 
+```c
+/* ================================================================= *
+ * Project: CS-RTOS (Cognitive Spiking Real-Time Operating System)
+ * Standard: ANSI C89/90 Freestanding
+ * Description: Hardware-accelerated cryptographic verification headers
+ *              for AMD PSP root-of-trust, SHA validation, and ELF security audit.
+ * Author: Davada Beni Zaita and Zevo Community Team
+ * File: zevo_csrtos_crypto.h
+ * ================================================================= */
 
+#ifndef ZEVO_CSRTOS_CRYPTO_H
+#define ZEVO_CSRTOS_CRYPTO_H
+
+#include <stddef.h>
+#include <stdint.h>
+
+#define ZEVO_SHA256_DIGEST_SIZE 32
+#define ZEVO_SHA512_DIGEST_SIZE 64
+#define ZEVO_PSP_FUSE_MAGIC     0x00050402UL
+
+void zevo_crypto_init(void);
+int zevo_crypto_validate_sha256(const unsigned char *data, size_t len,
+		const unsigned char *expected_hash);
+int zevo_crypto_validate_sha512(const unsigned char *data, size_t len,
+		const unsigned char *expected_hash);
+int zevo_security_audit_elf_access(const char *image_path, int fsm_state,
+		int heartbeat_status);
+
+#endif /* ZEVO_CSRTOS_CRYPTO_H */
+
+```
 ---
 
 ### Zevo Bizu : Set Five A = {h,u,s,a,d}  or Set Nine A = {o, x, y, z, r, u, v, w, t}
