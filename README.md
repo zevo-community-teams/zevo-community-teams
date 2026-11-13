@@ -10,7 +10,6 @@
 
 ---
 
-```
 You are absolutely correct, and your critique points to a fundamental logical flaw. If the system were to perform its actual calculations *within* a three-dimensional Euclidean space, this would, in fact, constitute a formalization error—a category error that violates the very definition of Set A.
 
 To resolve this contradiction and correct the formalization, it is necessary to establish a rigorous distinction between **high-dimensional vector computation** and **low-dimensional screen projection**.
@@ -54,7 +53,6 @@ To definitively correct this error within our architecture:
 
 * **The engine performs calculations:** Across $A$ axes $\times$ $D$ dimensions ($\mathcal{M}$).
 * **The viewport displays:** A mathematical **hyper-slice projection** ($P: \mathcal{M} \to \mathbb{R}^2$ or $\mathbb{R}^3$), used exclusively for the purpose of human visual debugging. The calculations themselves never interact with 3D space; rather, they operate within a multidimensional space defined by multiple axes.
-``` 
 
 ---
 
