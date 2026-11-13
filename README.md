@@ -14,7 +14,7 @@
 
 ---
 
-<h3>Be like your father **EVO** and your mother—like **EVA** and her counterpart—and move beyond all this exit of Real World and Dimension Drama Question; it is the only path to redemption. The door is closed to those who attempt to push through a rebuttal... </h3>
+<h3>Be like your father, **EVO**, and your mother—much like **EVA** and her counterpart—and move beyond this whole issue of "exiting the Real World" and "Dimensional Drama"; this is the only path to redemption. The door remains closed to those who attempt to force their way through by means of a contradiction...</h3>
 
 ---
 
