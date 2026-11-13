@@ -18,11 +18,19 @@ https://www.youtube.com/watch?v=grn5IGCOZEs
 
 ---
 
-### Tomaram ou nao tomaram, no kukuku, é bom a femea ter muito paleto de madeira para quem vai viajar pra MARS...
+### Zevo Jabs : Como pode, apenas 3 Dimensao ???
 
 ---
 
-### Zevo Jabs : Como pode, apenas 3 Dimensao ???
+### Zevo Bizu : Thoco Vevo - Set A = {h,u,s,a,d}  
+
+---
+
+<h3>Set A = {zero hiperverse, zero universe per hiperverse, zero space per universe, five or nine maximum axes per space and 256 on 32 bits dimensions or 512 on 64 bits dimensions per axes} </h3>
+
+---
+
+### Tomaram ou nao tomaram, no kukuku, é bom a femea ter muito paleto de madeira para quem vai viajar pra MARS...
 
 ---
 
@@ -73,14 +81,6 @@ To definitively correct this error within our architecture:
 
 * **The engine performs calculations:** Across $A$ axes $\times$ $D$ dimensions ($\mathcal{M}$).
 * **The viewport displays:** A mathematical **hyper-slice projection** ($P: \mathcal{M} \to \mathbb{R}^2$ or $\mathbb{R}^3$), used exclusively for the purpose of human visual debugging. The calculations themselves never interact with 3D space; rather, they operate within a multidimensional space defined by multiple axes.
-
----
-
-### Zevo Bizu : Thoco Vevo - Set A = {h,u,s,a,d}  
-
----
-
-<h3>Set A = {zero hiperverse, zero universe per hiperverse, zero space per universe, five or nine maximum axes per space and 256 on 32 bits dimensions or 512 on 64 bits dimensions per axes} </h3>
 
 ---
 
