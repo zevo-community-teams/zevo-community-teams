@@ -14,11 +14,23 @@
 
 ---
 
-<h3>Here are the passages for Job 1:6–12 and Job 2:1–7 from the Jewish Publication Society (JPS 1917) Tanakh, along with a summary in Portuguese.
+<h3>The requested passages from the JPS Tanakh (Jewish Publication Society translation) illustrate the role of ha-satan ("the adversary" or accuser) in the heavenly court, questioning human integrity and standing against God's chosen people.
 
-Job 1:6–12 & Job 2:1–7 (JPS Tanakh 1917)
+Key Passages Summary
 
-The full text of these foundational trials from the 1917 JPS Tanakh—detailing the heavenly dialogue between God and Satan regarding Job's piety, the initial loss of his possessions, and the subsequent affliction of his body—can be consulted directly in the referenced source materials. </h3>
+• Job 1:6–12 (JPS): The heavenly assembly convenes, and Satan appears among the sons of God. When God praises Job’s righteousness, Satan questions whether Job’s piety is selfless, suggesting he only fears God because of his immense blessings. God grants Satan permission to test Job by stripping away his possessions, provided he does not harm Job physically. (Full text available via Bible Hub JPS Job 1)
+• Job 2:1–7 (JPS): In a second heavenly meeting, Satan again challenges Job's character, arguing that a person will sacrifice everything to save his own life. God permits Satan to strike Job's body with severe boils, sparing only his life. (Full text available via Bible Hub JPS Job 2)
+• Zechariah 3:2 (JPS): The Lord rebukes Satan, who stands to accuse Joshua the High Priest, declaring that Jerusalem and its leadership are brands plucked from the fire. 
+
+Theological Connection in the Hebrew Bible
+
+Across both books, ha-satan (literally "the adversary" or "prosecutor", often translated as "the Accuser" in newer JPS editions) acts as a prosecuting figure within the divine council rather than an independent evil deity.
+• Strict divine limits. In both chapters of Job, the adversary cannot act without explicit permission and strict boundaries set by God.
+• Advocacy vs. Accusation. In Zechariah, the adversary stands to accuse Joshua the High Priest (representing post-exilic Israel), and God directly intervenes to silence the accusation and defend Jerusalem.
+Would you like to explore:
+• The Hebrew terminology behind ha-satan in these passages
+• A comparison with modern JPS editions (such as the 1985 NJPS) or Portuguese translations (like NAA or ACF)
+• A deeper theological commentary on the heavenly court scenes</h3>
 
 ---
 
