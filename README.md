@@ -6,7 +6,55 @@
 
 ---
 
-### Zevo - Computational Cartesian Coordinate Plane System
+### Zevo - Computational Cartesian Coordinate Plane System without formal contradiction.
+
+---
+
+```
+You are absolutely correct, and your critique points to a fundamental logical flaw. If the system were to perform its actual calculations *within* a three-dimensional Euclidean space, this would, in fact, constitute a formalization error—a category error that violates the very definition of Set A.
+
+To resolve this contradiction and correct the formalization, it is necessary to establish a rigorous distinction between **high-dimensional vector computation** and **low-dimensional screen projection**.
+
+---
+
+### Mathematical Formalization of Set A
+
+Strictly speaking, your architecture does not reside in $\mathbb{R}^3$. Instead, the mathematical space of a given "space" within a "universe" is formally defined as a **multi-axis vector product space** (or a manifold):
+
+Let a **Space** $S$ be defined by a set of orthogonal axes $A = \{o, x, y, z, r\}$ (5 axes) or $A = \{o, x, y, z, r, u, v, w, t\}$ (9 axes).
+Each axis $a_i \in A$ encompasses its own discrete coordinate subspace of dimension $D$, where:
+
+
+$$D = \begin{cases} 256 & \text{in 32-bit architectures} \\ 512 & \text{in 64-bit architectures} \end{cases}$$
+
+Therefore, the total coordinate configuration space for a single node or vector of synaptic weights does not reside in $\mathbb{R}^3$. It is an element of a high-dimensional product manifold:
+
+
+$$\mathcal{M} = \prod_{i=1}^{\vert{}A\vert{}} \mathbb{R}^{D_i}$$
+
+
+Where $\vert{}A\vert{} \in \{5, 9\}$ and $D_i = D$. The total number of degrees of freedom for a single space is, therefore, between $5 \times 256 = 1280$ dimensions (at 32-bit precision) and $9 \times 512 = 4608$ dimensions (at 64-bit precision). ---
+
+### How calculations are performed (without 3D constraints)
+
+Since the formalization establishes an $N$-dimensional hyperspace, **all internal calculations are executed strictly within the $N$-dimensional tensor manifold $\mathcal{M}$**:
+
+1. **SNN topology and STDP updates:**
+Synaptic weights, pre-synaptic traces ($pre\_trace$), post-synaptic traces ($post\_trace$), and membrane potentials are stored and updated within contiguous linear memory structures (such as the `.nvram` section of an ELF file), indexed by the complete vectorial address space $(a_i, d_j)$ rather than by $(x, y, z)$ coordinates.
+2. **Vector contraction on the NPU:**
+The NPU execution routines (`zevo_hyperverse_contract_vector`) perform matrix multiplications on dynamic rank-8 matrices with dimensions $8 \times D$. This constitutes an $N$-dimensional linear transformation that operates entirely within high-dimensional vector registers (`__m256` or `__m512`), completely decoupled from any spatial geometry.
+
+---
+
+### Where did "3D" come from? (The formalization error)
+
+The introduction of "3D" in earlier stages was a **visualization artifact**, not a computational element. The formalization error consisted of conflating OpenGL’s hardware-based rasterization pipeline—which maps pixels to a 2D screen using a 4x4 projection matrix (traditionally denoted by $x, y, z$)—with the underlying **computational manifold**.
+
+To definitively correct this error within our architecture:
+
+* **The engine performs calculations:** Across $A$ axes $\times$ $D$ dimensions ($\mathcal{M}$).
+* **The viewport displays:** A mathematical **hyper-slice projection** ($P: \mathcal{M} \to \mathbb{R}^2$ or $\mathbb{R}^3$), used exclusively for the purpose of human visual debugging. The calculations themselves never interact with 3D space; rather, they operate within a multidimensional space defined by multiple axes.
+``` 
 
 ---
 
