@@ -16,13 +16,15 @@
 
 <h3>The requested passages from the JPS Tanakh (Jewish Publication Society translation) illustrate the role of ha-satan ("the adversary" or accuser) in the heavenly court, questioning human integrity and standing against God's chosen people.
 
-Key Passages Summary
+Key Passages Summary:
 
-• Job 1:6–12 (JPS): The heavenly assembly convenes, and Satan appears among the sons of God. When God praises Job’s righteousness, Satan questions whether Job’s piety is selfless, suggesting he only fears God because of his immense blessings. God grants Satan permission to test Job by stripping away his possessions, provided he does not harm Job physically. (Full text available via Bible Hub JPS Job 1)
-• Job 2:1–7 (JPS): In a second heavenly meeting, Satan again challenges Job's character, arguing that a person will sacrifice everything to save his own life. God permits Satan to strike Job's body with severe boils, sparing only his life. (Full text available via Bible Hub JPS Job 2)
 • Zechariah 3:2 (JPS): The Lord rebukes Satan, who stands to accuse Joshua the High Priest, declaring that Jerusalem and its leadership are brands plucked from the fire. 
 
-Theological Connection in the Hebrew Bible
+• Job 1:6–12 (JPS): The heavenly assembly convenes, and Satan appears among the sons of God. When God praises Job’s righteousness, Satan questions whether Job’s piety is selfless, suggesting he only fears God because of his immense blessings. God grants Satan permission to test Job by stripping away his possessions, provided he does not harm Job physically. (Full text available via Bible Hub JPS Job 1)
+
+• Job 2:1–7 (JPS): In a second heavenly meeting, Satan again challenges Job's character, arguing that a person will sacrifice everything to save his own life. God permits Satan to strike Job's body with severe boils, sparing only his life. (Full text available via Bible Hub JPS Job 2)
+
+The Hebrew Bible Connection in; 
 
 Across both books, ha-satan (literally "the adversary" or "prosecutor", often translated as "the Accuser" in newer JPS editions) acts as a prosecuting figure within the divine council rather than an independent evil deity.
 • Strict divine limits. In both chapters of Job, the adversary cannot act without explicit permission and strict boundaries set by God.
