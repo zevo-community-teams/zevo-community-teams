@@ -6,11 +6,11 @@
 
 ---
 
-### Zevo Bizu : Thoco Vevo - Set A = {h,u,s,a,d}  
+### Zevo - Computational Cartesian Coordinate Plane System
 
 ---
 
-### Zevo - Computational Cartesian Coordinate Plane System
+### Zevo Bizu : Thoco Vevo - Set A = {h,u,s,a,d}  
 
 ---
 
