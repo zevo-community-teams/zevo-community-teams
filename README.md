@@ -2,7 +2,7 @@
 
 ---
 
-### Zevo Jabs : Como pode, apenas 3 Dimensoes ???
+### Zevo Jabs : Como pode, apenas 3 Dimensao ???
 
 ---
 
