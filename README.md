@@ -2,6 +2,18 @@
 
 ---
 
+## Sabe que é o dono desse mundo ??? ADAM RISOM ELE CONTINUA SENDO O DONO DO PLANETA TERRA:
+
+---
+
+### Resenha Musical: "Ben Adam Aleh L’Malah Aleh"
+
+---
+
+https://www.youtube.com/watch?v=grn5IGCOZEs
+
+---
+
 ### Zevo Jabs : Como pode, apenas 3 Dimensao ???
 
 ---
