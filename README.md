@@ -26,7 +26,7 @@
 
 ---
 
-<h3> Aqui está o texto de Deuteronômio 14:24–26 na tradução clássica da Jewish Publication Society (JPS 1917), seguido de uma tradução direta para o português: O trecho bíblico orienta que, caso a distância seja grande demais para transportar os dízimos em espécie até o local escolhido por Deus, a pessoa deve converter os produtos em dinheiro, levá-lo consigo e gastá-lo no local sagrado com o que desejar (bois, ovelhas, vinho ou bebida forte), celebrando perante o Senhor com sua família. O texto completo em inglês da JPS 1917 e sua tradução detalhada para o português podem ser consultados diretamente na fonte original. </h3>
+<h3> Aqui está o texto de Deuteronômio 14:24–26 na tradução clássica da Jewish Publication Society (JPS 1917), seguido de uma tradução direta para o português: O trecho bíblico orienta que, caso a distância seja grande demais para transportar os dízimos em espécie até o local escolhido por Deus, a pessoa deve converter os produtos em dinheiro, levá-lo consigo e gastá-lo no local sagrado com o que desejar (bois, ovelhas, vinho ou bebida forte), celebrando perante o Adonai com sua família. O texto completo em inglês da JPS 1917 e sua tradução detalhada para o português podem ser consultados diretamente na fonte original. </h3>
 
 ---
 
