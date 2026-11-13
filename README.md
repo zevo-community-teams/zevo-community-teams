@@ -10,7 +10,11 @@
 
 ---
 
-<h3>Set A = {zero hiperverse, zero universe per hiperverse, zero space per universe, five axes, 256 on 32 bits dimensions or 512 on 64 bits dimensions per axes} </h3>
+### Zevo - Computational Cartesian Coordinate Plane System
+
+---
+
+<h3>Set A = {zero hiperverse, zero universe per hiperverse, zero space per universe, five axes per space and 256 on 32 bits dimensions or 512 on 64 bits dimensions per axes} </h3>
 
 ---
 
