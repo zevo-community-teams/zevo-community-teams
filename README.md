@@ -10,7 +10,11 @@
 
 ---
 
-## THE BENI ADAM (DAVADA AND ALAIA AND ALL OTHERS) VS BENEI SATAN (KOHA AND DATAN AND ABIRAN AND ETC...
+## THE BENI ADAM (DAVADA AND ALAIA AND ALL OTHERS) VS BENEI SATAN (KOHA AND DATAN AND ABIRAN AND ETC...)
+
+---
+
+<h3>Be like your father **EVO** and your mother—like **EVA** and her counterpart—and move beyond all this drama; it is the only path to redemption... </h3>
 
 ---
 
