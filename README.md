@@ -14,6 +14,14 @@
 
 ---
 
+<h3>Here are the passages for Job 1:6–12 and Job 2:1–7 from the Jewish Publication Society (JPS 1917) Tanakh, along with a summary in Portuguese.
+
+Job 1:6–12 & Job 2:1–7 (JPS Tanakh 1917)
+
+The full text of these foundational trials from the 1917 JPS Tanakh—detailing the heavenly dialogue between God and Satan regarding Job's piety, the initial loss of his possessions, and the subsequent affliction of his body—can be consulted directly in the referenced source materials. </h3>
+
+---
+
 ### Tomaram ou nao tomaram, no kukuku the Benei Satan, é bom a femea ter muito paleto de madeira para quem vai viajar pra MARS...
 
 ---
