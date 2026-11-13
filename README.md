@@ -2,9 +2,13 @@
 
 ---
 
+https://github.com/user-attachments/assets/89c58ec5-6c43-4a9c-b1ec-3d40b10091ba
+
 ---
 
 ### Zevo Bizu : The Clean Code on Ansi C89/90
+
+---
 
 ```c
 
