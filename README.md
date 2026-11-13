@@ -6,11 +6,11 @@
 
 ---
 
-### Tomaram ou nao tomaram, no kukuku
+### Tomaram ou nao tomaram, no kukuku, é bom a femea ter muito paleto de madeira para quem vai viajar pra MARS...
 
 ---
 
-### Resenha Musical: "Ben Adam Aleh L’Malah Aleh"
+### Resenha Musical: Quem governa a terra sao os "Ben Adam Aleh L’Malah Aleh"
 
 ---
 
