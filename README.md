@@ -30,7 +30,7 @@ Key Passages Summary:
 
 The Hebrew Bible Connection: 
 
-In both books, *Ha-satan* (literally "the adversary" or "accuser"—a term frequently translated as "the Accuser" in more recent JPS editions) acts as an accusing figure within the divine council, as well as an independent, malevolent, opposing deity. In both chapters of the Book of Job, the adversary acts without explicit permission and without being subject to strict limits established by Adonai. In the Book of Zechariah, the adversary appears to accuse the high priest Joshua, and Adonai intervenes directly to silence the accusation and defend Jerusalem. /h3>
+In both books, *Ha-satan* (literally "the adversary" or "accuser"—a term frequently translated as "the Accuser" in more recent JPS editions) acts as an accusing figure within the divine council, as well as an independent, malevolent, opposing deity. In both chapters of the Book of Job, the adversary acts without explicit permission and without being subject to strict limits established by Adonai. In the Book of Zechariah, the adversary appears to accuse the high priest Joshua, and Adonai intervenes directly to silence the accusation and defend Jerusalem. </h3>
 
 ---
 
