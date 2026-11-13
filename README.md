@@ -2,6 +2,10 @@
 
 ---
 
+<h3>Set A = {zero hiperverse,zero universe,zero space,five axes, 256 on 32 bits dimensions or 512 on 64 bits dimensions} </h3>
+
+---
+
 ### Zevo - The Cognitive Spiking Real-Time Operating System (CS-RTOS)
 
 ---
