@@ -2,7 +2,7 @@
 
 ## ZEVO BIZU CDF: 
 
-</h3> MANDATORY: On x86_64-Bits, using UNSIGNED long in ANSI C89/90 within SIMD vector within 32 BITS of Alignment Memory Within 256 Registers.</h3>
+</h3> On x86_64-Bits, using UNSIGNED long in ANSI C89/90 within SIMD vector within 32 BITS of Alignment Memory Within 256 Registers.</h3>
 
 ---
 
