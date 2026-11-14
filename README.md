@@ -2,6 +2,14 @@
 
 ---
 
+## Zevo BIZU CDF: 256 REGISTER= SIMD VECTOR WITHIN 32 BITS OF ALIGNMENT MEMORY WITHIN 256 REGISTERS
+
+---
+
+## 2⁸ = 256 Elements: RANK MATRIX => [8][256] LEIA-SE 2 ^ 8 = 256 REGISTERS
+
+---
+
 ```text
 
 evolutia@fedora:~/Projects/zevo-scpu$ tree
