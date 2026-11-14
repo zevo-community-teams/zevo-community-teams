@@ -2,7 +2,7 @@
 
 ---
 
-</h3>CS-RTOS Neural Core Kernel Engine x86_64 Architecture: The NCU (Neural Control Unit) and NALU (Neural Arithmetic Logic Unit Within 256 Shift Registers) and Hierarchical Cache L0 to L7 and NVRAM 1GB Non-Volatile. The CS-RTOS running on AMD Ryzen 5 within AMD Radeon Graphics and 8GB of RAM and a 512GB SSD.</h3> 
+</h3>CS-RTOS Neural Core Kernel Engine x86_64 Architecture: The NCU (Neural Control Unit), Multi-Core and NALU (Neural Arithmetic Logic Unit Within 256 Shift Registers) and Hierarchical Cache L0 to L7 and NVRAM 1GB Non-Volatile. The CS-RTOS running on AMD Ryzen 5 within AMD Radeon Graphics and 8GB of RAM and a 512GB SSD.</h3> 
 
 ---
 
