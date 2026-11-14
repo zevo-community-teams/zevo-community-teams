@@ -1,8 +1,8 @@
-### Zevo Cryptography Lesson:
-
 ---
 
-## ZEVO BIZU CDF: 256 REGISTERS= SIMD VECTOR WITHIN 32 BITS OF ALIGNMENT MEMORY WITHIN 256 REGISTERS
+## ZEVO BIZU CDF: 
+
+</h3> MANDATORY: On x86_64-Bits, using UNSIGNED long in ANSI C89/90 within SIMD vector within 32 BITS of Alignment Memory Within 256 Registers.</h3>
 
 ---
 
