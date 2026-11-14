@@ -2,6 +2,88 @@
 
 ---
 
+```text
+
+evolutia@fedora:~/Projects/zevo-scpu$ tree
+.
+├── Debug
+│   ├── makefile
+│   ├── sources.mk
+│   ├── src
+│   │   ├── main.d
+│   │   ├── main.o
+│   │   ├── ring-test
+│   │   │   └── sources
+│   │   │       ├── subdir.mk
+│   │   │       ├── zevo_csrtos_hyperverse.d
+│   │   │       ├── zevo_csrtos_hyperverse.o
+│   │   │       ├── zevo_csrtos_logger.d
+│   │   │       ├── zevo_csrtos_logger.o
+│   │   │       ├── zevo_csrtos_telemetry.d
+│   │   │       └── zevo_csrtos_telemetry.o
+│   │   ├── ring-zero
+│   │   │   └── sources
+│   │   │       ├── subdir.mk
+│   │   │       ├── zevo_csrtos_core.d
+│   │   │       ├── zevo_csrtos_core.o
+│   │   │       ├── zevo_csrtos_crypto.d
+│   │   │       ├── zevo_csrtos_crypto.o
+│   │   │       ├── zevo_csrtos_fsm.d
+│   │   │       ├── zevo_csrtos_fsm.o
+│   │   │       ├── zevo_csrtos_fuzzy.d
+│   │   │       ├── zevo_csrtos_fuzzy.o
+│   │   │       ├── zevo_csrtos_npu.d
+│   │   │       ├── zevo_csrtos_npu.o
+│   │   │       ├── zevo_csrtos_scheduler.d
+│   │   │       └── zevo_csrtos_scheduler.o
+│   │   └── subdir.mk
+│   └── zevo-scpu
+└── src
+    ├── main.c
+    ├── resources
+    │   └── docs
+    │       ├── Zevo CS RTOS Academic.md
+    │       └── Zevo Readme.md
+    ├── ring-one
+    │   ├── headers
+    │   └── sources
+    ├── ring-test
+    │   ├── headers
+    │   │   ├── zevo_csrtos_hyperverse.h
+    │   │   ├── zevo_csrtos_logger.h
+    │   │   └── zevo_csrtos_telemetry.h
+    │   └── sources
+    │       ├── zevo_csrtos_hyperverse.c
+    │       ├── zevo_csrtos_logger.c
+    │       └── zevo_csrtos_telemetry.c
+    ├── ring-tree
+    │   ├── headers
+    │   └── sources
+    ├── ring-two
+    │   ├── headers
+    │   └── sources
+    └── ring-zero
+        ├── headers
+        │   ├── zevo_csrtos_core.h
+        │   ├── zevo_csrtos_crypto.h
+        │   ├── zevo_csrtos_fsm.h
+        │   ├── zevo_csrtos_fuzzy.h
+        │   ├── zevo_csrtos_npu.h
+        │   └── zevo_csrtos_scheduler.h
+        └── sources
+            ├── zevo_csrtos_core.c
+            ├── zevo_csrtos_crypto.c
+            ├── zevo_csrtos_fsm.c
+            ├── zevo_csrtos_fuzzy.c
+            ├── zevo_csrtos_npu.c
+            └── zevo_csrtos_scheduler.c
+
+25 directories,  47 files
+
+```
+
+---
+
 https://github.com/user-attachments/assets/89c58ec5-6c43-4a9c-b1ec-3d40b10091ba
 
 ---
