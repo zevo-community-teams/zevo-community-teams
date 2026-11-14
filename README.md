@@ -1,6 +1,10 @@
----
-
 ## ZEVO BIZU CDF: 
+
+--
+
+</h3>CS-RTOS Neural Core Kernel Engine: The NCU (Neural Control Unit) and NALU (Neural Arithmetic Logic Unit Within Shift Registers) and Hierarchical Cache L0 to L7 and NVRAM 1GB </h3> 
+
+---
 
 </h3> On x86_64-Bits, using UNSIGNED long in ANSI C89/90 within SIMD vector within 32 BITS of Alignment Memory Within 256 Registers.</h3>
 
