@@ -2,7 +2,7 @@
 
 ---
 
-</h3>**CS-RTOS Neural Core Kernel Engine**: The NCU (Neural Control Unit) and NALU (Neural Arithmetic Logic Unit Within Shift Registers) and Hierarchical Cache L0 to L7 and NVRAM 1GB </h3> 
+</h3>**CS-RTOS Neural Core Kernel Engine**: The NCU (Neural Control Unit) and NALU (Neural Arithmetic Logic Unit Within Shift Registers) and Hierarchical Cache L0 to L7 and NVRAM 1GB Non-Volatile </h3> 
 
 ---
 
