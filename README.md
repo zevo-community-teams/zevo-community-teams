@@ -1,3 +1,11 @@
+## Zevo Bizu: Bootstrap in ANSI C89/90 freestanding within In-line using default block comments. 
+
+---
+
+<h3>Number Zero Step: Creating File linker.ld or linker64.ld; One Step: Creating File boot_stage00.c and boot_stage01.c and boot_stage02.c and boot_stage03.c call kmain on main.c and Two Step: Creating core kernel File main.c within kmain entry point.</h3>
+
+---
+
 ## Zevo Jab: Avoid IPC (REINCARNATION SERVER) and BINDER-IPC (NON CLOSE APP) between internal memory segments ranging from Ring 0 to Ring 3 (SECURE SYSCALL/SYSENTER X86_64); instead, use R-IPC in distributed systems within the context of cloud computing, clusters, and other environments. 
 
 ## ZEVO Academic: CS-RTOS BOOTLOADER ON RING 0 (CORE KERNEL QEMU/KVM) 
