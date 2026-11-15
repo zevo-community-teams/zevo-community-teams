@@ -2,7 +2,7 @@
 
 ---
 
-<h3>Number Zero Step: Creating File linker.ld or linker64.ld; One Step: Creating File boot_stage00.c and boot_stage01.c and boot_stage02.c and boot_stage03.c call kmain on main.c and Two Step: Creating core kernel File main.c within kmain entry point.</h3>
+<h3>Number Zero Step: Creating File linker.ld or linker64.ld; One Step: Creating File boot_stage00.c and boot_stage01.c and boot_stage02.c and boot_stage03.c call kmain on main.c and Two Step: Creating core kernel File main.c within kmain entry point, now starting implementation core kernel CS-RTOS.</h3>
 
 ---
 
