@@ -2,7 +2,7 @@
 
 ---
 
-<h3>Number Zero Step: Creating File linker.ld or linker64.ld; One Step: Creating File boot_stage00.c (16-bits LEGACY BIOS OR UEFI BIOS - FAR JUMP - LEPA CU)  and boot_stage01.c (16/32-bits) and boot_stage02.c (32/64-bits) and boot_stage03.c (64-bits) call kmain on main.c and Two Step: Creating core kernel File main.c within kmain entry point, now starting implementation core kernel CS-RTOS Ring 0.</h3>
+<h3>x86_64 Architecture: Number Zero Step: Creating File linker.ld or linker64.ld; One Step: Creating File boot_stage00.c (16-bits LEGACY BIOS OR UEFI BIOS - FAR JUMP - LEPA CU)  and boot_stage01.c (16/32-bits) and boot_stage02.c (32/64-bits) and boot_stage03.c (64-bits) call kmain on main.c and Two Step: Creating core kernel File main.c within kmain entry point, now starting implementation Core Kernel CS-RTOS x86_64 Ring 0.</h3>
 
 ---
 
