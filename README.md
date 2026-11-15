@@ -12,11 +12,17 @@
 
 ## Command qemu/kvm for debug CS-RTOS
 
-<h5>evolutia@fedora:~/Projects/zevo-scpu$ qemu-system-x86_64 -kernel Debug/zevo-scpu -m 2G -serial stdio -display sdl,gl=off -d in_asm,int -D Debug/qemu.log </h5>
+---
+
+<h4>evolutia@fedora:~/Projects/zevo-scpu$ qemu-system-x86_64 -kernel Debug/zevo-scpu -m 2G -serial stdio -display sdl,gl=off -d in_asm,int -D Debug/qemu.log </h4>
 
 ---
 
-<h5>evolutia@fedora:~/Projects/zevo-scpu$ tail -f Debug/qemu.log </h5>
+<h4>evolutia@fedora:~/Projects/zevo-scpu$ tail -f Debug/qemu.log </h4>
+
+---
+
+https://github.com/user-attachments/assets/d583d2bc-9359-48a5-80fc-84c66e49c8d3
 
 ---
 
