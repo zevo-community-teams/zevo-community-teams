@@ -1,3 +1,5 @@
+## Zevo Jab: Fuja do IPC and Binder IPC no Between Internal Memory Segmentation Ring 0 to Ring Ring 3, Using R-IPC on Distributed System on Cloud Computer, Cluster and Others 
+
 ## ZEVO Academic: CS-RTOS BOOTLOADER ON RING 0 (CORE KERNEL QEMU/KVM) 
 
 https://github.com/user-attachments/assets/7f3c066a-c0f8-499d-9255-37f7c5231750
