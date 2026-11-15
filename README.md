@@ -1,4 +1,4 @@
-## Zevo Bizu: Bootstrap in ANSI C89/90 freestanding within In-line using default block comments. 
+## Zevo Bizu: Bootstrap in ANSI C89/90 freestanding within In-line Assembly using default block comments. 
 
 ---
 
