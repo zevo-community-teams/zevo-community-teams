@@ -6,6 +6,52 @@
 
 ---
 
+## The CS-RTOS Mimimal Starting Point
+
+```
+evolutia@fedora:~/Projects/zevo-scpu$ tree
+.
+├── Debug
+│   ├── makefile
+│   ├── sources.mk
+│   ├── src
+│   │   └── ring-boot
+│   │       └── sources
+│   │           ├── subdir.mk
+│   │           ├── zevo_scpu_stage00.d
+│   │           └── zevo_scpu_stage00.o
+│   └── zevo-scpu
+├── qemu.log
+└── src
+    ├── resources
+    │   ├── docs
+    │   │   └── Zevo CS-RTOS.md
+    │   └── linker64.ld
+    ├── ring-boot
+    │   ├── headers
+    │   └── sources
+    │       └── zevo_scpu_stage00.c
+    ├── ring-one
+    │   ├── headers
+    │   └── sources
+    ├── ring-test
+    │   ├── headers
+    │   └── sources
+    ├── ring-tree
+    │   ├── headers
+    │   └── sources
+    ├── ring-two
+    │   ├── headers
+    │   └── sources
+    └── ring-zero
+        ├── headers
+        └── sources
+
+26 directories, 10 files
+
+``` 
+---
+
 ## Zevo Jab: Avoid IPC (REINCARNATION SERVER) and BINDER-IPC (NON CLOSE APP) between internal memory segments ranging from Ring 0 to Ring 3 (SECURE SYSCALL/SYSENTER X86_64); instead, use R-IPC in distributed systems within the context of cloud computing, clusters, and other environments. 
 
 ## ZEVO Academic: CS-RTOS BOOTLOADER ON RING 0 (CORE KERNEL QEMU/KVM) 
