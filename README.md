@@ -8,6 +8,14 @@
 
 ## The CS-RTOS Mimimal Starting Point
 
+---
+
+## Command qemu/kvm for debug CS-RTOS
+
+<h3>qemu-system-x86_64 -kernel Debug/zevo-scpu -m 2G -serial stdio -display sdl,gl=off -d in_asm,int -D qemu.log </h3>
+
+---
+
 ```
 evolutia@fedora:~/Projects/zevo-scpu$ tree
 .
