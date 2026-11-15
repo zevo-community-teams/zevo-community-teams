@@ -1,4 +1,4 @@
-## Zevo Jab: Avoid IPC and BINDER-IPC between internal memory segments ranging from Ring 0 to Ring 3; instead, use R-IPC in distributed systems within the context of cloud computing, clusters, and other environments. 
+## Zevo Jab: Avoid IPC (REINCARNATION SERVER) and BINDER-IPC (NON CLOSE APP) between internal memory segments ranging from Ring 0 to Ring 3; instead, use R-IPC in distributed systems within the context of cloud computing, clusters, and other environments. 
 
 ## ZEVO Academic: CS-RTOS BOOTLOADER ON RING 0 (CORE KERNEL QEMU/KVM) 
 
