@@ -2,7 +2,7 @@
 
 ---
 
-<h3>x86_64 Architecture: Number Zero Step: Creating File linker.ld or linker64.ld; One Step: Creating File boot_stage00.c (16-bits LEGACY BIOS OR UEFI BIOS - FAR JUMP - LEPA CU)  and boot_stage01.c (16/32-bits) and boot_stage02.c (32/64-bits) and boot_stage03.c (64-bits) call kmain on main.c and Two Step: Creating core kernel File main.c within kmain entry point, now starting implementation Core Kernel CS-RTOS x86_64 Ring 0.</h3>
+<h3>x86_64 Architecture: Number Zero Step: Creating File linker.ld or linker64.ld; One Step: Creating File boot_stage00.c (16-bits LEGACY BIOS OR UEFI BIOS - FAR JUMP)  and boot_stage01.c (16/32-bits) and boot_stage02.c (32/64-bits) and boot_stage03.c (64-bits) call kmain on main.c and Two Step: Creating core kernel File main.c within kmain entry point, now starting implementation Core Kernel CS-RTOS x86_64 Ring 0.</h3>
 
 ---
 
@@ -12,7 +12,11 @@
 
 ## Command qemu/kvm for debug CS-RTOS
 
-<h3>qemu-system-x86_64 -kernel Debug/zevo-scpu -m 2G -serial stdio -display sdl,gl=off -d in_asm,int -D qemu.log </h3>
+<h5>evolutia@fedora:~/Projects/zevo-scpu$ qemu-system-x86_64 -kernel Debug/zevo-scpu -m 2G -serial stdio -display sdl,gl=off -d in_asm,int -D Debug/qemu.log </h5>
+
+---
+
+<h5>evolutia@fedora:~/Projects/zevo-scpu$ tail -f Debug/qemu.log </h5>
 
 ---
 
