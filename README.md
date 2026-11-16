@@ -2,6 +2,10 @@
 
 ---
 
+<h3>x86_64 Architecture: Number Zero Step: Creating File linker.ld or linker64.ld; One Step: Creating File boot_stage00.c (16-bits LEGACY BIOS OR UEFI BIOS - FAR JUMP)  and boot_stage01.c (16/32-bits) and boot_stage02.c (32/64-bits) and boot_stage03.c (64-bits) call kmain on main.c and Two Step: Creating core kernel File main.c within kmain entry point, now starting implementation Core Kernel CS-RTOS x86_64 Ring 0.</h3>
+
+---
+
 The **Legacy BIOS** alongside **UEFI** and **Xen PVH** introduces a third architectural starting state—**16-bit Real Mode**—while maintaining your strict constraints: zero `.S`/`.s` files, strict ISO C89/90 (`-std=c89 -pedantic`), extended inline assembly (`__asm__ __volatile__`) encapsulated in preprocessor macros, System V AMD64 ABI for the kernel core, and POSIX/GNU compatibility at the OS interface layer.
 
 ---
@@ -70,12 +74,6 @@ This implementation delivers the complete, zero-`.S`-file bare-metal bootstrappi
 | `zevo_scpu_stage02.c` | 32-bit $\rightarrow$ 64-bit | `0x00100000` | Shared **Legacy BIOS + Xen PVH** entry (`XEN_ELFNOTE_PHYS32_ENTRY`), parses `hvm_start_info` or E820, builds 4-level PML4 (identity + higher-half + MMIO), enables PAE/EFER.LME/PG |
 | `zevo_scpu_stage03.c` | 64-bit (`ms_abi` $\rightarrow$ `sysv_abi`) | `0x00104000` | **UEFI `efi_main**` entry: extracts GOP framebuffer (Radeon linear FB), ACPI RSDP, `GetMemoryMap()` + `ExitBootServices()`, pivots to unified `kmain` |
 | `main.c` | 64-bit System V ABI | `0xFFFFFFFF80200000` | Core `kmain(struct zevo_boot_info *bi)`: loads 64-bit GDT/IDT, enables AMD-V (`EFER.SVME`), initializes Radeon GOP console & physical page allocator |
-
----
-
----
-
-<h3>x86_64 Architecture: Number Zero Step: Creating File linker.ld or linker64.ld; One Step: Creating File boot_stage00.c (16-bits LEGACY BIOS OR UEFI BIOS - FAR JUMP)  and boot_stage01.c (16/32-bits) and boot_stage02.c (32/64-bits) and boot_stage03.c (64-bits) call kmain on main.c and Two Step: Creating core kernel File main.c within kmain entry point, now starting implementation Core Kernel CS-RTOS x86_64 Ring 0.</h3>
 
 ---
 
