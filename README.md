@@ -6,6 +6,10 @@
 
 ---
 
+<h3>Step 0: Generate linker64.ld and shared boot_info headers; Step 1A-1B: Write 16-bit MBR (boot_stage00.c) and Stage 1: (boot_stage01.c); Step 1C-1D: Write 32/64-bit Trampoline (boot_stage02.c) and UEFI Entry (boot_stage03.c).</h3>
+
+---
+
 The **Legacy BIOS** alongside **UEFI** and **Xen PVH** introduces a third architectural starting state—**16-bit Real Mode**—while maintaining your strict constraints: zero `.S`/`.s` files, strict ISO C89/90 (`-std=c89 -pedantic`), extended inline assembly (`__asm__ __volatile__`) encapsulated in preprocessor macros, System V AMD64 ABI for the kernel core, and POSIX/GNU compatibility at the OS interface layer.
 
 ---
