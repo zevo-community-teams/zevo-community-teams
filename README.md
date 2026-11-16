@@ -1,4 +1,4 @@
-## Commander Davada and the Special Forces in the Jungle Operation
+## Commander Davada and the Special Dava Forces in the Amazon Jungle Operation
 
 <img width="832" height="448" alt="O7IS4hzs" src="https://github.com/user-attachments/assets/e352c5f6-5ede-426a-a81a-a29f06a8914a" />
 
