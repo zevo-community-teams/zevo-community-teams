@@ -1,4 +1,77 @@
-## Zevo Bizu: Bootstrap in ANSI C89/90 freestanding within In-line Assembly using default block comments /* ... */. 
+## Zevo Bizu: Bootstrapping in ANSI C89/90 freestanding within In-line Assembly using default block comments /* ... */. 
+
+---
+
+The **Legacy BIOS** alongside **UEFI** and **Xen PVH** introduces a third architectural starting state—**16-bit Real Mode**—while maintaining your strict constraints: zero `.S`/`.s` files, strict ISO C89/90 (`-std=c89 -pedantic`), extended inline assembly (`__asm__ __volatile__`) encapsulated in preprocessor macros, System V AMD64 ABI for the kernel core, and POSIX/GNU compatibility at the OS interface layer.
+
+---
+
+### 1. The All Three Entry Environments in Pure C89
+
+Each firmware/hypervisor hands off control in a completely different CPU mode, binary format, and memory state:
+
+| Property | Legacy BIOS | Xen PVH | UEFI (x86_64) |
+| --- | --- | --- | --- |
+| **Initial CPU Mode** | 16-bit Real Mode (CS:IP `0000:7C00`) | 32-bit Protected Mode (Paging OFF) | 64-bit Long Mode (Identity Paging ON) |
+| **Executable Container** | Raw 512-byte MBR + Stage-2 flat binary | ELF64 with `PT_NOTE` (`PHYS32_ENTRY`) | PE32+ (`EFI_APPLICATION`) |
+| **Firmware Services** | Real-mode `INT 0x13` (disk), `INT 0x15` (`E820`) | None (Hypervisor passes `hvm_start_info`) | `EFI_BOOT_SERVICES` (MS x64 ABI) |
+| **ABI at Entry** | Register-based (`DL` = boot drive) | `EBX` = `&hvm_start_info` | MS x64 (`RCX` = Handle, `RDX` = SysTable) |
+
+#### How Pure C89 Bridges All Three Without `.S` Files
+
+1. **Inline Assembler Directives (`.code16`, `.code32`, `.code64`):** Although you write zero standalone `.S` files, GCC/Clang compiles C89 files by emitting assembly directives to its internal backend. Placing `.code16` or `.code32` inside `__asm__ __volatile__` macros inside `__attribute__((naked))` C89 functions instructs the backend to emit exact 16-bit or 32-bit machine encodings directly from C89 source files.
+2. **Real-Mode BIOS Thunking (16-bit $\leftrightarrow$ 32-bit):** Legacy BIOS cannot be called from 64-bit Long Mode. Stage 2 runs in 32-bit Protected Mode (or Unreal Mode) and uses a **C89 macro-wrapped mode-switch thunk** that temporarily drops back to 16-bit Real Mode to execute `INT 0x13` (load kernel from disk) and `INT 0x15, EAX=0xE820` (retrieve memory map), then re-enters Protected Mode before jumping to the unified 64-bit Long Mode trampoline.
+3. **Unified Handoff (`struct boot_info`):** Every boot path converts its native memory map (`E820`, `hvm_start_info->memmap_paddr`, or `EFI_MEMORY_DESCRIPTOR`) and ACPI RSDP pointer into the exact same `struct boot_info` before jumping into System V `kmain(struct boot_info *bi)`.
+
+---
+
+### 2. The Tri-Boot Architecture
+
+```
+┌───────────────────────────┐           ┌───────────────────────────┐   	 ┌───────────────────────────┐
+│        LEGACY BIOS        │ Far Jump  │          XEN PVH          │ Far Jump   │        UEFI (x86_64)      │
+│   16-bit Real Mode (MBR)  │---------> │  32-bit Protected Mode    │ ---------> │   64-bit Long Mode (PE)   │
+└─────────────┬─────────────┘           └─────────────┬─────────────┘   	 └─────────────┬─────────────┘
+              │                                       │                   	               │
+              ▼                                       │                                        ▼
+   bios_mbr_entry() [.code16]                	      │                                 uefi_main() [ms_abi]
+   - Loads Stage 2 via INT 13h                        │                               - Locates ACPI 2.0 RSDP
+   - Queries E820 via INT 15h                         │                                - GetMemoryMap() +
+   - Enables A20 & Protected Mode                     │                                 ExitBootServices()
+              │                                       │                                         │
+              └───────────────┬───────────────────────┘                                         │
+                              ▼                                           		        │
+                 long_mode_trampoline() [.code32 -> .code64]                		        │
+                 - Sets CR3 (4-level PML4 identity + higher-half)             			│
+                 - Sets CR4.PAE & IA32_EFER.LME                               			│
+                 - Enables CR0.PG & loads 64-bit GDT                          			│
+                              │                                               			│
+                              └───────────────────────┬─────────────────────────────────────────┘
+                                                      ▼
+                                        [ Unified System V Kernel ]
+                                        kmain(struct boot_info *bi)
+                                        - Pivots to Higher-Half Stack
+                                        - Installs C89 IDT & GDT
+                                        - Initializes VFS, Syscalls & POSIX Layer
+
+```
+
+### 3. Architectural Overview: `zevo-scpu` Tri-Boot Chain
+
+This implementation delivers the complete, zero-`.S`-file bare-metal bootstrapping chain for **zevo-scpu** targeting **AMD Ryzen 5 / AMD Radeon Graphics (8 GiB RAM, 512 GiB NVMe/SATA SSD, AMD-V x86_64)** under strict ANSI C89/90 (`-std=c89 -pedantic -ffreestanding`), using only `/* ... */` block comments, `__asm__ __volatile__` preprocessor macros, System V AMD64 ABI, and POSIX/`_GNU_SOURCE` compatibility headers.
+
+#### Execution & Memory Layout across Stages
+
+| File | Mode & ABI | Physical VMA / LMA | Role |
+| --- | --- | --- | --- |
+| `linker64.ld` | GNU LD Script | `0x7C00` (Stage 0) $\rightarrow$ `0x8000` (Stage 1) $\rightarrow$ `0x100000` (Stage 2/3) $\rightarrow$ `0xFFFFFFFF80200000` (Kernel) | Embeds MBR, Stage 1, Stage 2, Xen PVH `PT_NOTE`, UEFI PE32+ relocations, and Higher-Half Kernel inside `zevo-scpu` |
+| `zevo_scpu_stage00.c` | 16-bit Real Mode | `0x00007C00` | 512-byte MBR (`0xAA55`): zeros 32-bit `ESP`, saves `DL`, loads Stage 1+2+Kernel via `INT 0x13` LBA |
+| `zevo_scpu_stage01.c` | 16-bit $\rightarrow$ 32-bit | `0x00008000` | Queries `INT 0x15 E820` memory map, locates ACPI 2.0 RSDP (Ryzen/AGESA tables), enables A20, switches `CR0.PE=1` |
+| `zevo_scpu_stage02.c` | 32-bit $\rightarrow$ 64-bit | `0x00100000` | Shared **Legacy BIOS + Xen PVH** entry (`XEN_ELFNOTE_PHYS32_ENTRY`), parses `hvm_start_info` or E820, builds 4-level PML4 (identity + higher-half + MMIO), enables PAE/EFER.LME/PG |
+| `zevo_scpu_stage03.c` | 64-bit (`ms_abi` $\rightarrow$ `sysv_abi`) | `0x00104000` | **UEFI `efi_main**` entry: extracts GOP framebuffer (Radeon linear FB), ACPI RSDP, `GetMemoryMap()` + `ExitBootServices()`, pivots to unified `kmain` |
+| `main.c` | 64-bit System V ABI | `0xFFFFFFFF80200000` | Core `kmain(struct zevo_boot_info *bi)`: loads 64-bit GDT/IDT, enables AMD-V (`EFER.SVME`), initializes Radeon GOP console & physical page allocator |
+
+---
 
 ---
 
