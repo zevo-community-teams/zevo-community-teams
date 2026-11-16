@@ -2,6 +2,11 @@
 
 <img width="832" height="448" alt="O7IS4hzs" src="https://github.com/user-attachments/assets/e352c5f6-5ede-426a-a81a-a29f06a8914a" />
 
+## Commander Zanzibar First Platoon in the Amazon Jungle Operation
+
+<img width="832" height="448" alt="ZB1aMsM1" src="https://github.com/user-attachments/assets/3bfef15f-0b03-4ba8-98a5-7d4ea004a90e" />
+
+---
 
 ## Zevo Bizu: Bootstrapping in ANSI C89/90 freestanding within In-line Assembly using default block comments /* ... */. 
 
