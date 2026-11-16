@@ -1,3 +1,8 @@
+## Commander Davada and the Special Forces in the Jungle Operation
+
+<img width="832" height="448" alt="O7IS4hzs" src="https://github.com/user-attachments/assets/e352c5f6-5ede-426a-a81a-a29f06a8914a" />
+
+
 ## Zevo Bizu: Bootstrapping in ANSI C89/90 freestanding within In-line Assembly using default block comments /* ... */. 
 
 ---
