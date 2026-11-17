@@ -10,7 +10,7 @@
 
 ---
 
-### Hevron Minha Cidade Natal, se eu me esquecer de te o Jerusalem, que fogo consoma o meu paladar..
+### Hebron, my hometown—if I should forget you, O Yerusalaim El-Hasavi, may fire consume my palate...
 
 ---
 
