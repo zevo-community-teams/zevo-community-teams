@@ -1,4 +1,4 @@
-### The Actions Commander Davada and the Special Dava Forces in the Amazon Jungle Operation
+### The Actions Commander Davada and Dava Forces Army in the Amazon Jungle Operation
 
 ---
 
