@@ -2,6 +2,14 @@
 
 ---
 
+## Esta foto do meu esquadrao, manda para as galinhas macaca que gosta de tomar bananada de madrudaga, quem e ela a Eduarda Maos Sem Culpa De Nata
+
+---
+
+<img width="832" height="448" alt="0_aXXbj0" src="https://github.com/user-attachments/assets/ec4eeab6-3bb3-48d7-9877-d9c70b133a82" />
+
+---
+
 <img width="832" height="448" alt="in-the-amazon-rainforest-the-air-forces-are-conductin" src="https://github.com/user-attachments/assets/0b094d97-0604-49a1-92ed-10cb134a08a2" />
 
 ---
