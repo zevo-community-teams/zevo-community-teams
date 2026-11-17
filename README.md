@@ -1,4 +1,4 @@
-## Commander Davada and the Special Dava Forces in the Amazon Jungle Operation
+### The Actions Commander Davada and the Special Dava Forces in the Amazon Jungle Operation
 
 ---
 
@@ -68,7 +68,7 @@
 
 ---
 
-# The ANSI C89/90 Freestanding within In-line Assembly Paradigm
+## The ANSI C89/90 Freestanding within In-line Assembly Paradigm
 
 This paper provides an architectural breakdown and technical clarification of low-level function structures using **GNU extension attributes** within In-line assembly combined **attribute section** and **asm volatile** inside a strict preprocessor macros, on the **ANSI C89/90 freestanding** environment. It specifically examines the syntactic and semantic characteristics of low-level entry stubs like `stage00_entry` under **System V AMD64 ABI** constraints, avoiding external assembly files (`*.S`) entirely.
 
