@@ -2,11 +2,15 @@
 
 ---
 
-## Below The Royal Commander Davada Zaita Jumper on Amazon River
+## The Royal Commander Davada Zaita on Amazon River Jumper
 
 ---
 
 <img width="832" height="448" alt="GvRAVCjO" src="https://github.com/user-attachments/assets/087f0b92-c7ef-4c06-8534-bb81ab90b8a3" />
+
+---
+
+<img width="832" height="448" alt="6lqcwWjP" src="https://github.com/user-attachments/assets/e24c3c13-af96-4f8e-850e-0f4c59b21b0d" />
 
 ---
 
