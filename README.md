@@ -1,4 +1,4 @@
-## The Royal Dava Forces Green Berets Marines Commandos
+## The Royal Dava Forces - The Green Berets Marines Commandos
 
 ---
 
