@@ -12,6 +12,10 @@
 
 ---
 
+### AHAAHAH: TENTA ME CAPTURAR, MEU NOME E ZANZIBAR 
+
+---
+
 ## Zevo Bizu: Cross Linkage Definitions Between Linker and First File and Jumpers
 
 ---
