@@ -6,6 +6,10 @@
 
 ---
 
+## O Cmt do Esquadrao 24 Gav, E Mave Rick River Play, Davada Zaita que nao é GAY.
+
+---
+
 <img width="832" height="448" alt="0_aXXbj0" src="https://github.com/user-attachments/assets/ec4eeab6-3bb3-48d7-9877-d9c70b133a82" />
 
 ---
