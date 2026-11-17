@@ -22,6 +22,58 @@
 
 ---
 
+```text
+OUTPUT_FORMAT("elf64-x86-64")
+OUTPUT_ARCH(i386:x86-64)
+ENTRY(stage00_start)
+
+PHDRS
+{
+    boot16_phdr  PT_LOAD FLAGS(7);  /* RWX — Real mode segments */
+    boot32_phdr  PT_LOAD FLAGS(7);  /* RWX — Protected mode segments */
+    boot64_phdr  PT_LOAD FLAGS(7);  /* RWX — Long mode segments */
+}
+
+SECTIONS
+{
+    /* --- LBA 0: Boot Sector Core (AT 0x0000-0x07FF) --- */
+
+    . = 0x0000;
+    _lba00_s0_start = .;
+    .lba00_s0 0x0000 : AT(0x0000) {
+   		KEEP(*(.lba00_entry))
+        KEEP(*(.boot_vectors))
+        KEEP(*(.bios_jump))
+        KEEP(*(.oem_id))
+    } : boot16_phdr
+    _lba00_s0_end = .;
+
+```
+---
+
+```c
+
+extern void stage01_entry(void);
+
+__attribute__((section(".stage00_entry"), naked, used)) void stage00_entry(void) {
+    __asm__ __volatile__ (
+    			".code16\n\t"
+			".global _start\n\t"
+			".type _start, @function\n\t"
+
+			"_start:\n\t"
+			"    jmp    .L_real_start\n\t"
+			"    nop\n\t"
+
+			:
+			: [stage01_entry] "i" (stage01_start)    
+            : "memory", "cc", "ax", "bx", "cx", "dx", "si", "di"
+    );
+}
+```
+
+---
+
 ## The ANSI C89/90 Freestanding within In-line Assembly Paradigm
 
 This paper provides an architectural breakdown and technical clarification of low-level function structures using **GNU extension attributes** within In-line assembly combined **attribute section** and **asm volatile** inside a strict preprocessor macros, on the **ANSI C89/90 freestanding** environment. It specifically examines the syntactic and semantic characteristics of low-level entry stubs like `stage00_entry` under **System V AMD64 ABI** constraints, avoiding external assembly files (`*.S`) entirely.
@@ -35,9 +87,9 @@ ENTRY(stage00_start)
 
 PHDRS
 {
-    boot16_phdr  PT_LOAD FLAGS(6);  /* RWX — Real mode segments */
-    boot32_phdr  PT_LOAD FLAGS(6);  /* RWX — Protected mode segments */
-    boot64_phdr  PT_LOAD FLAGS(6);  /* RWX — Long mode segments */
+    boot16_phdr  PT_LOAD FLAGS(7);  /* RWX — Real mode segments */
+    boot32_phdr  PT_LOAD FLAGS(7);  /* RWX — Protected mode segments */
+    boot64_phdr  PT_LOAD FLAGS(7);  /* RWX — Long mode segments */
 }
 
 SECTIONS
