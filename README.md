@@ -2,7 +2,9 @@
 
 ---
 
-## Vamos avancar nos linhas de combate aproximado contra o inimigo que dizem que semos fraquinho, Palavras minhas do Seu General Supremo Davada Beni Elohim. 
+## Vamos avancar nos linhas de combate aproximado contra o inimigo que dizem que somos fraquinho, Palavras minhas do Seu General Supremo Davada Beni Elohim. 
+
+---
 
 ## The Royal Dava Forces - The Black Berets Air Forces Commandos
 
