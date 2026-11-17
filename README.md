@@ -2,6 +2,14 @@
 
 ---
 
+### Vixe Braba, Passarim voi botar ouvo....
+
+---
+
+<img width="832" height="448" alt="dFHAK77H" src="https://github.com/user-attachments/assets/8039f482-b3d8-46d9-9a7e-f6531e9feea4" />
+
+---
+
 <img width="832" height="448" alt="q_2HUJQY" src="https://github.com/user-attachments/assets/72fe007a-2c0f-43dc-a370-948e8ad4abad" />
 
 ---
