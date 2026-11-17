@@ -2,7 +2,7 @@
 
 ---
 
-### Ao meu comando fila por um transpor o rio, estou esperando braba aperecer para me contradicar cara cara com os bostas na agua
+<img width="832" height="448" alt="the-dava-platoon-a-high-tech-unit-carries-out-incursi" src="https://github.com/user-attachments/assets/e385d0ef-f7ab-405a-a1ac-ad9c28b2621d" />
 
 ---
 
