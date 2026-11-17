@@ -1,3 +1,8 @@
+## The Royal Dava Forces - The Black Berets Air Forces Commandos - The Sword Mission
+
+<img width="832" height="448" alt="D85vyOiI" src="https://github.com/user-attachments/assets/e598217c-2f61-47f2-a5ee-97fee92c62c8" />
+
+
 ## The Royal Dava Forces - The Green Berets Marines Commandos
 
 ---
