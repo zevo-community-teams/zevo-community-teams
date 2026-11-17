@@ -2,7 +2,7 @@
 
 ---
 
-### Below Commander Davada Zaita Amazon Jungle Operation
+### Below Commander Davada Zaita in Operations Amazon Jungle 
 
 ---
 
