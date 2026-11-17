@@ -6,6 +6,10 @@
 
 ---
 
+<img width="832" height="448" alt="the-dava-air-force-is-conducting-a-live-operation-in-" src="https://github.com/user-attachments/assets/f03b611a-ffcb-4153-bb15-a06123da3c76" />
+
+---
+
 <img width="832" height="448" alt="kd35EI2F" src="https://github.com/user-attachments/assets/06dd9dcb-1414-4a83-ac78-0ffa1d5a8d90" />
 
 ---
