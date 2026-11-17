@@ -14,11 +14,21 @@
 
 ## Zevo Bizu: Cross Linkage Definitions Between Linker and First File and Jumpers
 
+---
+
 <h3>File: Linker64.ld and Algorithm Files: zevo_scpu_stage00.c and Jumper Definition: extern void stage01_entry(void)</h3>
+
+---
 
 <h3>GLOBAL VARIABLE: ENTRY(stage00_start) - > __attribute__((section(".stage00_entry"), naked, used)) void stage00_entry(void) </h3>
 
+---
+
 <h3>LOCAL VARIABLE: .lba00_entry - > ".global _start\n\t"</h3>
+
+---
+
+<h3>LOCAL JUMPER: extern void stage01_entry(void) </h3>
 
 ---
 
