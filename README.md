@@ -1,3 +1,9 @@
+### Então você encomendou um ataque contra mim BRABA, é? Pois é bom que você tenha um sistema de defesa antiaérea aí na sua casa — porque vou mandar uma "banana" na sua direção para te eliminar de surpresa.
+
+---
+
+<img width="832" height="448" alt="RMDk-sSA" src="https://github.com/user-attachments/assets/d4a874dd-8034-4214-8506-a2fcfa529710" />
+
 ### The Actions Commander Davada and Dava Forces Army in the Amazon Jungle Operation
 
 ---
