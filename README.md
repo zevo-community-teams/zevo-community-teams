@@ -2,7 +2,7 @@
 
 ---
 
-## A FOTO DA GALINHA VOADEIRA NA TERRA DAS PILOMBETAS MARINHEIRAS
+<img width="832" height="448" alt="in-the-amazon-rainforest-the-air-forces-are-conductin" src="https://github.com/user-attachments/assets/0b094d97-0604-49a1-92ed-10cb134a08a2" />
 
 ---
 
