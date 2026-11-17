@@ -16,79 +16,277 @@
 
 ---
 
-### Zevo Bizu: Cross Linkage Definitions Between Linker and First File and Jumpers
+---
+
+**ATTENTION HERE: DEFINE DEBUG VGA DIAGNOSTICS CHARACTERS CHECKPOINTS MACROS FOR SEE ON QEMU/KVM WINDOWS**
 
 ---
 
-<h3>File: Linker64.ld and Algorithm Files: zevo_scpu_stage00.c and Jumper Definition: extern void stage01_entry(void)</h3>
+To enable instant visual feedback and auditability when running your freestanding bootloader under QEMU/KVM on Windows, you can instrument your C89 source code with **VGA Diagnostics & Debug Checkpoint Macros**.
+
+Because QEMU emulates standard VGA hardware, writing directly to the memory-mapped text buffer at physical address `0xB8000` bypasses the need for BIOS interrupts (which fail once you transition to Protected or Long Mode) and renders diagnostic codes immediately on the QEMU window.
 
 ---
 
-<h3>GLOBAL VARIABLE: ENTRY(stage00_start) - > __attribute__((section(".stage00_entry"), naked, used)) void stage00_entry(void) </h3>
+### 1. VGA Color Attribute Reference
+
+Each cell in the VGA text buffer consists of 2 bytes:
+
+1. **Byte 0 (Character):** ASCII value (e.g., `'S'` = `0x53`, `'0'` = `0x30`).
+2. **Byte 1 (Attribute):** Background and foreground color (`Bits 4–7`: Background, `Bits 0–3`: Foreground).
+
+```c
+/* 
+ * VGA Diagnostics Color Attributes 
+ * Compatible with ANSI C89/90 freestanding
+ */
+#define VGA_COLOR_BLACK         0x0
+#define VGA_COLOR_BLUE          0x1
+#define VGA_COLOR_GREEN         0x2
+#define VGA_COLOR_CYAN          0x3
+#define VGA_COLOR_RED           0x4
+#define VGA_COLOR_MAGENTA       0x5
+#define VGA_COLOR_BROWN         0x6
+#define VGA_COLOR_LIGHT_GREY    0x7
+#define VGA_COLOR_DARK_GREY     0x8
+#define VGA_COLOR_LIGHT_BLUE    0x9
+#define VGA_COLOR_LIGHT_GREEN   0xA
+#define VGA_COLOR_LIGHT_CYAN    0xB
+#define VGA_COLOR_LIGHT_RED     0xC
+#define VGA_COLOR_LIGHT_MAGENTA 0xD
+#define VGA_COLOR_YELLOW        0xE
+#define VGA_COLOR_WHITE         0xF
+
+/* Helper to combine background and foreground */
+#define VGA_MAKE_ATTR(bg, fg)   ((unsigned char)(((bg) << 4) | ((fg) & 0x0F)))
+
+/* Predefined Checkpoint Themes */
+#define VGA_ATTR_INFO           VGA_MAKE_ATTR(VGA_COLOR_BLUE, VGA_COLOR_WHITE)       /* Blue bg, White text */
+#define VGA_ATTR_SUCCESS        VGA_MAKE_ATTR(VGA_COLOR_BLACK, VGA_COLOR_LIGHT_GREEN) /* Black bg, Green text */
+#define VGA_ATTR_WARN           VGA_MAKE_ATTR(VGA_COLOR_BLACK, VGA_COLOR_YELLOW)      /* Black bg, Yellow text */
+#define VGA_ATTR_ERROR          VGA_MAKE_ATTR(VGA_COLOR_RED, VGA_COLOR_WHITE)         /* Red bg, White text */
+
+```
 
 ---
 
-<h3>LOCAL VARIABLE: .lba00_entry - > ".global _start\n\t"</h3>
+### 2. Real Mode 16-Bit VGA Checkpoint Macros
+
+In 16-bit Real Mode (Stage 0), you can use ES segment selector targeting `0xB800` directly via inline assembly macros.
+
+```c
+/**
+ * Macro: ZEVO_VGA_CP_16
+ * Writes a 2-character checkpoint code at a specified screen row and column.
+ * - row: 0 to 24
+ * - col: 0 to 79
+ * - c1, c2: Character literals (e.g., 'S', '0')
+ * - attr: VGA attribute byte (e.g., VGA_ATTR_INFO)
+ */
+#define ZEVO_VGA_CP_16(row, col, c1, c2, attr) \
+    do { \
+        unsigned short _vga_offset; \
+        _vga_offset = (unsigned short)(((row) * 80 + (col)) * 2); \
+        __asm__ __volatile__ ( \
+            "pushw %%es\n\t" \
+            "movw $0xB800, %%ax\n\t" \
+            "movw %%ax, %%es\n\t" \
+            "movb %[ch1], %%al\n\t" \
+            "movb %[ch2], %%ah\n\t" \
+            "movw %%ax, %%es:(%[off])\n\t" \
+            "popw %%es\n\t" \
+            : \
+            : [off] "r" (_vga_offset), \
+              [ch1] "i" (c1), \
+              [ch2] "i" (c2), \
+              [atrib] "i" (attr) \
+            : "ax", "memory" \
+        ); \
+    } while (0)
+
+```
 
 ---
 
-<h3>LOCAL JUMPER: extern void stage01_entry(void) </h3>
+### 3. Long Mode 64-Bit VGA Checkpoint Macros
+
+Once in 64-bit Long Mode (Stage 2/3), memory segmentation is flat (`ES`, `DS`, `SS` base = 0), allowing direct 64-bit absolute memory writes to `0xB8000`.
+
+```c
+/**
+ * Macro: ZEVO_VGA_CP_64
+ * Writes a 2-character checkpoint directly to absolute address 0xB8000 in 64-bit Long Mode.
+ */
+#define ZEVO_VGA_CP_64(row, col, c1, c2, attr) \
+    do { \
+        unsigned long long _vga_addr; \
+        unsigned short _val; \
+        _vga_addr = 0xB8000ULL + (unsigned long long)(((row) * 80 + (col)) * 2); \
+        _val = (unsigned short)(((attr) << 8) | (c1)); \
+        *((volatile unsigned short *)(_vga_addr)) = _val; \
+        _val = (unsigned short)(((attr) << 8) | (c2)); \
+        *((volatile unsigned short *)(_vga_addr + 2)) = _val; \
+    } while (0)
+
+```
 
 ---
 
-```text
-OUTPUT_FORMAT("elf64-x86-64")
-OUTPUT_ARCH(i386:x86-64)
-ENTRY(stage00_start)
+### 4. Integrated Example: `zevo_scpu_stage00.c`
 
-PHDRS
-{
-    boot16_phdr  PT_LOAD FLAGS(7);  /* RWX — Real mode segments */
-    boot32_phdr  PT_LOAD FLAGS(7);  /* RWX — Protected mode segments */
-    boot64_phdr  PT_LOAD FLAGS(7);  /* RWX — Long mode segments */
+Here is how the macros integrate cleanly into your C89 freestanding bootloader entry point with strict `/* ... */` comment blocks:
+
+```c
+extern void stage01_entry(void);
+
+/* 
+ * Stage 00 Entry Point with VGA Diagnostic Checkpoints
+ * Adheres to ANSI C89/90 freestanding and System V AMD64 ABI
+ */
+__attribute__((section(".lba00_entry"), naked, used)) void stage00_entry(void) {
+    __asm__ __volatile__ (
+        ".code16\n\t"
+        ".global stage00_start\n\t"
+        ".type stage00_start, @function\n\t"
+
+        "stage00_start:\n\t"
+        "    cli\n\t"                    /* Clear interrupts */
+        "    xorw %%ax, %%ax\n\t"
+        "    movw %%ax, %%ds\n\t"
+        "    movw %%ax, %%es\n\t"
+        
+        /* --- VGA DEBUG CHECKPOINT: Write 'S0' (Blue Background, White Text) --- */
+        "    movw $0xB800, %%ax\n\t"
+        "    movw %%ax, %%es\n\t"
+        "    movw $0x1F53, %%es:(0)\n\t"   /* 'S' with attr 0x1F */
+        "    movw $0x1F30, %%es:(2)\n\t"   /* '0' with attr 0x1F */
+
+        /* Stack Initialization & Jumper Transfer */
+        "    xorq %%rbp, %%rbp\n\t"
+        "    movw $0x7C00, %%sp\n\t"
+        "    cld\n\t"
+        
+        "    call stage01_entry\n\t"        /* Jump/Call to Stage 1 */
+        
+        "1:\n\t"
+        "    hlt\n\t"
+        "    jmp 1b\n\t"
+        :
+        : [stage01_entry] "i" (stage01_entry)    
+        : "memory", "cc", "ax", "bx", "cx", "dx", "si", "di"
+    );
 }
 
+```
+
+---
+
+### 5. Running and Inspecting on QEMU / KVM for Windows
+
+When testing your compiled binary image (`boot.img`) using QEMU on Windows, ensure your QEMU invocation enables the standard VGA display:
+
+```cmd
+qemu-system-x86_64 -drive format=raw,file=boot.img -vga std -m 512M
+
+```
+
+* **What to look for on the QEMU window:** In the top-left corner (Row 0, Column 0), you should immediately see blue boxes with bright white characters **`S0`**. If execution reaches subsequent stages, you can place checkpoints like **`S1`**, **`P0`** (Protected Mode), or **`L0`** (Long Mode) to track execution flow step-by-step without requiring a serial port or complex debugger setup.
+
+---
+
+## Resolving Cross-Linkage Discrepancies
+
+When building a freestanding low-level bootloader entirely in C89 without external `.S` assembly files, **symbol names and section names must align identically** between the Linker Script (`Linker64.ld`) and the C source file (`zevo_scpu_stage00.c`).
+
+Reviewing your cross-linkage definitions reveals three critical mismatches that will cause linker errors or silent execution faults if left uncorrected.
+
+---
+
+### 1. Mapping the Cross-Linkage Discrepancies
+
+| Component | Linker Script Expectation (`Linker64.ld`) | C Source Implementation (`zevo_scpu_stage00.c`) | Status / Fix |
+| --- | --- | --- | --- |
+| **Entry Symbol** | `ENTRY(stage00_start)` | Defined as `.global _start` inside inline asm | **Mismatch:** Linker looks for `stage00_start`, but code provides `_start`. |
+| **Section Name** | `KEEP(*(.lba00_entry))` | `__attribute__((section(".stage00_entry")))` | **Mismatch:** Linker sweeps `.lba00_entry`, but C compiler emits `.stage00_entry`. |
+| **Jumper / Target** | `stage01_start` / `stage01_entry` | `extern void stage01_entry(void);` | **Aligned:** Handled via external symbol resolution. |
+
+---
+
+### 2. Synchronized Solution (`Linker64.ld` & `zevo_scpu_stage00.c`)
+
+To establish a bulletproof cross-linkage, synchronize the symbol `stage00_start` and the section `.lba00_entry` across both files.
+
+#### A. Corrected C Source Entry (`zevo_scpu_stage00.c`)
+
+```c
+extern void stage01_entry(void);
+
+/* 
+ * Synchronized with Linker64.ld:
+ * - Section name matches KEEP(*(.lba00_entry))
+ * - Global label matches ENTRY(stage00_start)
+ */
+__attribute__((section(".lba00_entry"), naked, used)) void stage00_entry(void) {
+    __asm__ __volatile__ (
+        ".code16\n\t"
+        ".global stage00_start\n\t"
+        ".type stage00_start, @function\n\t"
+
+        "stage00_start:\n\t"
+        "    cli\n\t"                     /* Clear interrupts */
+        "    xorw %%ax, %%ax\n\t"
+        "    movw %%ax, %%ds\n\t"
+        "    movw %%ax, %%es\n\t"
+        
+        /* --- VGA DEBUG CHECKPOINT: Write 'S0' at row 0, col 0 (Blue Background) --- */
+        "    movw $0xB800, %%ax\n\t"
+        "    movw %%ax, %%es\n\t"
+        "    movw $0x1F53, %%es:(0)\n\t"   /* 'S' */
+        "    movw $0x1F30, %%es:(2)\n\t"   /* '0' */
+
+        /* Stack & Jumper Transfer */
+        "    xorq %%rbp, %%rbp\n\t"
+        "    movw $0x7C00, %%sp\n\t"
+        "    cld\n\t"
+        
+        "    call stage01_entry\n\t"       /* Jump/Call to Stage 1 */
+        
+        "1:\n\t"
+        "    hlt\n\t"
+        "    jmp 1b\n\t"
+        :
+        : [stage01_entry] "i" (stage01_entry)   
+        : "memory", "cc", "ax", "bx", "cx", "dx", "si", "di"
+    );
+}
+
+```
+
+#### B. Linker Script Verification (`Linker64.ld`)
+
+Ensure your linker script correctly anchors this section at physical offset `0x0000` (LBA 0):
+
+```ld
 SECTIONS
 {
-    /* --- LBA 0: Boot Sector Core (AT 0x0000-0x07FF) --- */
-
     . = 0x0000;
     _lba00_s0_start = .;
     .lba00_s0 0x0000 : AT(0x0000) {
-   		KEEP(*(.lba00_entry))
+        KEEP(*(.lba00_entry)) /* <--- Must match C attribute section(".lba00_entry") */
         KEEP(*(.boot_vectors))
         KEEP(*(.bios_jump))
         KEEP(*(.oem_id))
     } : boot16_phdr
     _lba00_s0_end = .;
-
-```
----
-
-```c
-
-extern void stage01_entry(void);
-
-__attribute__((section(".stage00_entry"), naked, used)) void stage00_entry(void) {
-    __asm__ __volatile__ (
-    			".code16\n\t"
-			".global _start\n\t"
-			".type _start, @function\n\t"
-
-			"_start:\n\t"
-			"    jmp    .L_real_start\n\t"
-			"    nop\n\t"
-
-			:
-			: [stage01_entry] "i" (stage01_start)    
-            : "memory", "cc", "ax", "bx", "cx", "dx", "si", "di"
-    );
+    
+    /* ... rest of linker script ... */
 }
+
 ```
 
 ---
 
-## The ANSI C89/90 Freestanding within In-line Assembly Paradigm
+# The ANSI C89/90 Freestanding within In-line Assembly Paradigm
 
 This paper provides an architectural breakdown and technical clarification of low-level function structures using **GNU extension attributes** within In-line assembly combined **attribute section** and **asm volatile** inside a strict preprocessor macros, on the **ANSI C89/90 freestanding** environment. It specifically examines the syntactic and semantic characteristics of low-level entry stubs like `stage00_entry` under **System V AMD64 ABI** constraints, avoiding external assembly files (`*.S`) entirely.
 
