@@ -2,6 +2,10 @@
 
 ---
 
+<img width="832" height="448" alt="q_2HUJQY" src="https://github.com/user-attachments/assets/72fe007a-2c0f-43dc-a370-948e8ad4abad" />
+
+---
+
 <img width="832" height="448" alt="RMDk-sSA" src="https://github.com/user-attachments/assets/d4a874dd-8034-4214-8506-a2fcfa529710" />
 
 ### The Actions Commander Davada and Dava Forces Army in the Amazon Jungle Operation
