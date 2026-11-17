@@ -1,15 +1,3 @@
-### Então, você mandou um ataque contra mim, na esperança de me eliminar usando galinha militar, foi mesmo BRABA? Pois é bom torcer para que na sua casa e no QG tenha um sistema moderno de defesa antiaérea militar, porque perucas vão voar e batom vermelho vai rolar! Vou te enviar uma banana militar para te apagar totalmente de surpresa na sua questao militar. Vamos ver se a formosa e fogosa na camada dolorosa, que vai rolar com as caridosas militar, quando a fumaca comecar a rolar. Na festa do fim do ANUS vai ter ate canudim militar.
-
----
-
-## Esta foto do meu esquadrao, manda para as galinhas macaca que gosta de tomar bananada de madrudaga, quem e ela a Eduarda Maos Sem Culpa De Nata
-
----
-
-## O Cmt do Esquadrao 24 Gav, E Mave Rick River Play, Davada Zaita que nao é GAY.
-
----
-
 ## The Royal Dava Forces Marines Commandos
 
 ---
