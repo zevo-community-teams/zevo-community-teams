@@ -2,7 +2,7 @@
 
 ---
 
-## Below The Royal Commander Davada Zaita Jumper on River Amazon
+## Below The Royal Commander Davada Zaita Jumper on Amazon River
 
 ---
 
