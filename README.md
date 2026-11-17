@@ -1,4 +1,4 @@
-### Então, você mandou um ataque contra mim, na esperança de me eliminar usando galinha militar, foi mesmo BRABA? Pois é bom torcer para que na sua casa e no QG tenha um sistema moderno de defesa antiaérea militar, porque perucas vão voar e batom vermelho vai rolar! Vou te enviar uma banana militar para te apagar totalmente de surpresa na sua questao militar. Vamos ver se a formosa e fogosa na camada dolorosa, que vai rolar com as caridosas militar, quando a fumaca comecar a rolar. Na festa do fim vai ter ate canudim militar.
+### Então, você mandou um ataque contra mim, na esperança de me eliminar usando galinha militar, foi mesmo BRABA? Pois é bom torcer para que na sua casa e no QG tenha um sistema moderno de defesa antiaérea militar, porque perucas vão voar e batom vermelho vai rolar! Vou te enviar uma banana militar para te apagar totalmente de surpresa na sua questao militar. Vamos ver se a formosa e fogosa na camada dolorosa, que vai rolar com as caridosas militar, quando a fumaca comecar a rolar. Na festa do fim do ANUS vai ter ate canudim militar.
 
 ---
 
