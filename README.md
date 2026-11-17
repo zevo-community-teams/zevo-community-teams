@@ -2,7 +2,7 @@
 
 ---
 
-## The Royal Commander Davada Zaita on Amazon River Jumper
+<img width="832" height="448" alt="hIIyOLVk" src="https://github.com/user-attachments/assets/83fcedc6-7283-4e80-b6ff-a1e146ea64bd" />
 
 ---
 
