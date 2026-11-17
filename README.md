@@ -60,9 +60,509 @@
 
 <img width="832" height="448" alt="O7IS4hzs" src="https://github.com/user-attachments/assets/e352c5f6-5ede-426a-a81a-a29f06a8914a" />
 
+---
+
 ## Commander Zanzibar First Platoon in the Amazon Jungle Operation
 
 <img width="832" height="448" alt="ZB1aMsM1" src="https://github.com/user-attachments/assets/3bfef15f-0b03-4ba8-98a5-7d4ea004a90e" />
+
+---
+
+# The ANSI C89/90 Freestanding within In-line Assembly Paradigm
+
+This paper provides an architectural breakdown and technical clarification of low-level function structures using **GNU extension attributes** within In-line assembly combined **attribute section** and **asm volatile** inside a strict preprocessor macros, on the **ANSI C89/90 freestanding** environment. It specifically examines the syntactic and semantic characteristics of low-level entry stubs like `stage00_entry` under **System V AMD64 ABI** constraints, avoiding external assembly files (`*.S`) entirely.
+
+## 0. Structural Analysis of the Target Minimum File Linker64.ld
+
+```
+OUTPUT_FORMAT("elf64-x86-64")
+OUTPUT_ARCH(i386:x86-64)
+ENTRY(stage00_start)
+
+PHDRS
+{
+    boot16_phdr  PT_LOAD FLAGS(6);  /* RWX — Real mode segments */
+    boot32_phdr  PT_LOAD FLAGS(6);  /* RWX — Protected mode segments */
+    boot64_phdr  PT_LOAD FLAGS(6);  /* RWX — Long mode segments */
+}
+
+SECTIONS
+{
+    /* --- LBA 0: Boot Sector Core (AT 0x0000-0x07FF) --- */
+
+    . = 0x0000;
+    _lba00_s0_start = .;
+    .lba00_s0 0x0000 : AT(0x0000) {
+   		KEEP(*(.lba00_entry))
+        KEEP(*(.boot_vectors))
+        KEEP(*(.bios_jump))
+        KEEP(*(.oem_id))
+    } : boot16_phdr
+    _lba00_s0_end = .;
+
+    . = 0x0200;
+    _lba00_s1_start = .;
+    .lba00_s1 0x0200 : AT(0x0200) {
+        KEEP(*(.fat16_bpb))
+    } : boot16_phdr
+    _lba00_s1_end = .;
+
+    . = 0x7C00;
+    _lba00_s2_start = .;
+    .lba00_s2 0x7C00 : AT(0x0400) {
+        KEEP(*(.mbr_entry))
+        KEEP(*(.mbr_init))
+        KEEP(*(.mbr_error))
+    } : boot16_phdr
+    _lba00_s2_end = .;
+
+    . = 0x7E00;
+    _lba00_s3_start = .;
+    .lba00_s3 0x7E00 : AT(0x0600) {
+        KEEP(*(.disk_io))
+        KEEP(*(.int13_ext))
+        KEEP(*(.catalog_parser))
+    } : boot16_phdr
+    _lba00_s3_end = .;
+
+    /* --- LBA 1-14: Stage 0 Extensions --- */
+
+    . = 0x8000;
+    _lba01_start = .;
+    .lba01 0x8000 : AT(0x0800) {
+        KEEP(*(.eltorito_bit))
+        KEEP(*(.ext_boot_01))
+    } : boot16_phdr
+    _lba01_end = .;
+
+    . = 0x8800;
+    _lba02_start = .;
+    .lba02 0x8800 : AT(0x1000) {
+        KEEP(*(.a20_gate))
+        KEEP(*(.mem_detect))
+        KEEP(*(.lba02_boot))
+    } : boot16_phdr
+    _lba02_end = .;
+
+    . = 0x9000;
+    _lba03_start = .;
+    .lba03 0x9000 : AT(0x1800) {
+        KEEP(*(.string_ops))
+        KEEP(*(.checksum))
+    } : boot16_phdr
+    _lba03_end = .;
+
+    . = 0x9800;
+    _lba04_start = .;
+    .lba04 0x9800 : AT(0x2000) {
+        KEEP(*(.ext_boot_04))
+    } : boot16_phdr
+    _lba04_end = .;
+
+    . = 0xA000;
+    _lba05_start = .;
+    .lba05 0xA000 : AT(0x2800) {
+        KEEP(*(.ext_boot_05))
+    } : boot16_phdr
+    _lba05_end = .;
+
+    . = 0xA800;
+    _lba06_start = .;
+    .lba06 0xA800 : AT(0x3000) {
+        KEEP(*(.ext_boot_06))
+    } : boot16_phdr
+    _lba06_end = .;
+
+    . = 0xB000;
+    _lba07_start = .;
+    .lba07 0xB000 : AT(0x3800) {
+        KEEP(*(.ext_boot_07))
+    } : boot16_phdr
+    _lba07_end = .;
+
+    . = 0xB800;
+    _lba08_start = .;
+    .lba08 0xB800 : AT(0x4000) {
+        KEEP(*(.ext_boot_08))
+    } : boot16_phdr
+    _lba08_end = .;
+
+    . = 0xC000;
+    _lba09_start = .;
+    .lba09 0xC000 : AT(0x4800) {
+        KEEP(*(.ext_boot_09))
+    } : boot16_phdr
+    _lba09_end = .;
+
+    . = 0xC800;
+    _lba10_start = .;
+    .lba10 0xC800 : AT(0x5000) {
+        KEEP(*(.ext_boot_0A))
+    } : boot16_phdr
+    _lba10_end = .;
+
+    . = 0xD000;
+    _lba11_start = .;
+    .lba11 0xD000 : AT(0x5800) {
+        KEEP(*(.ext_boot_0B))
+    } : boot16_phdr
+    _lba11_end = .;
+
+    . = 0xD800;
+    _lba12_start = .;
+    .lba12 0xD800 : AT(0x6000) {
+        KEEP(*(.ext_boot_0C))
+    } : boot16_phdr
+    _lba12_end = .;
+
+    . = 0xE000;
+    _lba13_start = .;
+    .lba13 0xE000 : AT(0x6800) {
+        KEEP(*(.ext_boot_0D))
+    } : boot16_phdr
+    _lba13_end = .;
+
+    . = 0xE800;
+    _lba14_start = .;
+    .lba14 0xE800 : AT(0x7000) {
+        KEEP(*(.ext_boot_0E))
+        KEEP(*(.phi_end_marker))
+        *(.lba14)
+    } : boot16_phdr
+    _lba14_end = .;
+
+    /* --- LBA 15: Overlay Bridge Sector --- 
+     * Assigned to boot32_phdr to respect continuous PHDR address monotonicity.
+     */
+    . = 0xEE00;
+    _lba15_start = .;
+    .lba15 0xEE00 : AT(0x7800) {
+        KEEP(*(.overlay_transition))
+        KEEP(*(.lba15))
+    } : boot32_phdr
+    _lba15_end = .;
+
+    /* --- STAGE 1 DOMAIN: 16/32-BIT HYBRID MODE — LBA 16-31 --- */
+
+    . = 0xF600;
+    _lba16_start = .;
+    .lba16 0xF600 : AT(0x8000) {
+        KEEP(*(.iso_pvd))
+        KEEP(*(.lba16_pvd))
+    } : boot32_phdr
+    _lba16_end = .;
+
+    . = 0xFE00;
+    _lba17_start = .;
+    .lba17 0xFE00 : AT(0x8800) {
+        KEEP(*(.iso_boot_rec))
+        KEEP(*(.eltorito_ptr))
+        KEEP(*(.lba17_brvd))
+    } : boot32_phdr
+    _lba17_end = .;
+
+    . = 0x10600;
+    _lba18_start = .;
+    .lba18 0x10600 : AT(0x9000) {
+        KEEP(*(.iso_sup))
+        KEEP(*(.lba18_term))
+    } : boot32_phdr
+    _lba18_end = .;
+
+    . = 0x10E00;
+    _lba19_start = .;
+    .lba19 0x10E00 : AT(0x9800) {
+        KEEP(*(.iso_term))
+        KEEP(*(.lba19_catalog))
+    } : boot32_phdr
+    _lba19_end = .;
+
+    . = 0x11600;
+    _lba20_start = .;
+    .lba20 0x11600 : AT(0xA000) {
+        KEEP(*(.pm_entry))
+        KEEP(*(.gdt_setup))
+        KEEP(*(.pm_transition))
+        KEEP(*(.lba20_xen))
+    } : boot32_phdr
+    _lba20_end = .;
+
+    . = 0x11E00;
+    _lba21_start = .;
+    .lba21 0x11E00 : AT(0xA800) {
+        KEEP(*(.cpuid))
+        KEEP(*(.long_mode_chk))
+    } : boot32_phdr
+    _lba21_end = .;
+
+    . = 0x12600;
+    _lba22_start = .;
+    .lba22 0x12600 : AT(0xB000) {
+        KEEP(*(.meta_01))
+    } : boot32_phdr
+    _lba22_end = .;
+
+    . = 0x12E00;
+    _lba23_start = .;
+    .lba23 0x12E00 : AT(0xB800) {
+        KEEP(*(.meta_02))
+    } : boot32_phdr
+    _lba23_end = .;
+
+    . = 0x13600;
+    _lba24_start = .;
+    .lba24 0x13600 : AT(0xC000) {
+        KEEP(*(.meta_03))
+    } : boot32_phdr
+    _lba24_end = .;
+
+    . = 0x13E00;
+    _lba25_start = .;
+    .lba25 0x13E00 : AT(0xC800) {
+        KEEP(*(.meta_04))
+    } : boot32_phdr
+    _lba25_end = .;
+
+    . = 0x14600;
+    _lba26_start = .;
+    .lba26 0x14600 : AT(0xD000) {
+        KEEP(*(.meta_05))
+    } : boot32_phdr
+    _lba26_end = .;
+
+    . = 0x14E00;
+    _lba27_start = .;
+    .lba27 0x14E00 : AT(0xD800) {
+        KEEP(*(.meta_06))
+    } : boot32_phdr
+    _lba27_end = .;
+
+    . = 0x15600;
+    _lba28_start = .;
+    .lba28 0x15600 : AT(0xE000) {
+        KEEP(*(.meta_07))
+    } : boot32_phdr
+    _lba28_end = .;
+
+    . = 0x15E00;
+    _lba29_start = .;
+    .lba29 0x15E00 : AT(0xE800) {
+        KEEP(*(.meta_08))
+    } : boot32_phdr
+    _lba29_end = .;
+
+    . = 0x16600;
+    _lba30_start = .;
+    .lba30 0x16600 : AT(0xF000) {
+        KEEP(*(.meta_09))
+    } : boot32_phdr
+    _lba30_end = .;
+
+    . = 0x16E00;
+    _lba31_start = .;
+    .lba31 0x16E00 : AT(0xF800) {
+        KEEP(*(.meta_0A))
+        KEEP(*(.stage0_end_marker))
+    } : boot32_phdr
+    _lba31_end = .;
+
+    /* --- STAGE 2 DOMAIN: 64-BIT LONG MODE TRANSITION — LBA 32 --- */
+
+    . = 0x17600;
+    _lba32_start = .;
+    .lba32 0x17600 : AT(0x10000) {
+        KEEP(*(.kern64_trans))
+        KEEP(*(.paging_init))
+        KEEP(*(.long_mode_act))
+    } : boot64_phdr
+    _lba32_end = .;
+
+    /* --- STAGE 3 DOMAIN: KERNEL DOMAIN (RING 0) — LBA 33+ --- */
+
+    . = 0x100000;
+    _lba33_start = .;
+    .lba33 0x100000 : AT(0x12000) {
+        KEEP(*(.kernel_entry))
+        KEEP(*(.stage03_entry))
+        *(.text.kernel)
+        *(.data.kernel)
+        *(.rodata.kernel)
+        *(.bss.kernel)
+    } : boot64_phdr
+    _lba33_end = .;
+
+    /* --- STAGE 4 DOMAIN: USER DOMAIN (RING 3) --- */
+
+    . = 0x400000;
+    _lba34_start = .;
+    .lba34 0x400000 : AT(0x20000) {
+        KEEP(*(.user_entry))
+        *(.text.user)
+        *(.data.user)
+        *(.rodata.user)
+        *(.bss.user)
+    } : boot64_phdr
+    _lba34_end = .;
+
+    /* --- DISCARD SECTIONS --- */
+
+    /DISCARD/ : {
+        *(.comment)
+        *(.note*)
+        *(.eh_frame)
+        *(.debug_*)
+        *(.stab*)
+        *(.gnu.*)
+    }
+}
+```
+
+---
+
+## 1. Structural Analysis of the Target Snippet Coded
+
+Consider the provided function structure:
+
+The linker64.ld, define global declaration for initial entry point reference **ENTRY(_start)** and initial local sections reference **.stage00_entry** for zero algorithm file using ANSI C89/90 freestanding within In-line Assembly using standard comments blocks /* ... */.  
+
+```c
+
+extern void stage01_entry(void);
+
+__attribute__((section(".stage00_entry"), naked, used)) void stage00_entry(void) {
+    __asm__ __volatile__ (
+    			".code16\n\t"
+			".global _start\n\t"
+			".type _start, @function\n\t"
+
+			"_start:\n\t"
+			"    jmp    .L_real_start\n\t"
+			"    nop\n\t"
+
+			:
+			: [stage01_entry] "i" (stage01_start)    
+            : "memory", "cc", "ax", "bx", "cx", "dx", "si", "di"
+    );
+}
+```
+
+While this snippet intends to establish a custom-section execution entry point, it contains a **critical syntax error** alongside several powerful GCC compiler extensions. Below is a detailed analysis of its components.
+
+### A. Compiler Attributes (`__attribute__`)
+
+1. **`section(".stage00_entry")`**:
+* *Role:* Instructs the compiler to emit this function into a non-standard ELF section named `.stage00_entry` instead of the default `.text` section.
+* *Freestanding Utility:* Crucial for multi-stage bootloaders or firmware images where initial execution blocks must reside at precise physical offsets or linkage boundaries.
+
+
+2. **`naked`**:
+* *Role:* Disables standard function prologue (`push rbp; mov rbp, rsp`) and epilogue generation.
+* *Freestanding Utility:* Essential when establishing low-level environments (like transitioning from real mode to long mode or setting up custom stack pointers) where a stray stack frame would corrupt execution state.
+
+
+3. **`used`**:
+* *Role:* Prevents the dead-code elimination optimizer from pruning the function if no other C code references it.
+* *Freestanding Utility:* Mandatory for entry points that are referenced exclusively by linker scripts rather than internal C callers.
+
+
+
+### B. The Inline Assembly Defect
+
+In the provided block:
+
+```c
+__attribute__((section(".stage00_entry"), naked, used)) void stage00_entry(void) {
+    __asm__ __volatile__ (
+    			".code16\n\t"
+			".global _start\n\t"
+			".type _start, @function\n\t"
+
+			"_start:\n\t"
+			"    jmp    .L_real_start\n\t"
+			"    nop\n\t"
+
+			:
+			: [stage01_entry] "i" (stage01_start)    
+            : "memory", "cc", "ax", "bx", "cx", "dx", "si", "di"
+    );
+}
+```
+
+
+* **The Error:** Extended inline assembly requires an instruction template string as its first parameter (enclosed in double quotes). Because this string is completely missing before the first colon (`:`), the compiler encounters a syntax error or compiles an empty instruction sequence.
+* **The Consequence:** Combined with `naked`, an empty assembly block generates a function with zero instructions, leading to immediate CPU faults or unpredictable fall-through execution when jumped to.
+
+---
+
+## 2. Correcting and Standardizing the Structure for C89/90
+
+To comply with **ANSI C89/90 strict rules** (including block-only comments `/* ... */`, variable declarations at the top of scopes) and the **System V AMD64 ABI**, the snippet must be corrected to include valid assembly instructions and proper macro encapsulation.
+
+### Corrected Implementation Pattern
+
+```c
+/* 
+ * Stage 00 Entry Point 
+ * Adheres to ANSI C89/90 freestanding and System V AMD64 ABI
+ */
+__attribute__((section(".stage00_entry"), naked, used)) void stage00_entry(void) {
+    /* 
+     * Extended inline assembly with a valid instruction string 
+     * followed by output, input, and clobber constraints.
+     */
+    __asm__ __volatile__ (
+        "cli\n\t"                      /* Clear interrupts */
+        "xorq %%rbp, %%rbp\n\t"        /* Zero frame pointer per System V ABI */
+        "movq $__stack_top, %%rsp\n\t" /* Load stack pointer */
+        "cld\n\t"                      /* Clear direction flag */
+        "call stage01_entry\n\t"        /* Transfer control to C runtime */
+        "1:\n\t"
+        "hlt\n\t"                      /* Halt fallback loop */
+        "jmp 1b\n\t"
+		:
+		: [stage01_entry] "i" (stage01_start)   
+        : "memory", "cc", "rax", "rbx", "rcx", "rdx", "rsi", "rdi", "rsp", "rbp"
+    );
+}
+
+```
+
+---
+
+## 3. Macro-Encapsulated Assembly in Freestanding C89
+
+To keep C89 source modules clean and avoid repetitive inline syntax blocks, low-level hardware operations (such as control register access or port I/O) are wrapped in preprocessor macros.
+
+```c
+/* 
+ * Macro for reading Control Register CR3 (Page Table Base)
+ * Fully compliant with C89 block comments and System V AMD64 ABI
+ */
+#define READ_CR3(dest_var) \
+    do { \
+        unsigned long _val; \
+        __asm__ __volatile__ ( \
+            "movq %%cr3, %0" \
+            : "=r"(_val) \
+            : \
+            : "memory" \
+        ); \
+        (dest_var) = _val; \
+    } while (0)
+
+```
+
+---
+
+## 4. Architectural Summary Table
+
+| Feature | Status in Freestanding C89 | Technical Implication |
+| --- | --- | --- |
+| **`/* ... */` Comments** | Enforced | C99 `//` style line comments are rejected under `-ansi -pedantic`. |
+| **`__attribute__((naked))`** | Supported (GCC Extension) | Bypasses stack frame setup; requires manual stack initialization. |
+| **`__asm__ __volatile__`** | Supported (GCC Extension) | Requires valid instruction templates; empty strings cause syntax failures. |
+| **System V AMD64 ABI** | Enforced via Clobbers | Preserves caller/callee register rules and 16-byte stack alignment. |
+| **External `*.S` Files** | Completely Eliminated | Entire system is self-contained within unified C translation units. |
 
 ---
 
