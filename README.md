@@ -2,6 +2,10 @@
 
 ---
 
+<img width="832" height="448" alt="the-ultra-high-tech-special-dava-platoon-forces-on-te(3)" src="https://github.com/user-attachments/assets/40789c6e-3155-487c-aefc-7eacdc748484" />
+
+---
+
 <img width="832" height="448" alt="the-ultra-high-tech-special-dava-platoon-forces-on-gr(2)" src="https://github.com/user-attachments/assets/96c86197-dd52-4948-aaa5-6fca31aceffa" />
 
 ---
