@@ -1,4 +1,4 @@
-### Então você encomendou um ataque contra mim BRABA, é? Pois é bom que você tenha um sistema de defesa antiaérea aí na sua casa — porque vou mandar uma "banana - SATAN FIVE" na sua direção para te eliminar de surpresa.
+### Então você encomendou um ataque contra mim para matar com frango militar BRABA, é? Pois é bom que você eles do QG tenham um sistema de defesa antiaérea moderna porque a peruca vai voar e batom vermelho vai rolhar, porque vou mandar uma "banana - SATAN FIVE" na sua direção para te eliminar de surpresa.
 
 ---
 
