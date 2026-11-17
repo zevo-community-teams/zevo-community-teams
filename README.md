@@ -1,5 +1,9 @@
 ## Commander Davada and the Special Dava Forces in the Amazon Jungle Operation
 
+<img width="832" height="448" alt="eWyC9VUA" src="https://github.com/user-attachments/assets/57c5d7e3-3ca4-42a0-b76c-b3b488fc0d3a" />
+
+---
+
 <img width="832" height="448" alt="O7IS4hzs" src="https://github.com/user-attachments/assets/e352c5f6-5ede-426a-a81a-a29f06a8914a" />
 
 ## Commander Zanzibar First Platoon in the Amazon Jungle Operation
