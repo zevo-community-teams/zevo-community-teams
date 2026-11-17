@@ -1,3 +1,9 @@
+## Senhores meus comandos estamos para entrar numa aventura militar a mais esperada de todos os tempos entre nos o defensores do universos de filhos de satanas, que Adonai vos abencoes e vos guarde, missao cumprida.
+
+---
+
+## Vamos avancar nos linhas de combate aproximado contra o inimigo que dizem que semos fraquinho, Palavras minhas do Seu General Supremo Davada Beni Elohim. 
+
 ## The Royal Dava Forces - The Black Berets Air Forces Commandos
 
 <img width="832" height="448" alt="D85vyOiI" src="https://github.com/user-attachments/assets/e598217c-2f61-47f2-a5ee-97fee92c62c8" />
