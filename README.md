@@ -8,6 +8,12 @@
 
 ## The Royal Dava Forces - The Black Berets Air Forces Commandos
 
+---
+
+### Hevron Minha Cidade Natal, se eu me esquecer de te o Jerusalem, que fogo consoma o meu paladar..
+
+---
+
 <img width="832" height="448" alt="D85vyOiI" src="https://github.com/user-attachments/assets/e598217c-2f61-47f2-a5ee-97fee92c62c8" />
 
 
