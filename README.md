@@ -1,4 +1,4 @@
-### Então você encomendou um ataque contra mim para matar com frango militar BRABA, é? Pois é bom que você eles do QG tenham um sistema de defesa antiaérea moderna porque a peruca vai voar e batom vermelho vai rolhar, porque vou mandar uma "banana - SATAN FIVE" na sua direção para te eliminar de surpresa.
+### Então, você mandou um ataque contra mim, na esperança de me eliminar usando galinha militar, é BRABA? Pois é bom torcer para que seu na sua casa e no QG tenha um sistema moderno de defesa antiaérea — porque perucas vão voar e batom vermelho vai rolan! Vou te enviar uma banana militar na sua direção para te pegar totalmente de surpresa na sua questao militão.
 
 ---
 
