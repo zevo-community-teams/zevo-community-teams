@@ -1,4 +1,4 @@
-## Senhores meus comandos estamos para entrar numa aventura militar a mais esperada de todos os tempos entre nos o defensores do universos de filhos de satanas, que Adonai vos abencoes e vos guarde, missao cumprida.
+## Senhores meus comandos estamos para entrar numa aventura militar a mais esperada de todos os tempos entre nos o defensores do universos e os filhos de satanas, que Adonai vos abencoes e vos guarde, missao dada é missão cumprida.
 
 ---
 
