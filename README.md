@@ -1,4 +1,4 @@
-## Gostaria de Mandar Minha Saudacoes Militares A familia do Meu Amigo Sidriao Ao Faleu De Covid Ha Um Tempo
+## Gostaria enviar saudacoes ao familia do meu prezado amigo sidriao a qual servimos junto enquanto ele era Capitao na 10RM.
 
 <h3>The Brigadier General Carlos Augusto Fecury Sydrião Ferreira (April 29, 1967 – September 8, 2020) was a Brazilian Army officer who served as head of the Army Intelligence Center (CIE) and died at age 53 in Brasília.</h3>
 
