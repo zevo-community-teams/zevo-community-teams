@@ -1,6 +1,6 @@
 ---
 
-### Pelo jeito ne, no pais do ku de bol o negocio e andar com KU NA mao ao extremo da historia da questao. Eu nunca ouvi falar que artilheiro fosse goleiro, mas tenho goleiro que gosta de se ariscar ate o que grita fogo no palheiro para se safar.
+### Pelo jeito ne, no pais do ku de bol o negocio e andar com KU NA mao ao extremo da historia da questao. Eu nunca ouvi falar que artilheiro fosse goleiro, mas tem goleiro que gosta de se ariscar ate que grita fogo no palheiro para se safar.
 
 ---
 
