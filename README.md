@@ -1,4 +1,4 @@
-<h3> Lieutenant General Gion Sheider, 48, joined the Brazilian Defense Forces (BDF) in 1998, serving voluntarily as an infantry man in the 10th Military Region ("10 Cia Cmdo/23BC/52CT")". Throughout his career, Gion held various positions of trust, as assigned by his commanders within the High Command. Later, he moved to Israel after marrying an Israeli citizen of Portuguese descent named Rivka Zaita, with whom he has two children. </h3>
+<h3> Lieutenant General Gion Sheider, 48, joined the Brazilian Defense Forces (BDF) in 1998, serving voluntarily as an infantry man in the 10th Military Region (Cia Cmdo 10RM/23BC/52CT)". Throughout his career, Gion held various positions of trust, as assigned by his commanders within the High Command. Later, he moved to Israel after marrying an Israeli citizen of Portuguese descent named Rivka Zaita, with whom he has two children. </h3>
 
 ---
 
