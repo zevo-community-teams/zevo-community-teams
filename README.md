@@ -1,14 +1,10 @@
 ---
 
-### Pelo jeito ne, no pais do ku de bol o negocio e andar com KU NA mao ao extremo da historia da questao. Eu nunca ouvi falar que artilheiro fosse goleiro, mas tem goleiro que gosta de se ariscar ate que grita fogo no palheiro para se safar.
-
----
-
-<img width="1200" height="630" alt="74564__96805c78f7d001846718299d4d7ae6d1" src="https://github.com/user-attachments/assets/ede425f3-a290-46fd-8d9c-5967ebaf8297" />
-
----
-
 ## The Royal Dava Forces - The Black Berets Air Forces Commandos
+
+---
+
+## Ainda bem desde que surgiu papai Adonai disse que tinha cabeca era para pensar eu o meu negocio era ser muito rico e pilotar. hahahaha tenta me capturar, ahahahah
 
 ---
 
