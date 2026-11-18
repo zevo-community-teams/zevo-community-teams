@@ -4,7 +4,7 @@
 
 ---
 
-<h3>Davada Beni Elohim (Trust in the Force Adonai, Davada) </h3>
+<h3>Davada Beni Elohim (Davada, Trust in the Force "Adonai") </h3>
 
 ---
 
