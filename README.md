@@ -4,6 +4,18 @@
 
 ---
 
+<h3>The Contradictions About Me: Davada Beni Elohim (LUKE SKY WALKER) </h3>
+
+---
+
+### Luke Skywalker Destroys the Death Star
+
+---
+
+https://www.youtube.com/watch?v=_J3EIFYsRVs
+
+---
+
 ## Thank Adonai Elohim! Ever since I came into this world, my dear father, Adonai, always said that I had a mind for thinking and that my destiny was to become very wealthy and pilot military space ships. Hahahaha, let’s see who can catch up with me! Hahahaha!
 
 ---
