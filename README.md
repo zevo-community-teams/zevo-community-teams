@@ -1,5 +1,7 @@
 ## Sera que eles aprederam pular fugeira de sao gemedeira da barotela
 
+---
+
 ### Eles esquceram da tradicao XEQUE DAVAN EL MERAM (DAVADA Zaita ELOHIM)
 
 ---
