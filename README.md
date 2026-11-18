@@ -2,6 +2,14 @@
 
 ---
 
+### Влад, мы вошли на манеж.
+
+---
+
+<img width="832" height="448" alt="z27Rhnwe" src="https://github.com/user-attachments/assets/014ed387-c5c4-4062-82f6-ee60b4266c01" />
+
+---
+
 <img width="832" height="448" alt="cMSA_qBF" src="https://github.com/user-attachments/assets/eebd91a3-f572-4fe9-8d14-84f6c564cf6c" />
 
 ---
