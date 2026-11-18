@@ -2,14 +2,6 @@
 
 ---
 
-<h3>Davada Beni Elohim and Alaia Beni Tisiba: Davada, Trust in the Force "Adonai Elohim". </h3>
-
----
-
-## Thank Adonai Elohim! Ever since I came into this world, my dear father, Adonai, always said that I had a mind for thinking and that my destiny was to become very wealthy and pilot military space ships. Hahahaha, let’s see who can catch up with me! Hahahaha!
-
----
-
 <img width="832" height="448" alt="b6BFGijx" src="https://github.com/user-attachments/assets/1f07155f-ed51-4c05-8ab7-cbe3f13d4f2e" />
 
 ---
