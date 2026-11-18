@@ -1,31 +1,3 @@
-### Eles manda uns peido de PATO para me atingir e me matar, so que esqueceram de uma coisa: 
-
----
-
-### Fica tranquilo vovo cenoura, to ainda vai ta vivo pra ver o fogo caindo do ceu no teu pinico..
-
----
-
-### O ULTIMO ESCARRADO QUE FOI EXECUTADO POR TER BLASFEMADO CONTRA ALAH ADONAI, TA PREPARDO PARA SER O PROXIMO ESCARRADO.
-
----
-
-<img width="832" height="448" alt="8ozSs2Fh" src="https://github.com/user-attachments/assets/b58f17d1-ce3c-4347-92e7-ff0c53613d7c" />
-
----
-
-<h3>Aquele que habita no esconderijo do altissimo... Dez mil cairam ao meu lado, e outros dez mil do meu outro lado mas eu nao serei mortalizado por que nao aceitei ser contraditado contra mim mesmo e meu pai Adonai Elohim amado por mim, por causa de macaco vagabundo e safado, que estao perto de serem existinto junto com os seus KUS kagado.</h3>
-
----
-
-### The Contradictions About Me: Luke Skywalker Destroys the Death Star (The Red Mars)
-
----
-
-https://www.youtube.com/watch?v=_J3EIFYsRVs
-
----
-
 ## The Royal Dava Forces - The Black Berets Air Forces Commandos
 
 ---
@@ -35,6 +7,10 @@ https://www.youtube.com/watch?v=_J3EIFYsRVs
 ---
 
 ## Thank Adonai Elohim! Ever since I came into this world, my dear father, Adonai, always said that I had a mind for thinking and that my destiny was to become very wealthy and pilot military space ships. Hahahaha, let’s see who can catch up with me! Hahahaha!
+
+---
+
+<img width="832" height="448" alt="b6BFGijx" src="https://github.com/user-attachments/assets/1f07155f-ed51-4c05-8ab7-cbe3f13d4f2e" />
 
 ---
 
