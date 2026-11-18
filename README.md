@@ -1,6 +1,6 @@
 ### Eles manda uns peido de PATO para me atingir e me matar, so que esqueceram de uma coisa:
 
-<h3>Aquele que habita no esconderijo do altissimo... Dez mil cairam ao meu lado, e outros dez mil do meu outro lado mas eu nao serei mortalizado por que nao aceitei ser contraditado contra mim mesmo e meu pai Adonai Elohim amado por mim, por causa de macaco vagabundo e safado, esta perto de ser extintado junto com os seus KUS kagado</h3>
+<h3>Aquele que habita no esconderijo do altissimo... Dez mil cairam ao meu lado, e outros dez mil do meu outro lado mas eu nao serei mortalizado por que nao aceitei ser contraditado contra mim mesmo e meu pai Adonai Elohim amado por mim, por causa de macaco vagabundo e safado, que estao perto de serem existinto junto com os seus KUS kagado.</h3>
 
 ---
 
