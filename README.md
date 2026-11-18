@@ -8,16 +8,13 @@
 
 ---
 
+<img width="832" height="448" alt="D85vyOiI" src="https://github.com/user-attachments/assets/e598217c-2f61-47f2-a5ee-97fee92c62c8" />
+
+---
+
 <img width="832" height="448" alt="RIsIwC_U" src="https://github.com/user-attachments/assets/389d200a-ff80-4d8a-87a6-15d0645a6b49" />
 
 ---
-
-### Hebron, my hometown—if I should forget you, O Yerusalaim El-Hasavi, may fire consume my palate...
-
----
-
-<img width="832" height="448" alt="D85vyOiI" src="https://github.com/user-attachments/assets/e598217c-2f61-47f2-a5ee-97fee92c62c8" />
-
 
 ## The Royal Dava Forces - The Green Berets Marines Commandos
 
