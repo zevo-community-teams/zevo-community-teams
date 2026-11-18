@@ -4,7 +4,7 @@
 
 ---
 
-## Thank Adonai Elohim! Ever since I came into this world, my dear father, Adonai, always said that I had a mind for thinking and that my destiny was to become very wealthy and pilot military galactic ships. Hahahaha, let’s see who can catch up with me! Hahahaha!
+## Thank Adonai Elohim! Ever since I came into this world, my dear father, Adonai, always said that I had a mind for thinking and that my destiny was to become very wealthy and pilot military space ships. Hahahaha, let’s see who can catch up with me! Hahahaha!
 
 ---
 
