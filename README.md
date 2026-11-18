@@ -1,4 +1,4 @@
-## Lieutenant General Gion Sheider, a 48-year-old man.
+## Lieutenant General Gion Sheider, a 48-year-old man, First Former On Brazilian Army
 
 <img width="832" height="448" alt="HDmDdL10" src="https://github.com/user-attachments/assets/5daba18e-3bef-4145-b2eb-cbdfb2591dca" />
 
