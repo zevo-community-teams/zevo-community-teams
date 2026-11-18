@@ -1,3 +1,11 @@
+## I would like to send my regards to my dear friend, General Laranjeira—a true *carioca* (native of Rio)—and his distinguished family. I served alongside him when he was the Commander of the 10th Military Region (10ª RM). I am currently in Israel, but I often think of my friends and their esteemed family members.
+
+---
+
+<img width="399" height="501" alt="imafges" src="https://github.com/user-attachments/assets/c86cd862-5d7a-406c-9cbf-9d047a9842b2" />
+
+---
+
 ## I would like to send my regards to the family of my dear friend Sidriao, with whom I served when he was a captain in the 10th Military Region (10ª RM). I am currently in Israel, but I always remember my friends and their distinguished family members.
 
 ---
