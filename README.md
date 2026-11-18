@@ -4,7 +4,7 @@
 
 ---
 
-## Ainda bem desde que surgiu papai Adonai disse que tinha cabeca era para pensar eu o meu negocio era ser muito rico e pilotar. hahahaha tenta me capturar, ahahahah
+## Thank Adonai Elohim! Ever since I came into this world, my dear father, Adonai, always said that I had a mind for thinking and that my destiny was to become very wealthy and pilot military galactic ships. Hahahaha, let’s see who can catch up with me! Hahahaha!
 
 ---
 
