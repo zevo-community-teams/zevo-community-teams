@@ -1,3 +1,7 @@
+## Lieutenant General Gion Sheider, a 48-year-old man.
+
+<img width="832" height="448" alt="HDmDdL10" src="https://github.com/user-attachments/assets/5daba18e-3bef-4145-b2eb-cbdfb2591dca" />
+
 ## I would like to send my regards to my dear friend, General Laranjeira—a true *carioca* (native of Rio)—and his distinguished family. I served alongside him when he was the Commander of the 10th Military Region (10ª RM). I am currently in Israel, but I often think of my friends and their esteemed family members.
 
 ---
