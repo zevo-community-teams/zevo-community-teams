@@ -14,6 +14,10 @@
 
 ---
 
+<img width="1298" height="359" alt="davada-hoeme" src="https://github.com/user-attachments/assets/cb877675-7453-42bf-890f-fe716fe0bab0" />
+
+---
+
 ## The Royal Dava Forces - The Black Berets Air Forces Commandos
 
 ---
