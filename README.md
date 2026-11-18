@@ -1,5 +1,11 @@
 ## Lieutenant General Gion Sheider, a 48-year-old man, First Former On Brazilian Army
 
+---
+
+<h3> Lieutenant General Gion Sheider, 48, joined the Brazilian Defense Forces (BDF) in 1998, serving voluntarily as an infantryman in the 10th Military Region. Throughout his career, Gion held various positions of trust, as assigned by his commanders within the High Command. Later, he moved to Israel after marrying an Israeli citizen of Portuguese descent named Rivka Zaita, with whom he has two children. </h3>
+
+---
+
 <img width="832" height="448" alt="HDmDdL10" src="https://github.com/user-attachments/assets/5daba18e-3bef-4145-b2eb-cbdfb2591dca" />
 
 ## I would like to send my regards to my dear friend, General Laranjeira—a true *carioca* (native of Rio)—and his distinguished family. I served alongside him when he was the Commander of the 10th Military Region (10ª RM). I am currently in Israel, but I often think of my friends and their esteemed family members.
