@@ -10,7 +10,7 @@
 
 ---
 
-### O pais do KU Bol, a terra de formoza que não é ardoza, passei e nao apareceu ninguezim...
+### O pais do KU de Bol, a terra de formoza que não é ardoza, passei e nao apareceu ninguezim...
 
 <img width="832" height="448" alt="RIsIwC_U" src="https://github.com/user-attachments/assets/389d200a-ff80-4d8a-87a6-15d0645a6b49" />
 
