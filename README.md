@@ -1,8 +1,6 @@
-## Senhores meus comandos estamos para entrar numa aventura militar a mais esperada de todos os tempos entre nos o defensores do universos e os filhos de satanas, que Adonai vos abencoes e vos guarde, missao dada é missão cumprida.
+## Sera que eles sabem o que diabos e isso ou para que serve aquilo, no ku de bol
 
----
-
-## Vamos avancar nos linhas de combate aproximado contra o inimigo que dizem que somos fraquinho, Palavras minhas do Seu General Supremo Davada Beni Elohim. 
+<img width="1200" height="630" alt="74564__96805c78f7d001846718299d4d7ae6d1" src="https://github.com/user-attachments/assets/ede425f3-a290-46fd-8d9c-5967ebaf8297" />
 
 ---
 
