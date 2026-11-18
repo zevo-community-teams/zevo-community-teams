@@ -1,4 +1,4 @@
-## Gostaria enviar saudacoes ao familia do meu prezado amigo sidriao a qual servimos junto enquanto ele era Capitao na 10RM, estou em Israel mas sempre lembro do meus amigos.
+## I would like to send my regards to the family of my dear friend Sidriao, with whom I served when he was a captain in the 10th Military Region (10ª RM). I am currently in Israel, but I always remember my friends and their distinguished family members.
 
 ---
 
