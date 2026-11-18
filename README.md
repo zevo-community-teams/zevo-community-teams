@@ -1,7 +1,3 @@
-## The Royal Dava Forces - The Black Berets Air Forces Commandos
-
----
-
 ### Влад, мы вошли на манеж.
 
 ---
@@ -27,6 +23,10 @@ https://www.youtube.com/watch?v=9LtaOKsbhBk&list=RD9LtaOKsbhBk&start_radio=1
 ---
 
 https://youtu.be/L7_9qrrWWp0?list=RDL7_9qrrWWp0
+
+---
+
+## The Royal Dava Forces - The Black Berets Air Forces Commandos
 
 ---
 
