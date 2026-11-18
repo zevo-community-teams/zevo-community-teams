@@ -1,6 +1,6 @@
 ---
 
-### Pelo jeito ne, no pais ku de bol o negocio e andar com KU NA mao ao extremo da historia da questao.
+### Pelo jeito ne, no pais do ku de bol o negocio e andar com KU NA mao ao extremo da historia da questao.
 
 ---
 
