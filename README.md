@@ -4,7 +4,7 @@
 
 ---
 
-<h3>The Contradictions About Me: Davada Beni Elohim (LUKE SKY WALKER) </h3>
+<h3>The Contradictions About Me: Davada Beni Elohim (Trust in the Force Adonai, Davada) </h3>
 
 ---
 
