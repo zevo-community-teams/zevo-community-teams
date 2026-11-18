@@ -6,9 +6,6 @@
 
 ---
 
-<img width="640" height="359" alt="imagdsdes" src="https://github.com/user-attachments/assets/c0d4d24e-c80c-4d38-9d3f-2718b37d0b30" />
-
-
 ## Davada Zaita Home Edition (Yerusalaim El Hasav) on Hebrew Coffee Break
 
 ---
