@@ -1,6 +1,14 @@
 ## Sera que eles aprederam pular fugeira de sao gemedeira da barotela
 
 ---
+
+ Naz Dej - Allah Allah Ya Baba 2022 (Official Music Video) 
+
+---
+
+https://youtu.be/-w3l5Y2S37w
+
+---
 ###  اغنية حكيم حلاوة روح - كاملة - من فيلم حلاوة روح - هيفاء وهبي
 
 https://youtu.be/Hd4zxdwr_X0?list=RDHd4zxdwr_X0
