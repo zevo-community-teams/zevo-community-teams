@@ -8,7 +8,7 @@
 
 ---
 
-### The Contradictions About Me:  Luke Skywalker Destroys the Death Star
+### The Contradictions About Me: Luke Skywalker Destroys the Death Star (The Red Mars)
 
 ---
 
