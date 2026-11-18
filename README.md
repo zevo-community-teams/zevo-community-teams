@@ -1,3 +1,11 @@
+## Hebrew Coffee on Davada Zaita Home Edition
+
+---
+
+<img width="1299" height="349" alt="davadahome" src="https://github.com/user-attachments/assets/07324593-ee95-44b5-96d3-970b13811469" />
+
+---
+
 ## The Royal Dava Forces - The Black Berets Air Forces Commandos
 
 ---
