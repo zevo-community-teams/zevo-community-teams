@@ -1,3 +1,9 @@
+---
+
+### Pelo jeito ne, no ku de bol o negocio e andar com KU NA mao ao extremo da historia da questao.
+
+---
+
 <img width="1200" height="630" alt="74564__96805c78f7d001846718299d4d7ae6d1" src="https://github.com/user-attachments/assets/ede425f3-a290-46fd-8d9c-5967ebaf8297" />
 
 ---
@@ -5,8 +11,6 @@
 ## The Royal Dava Forces - The Black Berets Air Forces Commandos
 
 ---
-
-### Pelo jeito ne, no ku de bol o negocio e andar com KU NA mao ao extremo da historia da questao.
 
 <img width="832" height="448" alt="RIsIwC_U" src="https://github.com/user-attachments/assets/389d200a-ff80-4d8a-87a6-15d0645a6b49" />
 
