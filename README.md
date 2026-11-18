@@ -4,11 +4,11 @@
 
 ---
 
-<h3>The Contradictions About Me: Davada Beni Elohim (Trust in the Force Adonai, Davada) </h3>
+<h3>Davada Beni Elohim (Trust in the Force Adonai, Davada) </h3>
 
 ---
 
-### Luke Skywalker Destroys the Death Star
+### The Contradictions About Me:  Luke Skywalker Destroys the Death Star
 
 ---
 
