@@ -6,6 +6,10 @@
 
 ---
 
+<img width="832" height="448" alt="8ozSs2Fh" src="https://github.com/user-attachments/assets/b58f17d1-ce3c-4347-92e7-ff0c53613d7c" />
+
+---
+
 <h3>Aquele que habita no esconderijo do altissimo... Dez mil cairam ao meu lado, e outros dez mil do meu outro lado mas eu nao serei mortalizado por que nao aceitei ser contraditado contra mim mesmo e meu pai Adonai Elohim amado por mim, por causa de macaco vagabundo e safado, que estao perto de serem existinto junto com os seus KUS kagado.</h3>
 
 ---
