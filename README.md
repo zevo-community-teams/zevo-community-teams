@@ -6,6 +6,10 @@
 
 ---
 
+### O ULTIMO ESCARRADO QUE FOI EXECUTADO POR TER BLASFEMADO CONTRA ALAH ADONAI, TA PREPARDO PARA SER O PROXIMO ESCARRADO.
+
+---
+
 <img width="832" height="448" alt="8ozSs2Fh" src="https://github.com/user-attachments/assets/b58f17d1-ce3c-4347-92e7-ff0c53613d7c" />
 
 ---
