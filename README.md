@@ -1,9 +1,7 @@
 ## Sera que eles aprederam pular fugeira de sao gemedeira da barotela
 
 ---
-
 ###  اغنية حكيم حلاوة روح - كاملة - من فيلم حلاوة روح - هيفاء وهبي
-
 
 https://youtu.be/Hd4zxdwr_X0?list=RDHd4zxdwr_X0
 
@@ -14,6 +12,14 @@ https://youtu.be/Hd4zxdwr_X0?list=RDHd4zxdwr_X0
  ---
 
 https://youtu.be/8HdGKMQZ2Cc?list=RD8HdGKMQZ2Cc
+
+---
+
+## Juliana & Bonde do forró - Ao Vivo em Caruaru - Pot-Pourri Luiz Gonzaga 
+
+---
+
+https://www.youtube.com/watch?v=GJ1MpTJl9kc&list=RDGJ1MpTJl9kc&start_radio=1
 
 ---
 
