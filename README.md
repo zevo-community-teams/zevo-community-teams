@@ -1,4 +1,4 @@
-## Na prusia o pessoa usa isso abaixo para lancar confetes no diabo do quiabo
+## Rapaz desde que eu me endendo por persona grata nunca vi militao ir sem sombrinha a farra
 
 <img width="1200" height="630" alt="74564__96805c78f7d001846718299d4d7ae6d1" src="https://github.com/user-attachments/assets/ede425f3-a290-46fd-8d9c-5967ebaf8297" />
 
