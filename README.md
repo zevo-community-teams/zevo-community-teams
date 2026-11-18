@@ -1,4 +1,4 @@
-## Sera que King Katia sabe o que isso abaixo e para que serve na formosa que na cama tem ser generosa
+## Na prusia o pessoa usa isso abaixo para lancar confetes no diabo do quiabo
 
 <img width="1200" height="630" alt="74564__96805c78f7d001846718299d4d7ae6d1" src="https://github.com/user-attachments/assets/ede425f3-a290-46fd-8d9c-5967ebaf8297" />
 
