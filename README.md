@@ -4,7 +4,7 @@
 
 ---
 
-<h3>Davada Beni Elohim and Alaia Beni Tisiba: Davada, Trust in the Force "Adonai". </h3>
+<h3>Davada Beni Elohim and Alaia Beni Tisiba: Davada, Trust in the Force "Adonai Elohim". </h3>
 
 ---
 
