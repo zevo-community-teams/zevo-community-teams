@@ -22,6 +22,14 @@ https://www.youtube.com/watch?v=9LtaOKsbhBk&list=RD9LtaOKsbhBk&start_radio=1
 
 ---
 
+## Na Private. Dua Lipa | (Live Performance) Moscow 2017 [Full Concert] HD
+
+---
+
+https://youtu.be/L7_9qrrWWp0?list=RDL7_9qrrWWp0
+
+---
+
 <img width="832" height="448" alt="z27Rhnwe" src="https://github.com/user-attachments/assets/014ed387-c5c4-4062-82f6-ee60b4266c01" />
 
 ---
