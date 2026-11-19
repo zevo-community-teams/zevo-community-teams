@@ -2,6 +2,14 @@
 
 ---
 
+<h3> **Evolutia Technion Management — CEO and Director Gion Sheider**
+
+At the helm of Evolutia Technion on Russian and China and Israel, CEO and Director Gion Sheider brings a focused, assured presence to the defense enterprise. At 48, he pairs youthful ambition with a measured leadership style, guiding the company’s strategic direction and its work in military-defense technology.
+
+Of Russian and Spanish descent, Sheider In the boardroom, he is portrayed as composed and decisive—setting the agenda, aligning the advisory board, and keeping Evolutia Technion’s mission firmly in view. </h3>
+
+---
+
 **ATTENTION HERE: DEFINE DEBUG VGA DIAGNOSTICS CHARACTERS CHECKPOINTS MACROS FOR SEE ON QEMU/KVM WINDOWS**
 
 ---
