@@ -4,6 +4,13 @@
 
 <img width="832" height="448" alt="9Jv_O5l7" src="https://github.com/user-attachments/assets/85b05d87-15cf-4517-aeb7-4aaf95c85da6" />
 
+## Substitute Lieutenant Colonel Zeruth Barach - The Dava Forces Israel
+
+---
+
+
+<img width="832" height="448" alt="8ebMqI2l" src="https://github.com/user-attachments/assets/550faeec-8a8c-44fe-8276-edafbb3e7701" />
+
 ---
 
 <img width="1299" height="349" alt="davada-home" src="https://github.com/user-attachments/assets/ca6aa976-b4d7-4a8d-bd87-f44b156719ea" />
