@@ -14,7 +14,7 @@
 
 ---
 
-## On Flag written Davada Zaita
+## On Flag Written TORAH Determination for Melech Hamashia Davada Beni Zaita/Elohim
 
 ---
 
