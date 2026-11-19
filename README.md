@@ -4,6 +4,12 @@
 
 <img width="832" height="448" alt="9Jv_O5l7" src="https://github.com/user-attachments/assets/85b05d87-15cf-4517-aeb7-4aaf95c85da6" />
 
+## Chief of Staff Doron Ashkenazi - The Dava Forces Israel
+
+<img width="832" height="448" alt="j4VhTpxy" src="https://github.com/user-attachments/assets/364d11d4-c0d2-4d6c-b573-4f3f147d48c2" />
+
+---
+
 ## Substitute Lieutenant Colonel Zeruth Barach - The Dava Forces Israel
 
 ---
