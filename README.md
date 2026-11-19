@@ -6,7 +6,7 @@
 
 ---
 
-## Chief of Staff Doron Ashkenazi - The Dava Forces Israel
+## Chief of Staff Dorovan Ashkenazi - The Dava Forces Israel
 
 ---
 
