@@ -6,15 +6,15 @@
 
 ---
 
-<h3>The Interim Military Government of Israel until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command.</h3>
-
----
-
-<h3>Adonai Tzevaot chose to appoint Lieutenant General Benny Gantz as Minister of Foreign Affairs for the new interim government.</h3>
+<h3>The Adonai Tzevaot agreed in his TORAH determination to appoint Lieutenant General Gion Sheider Zaita as Commander Israel Dava Forces until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command.</h3>
 
 ---
 
 <img width="374" height="500" alt="whatsapp-image-2017-11-07-at-114707" src="https://github.com/user-attachments/assets/f921c81a-461a-487d-aa38-99a7331cecff" />
+
+---
+
+<h3>The Adonai Tzevaot chose to appoint Lieutenant General Benny Gantz as Minister of Foreign Affairs until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command.</h3>
 
 ---
 
