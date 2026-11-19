@@ -1,3 +1,7 @@
+<img width="832" height="448" alt="1p-RVxXY" src="https://github.com/user-attachments/assets/2729afb3-84f1-4079-b214-e348aa12ed8b" />
+
+---
+
 **ATTENTION HERE: DEFINE DEBUG VGA DIAGNOSTICS CHARACTERS CHECKPOINTS MACROS FOR SEE ON QEMU/KVM WINDOWS**
 
 ---
