@@ -14,7 +14,7 @@
 
 ---
 
-## Gen. Inf Bentz Zion, Commander of the 14th Parachute Infantry Division - The Dava Forces Israel
+## Gen. Div Inf Bentz Zion, 14th Parachute Infantry Division - The Dava Forces Israel
 
 ---
 
