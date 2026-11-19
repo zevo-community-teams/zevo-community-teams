@@ -8,8 +8,6 @@
 
 At the helm of Evolutia Techion on Russian and China and Israel, Director Gion Sheider brings a focused, assured presence to the defense enterprise. At 48 Years, he pairs youthful ambition with a measured leadership style, guiding the company’s strategic direction and its work in military defense technology.
 
----
-
 Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as composed and decisive setting the agenda, aligning the advisory board, and keeping Evolutia Techion’s mission firmly in view. </h3>
 
 ---
