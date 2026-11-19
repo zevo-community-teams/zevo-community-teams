@@ -10,7 +10,7 @@ At the helm of Evolutia Techion on Russian and China and Israel, Director Gion S
 
 ---
 
-Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as composed and decisive—setting the agenda, aligning the advisory board, and keeping Evolutia Techion’s mission firmly in view. </h3>
+Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as composed and decisive setting the agenda, aligning the advisory board, and keeping Evolutia Techion’s mission firmly in view. </h3>
 
 ---
 
