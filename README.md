@@ -6,7 +6,7 @@
 
 ---
 
-<h3>The Adonai Tzevaot agreed in his TORAH determination to appoint Lieutenant General Gion Sheider Zaita as Commander Israel Dava Forces until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command.</h3>
+<h3>The Adonai Tzevaot agreed in his TORAH determination to appoint Lieutenant General Gion Sheider Zaita as Commander Israel Dava Forces (IDF) until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command.</h3>
 
 ---
 
@@ -14,7 +14,7 @@
 
 ---
 
-<h3>The Adonai Tzevaot agreed in his TORAH determination to appoint Lieutenant General Benny Gantz as Minister of Foreign Affairs until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command.</h3>
+<h3>The Adonai Tzevaot agreed in his TORAH determination to appoint Lieutenant General Benny Gantz, Israel Defense Forces (IDF) as Minister of Foreign Affairs until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command.</h3>
 
 ---
 
