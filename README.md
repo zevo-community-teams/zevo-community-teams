@@ -6,6 +6,14 @@
 
 ---
 
+## Col Inf. Tsadot Levin, Military Orders - The Dava Forces Israel
+
+---
+
+<img width="832" height="448" alt="AukggUHz" src="https://github.com/user-attachments/assets/9121c53f-3284-4be9-8640-b4d77e7242c8" />
+
+---
+
 ## Chief of Staff Dorovan Ashkenazi - The Dava Forces Israel
 
 ---
