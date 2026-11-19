@@ -1,4 +1,4 @@
-## Cmt Lieutenant General Gion Sheider Zaita - The Dava Forces Israel
+## Cmt Lieutenant General Gion Sheider Zaita - The Forces Dava Israel
 
 ---
 
