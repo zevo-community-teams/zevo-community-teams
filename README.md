@@ -6,7 +6,7 @@
 
 ---
 
-<h3>The Interim Military Government of Israel until Melech Hamashia Davada Beni Zaita and Cohen Hagadol Alaia Beni Tshiba  assume central command.</h3>
+<h3>The Interim Military Government of Israel until Melech Hamashia Davada Beni Zaita and Cohen Hagadol Alaia Beni Tshiba assume central command.</h3>
 
 ---
 
