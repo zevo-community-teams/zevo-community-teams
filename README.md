@@ -2,7 +2,7 @@
 
 ---
 
-<h3> **Evolutia Techion — Director by Gion Sheider Zaita**
+<h3> **Evolutia Techion — Director by Hebrew Gion Sheider Zaita**
 
 ---
 
