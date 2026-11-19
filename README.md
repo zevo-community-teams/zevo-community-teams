@@ -18,6 +18,10 @@
 
 ---
 
+https://www.idf.il/en/mini-sites/past-chiefs-of-staff/lt-gen-benny-gantz-2011-2015/
+
+---
+
 **ATTENTION HERE: DEFINE DEBUG VGA DIAGNOSTICS CHARACTERS CHECKPOINTS MACROS FOR SEE ON QEMU/KVM WINDOWS**
 
 ---
