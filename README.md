@@ -6,6 +6,10 @@
 
 ---
 
+<h3>New interim government of Israel until Davada Beni Zaita and Alaia Beni Tshiba take command as Melech Hamashia and Cohen Hagadol</h3>h3>
+
+---
+
 **ATTENTION HERE: DEFINE DEBUG VGA DIAGNOSTICS CHARACTERS CHECKPOINTS MACROS FOR SEE ON QEMU/KVM WINDOWS**
 
 ---
