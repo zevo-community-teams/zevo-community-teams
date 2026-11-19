@@ -22,6 +22,12 @@
 
 ---
 
+## Col. Inf Samuel Gantz, 14th Parachute Infantry Division - The Dava Forces Israel
+
+<img width="832" height="448" alt="A10VRRYH" src="https://github.com/user-attachments/assets/b712df11-dcd8-4284-84ca-496ca21aaf53" />
+
+---
+
 ## Substitute Lieutenant Colonel Zeruth Barach - The Dava Forces Israel
 
 ---
