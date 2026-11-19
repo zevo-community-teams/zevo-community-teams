@@ -14,7 +14,7 @@
 
 ---
 
-### On Flag Written TORAH Determination for Melech Hamashia Davada Beni Zaita/Elohim. "The King David ancestry"
+### On Flag Written TORAH Determination for Melech Hamashia Davada Beni Zaita/Elohim. "The King David Ancestry"
 
 ---
 
