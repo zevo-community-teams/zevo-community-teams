@@ -6,10 +6,6 @@
 
 ---
 
-<img width="832" height="448" alt="HDmDdL10" src="https://github.com/user-attachments/assets/5daba18e-3bef-4145-b2eb-cbdfb2591dca" />
-
----
-
 <img width="1299" height="349" alt="davada-home" src="https://github.com/user-attachments/assets/ca6aa976-b4d7-4a8d-bd87-f44b156719ea" />
 
 ---
