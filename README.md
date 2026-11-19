@@ -14,7 +14,7 @@
 
 ---
 
-<h3>The Adonai Tzevaot agreed in his TORAH determination to appoint Lieutenant General Benny Gantz, Israel Defense Forces (IDF) as Minister of Foreign Affairs until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command.</h3>
+<h3>The Adonai Tzevaot agreed in his Torah determination to appoint Lieutenant General Benny Gantz, Israel Defense Forces (IDF) as Minister of Foreign Affairs until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command.</h3>
 
 ---
 
@@ -22,7 +22,7 @@ https://www.idf.il/en/mini-sites/past-chiefs-of-staff/lt-gen-benny-gantz-2011-20
 
 ---
 
-<h3>The Allah Adonai Tzevaot, anchored in His commitment to the Torah, decides to entrust the popularly elected government with the task of appointing the other ministries, until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command. </h3>
+<h3>The Allah Adonai Tzevaot, anchored in His Torah determination, decides to entrust the government elected by the people with the task of appointing the remaining ministries, until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command. </h3>
 
 ---
 
