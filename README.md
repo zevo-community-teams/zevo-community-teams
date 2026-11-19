@@ -10,6 +10,14 @@
 
 ---
 
+<h3>The Adonai Tzevaot agreed in his TORAH determination to appoint Israel Defense Forces (IDF), remitter Israel Dava Forces (IDF) until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command.</h3>
+
+---
+
+<img width="554" height="554" alt="imasges" src="https://github.com/user-attachments/assets/cd6c866e-f676-4b5a-b2e0-a06204501ebf" />
+
+---
+
 <img width="374" height="500" alt="whatsapp-image-2017-11-07-at-114707" src="https://github.com/user-attachments/assets/f921c81a-461a-487d-aa38-99a7331cecff" />
 
 ---
