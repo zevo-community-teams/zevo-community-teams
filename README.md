@@ -6,7 +6,7 @@
 
 ---
 
-<h3>New interim government of Israel until Davada Beni Zaita and Alaia Beni Tshiba take command as Melech Hamashia and Cohen Hagadol</h3>h3>
+<h3>New Interim Government of Israel until Davada Beni Zaita and Alaia Beni Tshiba take command as Melech Hamashia and Cohen Hagadol</h3>h3>
 
 ---
 
