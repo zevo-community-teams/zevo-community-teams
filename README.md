@@ -22,7 +22,7 @@ https://www.idf.il/en/mini-sites/past-chiefs-of-staff/lt-gen-benny-gantz-2011-20
 
 ---
 
-<h3>The Adonai Tzevaot, anchored in His commitment to the Torah, decides to entrust the popularly elected government with the task of appointing the other ministries, until Melech HaMashiach—David, son of Zaita—and the Kohen HaGadol—Alaia, son of Tshiba—assume central command. </h3>
+<h3>The Adonai Tzevaot, anchored in His commitment to the Torah, decides to entrust the popularly elected government with the task of appointing the other ministries, until Melech Hamashia, Davada Beni Zaita and Cohen Hagadol, Alaia Beni Tshiba assume central command. </h3>
 
 ---
 
