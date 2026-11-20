@@ -12,6 +12,14 @@ Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as com
 
 ---
 
+## on China expo launches **AVA - THE REVOLUTION**, The New SUV Prototype 
+
+---
+
+<img width="832" height="448" alt="auoWggvL" src="https://github.com/user-attachments/assets/17fe02e9-2b9b-4353-9052-74d6fc68fe86" />
+
+---
+
 **ATTENTION HERE: DEFINE DEBUG VGA DIAGNOSTICS CHARACTERS CHECKPOINTS MACROS FOR SEE ON QEMU/KVM WINDOWS**
 
 ---
