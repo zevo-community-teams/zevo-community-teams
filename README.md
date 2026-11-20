@@ -24,6 +24,12 @@ Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as com
 
 ---
 
+## on China expo launches **AVA REAL - THE REVOLUTION**, The New Prototype 
+
+<img width="832" height="448" alt="OEG7WqY4" src="https://github.com/user-attachments/assets/b84df2fb-4afe-4d73-9a6b-bcc4b5130f86" />
+
+---
+
 ## on China expo launches **AVA SEAL - THE REVOLUTION**, The New Prototype 
 
 ---
