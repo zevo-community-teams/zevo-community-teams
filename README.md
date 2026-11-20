@@ -30,6 +30,10 @@ Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as com
 
 ---
 
+<img width="832" height="448" alt="G1ymx-Da" src="https://github.com/user-attachments/assets/605bf54b-744b-4d71-9438-4dc76ca95e6b" />
+
+---
+
 ## on China expo launches **AVA SEAL - THE REVOLUTION**, The New Prototype 
 
 ---
