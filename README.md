@@ -2,7 +2,7 @@
 
 ---
 
-## Today is the Day of Yellow, White, and Black Humans...
+## Today is a day of universal awareness of Yellow, White, and Black Humans...
 
 ---
 
