@@ -1,4 +1,4 @@
-## Lieutenant General Infantry Gion Sheider Zaita - Cmt. The Forces Dava Israeli (FDI)
+## Lieutenant General Infantry Gion Sheider Zaita 
 
 ---
 
@@ -6,7 +6,7 @@
 
 ---
 
-<h3>Since they have **KU** such a thing for men in uniform, I’ll deliver the message: Armed conflict involving uniformed personnel: this is why the Minister of Defense should, at the very least, be a retired military officer. If some lowlife targets individuals who are out of uniform non combatants they will be penalized; let that serve as a warning to the devil’s own monkeys. </h3> 
+<h3> Lieutenant General Infantry Gion Sheider Zaita - Commander The Forces Dava Israeli (FDI) Since they have **KU** such a thing for men in uniform, I’ll deliver the message: Armed conflict involving uniformed personnel: this is why the Minister of Defense should, at the very least, be a retired military officer. If some lowlife targets individuals who are out of uniform non combatants they will be penalized; let that serve as a warning to the devil’s own monkeys. </h3> 
 
 ---
 
