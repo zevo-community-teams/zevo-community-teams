@@ -14,7 +14,11 @@ The Some (Tzahal) bum shot at a Russian Vehicle—if they try that with Dava For
 
 ---
 
-The scoundrel (Tzahal), is drug and arms traffickers who ordered fire to be opened on a Russian vehicle—the mastermind behind the operation—was reduced to black dust; black, black, black. The whores and the male prostitutes returned home, eaten up by the vermin.
+The scoundrel (Tzahal), is drug and arms traffickers who ordered fire to be opened on a Russian vehicle—the mastermind behind the operation—was reduced to black dust; black, black, black. The whores and the male prostitutes returned home, eaten up by the vermin. 
+
+---
+
+VAI DE NOVO BEBE, SO PARA VER NO QUE VAI DAR. TENTAR ME CAPTURAR.. HAHAHAHAH
 
 ---
 
