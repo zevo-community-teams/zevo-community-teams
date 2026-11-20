@@ -1,15 +1,3 @@
-<img width="832" height="448" alt="oHqzUxKM" src="https://github.com/user-attachments/assets/85ebddeb-d3ef-4a08-bbf4-9d1dbb1140a5" />
-
----
-
-## Today is a day of universal awareness of Yellow, White, and Black Humans...
-
----
-
-<h3>Today—a day for all—is a moment for the children of Adam and Noah, culminating in this day, *Zaita*, to remember that we were created as elevated beings, destined to combat the incursion of so-called "humanized monkeys." Today, we celebrate and reflect upon the fact that individuals of various complexions—yellow, white, and black—who were created to be elevated, ended up debasing themselves before the invading "monkey": a "gray" entity that infiltrated our midst to recruit traitors and scoundrels to its sordid cause. This entity, along with those who chose to debase themselves in its favor, is now being completely eliminated by our blessed ALLAH ELOHIM TZEVAOT "ADONAI." Therefore, on this day, we must not lend our support to any cause championed by such an invasive and worthless entity—an entity that has enticed various individuals, drawing them into the same accursed ideological bias directed against us in this world. — General, Commander Zion Zaita of the *Dava* Forces in Israel.</h3>
-
----
-
 <img width="832" height="448" alt="1p-RVxXY" src="https://github.com/user-attachments/assets/2729afb3-84f1-4079-b214-e348aa12ed8b" />
 
 ---
