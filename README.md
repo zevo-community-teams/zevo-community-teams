@@ -14,7 +14,7 @@ The Some (Tzahal) bum shot at a Russian Vehicle—if they try that with Dava For
 
 ---
 
-The scoundrel (Tzahal) who fired upon a Russian vehicle—the mastermind behind the action—was reduced to black dust; black, black, black.
+The scoundrel (Tzahal) who ordered fire to be opened on a Russian vehicle—the mastermind behind the operation—was reduced to black dust; black, black, black.
 
 ---
 
