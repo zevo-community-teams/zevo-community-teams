@@ -6,7 +6,7 @@
 
 ---
 
-<h3> Lieutenant General of the Infantry Gion Sheider Zaita – Commander of Dava Forces in Israel, the Israel Defense Forces (IDF). In response to the guerrilla warfare, the IDF (Tzahal) attacked the enemy without any mercy—on "D-Day"—by deploying overwhelming military air power.
+<h3> Lieutenant General of the Infantry Gion Sheider Zaita – Commander of Dava Forces in Israel, the Israel Defense Forces (IDF). In response to the guerrilla warfare, the IDF (Tzahal) attacked the enemy without any mercy—on "D-Day"—utilizing overwhelming military air power; and we are prepared to crush the satanic, devilish state of Israel.
 
 We are not the Israeli armed guerrilla force or the Tzahal, which uses human shields for personal defense, a known guerrilla method that employs tactics of fearless, proxy-based guerrilla warfare, who, in his **RABINUS** books, commands people to go to another city to steal and kill contrary to the **TORAH OF ADONAI**, which says not to murder. Given that such conduct is directed against uniformed personnel, let this serve as a message: armed conflicts involve uniformed military personnel—which is precisely why the Minister of Defense should, at the very least, be a retired military officer. If some civilian scoundrel takes up arms to fight, he is classified as a guerrilla; if he uses civilians in combat, he is a terrorist. Should anyone attack individuals who are neither in uniform, nor guerrillas, nor terrorists, they will be severely punished. Let this serve as a warning to these devils’ monkeys. </h3> 
 
