@@ -6,7 +6,7 @@
 
 ---
 
-<h3> Lieutenant General Infantry Gion Sheider Zaita (Advanced Courses on the Paratroopers, Commandos, and Special forces) – Commander of Dava Forces in Israel, the Israel Defense Forces (IDF). In response to the guerrilla warfare, the IDF (Tzahal) attacked the enemy without any mercy—on "D-Day"—utilizing overwhelming military air power F-14 SQUADRON; and we are prepared to crush the satanic, devilish state of Israel. The Some IDF bum shot at a vehicle—if they try that with Russian or Chinese forces, they’re going to get shot back at, you can be sure of that. If they attack with heavy weaponry, they’ll be met with tear gas and rubber bullets, and if they open fire, they’ll get a taste of lead in the face. </h3>
+<h3> Lieutenant General Infantry Gion Sheider Zaita (Advanced Courses on the Paratroopers, Commandos, and Special forces) – Commander of Dava Forces in Israel, the Israel Defense Forces (IDF). In response to the guerrilla warfare, the IDF (Tzahal) attacked the enemy without any mercy—on "D-Day"—utilizing overwhelming military air power F-14 SQUADRON; and we are prepared to crush the satanic, devilish state of Israel. The Some IDF (Tzahal) bum shot at a vehicle—if they try that with Russian or Chinese forces, they’re going to get shot back at, you can be sure of that. If they attack with heavy weaponry, they’ll be met with tear gas and rubber bullets, and if they open fire, they’ll get a taste of lead in the face. </h3>
 
 ---
 
