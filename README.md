@@ -12,15 +12,17 @@
 
 The Some (Tzahal) bum shot at a Russian Vehicle—if they try that with Dava Forces or Russian or Chinese forces, they’re going to get shot back at, you can be sure of that. If they attack with heavy weaponry, they’ll be met with tear gas and rubber bullets, and if they open fire, they’ll get a taste of lead in the face. 
 
+---
+
+The scoundrel (Tzahal) who fired upon a Russian vehicle—the mastermind behind the action—was reduced to black dust; black, black, black.
+
+---
+
 </h3>
 
 ---
 
 <img width="832" height="448" alt="KhcbUbKu" src="https://github.com/user-attachments/assets/abe06c54-642a-45cd-b310-b4c841cf1ae2" />
-
----
-
-The scoundrel (from the IDF) who fired upon a Russian vehicle—the mastermind behind the action—was reduced to black dust; black, black, black.
 
 ---
 
