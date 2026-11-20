@@ -12,7 +12,15 @@ Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as com
 
 ---
 
-## on China expo launches **AVA - THE REVOLUTION**, The New SUV Prototype 
+## on China expo launches **AVA SEAL - THE REVOLUTION**, The New Prototype 
+
+---
+
+<img width="832" height="448" alt="OxrV6y1L" src="https://github.com/user-attachments/assets/ffdf6838-246c-42c6-9b4f-7e76be723764" />
+
+---
+
+## on China expo launches **AVA SUV - THE REVOLUTION**, The New Prototype 
 
 ---
 
@@ -20,7 +28,7 @@ Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as com
 
 ---
 
-## on China expo launches **AVA BOXER - THE REVOLUTION**, The New SUV Prototype 
+## on China expo launches **AVA BOXER - THE REVOLUTION**, The New Prototype 
 
 ---
 
