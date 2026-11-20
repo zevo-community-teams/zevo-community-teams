@@ -10,7 +10,7 @@
 
 ---
 
-The Some (Tzahal) bum shot at a vehicle—if they try that with Dava Forces or Russian or Chinese forces, they’re going to get shot back at, you can be sure of that. If they attack with heavy weaponry, they’ll be met with tear gas and rubber bullets, and if they open fire, they’ll get a taste of lead in the face. 
+The Some (Tzahal) bum shot at a Russian Vehicle—if they try that with Dava Forces or Russian or Chinese forces, they’re going to get shot back at, you can be sure of that. If they attack with heavy weaponry, they’ll be met with tear gas and rubber bullets, and if they open fire, they’ll get a taste of lead in the face. 
 
 </h3>
 
