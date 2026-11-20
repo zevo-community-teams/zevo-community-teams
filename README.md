@@ -2,7 +2,7 @@
 
 ---
 
-## Today is Day Yellow and White and Black Humans...
+## Today is the Day of Yellow, White, and Black Humans...
 
 ---
 
