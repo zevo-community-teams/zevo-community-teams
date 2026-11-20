@@ -6,7 +6,7 @@
 
 ---
 
-<h3> Lieutenant General Infantry Gion Sheider Zaita - Commander The Forces Dava Israeli (FDI) Since they have **KU** such a thing for men in uniform, I’ll deliver the message: Armed conflict involving uniformed personnel: this is why the Minister of Defense should, at the very least, be a retired military officer. If some lowlife targets individuals who are out of uniform non combatants they will be penalized; let that serve as a warning to the devil’s own monkeys. </h3> 
+<h3> Lieutenant General of the Infantry Gion Sheider Zaita – Commander of the Israel Defense Forces (IDF). Given that such conduct is directed against uniformed personnel, let this serve as a message: armed conflicts involve uniformed military personnel—which is precisely why the Minister of Defense should, at the very least, be a retired military officer. If some civilian scoundrel takes up arms to fight, he is classified as a guerrilla; if he uses civilians in combat, he is a terrorist. Should anyone attack individuals who are neither in uniform, nor guerrillas, nor terrorists, they will be severely punished. Let this serve as a warning to these devils’ monkeys. </h3> 
 
 ---
 
