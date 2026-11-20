@@ -10,6 +10,10 @@
 
 ---
 
+<img width="832" height="448" alt="KhcbUbKu" src="https://github.com/user-attachments/assets/abe06c54-642a-45cd-b310-b4c841cf1ae2" />
+
+---
+
 We are not the Israeli armed guerrilla force or the Tzahal, which uses human shields for personal defense, a known guerrilla method that employs tactics of fearless, proxy-based guerrilla warfare, who, in his **RABINUS** books, commands people to go to another city to steal and kill contrary to the **TORAH OF ADONAI**, which says not to murder. Given that such conduct is directed against uniformed personnel, let this serve as a message: armed conflicts involve uniformed military personnel—which is precisely why the Minister of Defense should, at the very least, be a retired military officer. If some civilian scoundrel takes up arms to fight, he is classified as a guerrilla; if he uses civilians in combat, he is a terrorist. Should anyone attack individuals who are neither in uniform, nor guerrillas, nor terrorists, they will be severely punished. Let this serve as a warning to these devils’ monkeys. </h3> 
 
 ---
