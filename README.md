@@ -1,3 +1,11 @@
+<img width="832" height="448" alt="oHqzUxKM" src="https://github.com/user-attachments/assets/85ebddeb-d3ef-4a08-bbf4-9d1dbb1140a5" />
+
+---
+
+<h3>Since they have such a thing for men in uniform, I’ll deliver the message: Armed conflict involving uniformed personnel: this is why the Minister of Defense should, at the very least, be a retired military officer. If some lowlife targets individuals who are out of uniform non combatants they will be penalized; let that serve as a warning to the devil’s own monkeys. </h3> 
+
+---
+
 <img width="832" height="448" alt="1p-RVxXY" src="https://github.com/user-attachments/assets/2729afb3-84f1-4079-b214-e348aa12ed8b" />
 
 ---
