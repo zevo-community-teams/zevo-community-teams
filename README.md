@@ -18,7 +18,7 @@ The scoundrel (Tzahal), is drug and arms traffickers who ordered fire to be open
 
 ---
 
-VAI DE NOVO BEBE, SO PARA VER NO QUE VAI DAR. TENTAR ME CAPTURAR.. HAHAHAHAH
+VAI DE NOVO BEBE, SO PARA VER NO QUE VAI DAR. TENTAR ME CAPTURAR, O GION ZAITA.. HAHAHAHAH
 
 ---
 
