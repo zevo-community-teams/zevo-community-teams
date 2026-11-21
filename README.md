@@ -2,6 +2,10 @@
 
 ---
 
+<h3> There are plenty of idiots who think I’m responsible for some deadbeat who agreed to be cross-examined by the BAFO. The fact is, our decisions are always made in our clients' best interests; we are committed to implementing global quality standards validated by international institutions. For instance, before a battery manufacturing plant is approved, it must meet specific quality standards that certify the brand's operations. </h3>
+
+---
+
 ### Master Black Belt on Tai-Chun (Wing Chun hands and feet) 
 
 ---
