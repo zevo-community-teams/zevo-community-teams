@@ -14,26 +14,6 @@
 
 ---
 
-## Resenha Musical ???   Berlin - Take My Breath Away (Official Video - Top Gun) 
-
----
-
-<h3> https://www.youtube.com/watch?v=Bx51eegLTY8 </h3>
-
----
-
-## Zevo lapada na rachada: Am I just super smart, or are they incredibly stupid? If a girl invites you to dinner, what do you do??? Go out with your buddies to get fucked in the ass??? Take her to a brothel??? Or do you prepare a dinner so you can fuck her???
-
----
-
-## Zevo Lapada Na Rachada: Sera que sou muito vivo, ou eles são muito burro: Se a gata te convida para jantar, o que voce faz??? Sai com os amigos para transar com o KU??? convida ela para o cabaret ??? Prepara um jantar para comer ela ???
-
----
-
-<h3> VAI SER SO UMA METIDINHA, NA RACHADA PARA FICAR NOIVINHA E DEPOIS CASADA - JULIET 69 </h3>
-
----
-
 <img width="832" height="448" alt="1p-RVxXY" src="https://github.com/user-attachments/assets/2729afb3-84f1-4079-b214-e348aa12ed8b" />
 
 ---
