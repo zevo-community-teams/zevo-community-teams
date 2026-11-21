@@ -14,11 +14,7 @@
 
 ---
 
-<img width="832" height="448" alt="1p-RVxXY" src="https://github.com/user-attachments/assets/2729afb3-84f1-4079-b214-e348aa12ed8b" />
-
----
-
-<h3> **Evolutia Techion — Director by Hebrew Zion Zeider Zaita**
+### **Evolutia Techion — Director by Hebrew Zion Zeider Zaita
 
 ---
 
@@ -27,6 +23,10 @@ At the helm of Evolutia Techion on Russian and China and Israel, Director Zion Z
 Descent of Russian and Spanish, Zeider In the boardroom, he is portrayed as composed and decisive setting the agenda, aligning the advisory board, and keeping Evolutia Techion’s mission firmly in view. 
 
 </h3>
+
+---
+
+<img width="832" height="448" alt="1p-RVxXY" src="https://github.com/user-attachments/assets/2729afb3-84f1-4079-b214-e348aa12ed8b" />
 
 ---
 
