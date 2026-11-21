@@ -1,4 +1,8 @@
-### By Davada Beni Zaita
+### Captain General Aviator Davada Beni Zaita - General Commander Dava Defense Forces
+
+---
+
+<img width="832" height="448" alt="the-davada-zaita-is-a-28-year-old-military-pilot-an-a(1)" src="https://github.com/user-attachments/assets/848b3ca8-f830-4306-8ab2-6e4897c9a02e" />
 
 ---
 
@@ -26,13 +30,13 @@
 
 ---
 
-<h3> **Evolutia Techion — Director by Hebrew Gion Sheider Zaita**
+<h3> **Evolutia Techion — Director by Hebrew Zion Zeider Zaita**
 
 ---
 
-At the helm of Evolutia Techion on Russian and China and Israel, Director Gion Sheider brings a focused, assured presence to the defense enterprise. At 48 Years, he pairs youthful ambition with a measured leadership style, guiding the company’s strategic direction and its work in military defense technology.
+At the helm of Evolutia Techion on Russian and China and Israel, Director Zion Zeider Zaita brings a focused, assured presence to the defense enterprise. At 48 Years, he pairs youthful ambition with a measured leadership style, guiding the company’s strategic direction and its work in military defense technology.
 
-Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as composed and decisive setting the agenda, aligning the advisory board, and keeping Evolutia Techion’s mission firmly in view. 
+Descent of Russian and Spanish, Zeider In the boardroom, he is portrayed as composed and decisive setting the agenda, aligning the advisory board, and keeping Evolutia Techion’s mission firmly in view. 
 
 </h3>
 
