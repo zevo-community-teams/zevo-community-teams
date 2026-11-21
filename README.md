@@ -1,3 +1,7 @@
+## Zevo lapada na rachada: Am I just super smart, or are they incredibly stupid? If a girl invites you to dinner, what do you do??? Go out with your buddies to get fucked in the ass??? Take her to a brothel??? Or do you prepare a dinner so you can fuck her???
+
+---
+
 ## Zevo Lapada Na Rachada: Sera que sou muito vivo, ou eles são muito burro: Se a gata te convida para jantar, o que voce faz??? Sai com os amigos para transar com o KU??? convida ela para o cabaret ??? Prepara um jantar para comer ela ???
 
 ---
