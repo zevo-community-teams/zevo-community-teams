@@ -1,4 +1,12 @@
-### Contradiction Natalina About Me Davada (Guile)  
+### Contradiction Natalina About Me Davada (Guile)
+
+---
+
+## Street Fighter II - Guile (Arcade / 1991) 4K 60FPS 
+
+---
+
+https://www.youtube.com/watch?v=B6TMjeTChl8
 
 ---
 
