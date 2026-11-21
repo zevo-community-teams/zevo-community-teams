@@ -35,7 +35,7 @@ Sou totalmente a favor da ordem e do progresso do Ving Tsun Museum, tal como con
 
 ---
 
-### Master Black Belt on Tai-chun (Wing Chun hands and feet) 
+### Master Black Belt on Tai-Chun (Wing Chun hands and feet) 
 
 ---
 
