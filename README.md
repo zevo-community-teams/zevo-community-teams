@@ -1,3 +1,11 @@
+### Contradiction Natalina About Me Davada (Guile)  
+
+---
+
+<img width="275" height="500" alt="imasgses" src="https://github.com/user-attachments/assets/6deaa06c-cbfc-4e84-b527-b65078c7418c" />
+
+---
+
 ### Captain General Aviator Davada Beni Zaita - General Commander Dava Defense Forces
 
 ---
