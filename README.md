@@ -16,14 +16,21 @@
 
 <h3> Cade os orgaos de qualidade do governo nacional, internacional e global para autorizar a marca tal operar e comercializar??? </h3>
 
+---
+
+<h3>So, someone who pays in full doesn't get credit???? How does that work??? </h3>
 
 ---
 
-<h3> Where is the new monetary plan to break the grip of the "BAFO" (MONEY AS DEBT)—that is, the notion regarding money that is mine and not yours, which is why I am extremely wealthy and owe nothing to anyone??? </h3>
+<h3>Quem compra a vista nao tem credito ???? Como assim ??? </h3>
 
 ---
 
-<h3> Cade o novo plano monetario para quebrar a determinacao do BAFO (DINHEIRO COMO DIVIDA), a respeito do dinheiro que meu e nao teu, por isso que sou muito rico e nao devo nada??? </h3>
+<h3> So, someone who pays in full doesn't get credit???? How does that work??? Where is the new monetary plan to break the grip of the "BAFO" (MONEY AS DEBT)—regarding money that is mine and not yours? That is why I am very wealthy, and I owe nothing of what is mine.??? </h3>
+
+---
+
+<h3> Cade o novo plano monetario para quebrar a determinacao do BAFO (DINHEIRO COMO DIVIDA), a respeito do dinheiro que meu e nao teu, por isso que sou muito rico e nao devo nada do que é meu??? </h3>
 
 ---
 
