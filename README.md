@@ -2,28 +2,27 @@
 
 ---
 
-### I am fully in favor of the order and progress of the Ving Tsun Museum, as conducted in a manner approved by the Chinese Sifus in China for the teaching of the martial arts of Grandmaster Ip Man.
-
----
-
-### Sou totalmente a favor da ordem e do progresso do Ving Tsun Museum, tal como conduzidos de uma maneira aprovada pelos Sifus Chineses in China para o ensino das artes marciais do Grão-Mestre Ip Man.
-
----
-
 ## Sifu Benny Meng - Wing Chun Chi Sau - Rolling Hands (Poon Sau) 
 
 ---
 
 <h3> https://www.youtube.com/watch?v=tgPepfyQEa8 </h3>
 
-
 ---
 
-## Sifu Wong Shun-leung - Wing Chun Basic
+## Sifu Wong Shun-leung - Wing Chun Basic - Died
 
 ---
 
 <h3>https://www.youtube.com/watch?v=7ic3Y9Jh3VE </h3> 
+
+---
+
+## Sifu Hwang Jang-lee - The Art Of High Impact Kicking - Died
+
+---
+
+<h3> https://www.youtube.com/watch?v=pvpFvJUTCo8</h3>
 
 ---
 
