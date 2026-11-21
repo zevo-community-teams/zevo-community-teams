@@ -19,11 +19,11 @@
 
 ---
 
-<h3> Cade o novo plano monetario para quebrar a determinacao do BAFO, a respeito do dinheiro que meu e nao teu por isso local nao tenho nada que e devo??? </h3>
+<h3> Where is the new monetary plan to break the BAFO’s resolve—regarding money that is mine, not yours—which is precisely why I am very wealthy and owe nothing to anyone???? </h3>
 
 ---
 
-<h3> Where is the new monetary plan to break the BAFO’s resolve—regarding money that is mine, not yours—so why is it that I have nothing here, yet I supposedly owe something??? </h3>
+<h3> Cade o novo plano monetario para quebrar a determinacao do BAFO, a respeito do dinheiro que meu e nao teu, por isso que sou muito rico e nao devo nada??? </h3>
 
 ---
 
