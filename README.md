@@ -34,6 +34,14 @@
 
 ---
 
+### Até onde sei, Tiradentes foi enforcado por causa de uma porcaria qualquer — traído por canalhas e outros traidores da pátria que afundam o país em uma dívida maldita, tudo para manter as massas escravizadas.????
+
+---
+
+### As far as I know, Tiradentes was hanged because of some bullshit—betrayed by scumbags and other traitors to the nation who sink the country into a cursed debt, all to keep the masses enslaved.
+
+---
+
 ### Master Black Belt on Tai-Chun (Wing Chun hands and feet) 
 
 ---
