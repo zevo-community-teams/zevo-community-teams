@@ -35,6 +35,11 @@ Sou totalmente a favor da ordem e do progresso do Ving Tsun Museum, tal como con
 
 ---
 
+<img width="832" height="448" alt="lQn7n7vz" src="https://github.com/user-attachments/assets/8617fddf-d306-4dfc-a095-f96c9ea9c804" />
+
+---
+
+### Master Black Belt on Tai-chun (Wing Chun hands and feet) 
 
 ---
 
