@@ -1,3 +1,7 @@
+## Zevo Lapada Na Rachada: Sera que sou muito vivo, ou eles são muito burro: Se a gata te convida para jantar, o que voce faz??? Sai com os amigos para transar com o KU??? convida ela para o cabaret ??? Prepara um jantar para comer ela ???
+
+---
+
 <img width="832" height="448" alt="1p-RVxXY" src="https://github.com/user-attachments/assets/2729afb3-84f1-4079-b214-e348aa12ed8b" />
 
 ---
