@@ -1,3 +1,7 @@
+### Sera que ele me acham tao bobo ou eles sao muitos burros ??? ahahahah
+
+---
+
 ### Contradiction Natalina About Me Davada (Guile)
 
 ---
