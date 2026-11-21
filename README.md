@@ -10,11 +10,11 @@
 
 ---
 
-<h3> Where are the national, international, and global government quality-assurance bodies that should be authorizing this brand to operate??? </h3>
+<h3> Cade the national, international and global government quality bodies to authorize the brand to operate and market ??? </h3>
 
 ---
 
-<h3> Cade os orgaos de qualidade do governo nacional, internacional e global para autorizar a marca tal operar??? </h3>
+<h3> Cade os orgaos de qualidade do governo nacional, internacional e global para autorizar a marca tal operar e comercializar??? </h3>
 
 ---
 
