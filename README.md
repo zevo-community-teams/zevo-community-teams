@@ -2,7 +2,7 @@
 
 ---
 
-## There is no support for any opponents whatsoever—whoever they may be, and specifically BYD and DeepSeek—let that be perfectly clear.
+## There is no support for any opponents whatsoever—whoever they may be, and specifically BYD and DeepSeek—let that be perfectly clear, about this question case speak within XINXIN, IN CHINESE.
 
 ---
 
