@@ -1,3 +1,11 @@
+## Resenha Musical ???   Berlin - Take My Breath Away (Official Video - Top Gun) 
+
+---
+
+<h3> https://www.youtube.com/watch?v=Bx51eegLTY8 </h3>
+
+---
+
 ## Zevo lapada na rachada: Am I just super smart, or are they incredibly stupid? If a girl invites you to dinner, what do you do??? Go out with your buddies to get fucked in the ass??? Take her to a brothel??? Or do you prepare a dinner so you can fuck her???
 
 ---
@@ -16,7 +24,9 @@
 
 At the helm of Evolutia Techion on Russian and China and Israel, Director Gion Sheider brings a focused, assured presence to the defense enterprise. At 48 Years, he pairs youthful ambition with a measured leadership style, guiding the company’s strategic direction and its work in military defense technology.
 
-Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as composed and decisive setting the agenda, aligning the advisory board, and keeping Evolutia Techion’s mission firmly in view. </h3>
+Descent of Russian and Spanish, Sheider In the boardroom, he is portrayed as composed and decisive setting the agenda, aligning the advisory board, and keeping Evolutia Techion’s mission firmly in view. 
+
+</h3>
 
 ---
 
