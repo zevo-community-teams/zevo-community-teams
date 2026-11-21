@@ -6,7 +6,7 @@
 
 ---
 
-<h3> Tem muito babaca que acha que sou responsavel por vagabundo que aceitou ser contradidato pelo BAFO, ate porque determinamos sempre em favor dos nossos clientes, ou seja temos o compromissos e implementar novas globais de qualidade validadas por instituicoes internacionais. Ex Bateria Professional aprovada para ser fabrica existem normas de qualidade que homologam a operacao das marca. </h3>
+<h3> Tem muito babaca que acha que sou responsavel por vagabundo que aceitou ser contradidato pelo BAFO, ate porque determinamos sempre em favor dos nossos clientes, ou seja temos o compromissos e implementar novas globais de qualidade validadas por instituicoes internacionais. Ex Bateria Professional aprovada para ser fabrica existem normas de qualidade que homologam a operacao das marcas. </h3>
 
 ---
 
