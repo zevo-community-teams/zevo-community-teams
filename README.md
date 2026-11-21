@@ -10,7 +10,7 @@
 
 ---
 
-## Grão-Mestre (GM) Benny Meng  -  Wing Chun Chi Sau 1 - Rolling Hands (Poon Sau) 
+## Sifu Benny Meng - Wing Chun Chi Sau - Rolling Hands (Poon Sau) 
 
 ---
 
