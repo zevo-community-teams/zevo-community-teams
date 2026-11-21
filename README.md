@@ -10,6 +10,10 @@
 
 ---
 
+<img width="832" height="448" alt="fRKmUEUC" src="https://github.com/user-attachments/assets/56946fa2-0d92-4784-b9b7-defc0f9dc42c" />
+
+---
+
 <img width="832" height="448" alt="the-davada-zaita-is-a-28-year-old-military-pilot-an-a" src="https://github.com/user-attachments/assets/cfa1ae41-2ac6-4ff0-91ea-e2984a22748d" />
 
 ---
