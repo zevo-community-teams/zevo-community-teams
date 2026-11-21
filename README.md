@@ -2,11 +2,11 @@
 
 ---
 
-<h3> There are plenty of idiots who think I’m responsible for some deadbeat who agreed to be cross-examined by the BAFO. The fact is, our decisions are always made in our clients' best interests; we are committed to implementing global quality standards validated by international institutions. For instance, before a battery manufacturing plant is approved, it must meet specific quality standards that certify the brand's operations. </h3>
+<h3> There are plenty of idiots who think I’m responsible for some deadbeat who agreed to be vetted by BAFO. The fact is, we always make determinations in favor of our research clients across multiple sectors—we are committed to implementing global quality standards validated by international institutions. For example, before a battery manufacturing facility is approved, it must meet specific quality standards that certify the brand's operations. </h3>
 
 ---
 
-<h3> Tem muito babaca que acha que sou responsavel por vagabundo que aceitou ser contradidato pelo BAFO, ate porque determinamos sempre em favor dos nossos clientes, ou seja temos o compromissos e implementar novas globais de qualidade validadas por instituicoes internacionais. Ex Bateria Professional aprovada para ser fabrica existem normas de qualidade que homologam a operacao das marcas. </h3>
+<h3> Tem muito babaca que acha que sou responsavel por vagabundo que aceitou ser contradidato pelo BAFO, ate porque determinamos sempre em favor dos nossos clientes de pesquisa em multiplas areas, ou seja temos o compromissos e implementar normas globais de qualidade validadas por instituicoes internacionais. Ex Bateria Professional aprovada para ser fabrica existem normas de qualidade que homologam a operacao das marcas. </h3>
 
 ---
 
