@@ -10,14 +10,6 @@ https://youtu.be/vzEIwc0rG8Y?list=RDvzEIwc0rG8Y
 
 ---
 
-### Master Black Belt on Tai-Chun (Wing Chun hands and feet) 
-
----
-
-<img width="832" height="448" alt="lQn7n7vz" src="https://github.com/user-attachments/assets/8617fddf-d306-4dfc-a095-f96c9ea9c804" />
-
----
-
 <img width="832" height="448" alt="the-davada-zaita-is-a-28-year-old-military-pilot-an-a(1)" src="https://github.com/user-attachments/assets/848b3ca8-f830-4306-8ab2-6e4897c9a02e" />
 
 ---
