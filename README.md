@@ -16,6 +16,15 @@
 
 <h3> Cade os orgaos de qualidade do governo nacional, internacional e global para autorizar a marca tal operar e comercializar??? </h3>
 
+
+---
+
+<h3> Cade o novo plano monetario para quebrar a determinacao do BAFO, a respeito do dinheiro que meu e nao teu por isso local nao tenho nada que e devo??? </h3>
+
+---
+
+<h3> Where is the new monetary plan to break the BAFO’s resolve—regarding money that is mine, not yours—so why is it that I have nothing here, yet I supposedly owe something??? </h3>
+
 ---
 
 ### Master Black Belt on Tai-Chun (Wing Chun hands and feet) 
