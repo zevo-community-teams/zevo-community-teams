@@ -2,6 +2,14 @@
 
 ---
 
+### I am fully in favor of the order and progress of the Ving Tsun Museum, as conducted in a manner approved by the Chinese Sifus in China for the teaching of the martial arts of Grandmaster Ip Man.
+
+---
+
+### Sou totalmente a favor da ordem e do progresso do Ving Tsun Museum, tal como conduzidos de uma maneira aprovada pelos Sifus Chineses in China para o ensino das artes marciais do Grão-Mestre Ip Man..
+
+---
+
 ## There is no support for any opponents whatsoever—whoever they may be, and specifically BYD, DeepSeek and Ving Tsun Museu, and Others Chineses let that be perfectly clear, about this question case speak within XINXIN, IN CHINESE.
 
 ---
