@@ -1,8 +1,12 @@
-### Sera que ele me acham tao bobo ou eles sao muitos burros ??? ahahahah
+### Contradiction Natalina About Me Davada 
 
 ---
 
-### Contradiction Natalina About Me Davada (Guile)
+### Sera que eles me acham tao bobo ou eles sao muitos burros ??? ahahahah
+
+---
+
+<img width="479" height="640" alt="imagesss" src="https://github.com/user-attachments/assets/c5d72a85-3b00-43be-97f6-a5167cbab763" />
 
 ---
 
