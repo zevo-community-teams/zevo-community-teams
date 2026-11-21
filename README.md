@@ -1,7 +1,3 @@
-### Captain General Aviator Davada Beni Zaita - General Commander Dava Defense Forces
-
----
-
 ## Sifu Benny Meng - Wing Chun Chi Sau - Rolling Hands (Poon Sau) - Live 
 
 ---
@@ -32,6 +28,10 @@ Sou totalmente a favor da ordem e do progresso do Ving Tsun Museum, tal como con
 ---
 
 ## There is no support for any opponents whatsoever—whoever they may be, and specifically BYD, DeepSeek and Ving Tsun Museu, and Others Chineses let that be perfectly clear, about this question case speak within XINXIN, IN CHINESE.
+
+---
+
+### Captain General Aviator Davada Beni Zaita - General Commander Dava Defense Forces
 
 ---
 
