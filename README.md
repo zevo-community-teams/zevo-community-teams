@@ -18,11 +18,11 @@
 
 ---
 
-<h3>So, someone who pays in full doesn't get credit???? How does that work??? </h3>
+<h3>So, someone who pays in full doesn't get credit on market???? How does that work??? </h3>
 
 ---
 
-<h3>Quem compra a vista nao tem credito ???? Como assim ??? </h3>
+<h3>Quem compra a vista nao tem credito no comercio ???? Como assim ??? </h3>
 
 ---
 
