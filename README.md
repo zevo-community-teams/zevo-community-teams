@@ -34,6 +34,14 @@
 
 ---
 
+### I know the name of this economic plan from the "BAFO" [a derogatory term implying hot air/nonsense] (MONEY AS DEBT)—it’s about fleecing the "ducks" [gullible victims] who agreed to be led into a contradiction (i.e., suicide).
+
+---
+
+### Eu sei o nome deste plano economico do BAFO (DINHEIRO COMO DIVIDA), enformar os patos que aceitaram serem contraditados (SUICIDIO).
+
+---
+
 ### Até onde sei, Tiradentes foi enforcado por causa de uma porcaria qualquer — traído por canalhas e outros traidores da pátria que afundam o país em uma dívida maldita, tudo para manter as massas escravizadas.????
 
 ---
