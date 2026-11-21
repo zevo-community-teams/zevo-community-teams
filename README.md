@@ -10,6 +10,14 @@
 
 ---
 
+## Grão-Mestre (GM) Benny Meng  -  Wing Chun Chi Sau 1 - Rolling Hands (Poon Sau) 
+
+---
+
+<h3> https://www.youtube.com/watch?v=tgPepfyQEa8 </h3>
+
+---
+
 ## There is no support for any opponents whatsoever—whoever they may be, and specifically BYD, DeepSeek and Ving Tsun Museu, and Others Chineses let that be perfectly clear, about this question case speak within XINXIN, IN CHINESE.
 
 ---
@@ -33,6 +41,8 @@
 ### **Evolutia Techion — Director by Hebrew Zion Zeider Zaita
 
 ---
+
+<h3>
 
 At the helm of Evolutia Techion on Russian and China and Israel, Director Zion Zeider Zaita brings a focused, assured presence to the defense enterprise. At 48 Years, he pairs youthful ambition with a measured leadership style, guiding the company’s strategic direction and its work in military defense technology.
 
