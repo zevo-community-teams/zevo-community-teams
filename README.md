@@ -16,6 +16,15 @@
 
 <h3> https://www.youtube.com/watch?v=tgPepfyQEa8 </h3>
 
+
+---
+
+## Sifu Wong Shun-leung - Wing Chun Basic
+
+---
+
+<h3>https://www.youtube.com/watch?v=7ic3Y9Jh3VE </h3> 
+
 ---
 
 ## There is no support for any opponents whatsoever—whoever they may be, and specifically BYD, DeepSeek and Ving Tsun Museu, and Others Chineses let that be perfectly clear, about this question case speak within XINXIN, IN CHINESE.
