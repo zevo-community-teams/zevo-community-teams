@@ -23,7 +23,7 @@
 
 ---
 
-<h3> Cade o novo plano monetario para quebrar a determinacao do BAFO, a respeito do dinheiro que meu e nao teu, por isso que sou muito rico e nao devo nada??? </h3>
+<h3> Cade o novo plano monetario para quebrar a determinacao do BAFO (DINHEIRO COMO DIVIDA), a respeito do dinheiro que meu e nao teu, por isso que sou muito rico e nao devo nada??? </h3>
 
 ---
 
