@@ -1,3 +1,11 @@
+## Resenha Musical: "Nosso Quadro" Economico Mundial
+
+---
+
+https://youtu.be/vzEIwc0rG8Y?list=RDvzEIwc0rG8Y
+
+---
+
 ### Captain General Aviator Davada Beni Zaita - General Commander Dava Defense Forces
 
 ---
