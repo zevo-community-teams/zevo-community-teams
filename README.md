@@ -19,7 +19,7 @@
 
 ---
 
-<h3> Where is the new monetary plan to break the BAFO’s resolve—regarding money that is mine, not yours—which is precisely why I am very wealthy and owe nothing to anyone???? </h3>
+<h3> Where is the new monetary plan to break the grip of the "BAFO" (MONEY AS DEBT)—that is, the notion regarding money that is mine and not yours, which is why I am extremely wealthy and owe nothing to anyone??? </h3>
 
 ---
 
