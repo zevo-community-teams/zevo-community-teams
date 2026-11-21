@@ -6,7 +6,7 @@
 
 ---
 
-### Sou totalmente a favor da ordem e do progresso do Ving Tsun Museum, tal como conduzidos de uma maneira aprovada pelos Sifus Chineses in China para o ensino das artes marciais do Grão-Mestre Ip Man..
+### Sou totalmente a favor da ordem e do progresso do Ving Tsun Museum, tal como conduzidos de uma maneira aprovada pelos Sifus Chineses in China para o ensino das artes marciais do Grão-Mestre Ip Man.
 
 ---
 
