@@ -14,6 +14,10 @@ https://www.youtube.com/watch?v=nZXRV4MezEw
 
 ---
 
+<img width="554" height="554" alt="imsages" src="https://github.com/user-attachments/assets/21c33bd6-0c95-4d04-992c-8977e5984086" />
+
+---
+
 ### SE FICAR O BICHO PEGA, SE CORRER O BICHO COME, QUE VER SE ELAS REALMENTE VAO AGUENTAR VIRA JACARE E ELES LOBISHOMEN. HAHAHAHHA
 
 ---
