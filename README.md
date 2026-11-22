@@ -14,6 +14,14 @@
 
 ---
 
+<h3>In today’s training mission, we practiced avoiding detection by our own advanced anti-stealth radars.</h3>
+
+---
+
+<img width="832" height="448" alt="lpWAPhKb" src="https://github.com/user-attachments/assets/8fdf7016-786d-4c76-83c3-07ba54dacdd1" />
+
+---
+
 <img width="832" height="448" alt="9HRBuZTQ" src="https://github.com/user-attachments/assets/7496ed70-ecf3-4848-b9a9-491062124f51" />
 
 ---
