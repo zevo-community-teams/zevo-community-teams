@@ -2,9 +2,11 @@
 
 ---
 
+### Zevo Bizu: How Cats engage in *arrancada*: before beginning, they perform a deep-cleansing ritual using water—avoiding any type of oil-based lubricant—to clean the anal passage in preparation for the act.
+
 ---
 
-### Zevo Bizu: Como as garotas praticam arrancada: antes de iniciar a arrancada, elas realizam um ritual de limpeza profunda com água, sem o uso de qualquer tipo de lubrificante oleoso para limpar a escapada, para poder ir para arrancada.
+### Zevo Bizu: Como as gatas praticam arrancada: antes de iniciar a arrancada, elas realizam um ritual de limpeza profunda com água, sem o uso de qualquer tipo de lubrificante oleoso para limpar a escapada, para poder ir para arrancada.
 
 ---
 
