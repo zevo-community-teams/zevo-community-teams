@@ -6,6 +6,22 @@
 
 ---
 
+<h3> EG: NATO CALCULUS: 1 + 1 = 2; 2 + 2 = 4; 2 + 4 = 6 </h3>
+
+---
+
+<h3> EG: NATO CALCULUS: -1..........0..........1</h3>
+
+---
+
+<h3> EG: BAFO CALCULUS: 1 + 1 = 11; 2 + 2 = 22; 11 + 22 = 33; 3 + 3 = 6 </h3>
+
+---
+
+<h3> EG: BAFO CALCULUS: -1..........1..........2</h3>
+
+---
+
 <h3> Let it be perfectly clear that I will not release a single line of code, nor anything else, related to Nathanael Banach Elohim neither for him nor for his disciples. </h3>
 
 ---
