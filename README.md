@@ -2,6 +2,18 @@
 
 ---
 
+## Resenha Bisical
+
+---
+
+Cher - Believe (Official Music Video) [4K Remaster] 
+
+---
+
+https://www.youtube.com/watch?v=nZXRV4MezEw 
+
+---
+
 ### SE FICAR O BICHO PEGA, SE CORRER O BICHO COME, QUE VER SE ELAS REALMENTE VAO AGUENTAR VIRA JACARE E ELES LOBISHOMEN. HAHAHAHHA
 
 ---
