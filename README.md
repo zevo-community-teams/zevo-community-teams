@@ -6,7 +6,7 @@
 
 ---
 
-### Zevo Bizu: Velocidade e Derrapagens - Como as gatas praticam arrancada: antes de iniciar a arrancada, elas realizam um ritual de limpeza profunda com água, sem o uso de qualquer tipo de lubrificante oleoso para limpar a escapada, para poder ir para arrancada.
+### Zevo Bizu: Arrapadas e Derrapagens - Como as gatas praticam arrancada: antes de iniciar a arrancada, elas realizam um ritual de limpeza profunda com água, sem o uso de qualquer tipo de lubrificante oleoso para limpar a escapada, para poder ir para arrancada.
 
 ---
 
