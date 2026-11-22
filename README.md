@@ -2,11 +2,11 @@
 
 ---
 
-<h3> PARECE QUE ELES TEM QUE PRO DESERTO COMER GENTE, AHHAHAH, QUE TA ESTA NO PAREDAO ESPERANDO O ANJO NA QUESTAO... AHAHHA</h3>
+<img width="800" height="445" alt="Ploc_Monsters_Capa-800x445" src="https://github.com/user-attachments/assets/585da8a0-c50e-4329-a33c-3e4cd0e31437" />
 
 ---
 
-<img width="800" height="445" alt="Ploc_Monsters_Capa-800x445" src="https://github.com/user-attachments/assets/585da8a0-c50e-4329-a33c-3e4cd0e31437" />
+<h3> PARECE QUE ELES TEM QUE PRO DESERTO COMER GENTE, AHHAHAH, QUE TA ESTA NO PAREDAO ESPERANDO O ANJO NA QUESTAO... AHAHHA</h3>
 
 ---
 
