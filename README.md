@@ -1,5 +1,3 @@
----
-
 <h3> EG: NATO CALCULUS: The beginning of creation </h3>
 
 ---
