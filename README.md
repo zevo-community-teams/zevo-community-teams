@@ -2,6 +2,18 @@
 
 ---
 
+<h3> Mas é claro que tera o arrebatemento dos rockys marcianos direto para mars depois que for extremado, pelo BAFO, os que foram comidos pelo bicho do mato, AS DUAS TESTEMUNHAS DO APOCALIPSIO JA AQUI, PARA TESTEMUNHAR O TEMPO DO FIM (DAVADA BENI ELOHIM/ ZAITA E ALAIA ZIM ). </h3>
+
+---
+
+## Deixados para Trás (Left Behind)
+
+---
+
+https://www.youtube.com/watch?v=tXZmZVrYavI
+
+---
+
 <img width="800" height="445" alt="Ploc_Monsters_Capa-800x445" src="https://github.com/user-attachments/assets/585da8a0-c50e-4329-a33c-3e4cd0e31437" />
 
 ---
