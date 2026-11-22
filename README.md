@@ -10,7 +10,7 @@
 
 ---
 
-<h3> Good Morning Mr. Makakiakar (As soon as I start fucking up the thievery of these monkeys, they’ll learn to respect Nato’s stuff—just you wait, you idiot.) </h3>
+<h3> Good Morning Mr. Makakiakar (As soon as I start fucking up the thievery of these monkeys, they’ll learn to respect Nato’s stuff just you wait, you idiot.) </h3>
 
 ---
 
