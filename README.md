@@ -1,4 +1,8 @@
-### Zevo Clarification: Green Side Universe (NATO) vs Red Side Universe (RA_MAN)  
+### Zevo Clarification: Green Side Universe (NATO) vs Red Side Universe (RA_MAN) 
+
+---
+
+### Zevo Bizu: Como as garotas praticam arrancada: antes de iniciar a arrancada, elas realizam um ritual de limpeza profunda com água, sem o uso de qualquer tipo de lubrificante oleoso na escapada, para poder da arrancada.
 
 ---
 
