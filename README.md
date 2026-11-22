@@ -2,6 +2,10 @@
 
 ---
 
+### SE FICAR O BICHO PEGA, SE CORRER O BICHO COME, QUE VER SE ELAS REALMENTE E VAO AGUENTAR VIRA JACARE E ELES LOBISHOMEN. HAHAHAHHA
+
+---
+
 <h3> Mas é claro que tera o arrebatemento dos rockys marcianos direto para mars depois que forem extremados, pelo BAFO, COMO FOI O NATO E A BATACH. </h3>
 
 ---
