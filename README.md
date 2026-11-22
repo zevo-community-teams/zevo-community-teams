@@ -2,11 +2,17 @@
 
 ---
 
-<h3> Mas é claro que tera o arrebatemento dos rockys marcianos direto para mars depois que for extremado, pelo BAFO, os que foram comidos pelo bicho do mato, AS DUAS TESTEMUNHAS DO APOCALIPSIO JA AQUI, PARA TESTEMUNHAR O TEMPO DO FIM (DAVADA BENI ELOHIM/ ZAITA E ALAIA ZIM ). </h3>
+<h3> Mas é claro que tera o arrebatemento dos rockys marcianos direto para mars depois que for extremado, pelo BAFO, COMO FOI O NATO E BATACH. </h3>
 
 ---
 
 ## Deixados para Trás (Left Behind)
+
+---
+
+<h3>AS DUAS TESTEMUNHAS DO APOCALIPSIO JA AQUI, PARA TESTEMUNHAR O TEMPO DO FIM (DAVADA BENI ELOHIM/ ZAITA E ALAIA ZIM ). </h3>
+
+---
 
 ---
 
