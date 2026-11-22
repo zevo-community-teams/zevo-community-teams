@@ -46,6 +46,10 @@
 
 ---
 
+<h3> Let it be perfectly clear that I will not release a single line of code, nor anything else, related to Banach—neither for him nor for his disciples. </h3>
+
+---
+
 <img width="832" height="448" alt="the-davada-zaita-is-a-28-year-old-military-pilot-an-a(1)" src="https://github.com/user-attachments/assets/848b3ca8-f830-4306-8ab2-6e4897c9a02e" />
 
 ---
