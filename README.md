@@ -2,11 +2,11 @@
 
 ---
 
-<h3> I serve as a doctoral professor and researcher, advancing and evolving knowledge regarding creation within the underlying dimensions of the history in question. In doing so, I draw upon elements that belong to my brother, Nathanael Banach Elohim, who transformed his own works based on mine; that is, having gained knowledge of my calculations, he repurposed them to serve his own. </h3>
+<h3> Leaking from your spouts, are you??? Already crying and shitting yourselves—go call out to your masters: Crispim, Reboni, Papirosca. And this is just the beginning of the suffering. Hah! Looks like Nato was one hell of a tough guy.</h3>
 
 ---
 
-<h3> Let it be perfectly clear that I will not release a single line of code, nor anything else, related to Nathanael Banach Elohim neither for him nor for his disciples. </h3>
+<h3> Vazando pelo pito??? Ja estão chorando e cagando, clama aos teus senhores, crispim, reboni, papirosca, e so principio das dores. hahah, pelo jeito o nato era macho para caraio.</h3>
 
 ---
 
@@ -15,7 +15,15 @@
 ---
 
 <h3> First, I need to wait for the Head Monkey to screw them all over, since they’re of no use to him anyway; the second step comes when it’s my turn to exact justice in the name of Adonai and on behalf of all of us who were treated like nothing more than rascally monkeys. </h3>
-	
+
+---
+
+<h3> I serve as a doctoral professor and researcher, advancing and evolving knowledge regarding creation within the underlying dimensions of the history in question. In doing so, I draw upon elements that belong to my brother, Nathanael Banach Elohim, who transformed his own works based on mine; that is, having gained knowledge of my calculations, he repurposed them to serve his own. </h3>
+
+---
+
+<h3> Let it be perfectly clear that I will not release a single line of code, nor anything else, related to Nathanael Banach Elohim neither for him nor for his disciples. </h3>
+
 ---
 
 <h3>In today’s training mission, we practiced avoiding detection by our own advanced anti-stealth radars.</h3>
