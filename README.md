@@ -2,7 +2,7 @@
 
 ---
 
-### Zevo Bizu: Speed ​​and Drifts - How cats engage in **Act a Fool**: before beginning, they perform a deep-cleansing ritual using water—avoiding any type of oil-based lubricant to clean the escape passage in preparation for the **Act a Fool**.
+### Zevo Bizu: Speed ​​and Drifts - How cats engage in **Act a Fool**: before beginning, they perform a deep-cleansing ritual using water—avoiding any type of oil-based lubricant to clean the escape in preparation for the **Act a Fool**.
 
 ---
 
