@@ -10,8 +10,7 @@
 
 ---
 
-### Good Morning Mr. Makakiakar
-
+### Good Morning Mr. Makakiakar (Quando eu comecar colocar a baixo robalheira dos macacos eles aprender a repeitar as coisas do Nato, aguarda so um tikinho)
 ---
 
 <h3>In today’s training mission, we practiced avoiding detection by our own advanced anti-stealth radars.</h3>
