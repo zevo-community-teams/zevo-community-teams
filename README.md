@@ -1,8 +1,18 @@
-## Resenha Musical: "Nosso Quadro" Economico Mundial
+---
+
+## Gnu Sources Projects
 
 ---
 
-https://youtu.be/vzEIwc0rG8Y?list=RDvzEIwc0rG8Y
+https://www.gnu.org/distros/free-distros.html
+
+---
+
+<h3>The Making of GNU: The World's First Open-Source Software </h3>
+
+---
+
+https://youtu.be/sQDvkd2wtxU
 
 ---
 
