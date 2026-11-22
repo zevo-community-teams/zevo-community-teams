@@ -2,11 +2,11 @@
 
 ---
 
-### Zevo Bizu: How cats engage in **arrancada**: before beginning, they perform a deep-cleansing ritual using water—avoiding any type of oil-based lubricant to clean the escape passage in preparation for the act.
+### Zevo Bizu Velocity: How cats engage in **arrancada**: before beginning, they perform a deep-cleansing ritual using water—avoiding any type of oil-based lubricant to clean the escape passage in preparation for the **arrancada**.
 
 ---
 
-### Zevo Bizu: Como as gatas praticam arrancada: antes de iniciar a arrancada, elas realizam um ritual de limpeza profunda com água, sem o uso de qualquer tipo de lubrificante oleoso para limpar a escapada, para poder ir para arrancada.
+### Zevo Bizu Pegas: Como as gatas praticam arrancada: antes de iniciar a arrancada, elas realizam um ritual de limpeza profunda com água, sem o uso de qualquer tipo de lubrificante oleoso para limpar a escapada, para poder ir para arrancada.
 
 ---
 
