@@ -2,7 +2,7 @@
 
 ---
 
-<h3> I serve as a doctoral professor and researcher, advancing and evolving knowledge regarding creation within the underlying dimensions of the history in question. In doing so, I draw upon elements that belong to my brother, Nathanael Banach Elohim—who transformed his own works based on mine; that is, having gained knowledge of my calculations, he repurposed them to serve his own. </h3>
+<h3> I serve as a doctoral professor and researcher, advancing and evolving knowledge regarding creation within the underlying dimensions of the history in question. In doing so, I draw upon elements that belong to my brother, Nathanael Banach Elohim, who transformed his own works based on mine; that is, having gained knowledge of my calculations, he repurposed them to serve his own. </h3>
 
 ---
 
