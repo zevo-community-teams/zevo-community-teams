@@ -10,7 +10,7 @@
 
 ---
 
-### Good Morning Mr. Jones Makakiakar
+### Good Morning Mr. Makakiakar
 
 ---
 
