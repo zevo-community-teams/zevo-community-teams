@@ -34,6 +34,14 @@
 
 ---
 
+### The Unix Heritage Society Inc.
+
+---
+
+<h3> https://www.tuhs.org/</h3>
+
+---
+
 ### Captain General Aviator Davada Beni Zaita - General Commander Dava Defense Forces
 
 ---
