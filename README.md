@@ -18,11 +18,20 @@
 
 ---
 
+
+<h3> EG: NATO CALCULUS: 5A CUBE ELEVATE / </h3>
+
+---
+
 <h3> EG: BAFO CALCULUS: 1 + 1 = 11; 2 + 2 = 22; 11 + 22 = 33; 3 + 3 = 6 </h3>
 
 ---
 
 <h3> EG: BAFO CALCULUS: -1..........1..........2</h3>
+
+---
+
+<h3> EG: BAFO CALCULUS: 5D CUBE EXTREME \ </h3>
 
 ---
 
