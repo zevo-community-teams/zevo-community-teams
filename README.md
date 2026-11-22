@@ -1,4 +1,4 @@
-## Zevo Clarification: Green Side Universe (NATO) vs Red Side Universe (RA_MAN)  
+### Zevo Clarification: Green Side Universe (NATO) vs Red Side Universe (RA_MAN)  
 
 ---
 
