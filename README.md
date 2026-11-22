@@ -2,11 +2,11 @@
 
 ---
 
-<h3> Let it be perfectly clear that I will not release a single line of code, nor anything else, related to Nathanael Banach Elohim neither for him nor for his disciples. </h3>
+<h3> I serve as a doctoral researcher and professor, advancing knowledge regarding creation within the lower realm of the history in question, drawing upon the elements belonging to my brother, Nathanael Banach Elohim.</h3>
 
 ---
 
-<h3> I serve as a doctoral researcher and professor, advancing knowledge regarding creation within the lower realm of the history in question, drawing upon the elements belonging to my brother, Nathanael Banach Elohim.</h3>
+<h3> Let it be perfectly clear that I will not release a single line of code, nor anything else, related to Nathanael Banach Elohim neither for him nor for his disciples. </h3>
 
 ---
 
