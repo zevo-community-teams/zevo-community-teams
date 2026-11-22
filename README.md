@@ -18,6 +18,10 @@
 
 ---
 
+<img width="595" height="515" alt="images" src="https://github.com/user-attachments/assets/51ecd61a-1ec4-40d4-8d5f-3683cc189491" />
+
+---
+
 <h3> EG: NATO CALCULUS: The beginning of creation </h3>
 
 ---
