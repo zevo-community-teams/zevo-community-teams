@@ -14,6 +14,10 @@ https://www.youtube.com/watch?v=nZXRV4MezEw
 
 ---
 
+## NAO ESQUECAR DE ESCOLHER O PALETO CERTO PARA IR PARA MARS ARREBATO SEM SER AVISADO...
+
+---
+
 <img width="554" height="554" alt="imsages" src="https://github.com/user-attachments/assets/21c33bd6-0c95-4d04-992c-8977e5984086" />
 
 ---
