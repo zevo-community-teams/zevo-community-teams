@@ -1,3 +1,7 @@
+## Zevo Clarification: Green Side Universe vs Red Side Universe  
+
+---
+
 <h3> EG: NATO CALCULUS: The beginning of creation </h3>
 
 ---
