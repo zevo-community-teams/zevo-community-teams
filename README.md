@@ -2,6 +2,14 @@
 
 ---
 
+<h3>The Making of GNU: The World's First Open-Source Software </h3>
+
+---
+
+<h3>https://youtu.be/sQDvkd2wtxU </h3>
+
+---
+
 <h3> https://www.gnu.org/ </h3>
 
 ---
@@ -15,14 +23,6 @@
 ---
 
 <h3>https://repo.pureos.net/pureos/pool/main/ </h3>
-
----
-
-<h3>The Making of GNU: The World's First Open-Source Software </h3>
-
----
-
-<h3>https://youtu.be/sQDvkd2wtxU </h3>
 
 ---
 
