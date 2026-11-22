@@ -10,6 +10,10 @@
 
 ---
 
+<h3> EG: NATO CALCULUS: The beginning of creation </h3>
+
+---
+
 <h3> EG: NATO CALCULUS: 1 + 1 = 2; 2 + 2 = 4; 2 + 4 = 6 </h3>
 
 ---
@@ -20,6 +24,12 @@
 
 
 <h3> EG: NATO CALCULUS: 5A CUBE ELEVATE / </h3>
+
+---
+---
+---
+
+<h3> EG: BAFO CALCULUS: The beginning of evolution reaction </h3>
 
 ---
 
