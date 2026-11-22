@@ -2,11 +2,11 @@
 
 ---
 
-<h3> Leaking from your spouts, are you??? Already crying and shitting yourselves—go call out to your masters: Crispim, Reboni, Papirosca. And this is just the beginning of the suffering. Hah! Looks like Nato was one hell of a tough guy.</h3>
+<h3> Leaking from your spouts, are you??? Already crying and shitting yourselves—go call out to your masters: Crispim, Reboni, Papirone And this is just the beginning of the suffering. Hah! Looks like Nato was one hell of a tough guy.</h3>
 
 ---
 
-<h3> Vazando pelo pito??? Ja estão chorando e cagando, clama aos teus senhores, crispim, reboni, papirosca, e so principio das dores. hahah, pelo jeito o nato era macho para caraio.</h3>
+<h3> Vazando pelo pito??? Ja estão chorando e cagando, clama aos teus senhores, crispim, reboni, papirone, e so principio das dores. hahah, pelo jeito o nato era macho para caraio.</h3>
 
 ---
 
