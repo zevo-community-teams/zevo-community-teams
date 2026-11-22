@@ -10,6 +10,14 @@
 
 ---
 
+<h3>https://pureos.net/</h3>
+
+---
+
+<h3>https://repo.pureos.net/pureos/pool/main/ </h3>
+
+---
+
 <h3>The Making of GNU: The World's First Open-Source Software </h3>
 
 ---
