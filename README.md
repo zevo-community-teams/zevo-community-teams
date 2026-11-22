@@ -2,7 +2,7 @@
 
 ---
 
-### Zevo Bizu: How Cats engage in *arrancada*: before beginning, they perform a deep-cleansing ritual using water—avoiding any type of oil-based lubricant—to clean the escape passage in preparation for the act.
+### Zevo Bizu: How Cats engage in **arrancada**: before beginning, they perform a deep-cleansing ritual using water—avoiding any type of oil-based lubricant—to clean the escape passage in preparation for the act.
 
 ---
 
