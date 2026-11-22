@@ -6,6 +6,10 @@
 
 ---
 
+<img width="800" height="445" alt="Ploc_Monsters_Capa-800x445" src="https://github.com/user-attachments/assets/585da8a0-c50e-4329-a33c-3e4cd0e31437" />
+
+---
+
 <h3> Leaking from your spouts, are you??? Already crying and shitting yourselves—go call out to your masters: Crispim, Reboni, Papirone And this is just the beginning of the suffering. Hah! Looks like Nato was one hell of a tough guy.</h3>
 
 ---
