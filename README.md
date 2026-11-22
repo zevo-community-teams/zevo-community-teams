@@ -14,7 +14,7 @@
 
 ---
 
-<h3> First, I need to wait for the Head Monkey to screw them all over, since they’re of no use to him anyway; the second step comes when it’s my turn to exact justice—in the name of Adonai and on behalf of all of us who were treated like nothing more than rascally monkeys. </h3>
+<h3> First, I need to wait for the Head Monkey to screw them all over, since they’re of no use to him anyway; the second step comes when it’s my turn to exact justice in the name of Adonai and on behalf of all of us who were treated like nothing more than rascally monkeys. </h3>
 	
 ---
 
