@@ -10,6 +10,14 @@
 
 ---
 
+### Good Morning Mr. Jones 
+
+---
+
+<img width="832" height="448" alt="9HRBuZTQ" src="https://github.com/user-attachments/assets/7496ed70-ecf3-4848-b9a9-491062124f51" />
+
+---
+
 <img width="832" height="448" alt="the-davada-zaita-is-a-28-year-old-military-pilot-an-a(1)" src="https://github.com/user-attachments/assets/848b3ca8-f830-4306-8ab2-6e4897c9a02e" />
 
 ---
