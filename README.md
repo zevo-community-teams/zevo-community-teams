@@ -2,7 +2,7 @@
 
 ---
 
-<h3> Mas é claro que tera o arrebatemento dos rockys marcianos direto para mars depois que for extremado, pelo BAFO, COMO FOI O NATO E BATACH. </h3>
+<h3> Mas é claro que tera o arrebatemento dos rockys marcianos direto para mars depois que forem extremados, pelo BAFO, COMO FOI O NATO E A BATACH. </h3>
 
 ---
 
@@ -10,7 +10,7 @@
 
 ---
 
-<h3>AS DUAS TESTEMUNHAS DO APOCALIPSIO JA AQUI, PARA TESTEMUNHAR O TEMPO DO FIM (DAVADA BENI ELOHIM/ ZAITA E ALAIA ZIM ). </h3>
+<h3>AS DUAS TESTEMUNHAS DO APOCALIPSIO JA ESTAO AQUI, PARA TESTEMUNHAR O TEMPO DO FIM (DAVADA BENI ELOHIM/ ZAITA E ALAIA BENI TSHIBADA). </h3>
 
 ---
 
