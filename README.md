@@ -46,7 +46,7 @@
 
 ---
 
-<h3> Let it be perfectly clear that I will not release a single line of code, nor anything else, related to Banach—neither for him nor for his disciples. </h3>
+<h3> Let it be perfectly clear that I will not release a single line of code, nor anything else, related to Nathanel Banach Elohim—neither for him nor for his disciples. </h3>
 
 ---
 
