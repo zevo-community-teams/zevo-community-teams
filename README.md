@@ -2,6 +2,10 @@
 
 ---
 
+<h3> E QUANDO VIRAREM ZUMBI --- PLOC MONSTER, AHAHAHAHAH </h3>
+
+---
+
 <h3> Leaking from your spouts, are you??? Already crying and shitting yourselves—go call out to your masters: Crispim, Reboni, Papirone And this is just the beginning of the suffering. Hah! Looks like Nato was one hell of a tough guy.</h3>
 
 ---
