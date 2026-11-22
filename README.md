@@ -10,6 +10,18 @@
 
 ---
 
+<h3> HAHAHHA- E BOM FILME PARA RECORDAR E ASSIM NO TEMPO DO FIM AHAHHA </h3>
+
+---
+
+<h3> World War Z Official Trailer #1 (2013) - Brad Pitt Movie HD </h3>
+
+---
+
+https://www.youtube.com/watch?v=Md6Dvxdr0AQ
+
+---
+
 <img width="800" height="445" alt="Ploc_Monsters_Capa-800x445" src="https://github.com/user-attachments/assets/585da8a0-c50e-4329-a33c-3e4cd0e31437" />
 
 ---
