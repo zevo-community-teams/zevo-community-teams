@@ -2,6 +2,10 @@
 
 ---
 
+## SABE O QUE ADONAI DISSE: E TUDO GOY
+
+---
+
 ## Resenha Musical de Hoje (Teatro das Shupetas)
 
 ---
