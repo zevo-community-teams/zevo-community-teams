@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=7UzreFbV2hI&list=PLXGWX56wS5woKsqgGmfYYpM-lN8tbz
 
 ---
 
-# SHIBOLET = SHE-HAMAN OR SIBOLET = ADONAI  -- Judges 12:4–6 ???
+# SHIBOLET = SHI-HAMA PUTA OR SIBOLET = ADONAI PUTO  -- Judges 12:4–6 ???
 
 ---
 
