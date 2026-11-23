@@ -10,6 +10,14 @@
 
 ---
 
+## “Lula de Novo, Com a Força do Povo” - Jingle 2026 (suposição) - LULA 13 (PT) 
+
+---
+
+https://www.youtube.com/watch?v=18lgAjqWXKc&list=RD18lgAjqWXKc&start_radio=1
+
+---
+
 ## Ney Matogrosso - Homem Com H (Ao Vivo) 
 
 ---
