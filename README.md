@@ -14,7 +14,7 @@
 
 ---
 
-## Mamonas Assassinas
+## Mamonas Assassinas - Robocop Gay
 
 ---
 
