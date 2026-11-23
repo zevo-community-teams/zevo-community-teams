@@ -8,6 +8,10 @@
 
 ---
 
+## Eu encomedei um par de peitos de silicone para ela, ja que ela era estrela, na historia dela.
+
+---
+
 ## Concubina Old Nick Name **Katerva Ex-Model de Fim de Semana** - Minha nova namorada que eu comi no jantar - hahhahaha
 
 ---
