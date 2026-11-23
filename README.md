@@ -22,6 +22,14 @@ https://www.youtube.com/watch?v=ZXfbR-ePYfE
 
 ---
 
+## Fada Madrinha (É Tão Bom)
+
+---
+
+https://www.youtube.com/watch?v=fXsZTwcwqpw&list=RDfXsZTwcwqpw&start_radio=1
+
+---
+
 ## MARCHINHAS DE CARNAVAL 
 
 ---
