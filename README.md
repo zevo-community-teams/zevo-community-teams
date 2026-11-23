@@ -14,7 +14,7 @@
 
 ---
 
-# SIONISM 
+# SIONIST 
 
 ---
 
