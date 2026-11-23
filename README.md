@@ -6,6 +6,10 @@
 
 ---
 
+## RAPAZ O NATO TIROU PUDER DE ONDE PARA DAR AOS SEU DIABOS NO PASSADO ???
+
+---
+
 ## Legião Urbana - Faroeste Caboclo (ao vivo) 
 
 ---
