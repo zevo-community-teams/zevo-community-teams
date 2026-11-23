@@ -6,6 +6,10 @@
 
 ---
 
+## Isaiah 42:6 e 49:6
+
+---
+
 ## Resenha Musical de Hoje (Teatro das Shupetas)
 
 ---
