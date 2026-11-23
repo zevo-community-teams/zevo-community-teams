@@ -8,38 +8,6 @@
 
 ---
 
-## Eu encomedei um par de peitos de silicone para ela, ja que ela é estrela, na historia dela, como ela comecou como mortadela a vida dela era uma verdadeira posilga cristadela.
-
----
-
-## Vou me casar com ela vou fazer com ela pegacao, mas como ela tem amigas eu comi todas elas ai eu vou me casar todas elas, vai ser uma festa de arrombar a sureca. hahahahah..
-
----
-
-<img width="500" height="258" alt="imassges" src="https://github.com/user-attachments/assets/d63a0bf8-30c7-4167-b574-1150a53cd974" />
-
----
-
-## Concubina Old Nick Name **Kraterva or Kratervagem Ex-Model de Fim de Semana** - Minha nova namorada que eu comi no jantar - hahhahaha
-
----
-
-<img width="1000" height="1400" alt="pa" src="https://github.com/user-attachments/assets/43d96e18-9a1d-417b-bb39-e89179bf1e2b" />
-
----
-
-<img width="1000" height="663" alt="pool2" src="https://github.com/user-attachments/assets/f0b02d33-8c20-4a80-a451-7251aba8a07e" />
-
----
-
-<img width="834" height="1000" alt="naked_praying" src="https://github.com/user-attachments/assets/053c52b9-d68e-4b58-8fdc-104cce49f9ca" />
-
----
-
-<img width="790" height="1000" alt="naked_praying2" src="https://github.com/user-attachments/assets/26ad0edf-cc44-4f14-b46c-e8f20df02d67" />
-
----
-
 <img width="832" height="448" alt="9HRBuZTQ" src="https://github.com/user-attachments/assets/7496ed70-ecf3-4848-b9a9-491062124f51" />
 
 ---
