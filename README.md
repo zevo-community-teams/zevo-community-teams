@@ -6,6 +6,15 @@
 
 ---
 
+
+##  Cássia Eller - O Segundo Sol 
+
+---
+
+https://www.youtube.com/watch?v=eHHoheI5dK0&list=RDeHHoheI5dK0&start_radio=1
+
+---
+
 ## Pitty - Teto de Vidro (Clipe Oficial) 
 
 ---
