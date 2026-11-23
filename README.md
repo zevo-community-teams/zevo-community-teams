@@ -16,7 +16,7 @@
 
 ---
 
-## Concubina Old Nick Name **Katerva Ex-Model de Fim de Semana** - Minha nova namorada que eu comi no jantar - hahhahaha
+## Concubina Old Nick Name **Kraterva or Kratervagem Ex-Model de Fim de Semana** - Minha nova namorada que eu comi no jantar - hahhahaha
 
 ---
 
