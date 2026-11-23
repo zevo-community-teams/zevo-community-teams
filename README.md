@@ -2,6 +2,14 @@
 
 ---
 
+## Ele participou do bebedeira do sangue e da carne do crispin carneira, chupou o sangue da galinha de bode, pq comigo ninguem pode, ainda comeu ela a cabidela. AHHAHAHA
+
+----
+
+<img width="599" height="399" alt="imassges" src="https://github.com/user-attachments/assets/0f1ccdf9-9ffa-41fb-9fea-32e0df962e5b" />
+
+---
+
 ## QUEM FOI FAVORECIDO PELA SHE RAMAN, FOI PARA MARS IGUAL O NATO E BATACH, A SOCIALITE TA TODA LA, HHAHA, TEM O CURADEIRO DO FOGO LA, O MIRANDEIRO SHE RAMAN... HAHAHHA
 
 ---
