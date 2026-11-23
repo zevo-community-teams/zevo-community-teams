@@ -12,7 +12,7 @@
 
 ---
 
-## Vou me casar com ela vou fazer com ela pegacao..
+## Vou me casar com ela vou fazer com ela pegacao, mas como ela tem amigas eu comi todas elas ai eu vou me casar todas elas, hahahahah..
 
 ---
 
