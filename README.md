@@ -8,6 +8,10 @@
 
 ---
 
+<img width="1180" height="686" alt="1018316sss866" src="https://github.com/user-attachments/assets/f25cc163-ebea-42ac-8780-3ec395c27a91" />
+
+---
+
 https://www.haaretz.com/israel-news/2016-09-13/ty-article/spencer-tunick-folks-shouldnt-have-to-strip-naked-to-save-dead-sea/0000017f-ef15-d4cd-af7f-ef7df9ca0000
 
 ---
