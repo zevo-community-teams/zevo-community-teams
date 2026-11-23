@@ -6,6 +6,10 @@
 
 ---
 
+## SEGUNDO ELES, NA FESTA DAS BARRACAS CONVIDE UM AMIGO PARA COMER BRUACA REQUENTADA E ENBRIAGADA COM VINHO DE SALADA.
+
+---
+
 <img width="800" height="948" alt="humash_amhariks_3d_koren_1_1_800x" src="https://github.com/user-attachments/assets/85c48964-f617-414f-ac2e-1c295118ceb3" />
 
 ---
