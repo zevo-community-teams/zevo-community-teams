@@ -14,6 +14,10 @@
 
 ---
 
+<img width="596" height="335" alt="imagsses" src="https://github.com/user-attachments/assets/8279f283-cbe2-4293-b45a-d3b970da03de" />
+
+---
+
 https://www.youtube.com/watch?v=18lgAjqWXKc&list=RD18lgAjqWXKc&start_radio=1
 
 ---
