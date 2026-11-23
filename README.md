@@ -10,6 +10,14 @@
 
 ---
 
+## FESTA DAS SHOXOTAS RABINICAS COM ALINA
+
+---
+
+https://youtu.be/e-TJgQbL1Pw
+
+---
+
 <img width="527" height="379" alt="imasddges" src="https://github.com/user-attachments/assets/e5bf5cf3-2522-4dc2-b389-e757011b4a07" />
 
 ---
