@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=7UzreFbV2hI&list=PLXGWX56wS5woKsqgGmfYYpM-lN8tbz
 
 ---
 
-# SHIONIST (SHIONIST - SHE RAMAN VS XIONIST - HE-NATO)
+# SHIONIST (SHIONIST - SHI-RAMA VS XIONIST - HI-NATO)
 
 ---
 
