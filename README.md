@@ -8,7 +8,7 @@
 
 ---
 
-## Eu encomedei um par de peitos de silicone para ela, ja que ela era estrela, na historia dela.
+## Eu encomedei um par de peitos de silicone para ela, ja que ela é estrela, na historia dela.
 
 ---
 
