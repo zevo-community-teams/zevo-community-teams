@@ -18,6 +18,10 @@
 
 ---
 
+<img width="365" height="547" alt="imagssses" src="https://github.com/user-attachments/assets/87fcb54a-036e-4fed-adb6-2f8cf9267abc" />
+
+---
+
 ## SABE O QUE ADONAI DISSE: O PESSOAL DAQUI É TUDO GOY, ESTRANGEIRO ELES VIERAM DE MARS (TURISTA)
 
 ---
