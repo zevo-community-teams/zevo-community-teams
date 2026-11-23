@@ -10,6 +10,10 @@
 
 ---
 
+<img width="527" height="379" alt="imasddges" src="https://github.com/user-attachments/assets/e5bf5cf3-2522-4dc2-b389-e757011b4a07" />
+
+---
+
 <img width="800" height="948" alt="humash_amhariks_3d_koren_1_1_800x" src="https://github.com/user-attachments/assets/85c48964-f617-414f-ac2e-1c295118ceb3" />
 
 ---
