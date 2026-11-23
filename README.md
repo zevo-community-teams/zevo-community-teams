@@ -10,6 +10,10 @@
 
 ---
 
+## Rabi Officiais apoiam palestina livre e Iran e nao Sionismo ???? VIXE COMO PODE ISSO, Nas Barbas do Ministro ????
+
+---
+
 <img width="565" height="353" alt="imssages" src="https://github.com/user-attachments/assets/0f224a39-30c2-42a0-a253-03d96f053b25" />
 
 ---
