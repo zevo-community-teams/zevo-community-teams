@@ -10,11 +10,11 @@
 
 ---
 
-## FESTA DAS CABANINHAS SHOXOTEIRAS RABINICAS COM 0 USHPISHIN COM A ALINA
+## FESTA DAS CABANINHAS SHOXOTEIRAS RABINICAS COM 0 USHPISHININ  COM A ALINA
 
 ---
 
-# USHPISHIN (“Ushpizin” is Aramaic for “guests,” a reference to the seven supernal guests, “founding fathers” of the Jewish people, who come to visit us in the sukka)
+# USHPISHININ (“USHPISHININ” is Aramaic for “guests,” a reference to the seven supernal guests, “founding fathers” of the Jewish people, who come to visit us in the sukka)
 
 ---
 
