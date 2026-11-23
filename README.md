@@ -10,6 +10,14 @@
 
 ---
 
+## Na mesma festa tem carne socada com navalha
+
+---
+
+<img width="1600" height="900" alt="A0ss3017_022" src="https://github.com/user-attachments/assets/900dc28c-cfac-4a0b-8adb-0c920b545b25" />
+
+---
+
 ## FESTA DAS CABANAS TEM NA TORAH 
 
 ---
