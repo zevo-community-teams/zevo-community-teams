@@ -10,7 +10,11 @@
 
 ---
 
-## Rabi Officiais apoiam palestina livre e Iran e nao Sionismo ???? VIXE COMO PODE ISSO, Nas Barbas do Ministro ????
+## Nature Karta - Rabi Officiais apoiam palestina livre e Iran e nao Sionismo ???? VIXE COMO PODE ISSO, Nas Barbas do Ministro ????
+
+---
+
+<img width="920" height="613" alt="GettyImages-1847670597-scaled-e1703063417135" src="https://github.com/user-attachments/assets/7cd8afc5-7bd5-4a9b-848c-c533dcceefe9" />
 
 ---
 
