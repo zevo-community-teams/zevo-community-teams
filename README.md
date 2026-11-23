@@ -8,6 +8,12 @@
 
 ## TEM QUE TER IM NEGAO ATOCHADO NO RABO, FAZ PARTE DA TRADICAO DO RABINUS E RABINATO ALINE NO MAR MORTO em ISRAEL, PIABA SALGADA E TOSTADA.
 
+## ESSE OFERENDA VAI PARA O VOVO QUE COME LINGUINCA TOSCANA KOSKER COM PINHA FUMA UM TABACO CUBANO PQ É BAIANO
+
+---
+
+<img width="509" height="640" alt="7497985912_4026356345_z" src="https://github.com/user-attachments/assets/c7098743-5d47-4628-a0b0-61aef27bfda5" />
+
 ---
 
 <img width="1180" height="885" alt="10183ss16866" src="https://github.com/user-attachments/assets/eeec2c83-b5ef-4759-9315-a3858f7c7972" />
