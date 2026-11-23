@@ -34,7 +34,11 @@ https://www.youtube.com/watch?v=7UzreFbV2hI&list=PLXGWX56wS5woKsqgGmfYYpM-lN8tbz
 
 ---
 
-# SHIONIST (SHIBOLET OR SIBOLET -- Judges 12:4–6 ???)
+# SHIONIST (SHIONIST - SHE RAMAN VS XIONIST - HENATO)
+
+---
+
+(SHIBOLET OR SIBOLET -- Judges 12:4–6 ???)
 
 ---
 
