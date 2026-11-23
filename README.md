@@ -10,7 +10,7 @@
 
 ---
 
-## Ele participou da bebedeira do sangue e da carne do crispin carneira, chupou o sangue da galinha de bode, a vida inteira, pq para ser favorecida tem que vampira, ainda comeu a galinha a cabidela, para dizer como se for ela. AHHAHAHA
+## Ele participou da bebedeira do sangue e da carne do crispin carneira, chupou o sangue a galinha de bode, a vida inteira, pq para ser favorecido tem que vampiro, ainda comeu a galinha a cabidela, para dizer como se como ela. AHHAHAHA
 
 ----
 
