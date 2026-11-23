@@ -10,6 +10,10 @@
 
 ---
 
+### RABINATOS VS RABINUS - HAHAHAHAH
+
+---
+
 ## Naturei Karta - Rabi Officiais apoiam palestina livre e Iran e nao Sionismo ???? VIXE COMO PODE ISSO, Nas Barbas do Ministro ????
 
 ---
