@@ -8,6 +8,14 @@
 
 ---
 
+## Minha nova namorada que eu comi no verão
+
+---
+
+<img width="790" height="1000" alt="dua_lipa_naked_praying2" src="https://github.com/user-attachments/assets/26ad0edf-cc44-4f14-b46c-e8f20df02d67" />
+
+---
+
 <img width="832" height="448" alt="9HRBuZTQ" src="https://github.com/user-attachments/assets/7496ed70-ecf3-4848-b9a9-491062124f51" />
 
 ---
