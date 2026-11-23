@@ -18,6 +18,14 @@ https://www.youtube.com/watch?v=nZXRV4MezEw
 
 ---
 
+## Como escolher o jazigo ideal
+
+---
+
+<img width="554" height="554" alt="imasges" src="https://github.com/user-attachments/assets/11f5beab-fca2-43f7-b90e-5f04457ea95e" />
+
+---
+
 ## NAO ESQUECAR DE ESCOLHER O PALETO CERTO PARA IR PARA MARS ARREBATADO SEM SER AVISADO, OS OUTROS VAO A ATRAS...
 
 ---
