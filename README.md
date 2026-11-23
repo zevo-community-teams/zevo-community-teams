@@ -2,7 +2,7 @@
 
 ---
 
-## Ele participou do bebedeira do sangue e da carne do crispin carneira, chupou o sangue da galinha de bode, pq comigo ninguem pode, ainda comeu ela a cabidela. AHHAHAHA
+## Ele participou da bebedeira do sangue e da carne do crispin carneira, chupou o sangue da galinha de bode, pq comigo ninguem pode, ainda comeu ela a cabidela. AHHAHAHA
 
 ----
 
