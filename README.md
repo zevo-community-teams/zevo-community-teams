@@ -14,6 +14,16 @@
 
 ---
 
+## A PARASHOTA TEM ASSISTIR O SONIC PRIMEIRO
+
+The Palm Tree | Sonic Prime | Clip | Netflix Anime 
+
+---
+
+https://youtu.be/s_hBWj1Dpuw
+
+---
+
 ## Resenha Musical de Hoje (Teatro das Shupetas)
 
 ---
