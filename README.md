@@ -2,6 +2,16 @@
 
 ---
 
+## SERA A ALINE ME COMA EM ISRAEL VAI POUSAR NUA MOSTRANDO O CREU ???
+
+<img width="419" height="315" alt="imwwages" src="https://github.com/user-attachments/assets/12a80fdd-7ede-4c42-960f-55874d1658d4" />
+
+---
+
+https://www.haaretz.com/israel-news/2016-09-13/ty-article/spencer-tunick-folks-shouldnt-have-to-strip-naked-to-save-dead-sea/0000017f-ef15-d4cd-af7f-ef7df9ca0000
+
+---
+
 ## FESTA DAS CABANAS TEM NA TORAH 
 
 ---
