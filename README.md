@@ -4,10 +4,6 @@
 
 ## SERA A ALINE ME COMA EM ISRAEL VAI POUSAR NUA MOSTRANDO O CREU ???
 
-<img width="419" height="315" alt="imwwages" src="https://github.com/user-attachments/assets/12a80fdd-7ede-4c42-960f-55874d1658d4" />
-
----
-
 <img width="1180" height="686" alt="1018316sss866" src="https://github.com/user-attachments/assets/f25cc163-ebea-42ac-8780-3ec395c27a91" />
 
 ---
