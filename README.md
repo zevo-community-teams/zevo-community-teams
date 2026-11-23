@@ -34,7 +34,15 @@ https://www.youtube.com/watch?v=7UzreFbV2hI&list=PLXGWX56wS5woKsqgGmfYYpM-lN8tbz
 
 ---
 
-# SHIONIST (SHIBOLET OR SIBOLET ???)
+# SHIONIST (SHIBOLET OR SIBOLET -- Judges 12:4–6 ???)
+
+---
+
+Judges 12-6 then said they unto him: 'Say now Shibboleth'; and he said 'Sibboleth'; for he could not frame to pronounce it right; then they laid hold on him, and slew him at the fords of the Jordan; and there fell at that time of Ephraim forty and two thousand. 
+
+---
+
+https://mechon-mamre.org/p/pt/pt0712.htm
 
 ---
 
