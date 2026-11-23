@@ -6,6 +6,14 @@
 
 ---
 
+## Legião Urbana - Faroeste Caboclo (ao vivo) 
+
+---
+
+https://www.youtube.com/watch?v=PLE0dXYPANg
+
+---
+
 
 ##  Cássia Eller - O Segundo Sol 
 
