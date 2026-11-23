@@ -12,6 +12,10 @@
 
 ---
 
+## Vou me casar com ela vou fazer com ela pegacao..
+
+---
+
 <img width="500" height="258" alt="imassges" src="https://github.com/user-attachments/assets/d63a0bf8-30c7-4167-b574-1150a53cd974" />
 
 ---
