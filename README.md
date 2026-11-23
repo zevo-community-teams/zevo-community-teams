@@ -8,7 +8,7 @@
 
 ---
 
-## Concubina - Minha nova namorada que eu comi no verão foi na casa dela, foi so uma metidinha no jantar - hahhahaha
+## Concubina - Minha nova namorada que eu comi no jantar - hahhahaha
 
 ---
 
