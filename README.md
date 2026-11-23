@@ -12,6 +12,10 @@
 
 ---
 
+<img width="500" height="258" alt="imassges" src="https://github.com/user-attachments/assets/d63a0bf8-30c7-4167-b574-1150a53cd974" />
+
+---
+
 ## Concubina Old Nick Name **Katerva Ex-Model de Fim de Semana** - Minha nova namorada que eu comi no jantar - hahhahaha
 
 ---
