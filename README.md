@@ -12,6 +12,11 @@
 
 ## “Lula de Novo, Com a Força do Povo” - Jingle 2026 (suposição) - LULA 13 (PT) 
 
+
+---
+
+<img width="612" height="408" alt="ssss" src="https://github.com/user-attachments/assets/f6bba873-8214-4e90-a135-a85219b76de6" />
+
 ---
 
 <img width="596" height="335" alt="imagsses" src="https://github.com/user-attachments/assets/8279f283-cbe2-4293-b45a-d3b970da03de" />
