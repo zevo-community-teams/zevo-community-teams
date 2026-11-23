@@ -18,6 +18,14 @@ https://www.youtube.com/watch?v=nZXRV4MezEw
 
 ---
 
+## Como escolher o melhor carro funerario para viajar
+
+---
+
+<img width="549" height="364" alt="ismasges" src="https://github.com/user-attachments/assets/729f7c33-e5a0-4174-8c42-82d7b14b9cd4" />
+
+---
+
 ## Como escolher o jazigo ideal
 
 ---
