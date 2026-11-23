@@ -12,7 +12,11 @@
 
 ---
 
-<img width="1000" height="1400" alt="ipa" src="https://github.com/user-attachments/assets/43d96e18-9a1d-417b-bb39-e89179bf1e2b" />
+<img width="1000" height="1400" alt="pa" src="https://github.com/user-attachments/assets/43d96e18-9a1d-417b-bb39-e89179bf1e2b" />
+
+---
+
+<img width="1000" height="663" alt="pool2" src="https://github.com/user-attachments/assets/f0b02d33-8c20-4a80-a451-7251aba8a07e" />
 
 ---
 
@@ -20,7 +24,7 @@
 
 ---
 
-<img width="790" height="1000" alt="dua_lipa_naked_praying2" src="https://github.com/user-attachments/assets/26ad0edf-cc44-4f14-b46c-e8f20df02d67" />
+<img width="790" height="1000" alt="naked_praying2" src="https://github.com/user-attachments/assets/26ad0edf-cc44-4f14-b46c-e8f20df02d67" />
 
 ---
 
