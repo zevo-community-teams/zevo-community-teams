@@ -22,6 +22,10 @@ https://youtu.be/e-TJgQbL1Pw
 
 ---
 
+<img width="415" height="739" alt="imsssssages" src="https://github.com/user-attachments/assets/fd05751c-e5d0-476c-8b74-d21e636b99bc" />
+
+---
+
 # USHPISHININ (“USHPISHININ” is Aramaic for “guests,” a reference to the seven supernal guests, “founding fathers” of the Jewish people, who come to visit us in the sukka)
 
 ---
