@@ -8,7 +8,11 @@
 
 ---
 
-## Minha nova namorada que eu comi no verão
+## Minha nova namorada que eu comi no verão foi na casa dela, foi so uma metidinha no jantar - hahhahaha
+
+---
+
+<img width="834" height="1000" alt="naked_praying" src="https://github.com/user-attachments/assets/053c52b9-d68e-4b58-8fdc-104cce49f9ca" />
 
 ---
 
