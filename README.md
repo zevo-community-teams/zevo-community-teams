@@ -1,4 +1,4 @@
-## QUANDO O PIPI TA VERMEIN EU METO UM VIN
+## QUANDO O PIPI TA VERMEIN EU METO UM VIN AINDA TEM A VOKA NO BAIRRO
 
 <img width="739" height="415" alt="imageds" src="https://github.com/user-attachments/assets/d8820562-4715-46f1-9e88-a0c3aaf08a32" />
 
