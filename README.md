@@ -1,12 +1,4 @@
-## QUANDO O PIPI TA VERMEIN EU METO UM VIN AINDA TEM A VOKA NO BAIRRO (E PQ COMEI VENDO PATIUS E AGORA PESQUILSIO COMO NAO SER FEITO DE PATIUS)
-
-<img width="739" height="415" alt="imageds" src="https://github.com/user-attachments/assets/d8820562-4715-46f1-9e88-a0c3aaf08a32" />
-
-## Hey, Soldier Paulo, make a list of 15 films about SKY dancing with lobbyists. Quem que RIR TEM FZER RIR: AHAHAHAH
-
-## SKY DANCING, E MIORES DO MUNDO - VALE QUANTOS MIL - COM RABONE ???? AHAHAHAH
-
-## SD PAULO, ACHO MELHOR NOS SAIR DESSA TRAMA, E INVESTIR EM XIXI DE MADAMA - HAHAHAHAH
+### Sera que na GINGA das estrelas tem streaming carrossel de primeira ??? AHAHAHA
 
 ---
 
