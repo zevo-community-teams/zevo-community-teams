@@ -1,4 +1,4 @@
-### Sera que ele tem a GINGA das estrelas no streaming do carrossel de dados de primeira ??? AHAHAHA
+### Sera que ele tem a GINGA das estrelas no streaming do carrossel de dados de primeira ??? O CARROSEL SO PODE COMECAR A GIRAR QUANDO LOTAR, E MELHOR DEVOLVER O DINHEIRO DO QUE PAGAR PARA TRABALHAR. AHAHAHA
 
 ---
 
