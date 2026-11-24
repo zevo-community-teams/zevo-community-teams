@@ -4,6 +4,10 @@
 
 ---
 
+<img width="832" height="448" alt="2-EUmn3a" src="https://github.com/user-attachments/assets/8c95a81b-5cd2-4917-8860-daf0c1d5a7ff" />
+
+---
+
 <img width="832" height="448" alt="the-aliens" src="https://github.com/user-attachments/assets/34449fb2-313c-4f9f-b2d2-74d3024dfa9f" />
 
 ---
