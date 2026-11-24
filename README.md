@@ -1,4 +1,4 @@
-## Soldier paulo to do check-list movies 15 on the lobistas: AHAHAHAH
+## Hey, Soldier Paulo, make a list of 15 films about lobbyists: AHAHAHAH
 
 ---
 
