@@ -1,6 +1,6 @@
 ### Captain General Aviator Davada Beni Zaita - General Commander Dava Defense Forces
 
-<h3> I serve as a doctoral professor and researcher, advancing and evolving knowledge regarding creation within the underlying dimensions of the history in question. </h3>
+<h3> I serve as a doctoral researcher and professor, advancing and evolving knowledge regarding creation within the underlying dimensions of the history in question. </h3>
 
 ---
 
