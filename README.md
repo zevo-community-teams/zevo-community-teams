@@ -1,3 +1,9 @@
+## A dupla dinamica
+
+<img width="832" height="448" alt="kdbhNcA_" src="https://github.com/user-attachments/assets/7f6519e3-a903-43a5-b434-d5342d3873fd" />
+
+---
+
 ## VIXE CHEGOU A POLICIA MASCARDA
 
 <img width="832" height="448" alt="Qgt4Te-B" src="https://github.com/user-attachments/assets/d18c9af9-9194-4a66-a3ea-765e15daa6b5" />
