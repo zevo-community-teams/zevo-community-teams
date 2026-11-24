@@ -4,6 +4,8 @@
 
 ## PERMISSAO PARA FAZER STRIPER NA ASSOCIACAO DE PARAQUEDISTAS: NUMBER - 0123456
 
+<img width="447" height="447" alt="imdddages" src="https://github.com/user-attachments/assets/960dbe47-9e34-49db-ba49-c931826441d0" />
+
 ---
 
 ## The dynamic superstars
