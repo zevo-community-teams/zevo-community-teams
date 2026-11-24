@@ -1,4 +1,4 @@
-### Sera que na GINGA das estrelas tem streaming carrossel de primeira ??? AHAHAHA
+### Sera que ele tem a GINGA das estrelas no streaming do carrossel de primeira ??? AHAHAHA
 
 ---
 
