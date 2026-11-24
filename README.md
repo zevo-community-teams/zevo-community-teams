@@ -1,5 +1,7 @@
 ## A dupla dinamica
 
+<img width="832" height="448" alt="FtwLOde5" src="https://github.com/user-attachments/assets/014963b2-9978-4aee-91e2-8c84ef203ff9" />
+
 <img width="832" height="448" alt="6X0EhbTx" src="https://github.com/user-attachments/assets/f9dae195-f5ce-4fd0-bec4-dfd87685cbb1" />
 
 <img width="832" height="448" alt="DI7bzwOD" src="https://github.com/user-attachments/assets/673ed399-90aa-4bf8-9420-91c3ece0ae21" />
