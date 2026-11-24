@@ -1,3 +1,7 @@
+## QUANDO O PIPI DA VERMEIN EU METO UM VIN
+
+<img width="739" height="415" alt="imageds" src="https://github.com/user-attachments/assets/d8820562-4715-46f1-9e88-a0c3aaf08a32" />
+
 ## Hey, Soldier Paulo, make a list of 15 films about SKY dancing with lobbyists. Quem que RIR TEM FZER RIR: AHAHAHAH
 
 ## SKY DANCING, E MIORES DO MUNDO - VALE QUANTOS MIL - COM RABONE ???? AHAHAHAH
