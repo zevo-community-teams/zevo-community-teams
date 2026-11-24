@@ -1,4 +1,4 @@
-## Soldier paulo to do check-list movies 15: AHAHAHAH
+## Soldier paulo to do check-list movies 15 on the lobistas: AHAHAHAH
 
 ---
 
