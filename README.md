@@ -1,4 +1,4 @@
-## Ja chupou um xibiu em pleno salto paraquedista sem cabelo na xereca ???
+## Ja chupou xibiu em pleno salto paraquedista com xereca raspada ???
 
 ---
 
