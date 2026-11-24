@@ -2,6 +2,10 @@
 
 <img width="832" height="448" alt="Qgt4Te-B" src="https://github.com/user-attachments/assets/d18c9af9-9194-4a66-a3ea-765e15daa6b5" />
 
+<img width="832" height="448" alt="v6TMr2iK" src="https://github.com/user-attachments/assets/c83b507a-9d1f-4c64-a254-6bd47bebe309" />
+
+---
+
 ## SERA QUE NA SKY GINGA TEM FILME DE GANG-START NA CIDADE ESGOTO DO NATO PALHACO.
 
 ## SABE COMO COMECOU A SAGA DO BAFO NESTE MUNDO, COM A LABIA DE CONTRADITAR O NATO SUJO IMUNDO (COMPRAVA E NAO PAGAVA, PEDIA EMPRESTADO E VENDIA, E NAO DEVOLVIA)...
