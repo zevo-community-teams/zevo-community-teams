@@ -1,4 +1,4 @@
-## Zevo Jab Biliscal: O KOSSA KU DE ALIEN PREDATOR KU
+## Zevo Jab Biliscal: O KOSSA KU DE ALIEN PREDATOR DE KU
 
 ---
 
