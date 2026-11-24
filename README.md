@@ -8,14 +8,6 @@
 
 ---
 
-<img width="832" height="448" alt="9HRBuZTQ" src="https://github.com/user-attachments/assets/7496ed70-ecf3-4848-b9a9-491062124f51" />
-
----
-
-<img width="832" height="448" alt="lpWAPhKb" src="https://github.com/user-attachments/assets/8fdf7016-786d-4c76-83c3-07ba54dacdd1" />
-
----
-
 <img width="832" height="448" alt="the-davada-zaita-is-a-28-year-old-military-pilot-an-a(1)" src="https://github.com/user-attachments/assets/848b3ca8-f830-4306-8ab2-6e4897c9a02e" />
 
 ---
@@ -29,6 +21,14 @@
 ---
 
 <img width="832" height="448" alt="the-davada-zaita-is-a-28-year-old-military-pilot-an-a" src="https://github.com/user-attachments/assets/cfa1ae41-2ac6-4ff0-91ea-e2984a22748d" />
+
+---
+
+<img width="832" height="448" alt="9HRBuZTQ" src="https://github.com/user-attachments/assets/7496ed70-ecf3-4848-b9a9-491062124f51" />
+
+---
+
+<img width="832" height="448" alt="lpWAPhKb" src="https://github.com/user-attachments/assets/8fdf7016-786d-4c76-83c3-07ba54dacdd1" />
 
 ---
 
