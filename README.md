@@ -26,11 +26,11 @@ https://timesbrasil.com.br/empresas-e-negocios/david-ellison-confirma-investimen
 
 ---
 
-<h3>[The Tomorrow War](https://youtu.be/WOx8TZFvfsw) </h3>
+<h3>The Tomorrow War - https://youtu.be/WOx8TZFvfsw</h3>
 
 ---
 
-<h3>https://youtu.be/Cld40qD7HcY</h3>
+<h3>Aliens vs. Predators - https://youtu.be/Cld40qD7HcY</h3>
 
 ---
 
