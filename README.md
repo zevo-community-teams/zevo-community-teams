@@ -6,6 +6,18 @@ https://www.skydance.com/
 
 ---
 
+Elon Musk's Skydance bet is turning into something much larger
+
+https://finance.yahoo.com/media-advertising/articles/elon-musks-skydance-bet-turning-140300883.html
+
+---
+
+David Ellison confirma investimento de Elon Musk como acionista da Skydance, dona da HBO Max e Warner 
+
+https://timesbrasil.com.br/empresas-e-negocios/david-ellison-confirma-investimento-de-elon-musk-como-acionista-da-skydance-dona-da-hbo-max-e-warner/
+
+---
+
 ### Good Sleeping to Night Watching Best Movie within Aliens vs. Predators on The Tomorrow War
 
 ---
