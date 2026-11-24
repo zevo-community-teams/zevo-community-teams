@@ -1,8 +1,28 @@
-## Zevo Jab Biliscal: Taylor Swift - Shake It Off
+## Zevo Jab Biliscal: O KOSSA KU DE ALIEN PREDATOR KU
+
+---
+
+## Taylor Swift - Shake It Off
 
 ---
 
 https://www.youtube.com/watch?v=nfWlot6h_JM
+
+---
+
+## Katy Perry - Dark Horse ft. Juicy J 
+
+---
+
+https://youtu.be/0KSOMA3QBU0?list=RD0KSOMA3QBU0
+
+---
+
+## Lady Gaga - Bad Romance (Official Music Video)
+
+---
+
+https://youtu.be/qrO4YZeyl0I?list=RDqrO4YZeyl0I
 
 --- 
 
