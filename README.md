@@ -1,6 +1,14 @@
 ### A mission given is a mission accomplished.
 
+---
+
 <h3>The Dava Forces Military doctoral students in computer engineering successfully complete the bootstrapping sequence for the 64-bit (x86_64) CS-RTOS.</h3>
+
+---
+
+https://github.com/user-attachments/assets/eb967914-cf7d-4053-b8bb-d2b690e55526
+
+---
 
 https://github.com/user-attachments/assets/8f838048-5b0b-4ca6-930c-ef2618ad1ed8
 
