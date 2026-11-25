@@ -2,7 +2,7 @@
 
 ---
 
-<h3>The Dava Forces Military doctoral students in computer engineering successfully complete the bootstrapping sequence for the 64-bit (x86_64) CS-RTOS.</h3>
+<h3>The Royal Dava Defense Forces Doctoral Students in computer engineering successfully complete the bootstrapping chain on the 64-bit (x86_64) CS-RTOS, embedded on GNU ELF Image adopting GNU Source, Posix and System V AMD ABI x86_64 compliance anchored on AMD Ryzen 5 and Amd Radeon Graphics within 8GB and 512 SSD within AMD-V x86_64 Architecture.</h3>
 
 ---
 
