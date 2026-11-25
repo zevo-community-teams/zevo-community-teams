@@ -1,3 +1,11 @@
+### A mission given is a mission accomplished.
+
+<h3>Military doctoral students in computer engineering successfully complete the bootstrapping sequence for the 64-bit (x86_64) CS-RTOS.</h3>
+
+https://github.com/user-attachments/assets/8f838048-5b0b-4ca6-930c-ef2618ad1ed8
+
+---
+
 ### Captain General Aviator Davada Beni Zaita - General Commander Dava Defense Forces
 
 <h3> I serve as a doctoral researcher and professor, advancing and evolving knowledge regarding creation within the underlying dimensions of the history in question. </h3>
