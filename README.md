@@ -14,7 +14,7 @@
 
 ---
 
-<h3>objcopy -O binary zevo-scpu zevo_scpu.bin</h3>
+<h3>objcopy -O binary zevo_scpu zevo_scpu.bin</h3>
 
 ---
 
