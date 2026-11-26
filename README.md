@@ -2,7 +2,7 @@
 
 ---
 
-## Mr Kent & Ruby Red - Would You Be With Me </h3>
+## Would You Be With Me - Mr Kent & Ruby Red </h3>
 
 ---
 
@@ -10,7 +10,7 @@
 
 ---
 
-## Zyke - Leave Me Breathless 
+## Leave Me Breathless - Zyke
 
 ---
 
