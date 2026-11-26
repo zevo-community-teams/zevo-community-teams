@@ -1,3 +1,14 @@
+## Academic Correctness - CSRTOS
+
+---
+
+<h3>Did you check the boot sequence???</h3>
+
+---
+
+<img width="1366" height="737" alt="csrtos" src="https://github.com/user-attachments/assets/61e8936f-5d3b-43f8-a85d-9f8f96112850" />
+
+
 ## Academic Incorrectness - Linux Fedora 45
 
 ---
