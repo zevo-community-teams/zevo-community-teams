@@ -2,7 +2,7 @@
 
 ---
 
-## Zevo JAB: Linux systems now have KO, KOKO, the BINDER IPC, and a purgatory the only thing missing is to Reincarnate Taneubalde within it.
+## Zevo JAB: Linux Kernel Systems now have KO, KOKO, the BINDER IPC, and a Purgatory the only thing missing is to Reincarnate Taneubalde within it.
 
 ---
 
