@@ -1,4 +1,8 @@
-## Zevo Bizu - Training Keep Movie 
+## Zevo Bizu - Training Keep Moving
+
+---
+
+<img width="832" height="448" alt="output" src="https://github.com/user-attachments/assets/8f8548ac-acae-4936-8c32-e10faa031d39" />
 
 ---
 
