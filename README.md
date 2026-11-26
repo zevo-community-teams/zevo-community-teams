@@ -13,6 +13,14 @@
 
 ---
 
+<h3>Did you analyze the directory and boot file structure???</h3>
+
+---
+
+https://github.com/user-attachments/assets/44f9f461-8a0e-4386-80c2-ccbc268e27a9
+
+---
+
 <h3>Did you check the boot sequence???</h3>
 
 ---
