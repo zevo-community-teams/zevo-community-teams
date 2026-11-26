@@ -8,7 +8,7 @@
 
 ## Academic Correctness - LIVE CSRTOS
 
-<h3>CSRTOS - Bootable CD/DVD or USB Drive!!!</h3>
+<h3>CSRTOS - Bootable CD/DVD Drive!!!</h3>
 
 ---
 
