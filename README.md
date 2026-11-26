@@ -12,6 +12,7 @@
 <h3>
 ```bash 	
 cp /usr/share/edk2/ovmf/OVMF_CODE.fd Debug/csrtos_code.fd
+	
 cp /usr/share/edk2/ovmf/OVMF_VARS.fd Debug/csrtos_vars.fd
 ```	
 </h3>
