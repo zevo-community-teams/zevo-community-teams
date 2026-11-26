@@ -1,4 +1,4 @@
-## Zevo JAB: Linux Systems, agora tem KU tem Balde IPC, tme KOKO, Tem pugatorio so faltou encarnar o taneubalde nele.
+## Zevo JAB: Linux Systems, agora tem KU tem Balde IPC, tem KOKO, Tem purgatorio so faltou encarnar o taneubalde nele.
 
 ---
 
