@@ -10,7 +10,7 @@
 
 ----
 
-<h3>The default project created in the Eclipse IDE CDT is an ELF file. When the project named `zevo-scpu` is compiled, it generates an GNU ELF file with the same name as the project `zevo_scpu`, with no extension which can be converted into a raw binary `zevo_scpu.bin`.</h3>
+<h3>ZEVO BIZU: The default project created in the Eclipse IDE CDT is an GNU ELF file. When the project named `zevo-scpu` is compiled, it generates an GNU ELF file with the same name as the project `zevo_scpu`, with no extension which can be converted into a raw binary `zevo_scpu.bin`.</h3>
 
 ---
 
