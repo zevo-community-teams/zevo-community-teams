@@ -1,4 +1,4 @@
-## Zevo JAB
+## Zevo JAB: Linux Systems
 
 ---
 
@@ -6,17 +6,21 @@
 
 ---
 
-### ZEVO BIZU: GNU ELF TO RAW BIN CONVERTER - GNU ELF BINUTILS COMMANDS
+<h3>A Kernel Object (.ko) file is a Loadable Kernel Module (LKM) used in Linux systems to extend the functionality of the running kernel without rebooting or recompiling the entire kernel. They are commonly used for device drivers, filesystems, and network protocols.</h3>
+
+---
+
+### ZEVO BIZU: GNU SOURCES PROJECTS
 
 ----
 
 <h3>A GNU shared object (.so) is a dynamically linked library used on GNU Sources Projects to share compiled code across multiple programs at runtime. </h3> 
-	
-<h3>The default project created in the Eclipse IDE CDT is an GNU ELF file. When the project named `zevo_scpu` is compiled, it generates an GNU ELF file with the same name as the project `zevo_scpu`, with no extension which can be converted into a raw binary `zevo_scpu.bin`. </h3>
 
 ---
 
-<h3>A Kernel Object (.ko) file is a Loadable Kernel Module (LKM) used in Linux systems to extend the functionality of the running kernel without rebooting or recompiling the entire kernel. They are commonly used for device drivers, filesystems, and network protocols.</h3>
+### ZEVO BIZU: GNU ELF TO RAW BIN CONVERTER - GNU ELF BINUTILS COMMANDS
+	
+<h3>The default project created in the Eclipse IDE CDT is an GNU ELF file. When the project named `zevo_scpu` is compiled, it generates an GNU ELF file with the same name as the project `zevo_scpu`, with no extension which can be converted into a raw binary `zevo_scpu.bin`. </h3>
 
 ---
 
