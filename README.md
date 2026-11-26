@@ -6,6 +6,14 @@
 
 ---
 
+## GNU ELF TO BIN CONVERTER - GNU ELF BINULTIS COMMANDS
+
+---
+
+<h3>objcopy -O binary zevo-scpu zevo_scpu.bin</h3>
+
+---
+
 ### TiniCore BIOS UEFI QEMU/KVM
 
 <h3>cp /usr/share/edk2/ovmf/OVMF_CODE.fd Debug/csrtos_code.fd</h3>	
