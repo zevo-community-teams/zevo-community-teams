@@ -1,4 +1,4 @@
-## Pegada Z Dance - Aquela metidinha do Jantar
+## Pegada Z Dance - Aquela metidinha No Jantar
 
 ---
 
