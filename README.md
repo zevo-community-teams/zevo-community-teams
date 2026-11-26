@@ -4,6 +4,77 @@
 
 <h3>You’ve looked into how many millions of vulnerabilities an operating system has, and how often updates are released throughout the month—yet, even so, that doesn’t solve a single thing??? </h3>
 
+
+---
+
+### Virtual TiniCore BIOS UEFI
+
+<h3>
+cp /usr/share/edk2/ovmf/OVMF_CODE.fd Debug/csrtos_code.fd
+cp /usr/share/edk2/ovmf/OVMF_VARS.fd Debug/csrtos_vars.fd
+
+</h3>
+
+#### Virtual TiniCore BIOS UEFI QEMU/KVM
+
+---    
+
+```bash    
+qemu-system-x86_64 \
+    -blockdev node-name=kvmcode,driver=file,filename=Debug/csrtos_code.fd,read-only=on \
+    -blockdev node-name=kvmvars,driver=file,filename=Debug/csrtos_vars.fd \
+    -drive file=Debug/zevo_scpu.bin,format=raw,if=floppy,index=0,media=disk \
+    -m 512 \
+    -cpu host \
+    -enable-kvm \
+    -smp cores=4,threads=1 \
+    -no-reboot \
+    -no-shutdown \
+    -d int,cpu_reset,in_asm,cpu,exec \
+    -D Debug/qemu_trace_a.log \
+    -serial stdio \
+    -display gtk,zoom-to-fit=on
+```
+
+---
+
+```bash    
+qemu-system-x86_64 \
+    -blockdev node-name=kvmcode,driver=file,filename=Debug/csrtos_code.fd,read-only=on \
+    -blockdev node-name=kvmvars,driver=file,filename=Debug/csrtos_vars.fd \
+    -drive file=Debug/zevo_scpu.bin,format=raw,if=ide,index=0,media=disk \
+    -m 512 \
+    -cpu host \
+    -enable-kvm \
+    -smp cores=4,threads=1 \
+    -no-reboot \
+    -no-shutdown \
+    -d int,cpu_reset,in_asm,cpu,exec \
+    -D Debug/qemu_trace_a.log \
+    -serial stdio \
+    -display gtk,zoom-to-fit=on
+```
+
+---
+
+
+```bash    
+qemu-system-x86_64 \
+    -blockdev node-name=kvmcode,driver=file,filename=Debug/csrtos_code.fd,read-only=on \
+    -blockdev node-name=kvmvars,driver=file,filename=Debug/csrtos_vars.fd \
+    -kernel Debug/zevo-scpu \
+    -m 512 \
+    -cpu host \
+    -enable-kvm \
+    -smp cores=4,threads=1 \
+    -no-reboot \
+    -no-shutdown \
+    -d int,cpu_reset,in_asm,cpu,exec \
+    -D Debug/qemu_trace_a.log \
+    -serial stdio \
+    -display gtk,zoom-to-fit=on
+```
+
 ---
 
 ## Academic Correctness - LIVE CSRTOS
