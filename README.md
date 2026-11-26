@@ -1,4 +1,4 @@
-## Zevo JAB: Linux Systems
+## Zevo JAB: Linux Systems, agora tem KU tem Binder IPC so faltou encarnar o taneubalde
 
 ---
 
