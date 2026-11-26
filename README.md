@@ -1,4 +1,8 @@
-## Academically Correctness 
+## Academic Incorrectness
+
+---
+
+<h3>Did you check the boot sequence???</h3>
 
 ---
 
