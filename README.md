@@ -10,7 +10,7 @@
 
 ---
 
-<h3>Have you taken the time to analyze this on your computer? EMBEDDED OS</h3>
+<h3>Have you taken the time to analyze this on your computer? EMBEDDED OPERATING SYSTEM</h3>
 
 ---
 
