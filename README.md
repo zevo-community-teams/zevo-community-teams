@@ -2,7 +2,7 @@
 
 ---
 
-## Zevo JAB: Linux systems now have KO, KOKO, the IPC bucket, and a purgatory the only thing missing is to embody Taneubalde within it.
+## Zevo JAB: Linux systems now have KO, KOKO, the IPC bucket, and a purgatory the only thing missing is to Reincarnate Taneubalde within it.
 
 ---
 
