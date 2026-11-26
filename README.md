@@ -13,7 +13,7 @@
 
 ---
 
-<h3>Did you analyze the directory and boot file structure???</h3>
+<h3>Did you analyze the CD/DVD Tree directory structure???</h3>
 
 ---
 
