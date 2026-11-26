@@ -1,4 +1,4 @@
-## Academic Correctness - CSRTOS
+## Academic Correctness - LIVE CSRTOS
 
 ---
 
