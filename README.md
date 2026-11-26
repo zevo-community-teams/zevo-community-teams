@@ -2,7 +2,7 @@
 
 ---
 
-## Zevo JAB: Linux Systems, agora tem KO, tem KOKO, tem Balde IPC, Tem purgatorio, so faltou encarnar o taneubalde nele.
+## Zevo JAB: Linux systems now have KO, KOKO, the IPC bucket, and a purgatory the only thing missing is to embody Taneubalde within it.
 
 ---
 
