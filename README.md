@@ -1,8 +1,8 @@
-## Zevo JAB: Linux Systems, agora tem KU, tem KOKO, tem Balde IPC, Tem purgatorio, so faltou encarnar o taneubalde nele.
+<h3>You’ve looked into how many millions of vulnerabilities an operating system has, and how often updates are released throughout the month yet, even so, that doesn’t solve a single thing??? </h3>
 
 ---
 
-<h3>You’ve looked into how many millions of vulnerabilities an operating system has, and how often updates are released throughout the month yet, even so, that doesn’t solve a single thing??? </h3>
+## Zevo JAB: Linux Systems, agora tem KU, tem KOKO, tem Balde IPC, Tem purgatorio, so faltou encarnar o taneubalde nele.
 
 ---
 
