@@ -18,11 +18,11 @@
 
 ---
 
-<h3>GNU is an operating system that is free software—that is, it respects users' freedom. The GNU operating system consists of GNU packages (programs specifically released by the GNU Project) as well as free software released by third parties. The development of GNU made it possible to use a computer without software that would trample your freedom.</h3>
+<h3>GNU is an operating system that is free software that is, it respects users' freedom. The GNU operating system consists of GNU packages (programs specifically released by the GNU Project) as well as free software released by third parties. The development of GNU made it possible to use a computer without software that would trample your freedom.</h3>
 
 ---
 
-<h3>In GNU toolchains (GCC and GNU Assembler), syscall is the standard instruction for 64-bit x86-64 system calls, while sysenter (often invoked via vsyscall / vdso rather than raw assembly) belongs to 32-bit x86 systems.</h3>
+<h3>In GNU toolchains (GCC and GNU Assembler), syscall is the standard instruction for 64-bit x86-64 system calls, while sysenter (often invoked via syscall / vdso rather than raw assembly) belongs to 32-bit x86 systems.</h3>
 
 ---
 
