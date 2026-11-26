@@ -14,6 +14,10 @@
 
 ---
 
+<h3>A Kernel Object (.ko) file is a Loadable Kernel Module (LKM) used in Linux systems to extend the functionality of the running kernel without rebooting or recompiling the entire kernel. They are commonly used for device drivers, filesystems, and network protocols.</h3>
+
+---
+
 <h3>objcopy -O binary zevo_scpu zevo_scpu.bin</h3>
 
 ---
