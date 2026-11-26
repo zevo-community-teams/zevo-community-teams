@@ -1,3 +1,15 @@
+## Resenha Musical Z Dance
+
+---
+
+## Zyke - Leave Me Breathless 
+
+---
+
+https://www.youtube.com/watch?v=sHHDGBzyot0
+
+---
+
 ### Thieving Government – ​​Thank Your Friend BAFAO - Your Car Sold at Auction
 
 <h3>The government has legally confiscated your car—you can thank your friend "Bafo" for that. As for the proper procedure in cases of non-payment of taxes: imposing a penalty on an inanimate object makes no sense. It would be the same as using a car to run someone over and then blaming the vehicle itself or its AI software; the person who should be held accountable is the individual driving illegally—they are prohibited from operating a vehicle, and a formal restriction is registered against their name with public authorities. </h3>
