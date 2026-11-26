@@ -30,6 +30,10 @@ qemu-system-x86_64 \
 
 ---
 
+https://github.com/user-attachments/assets/bd66b9cc-f9f8-4177-ad6c-e7741ce634c9
+
+---
+
 ```bash
 sudo qemu-system-x86_64 \
     -drive file=/dev/sda,format=raw,if=ide,snapshot=on \
