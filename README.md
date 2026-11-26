@@ -8,6 +8,11 @@
 
 ## Academic Correctness - LIVE CSRTOS
 
+<h3>CSRTOS - Creating Process Bootable USB Drive!!!</h3>
+
+
+https://github.com/user-attachments/assets/332ffc77-ed7c-4fd7-8b35-fc7daf85361e
+
 ---
 
 <h3>Did you analyze the CD/DVD BOOT Tree Directory Structure???</h3>
