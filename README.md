@@ -6,11 +6,11 @@
 
 ---
 
-### GNU ELF TO RAW BIN CONVERTER - GNU ELF BINUTILS COMMANDS
+### ZEVO BIZU: GNU ELF TO RAW BIN CONVERTER - GNU ELF BINUTILS COMMANDS
 
 ----
 
-<h3>ZEVO BIZU: The default project created in the Eclipse IDE CDT is an GNU ELF file. When the project named `zevo_scpu` is compiled, it generates an GNU ELF file with the same name as the project `zevo_scpu`, with no extension which can be converted into a raw binary `zevo_scpu.bin`. A GNU shared object (.so) is a dynamically linked library used on GNU Sources Projects to share compiled code across multiple programs at runtime.</h3>
+<h3>The default project created in the Eclipse IDE CDT is an GNU ELF file. When the project named `zevo_scpu` is compiled, it generates an GNU ELF file with the same name as the project `zevo_scpu`, with no extension which can be converted into a raw binary `zevo_scpu.bin`. A GNU shared object (.so) is a dynamically linked library used on GNU Sources Projects to share compiled code across multiple programs at runtime.</h3>
 
 ---
 
