@@ -52,7 +52,13 @@ sudo qemu-system-x86_64 \
 
 ---
 
+https://github.com/user-attachments/assets/79bbf06f-9af3-4fe6-a5d7-e3da6c58b11c
+
+---
+
 <h3>CSRTOS - Creating Process Bootable USB Drive!!!</h3>
+
+---
 
 https://github.com/user-attachments/assets/332ffc77-ed7c-4fd7-8b35-fc7daf85361e
 
