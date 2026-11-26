@@ -4,20 +4,14 @@
 
 <h3>You’ve looked into how many millions of vulnerabilities an operating system has, and how often updates are released throughout the month—yet, even so, that doesn’t solve a single thing??? </h3>
 
-
 ---
 
 ### Virtual TiniCore BIOS UEFI
 
-<h3>
-```bash 	
-cp /usr/share/edk2/ovmf/OVMF_CODE.fd Debug/csrtos_code.fd
+<h3>cp /usr/share/edk2/ovmf/OVMF_CODE.fd Debug/csrtos_code.fd</h3>	
+<h3>cp /usr/share/edk2/ovmf/OVMF_VARS.fd Debug/csrtos_vars.fd</h3> 
 	
-cp /usr/share/edk2/ovmf/OVMF_VARS.fd Debug/csrtos_vars.fd
-```	
-</h3>
-
-#### Virtual TiniCore BIOS UEFI QEMU/KVM
+### Virtual TiniCore BIOS UEFI QEMU/KVM
 
 ---    
 
@@ -58,7 +52,6 @@ qemu-system-x86_64 \
 ```
 
 ---
-
 
 ```bash    
 qemu-system-x86_64 \
