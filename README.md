@@ -1,8 +1,10 @@
-### Governo Ladrão Agradeça ao Seu Amigo BAFAO
+### Thieving Government – ​​Thank Your Friend BAFAO - Your Car Sold at Auction
 
 <h3>The government has legally confiscated your car—you can thank your friend "Bafo" for that. As for the proper procedure in cases of non-payment of taxes: imposing a penalty on an inanimate object makes no sense. It would be the same as using a car to run someone over and then blaming the vehicle itself or its AI software; the person who should be held accountable is the individual driving illegally—they are prohibited from operating a vehicle, and a formal restriction is registered against their name with public authorities. </h3>
 
 ---
+
+### Governo Ladrão Agradeça ao Seu Amigo BAFAO - Seu Carro Vendido no Leilão
 
 <h3> O governo confiscou legalmente o seu carro — você pode agradecer ao seu amigo "Bafo" por isso. Quanto ao procedimento adequado em casos de não pagamento de impostos: aplicar uma penalidade a um objeto inanimado não faz sentido. Seria o mesmo que usar um carro para atropelar alguém e, depois, culpar o próprio veículo ou seu software de IA; quem deve ser responsabilizado é a pessoa que está dirigindo ilegalmente — ela está proibida de conduzir um veículo, e uma restrição formal é registrada em seu nome nos órgãos publicos. </h3>
 
