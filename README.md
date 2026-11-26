@@ -2,6 +2,14 @@
 
 ---
 
+<h3>Did you analyze the CD/DVD BOOT Tree Directory Structure???</h3>
+
+---
+
+https://github.com/user-attachments/assets/c4efebe4-a2eb-4029-9608-5ec019bfee35
+
+---
+
 <h3>Did you check the boot sequence???</h3>
 
 ---
