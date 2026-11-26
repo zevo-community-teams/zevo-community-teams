@@ -1,4 +1,4 @@
-## Academic Incorrectness
+## Academic Incorrectness - Linux Fedora 45
 
 ---
 
