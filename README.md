@@ -8,8 +8,43 @@
 
 ## Academic Correctness - LIVE CSRTOS
 
-<h3>CSRTOS - Creating Process Bootable USB Drive!!!</h3>
+<h3>CSRTOS - Bootable CD/DVD or USB Drive!!!</h3>
 
+---
+
+```bash
+qemu-system-x86_64 \
+    -drive file=csrtos.iso,format=raw,media=cdrom \
+    -m 512 \
+    -cpu host \
+    -enable-kvm \
+    -smp cores=4,threads=1 \
+    -no-reboot \
+    -no-shutdown \
+    -vga std \
+    -display gtk,zoom-to-fit=on \
+    -d int,cpu_reset,in_asm,cpu,exec \
+    -D Debug/qemude.log \
+    -serial stdio
+```
+
+---
+
+```bash
+sudo qemu-system-x86_64 \
+    -drive file=/dev/sda,format=raw,if=ide,snapshot=on \
+    -m 512 \
+    -no-reboot \
+    -no-shutdown \
+    -d int,cpu_reset \
+    -D Debug/qemude.log \
+    -serial stdio \
+    -display gtk
+```    
+
+---
+
+<h3>CSRTOS - Creating Process Bootable USB Drive!!!</h3>
 
 https://github.com/user-attachments/assets/332ffc77-ed7c-4fd7-8b35-fc7daf85361e
 
