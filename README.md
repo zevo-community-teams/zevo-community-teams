@@ -18,7 +18,7 @@
 
 ---
 
-### ZEVO BIZU: GNU ELF TO RAW BIN CONVERTER - GNU ELF BINUTILS COMMANDS
+### GNU ELF TO RAW BIN CONVERTER - GNU ELF BINUTILS COMMANDS
 	
 <h3>The default project created in the Eclipse IDE CDT is an GNU ELF file. When the project named `zevo_scpu` is compiled, it generates an GNU ELF file with the same name as the project `zevo_scpu`, with no extension which can be converted into a raw binary `zevo_scpu.bin`. </h3>
 
