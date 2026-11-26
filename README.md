@@ -2,7 +2,15 @@
 
 ---
 
-<h3>Have you taken the time to analyze this on your computer? </h3>
+<h3>Have you taken the time to analyze this on your computer? LIVE OS</h3>
+
+---
+
+<img width="1366" height="737" alt="Screenshot From 2026-11-26 11-15-08" src="https://github.com/user-attachments/assets/7bdd2b47-204c-466c-b55f-f05b2005f4a9" />
+
+---
+
+<h3>Have you taken the time to analyze this on your computer? EMBEDDED OS</h3>
 
 ---
 
