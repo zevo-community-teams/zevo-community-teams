@@ -21,7 +21,7 @@ qemu-system-x86_64 \
     -m 512 \
     -cpu host \
     -enable-kvm \
-    -smp cores=4,threads=1 \
+    -smp cores=4,threads=8 \
     -no-reboot \
     -no-shutdown \
     -d int,cpu_reset,in_asm,cpu,exec \
@@ -40,7 +40,7 @@ qemu-system-x86_64 \
     -m 512 \
     -cpu host \
     -enable-kvm \
-    -smp cores=4,threads=1 \
+    -smp cores=4,threads=8 \
     -no-reboot \
     -no-shutdown \
     -d int,cpu_reset,in_asm,cpu,exec \
@@ -59,7 +59,7 @@ qemu-system-x86_64 \
     -m 512 \
     -cpu host \
     -enable-kvm \
-    -smp cores=4,threads=1 \
+    -smp cores=4,threads=8 \
     -no-reboot \
     -no-shutdown \
     -d int,cpu_reset,in_asm,cpu,exec \
