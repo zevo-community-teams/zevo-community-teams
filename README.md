@@ -6,7 +6,7 @@
 
 ---
 
-### Virtual TiniCore BIOS UEFI QEMU/KVM
+### TiniCore BIOS UEFI QEMU/KVM
 
 <h3>cp /usr/share/edk2/ovmf/OVMF_CODE.fd Debug/csrtos_code.fd</h3>	
 <h3>cp /usr/share/edk2/ovmf/OVMF_VARS.fd Debug/csrtos_vars.fd</h3> 
@@ -25,7 +25,7 @@ qemu-system-x86_64 \
     -no-reboot \
     -no-shutdown \
     -d int,cpu_reset,in_asm,cpu,exec \
-    -D Debug/qemu_trace_a.log \
+    -D Debug/qemude.log \
     -serial stdio \
     -display gtk,zoom-to-fit=on
 ```
@@ -44,7 +44,7 @@ qemu-system-x86_64 \
     -no-reboot \
     -no-shutdown \
     -d int,cpu_reset,in_asm,cpu,exec \
-    -D Debug/qemu_trace_a.log \
+    -D Debug/qemude.log \
     -serial stdio \
     -display gtk,zoom-to-fit=on
 ```
@@ -63,7 +63,7 @@ qemu-system-x86_64 \
     -no-reboot \
     -no-shutdown \
     -d int,cpu_reset,in_asm,cpu,exec \
-    -D Debug/qemu_trace_a.log \
+    -D Debug/qemude.log \
     -serial stdio \
     -display gtk,zoom-to-fit=on
 ```
