@@ -2,6 +2,10 @@
 
 ---
 
+<h3>Have you taken the time to analyze this on your computer? </h3>
+
+---
+
 <img width="1366" height="737" alt="Screenshot From 2026-11-26 10-55-24" src="https://github.com/user-attachments/assets/176fe727-7229-4153-b2e3-38e21b534c35" />
 
 ---
