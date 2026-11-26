@@ -1,4 +1,8 @@
-### A mission given is a mission accomplished.
+## Academically Correctness 
+
+---
+
+<img width="1366" height="737" alt="Screenshot From 2026-11-26 10-55-24" src="https://github.com/user-attachments/assets/176fe727-7229-4153-b2e3-38e21b534c35" />
 
 ---
 
