@@ -10,7 +10,7 @@
 
 ---
 
-## Cadê o Baiano? Your Friend BAFAO Your Car Sold at Auction
+## Cadê o Baiano? Your Friend BAFAO Your Car Sold at Auction - Quem é o determinador responsavel, que vai pagar o pato.
 
 ---
 
