@@ -1,3 +1,5 @@
+## ZeVo Jab: If you were to start everything over from scratch—as a renegade, since, theoretically, everyone would have accepted being contradicted regarding the BAFO issue you would turn to HIM, the Sovereign of this side: "Adonai Tzevaot," the Father of all.
+
 ## ZeVo Jab: Se voce comecar tudo de novo do zero como um renegado pq teroricamente todos teriam aceitados ser contraditados na questao do BAFO, iria para NELE O SOBERANO DESTE LADO "ADONAI TZEVAOT" O PAI DE TODOS.
 
 ---
