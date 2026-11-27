@@ -78,7 +78,7 @@ Descent of Russian and Spanish, Zeider In the boardroom, he is portrayed as comp
 
 ---
 
-## Clarification: Linux Old Sources anchored ON The GNU Sources Projects 
+## Linux Boot Old Sources anchored On The GNU Sources Projects 
 
 ---
 
