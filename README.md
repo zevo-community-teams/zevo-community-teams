@@ -1,8 +1,8 @@
-# For BAFO to be considered the sovereign of the entire universe—as he claims in his drunken ramblings—he would have had to defeat me, and then ADONAI TZEVAOT; yet, he couldn’t even get past me, Davada Beni Elohim, Zaita, son of Jesse.
+# For BAFO to be considered the sovereign of the entire universe as he claims in his drunken delusions he would first have to defeat me, Davada Beni Zaita, and then defeat Adonai Tzevaot. Yet, he could not even get past me Davada, son of the Elohim, Zaita, son of Jesse let alone get past the Sovereign, Adonai Tzevaot.
 
 ---
 
-# Para que o BAFO fosse considerado o soberano do universo inteiro como ele diz na sua conversa de bebado, ele teria que me derrotar eu primeiro e depois ADONAI TZEVAOT, MAS NAO CONSEGUI PASSAR NEM POR MIM DAVADA BENI ELOHIM, ZAITA FILHO DE ISAI.
+# Para que BAFO fosse considerado o soberano de todo o universo como ele alega em seus devaneios de bêbado, ele teria, primeiro, de me derrotar DAVADA BENI ZAITA, depois, derrotar ADONAI TZEVAOT. Mas ele sequer não conseguiu passar por mim Davada, filho dos Elohim, Zaita, filho de Jessé, quanto mais passar pelo Soberano, ADONAI TZEVAOT.
 
 ---
 
