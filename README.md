@@ -1,8 +1,28 @@
-## Resenha Musical: Exaltasamba - Cara De Pau (KOKO ALUCINATE)
+## Resenha Musical: Exaltasamba - Cara De Pau 
 
 ---
 
 https://youtu.be/WrH10xPRnis?list=RDWrH10xPRnis
+
+---
+
+## Zevo Bizu Sheira KU Within Bafo De KOKO Alucinante - Cara De Pau
+
+---
+
+https://www.kernel.org/pub/linux/utils/boot/
+
+---
+
+https://wiki.syslinux.org/wiki/index.php?title=The_Syslinux_Project
+
+---
+
+https://kernel.googlesource.com/pub/scm/boot/
+
+---
+
+https://kernel.googlesource.com/pub/scm/boot/syslinux/syslinux/+/refs/tags/syslinux-6.03/efi/syslinux.ld
 
 ---
 
