@@ -1,8 +1,8 @@
-## Zevo Jab: Have you ever seen what happens when a useless idiot shoots himself in the foot? Well, it’s exactly the same thing that happens when a useless idiot sabotages his own side—labeling the group of "purified" ones—the yellows, blues, and whites, which result in the "green" category—as "TRASH." Oh, how wonderful it must be to be "red"... I can’t wait to see what they’ll do when they finally reach their destination on Mars, and who they’ll turn to, begging to be taken off that planet. HAHAHA
+## Zevo Jab: Have you ever seen what happens when a useless idiot shoots himself in the foot? Well, it’s exactly the same thing that happens when a useless idiot sabotages his own side—labeling the group of "purified" ones—the yellows, blues, and whites, which result in the "green" category—as "TRASH." Oh, how wonderful it must be to be "red"... I can’t wait to see what they’ll do when they finally reach their destination on Mars, and who they’ll turn to, begging to be taken off that planet. HE WHO LAUGHS LAST, LAUGHS BEST... HAHAHA
 
 ---
 
-## Zevo Jab: Ja viram o resultado quando um idiota inultil da um tiro no proprio pe: Pois é a mesma coisa quando um idiota inutil queima o seu proprio lado dizendo que amarelo, azul e branco resultado verde purificado como exemplo o NATO, é um LIXO. QUE BOM É SER VERMELHO, SO QUERO VER QUANDO ELES CHEGAREM EM MARS NO PONTO FINAL O QUE ELE VÃO FAZER E PARA QUEM ELES VAO RECORRER PARA SER TIRADO DE LA. AHAHAHA
+## Zevo Jab: Ja viram o resultado quando um idiota inultil da um tiro no proprio pe: Pois é a mesma coisa quando um idiota inutil queima o seu proprio lado dizendo que amarelo, azul e branco resultado verde purificado como exemplo o NATO, é um LIXO. QUE BOM É SER VERMELHO, SO QUERO VER QUANDO ELES CHEGAREM EM MARS NO PONTO FINAL O QUE ELE VÃO FAZER E PARA QUEM ELES VAO RECORRER PARA SER TIRADO DE LA. QUEM RIR POR ULTIMO, RIR MELHOR. AHAHAHA
 
 ---
 
