@@ -2,7 +2,7 @@
 
 ---
 
-### De labore solis. Gloria olivae. In psecutione. extrema S.R.E. sedebit. Petrus Romanus, qui pascet oves in multis tribulationibus: quibus transactis civitas septicollis diruetur, & Iudex tremendus iudicabit populum suum. Finis.
+### De labore solis. Gloria olivae. In psecutione. extrema S.R.E. sedebit. Petrus Romanus, qui pascet oves in multis tribulationibus: quibus transactis civitas septicollis diruetur, & Iudex (QUE REI SOU EU... DAVADA BENI ELOHIM) tremendus iudicabit populum suum. Finis.
 
 ---
 
