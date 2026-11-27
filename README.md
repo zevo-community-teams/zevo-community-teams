@@ -2,11 +2,11 @@
 
 ---
 
-<h3>Já pensou em deixar um incenso natural da cannabis e da coca queimando a noite toda, enquanto você está com aquela gata no seu quarto com aquela musica ??? </h3>
+<h3> Ever thought about having some natural cannabis and coca incense burning throughout the night while you’ve got a gorgeous girl over in your bedroom with that song ??? </h3>
 
 ---
 
-<h3> Ever thought about having some natural cannabis and coca incense burning throughout the night while you’ve got a gorgeous girl over in your bedroom with that song ??? </h3>
+<h3>Já pensou em deixar um incenso natural da cannabis e da coca queimando a noite toda, enquanto você está com aquela gata no seu quarto com aquela musica ??? </h3>
 
 ---
 
