@@ -1,6 +1,18 @@
-### JA VIRAO PREDICAO DO FIM DO NATO POR MALAQUIAS DIABLO.. QUE FALA SOBRE A PERSEGUICAO DO BAFO E O MEU APARECIMENTO DEPOIS DESTAS COISAS... 
+### JA VIRAO PREDICAO DO FIM DO NATO POR MALAQUIAS DIABLO.. QUE FALA SOBRE A PERSEGUICAO DO BAFO E O MEU APARECIMENTO DEPOIS DESTAS COISAS (QUE REI SOU EU... DAVADA BENI ELOHIM)
+
+---
+
+### De labore solis. Gloria olivae. In psecutione. extrema S.R.E. sedebit. Petrus Romanus, qui pascet oves in multis tribulationibus: quibus transactis civitas septicollis diruetur, & Iudex tremendus iudicabit populum suum. Finis.
+
+---
 
 <img width="159" height="221" alt="imsssages" src="https://github.com/user-attachments/assets/4a9a527c-f829-4f0c-8a44-80cbab984473" />
+
+---
+
+
+
+---
 
 
 ### PARA OS BABACAS QUE DAO TIRO NO PROPRIO PE, QUERO QUANDO O PELE DERRUBAR TUDO QUE ELE PRENDENTE DERRUBAR,A AI EU QUERO VER O SAMBA NO PE. JA JOGARAM INWO  ??? AHAHAHA
