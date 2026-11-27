@@ -17,11 +17,11 @@ https://youtu.be/WrH10xPRnis?list=RDWrH10xPRnis
 mach_kernel was the filename of the XNU kernel in older versions of macOS / Mac OS X (up through OS X 10.9 Mavericks), typically located at the root of a Mac volume (/mach_kernel).
 Key Facts About mach_kernel
 
-    Replaced in OS X 10.10 (Yosemite): Starting with Yosemite, Apple moved the kernel to /System/Library/Kernels/kernel (and later introduced APFS and System Integrity Protection (SIP) / Sealed System Volume on modern macOS releases).
+Replaced in OS X 10.10 (Yosemite): Starting with Yosemite, Apple moved the kernel to /System/Library/Kernels/kernel (and later introduced APFS and System Integrity Protection (SIP) / Sealed System Volume on modern macOS releases).
 
-    How macOS boots vs. GRUB: Unlike standard Linux kernels that GRUB boots directly with a linux line, macOS relies on Apple's firmware/bootloader (or a macOS bootloader like OpenCore or Clover) to initialize Apple-specific hardware/ACPI/kernel caches—and on modern macOS, booting directly via GRUB or configfile is generally not supported or practical.
+How macOS boots vs. GRUB: Unlike standard Linux kernels that GRUB boots directly with a linux line, macOS relies on Apple's firmware/bootloader (or a macOS bootloader like OpenCore or Clover) to initialize Apple-specific hardware/ACPI/kernel caches—and on modern macOS, booting directly via GRUB or configfile is generally not supported or practical.
 
-    Why it comes up in bootloader threads: People often look up mach_kernel when reading older dual-boot or Hackintosh guides that reference booting a Mac partition from a bootloader. On modern macOS, chainloading a macOS EFI loader (or using OpenCore/UEFI boot selection) is the standard approach rather than pointing a bootloader at /mach_kernel.
+Why it comes up in bootloader threads: People often look up mach_kernel when reading older dual-boot or Hackintosh guides that reference booting a Mac partition from a bootloader. On modern macOS, chainloading a macOS EFI loader (or using OpenCore/UEFI boot selection) is the standard approach rather than pointing a bootloader at /mach_kernel.
 
 ---
 
