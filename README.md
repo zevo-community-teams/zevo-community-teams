@@ -10,6 +10,10 @@ https://youtu.be/WrH10xPRnis?list=RDWrH10xPRnis
 
 ---
 
+KEY QUESTION - ABOUT TOOLS PACKAGE OF KOKO Alucinante Linux OS SYSTEM
+
+---
+
 https://www.kernel.org/pub/linux/utils/boot/
 
 ---
