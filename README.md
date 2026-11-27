@@ -1,4 +1,4 @@
-## E na contradita no Nato ho A-HA, quem o GATO ???? AHAHAHAH
+## E na contradita Do Nato NO A-HA, quem o GATO ???? AHAHAHAH
 
 ---
 
