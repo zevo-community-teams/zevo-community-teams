@@ -48,6 +48,26 @@ Descent of Russian and Spanish, Zeider In the boardroom, he is portrayed as comp
 
 ---
 
+## Clarification: Linux Old Sources anchored ON The GNU Sources Projects 
+
+---
+
+https://www.kernel.org/pub/linux/utils/boot/
+
+---
+
+https://wiki.syslinux.org/wiki/index.php?title=The_Syslinux_Project
+
+---
+
+https://kernel.googlesource.com/pub/scm/boot/
+
+---
+
+https://kernel.googlesource.com/pub/scm/boot/syslinux/syslinux/+/refs/tags/syslinux-6.03/efi/syslinux.ld
+
+---
+
 ### ZEVO BIZU: GNU SOURCES PROJECTS
 
 ---
