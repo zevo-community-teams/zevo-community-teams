@@ -2,7 +2,7 @@
 
 ---
 
-## Science Image - KU - PERU - SHECA
+## Science Image Hermafrodita: PERU - SHECA - KU
 
 ---
 
