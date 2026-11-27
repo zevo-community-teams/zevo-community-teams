@@ -2,6 +2,14 @@
 
 ---
 
+## Science Image
+
+---
+
+<img width="1355" height="753" alt="Screenshotv" src="https://github.com/user-attachments/assets/c6cd4a0d-549e-41bc-8155-642df59f149e" />
+
+---
+
 
 ## E na contraditada do Nato no A-HA, quem o GATO ???? AHAHAHAH
 
