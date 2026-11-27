@@ -1,4 +1,4 @@
-## Resenha Musical: Exaltasamba - Cara De Pau 
+## Resenha Musical: Exaltasamba - Cara De Pau (KOKO ALUCINATE)
 
 ---
 
