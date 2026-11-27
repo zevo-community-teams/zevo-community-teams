@@ -1,4 +1,8 @@
 ### PARA OS BABACAS QUE DAO TIRO NO PROPRIO PE, QUERO QUANDO O PELE DERRUBAR TUDO QUE ELE PRENDENTE DERRUBAR,A AI EU QUERO VER O SAMBA NO PE. JA JOGARAM INWO  ??? AHAHAHA
+
+---
+
+<img width="480" height="480" alt="imagsssses" src="https://github.com/user-attachments/assets/f61fc982-a327-4290-a42a-b55278154844" />
  
 ---
 
