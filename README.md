@@ -1,3 +1,7 @@
+## ZEVO BIZU: AHAHAHA - QUANDO ELEX DETERMINAREM O MEU PAO DA SHIVA CAO EU DETERMINAREI O MEU MEIO PÃO GNU SOURCE NA HISTORIA DA QUESTAO. AHAHAHAH
+
+---
+
 ### Captain General Aviator Davada Beni Zaita - General Commander Dava Defense Forces
 
 ---
