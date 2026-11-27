@@ -4,6 +4,10 @@
 
 https://kernel.googlesource.com/pub/scm/boot/
 
+---
+
+https://kernel.googlesource.com/pub/scm/boot/syslinux/syslinux/+/refs/tags/syslinux-6.03/efi/syslinux.ld
+
 ----
 
 ## Zevo Bizu - Training Keep Moving
