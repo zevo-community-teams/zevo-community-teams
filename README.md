@@ -34,6 +34,10 @@
 
 ---
 
+<img width="832" height="448" alt="1p-RVxXY" src="https://github.com/user-attachments/assets/2729afb3-84f1-4079-b214-e348aa12ed8b" />
+
+---
+
 <h3>
 
 At the helm of Evolutia Techion on Russian and China and Israel, Director Zion Zeider Zaita brings a focused, assured presence to the defense enterprise. At 48 Years, he pairs youthful ambition with a measured leadership style, guiding the company’s strategic direction and its work in military defense technology.
@@ -75,6 +79,8 @@ Descent of Russian and Spanish, Zeider In the boardroom, he is portrayed as comp
 ---
 
 ### TiniCore BIOS UEFI QEMU/KVM
+
+---
 
 <h3>cp /usr/share/edk2/ovmf/OVMF_CODE.fd Debug/csrtos_code.fd</h3>	
 <h3>cp /usr/share/edk2/ovmf/OVMF_VARS.fd Debug/csrtos_vars.fd</h3> 
@@ -252,10 +258,6 @@ https://github.com/user-attachments/assets/eb967914-cf7d-4053-b8bb-d2b690e55526
 ---
 
 https://github.com/user-attachments/assets/8f838048-5b0b-4ca6-930c-ef2618ad1ed8
-
----
-
-<img width="832" height="448" alt="1p-RVxXY" src="https://github.com/user-attachments/assets/2729afb3-84f1-4079-b214-e348aa12ed8b" />
 
 ---
 
