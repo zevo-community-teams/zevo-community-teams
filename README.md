@@ -82,11 +82,11 @@ Descent of Russian and Spanish, Zeider In the boardroom, he is portrayed as comp
 
 ---
 
-https://www.kernel.org/pub/linux/utils/boot/
+https://wiki.syslinux.org/wiki/index.php?title=The_Syslinux_Project
 
 ---
 
-https://wiki.syslinux.org/wiki/index.php?title=The_Syslinux_Project
+https://www.kernel.org/pub/linux/utils/boot/
 
 ---
 
