@@ -1,8 +1,8 @@
-## Vamos acelerar a motoca com a bundinha impida na plaquetinha
+## Vamos acelerar com a bundinha impida na motoca
 
 ---
 
-a-ha - Take On Me (Official Video) [4K] 
+## a-ha - Take On Me (Official Video) [4K] 
 
 ---
 
