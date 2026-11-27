@@ -2,6 +2,10 @@
 
 ---
 
+### QUEBRA GERAL DA ECONOMIA GLOBAL DA NOVA ORDEM MUNDIAL, SEM GRANA, SEM COMIDA E SEM TETO... AHHAHAH
+
+---
+
 <img width="480" height="480" alt="imagsssses" src="https://github.com/user-attachments/assets/f61fc982-a327-4290-a42a-b55278154844" />
  
 ---
