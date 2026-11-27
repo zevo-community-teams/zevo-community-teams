@@ -6,6 +6,10 @@
 
 ---
 
+<h3>Sou totalmente a favor de quaisquer chás medicinais, incluindo os feitos à base de coca e cannabis. O crime reside em praticar uma atividade ilícita sob o efeito de alucinógenos, sejam eles quais forem. </h3>
+
+---
+
 <img width="832" height="448" alt="output" src="https://github.com/user-attachments/assets/8f8548ac-acae-4936-8c32-e10faa031d39" />
 
 ---
