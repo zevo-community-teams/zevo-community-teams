@@ -1,3 +1,7 @@
+## ZeVo Jab: Se voce comecar tudo de novo do zero como um renegado pq teroricamente todos teriam aceitados ser contraditados na questao do BAFO, iria para NELE O SOBERANO DESTE LADO "ADONAI TZEVATO" O PAI DE TODOS.
+
+---
+
 ## Zevo Bizu Sheira KU Within Bafo De KOKO Alucinante
 
 ---
