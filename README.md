@@ -2,6 +2,10 @@
 
 ---
 
+https://wiki.syslinux.org/wiki/index.php?title=The_Syslinux_Project
+
+---
+
 https://kernel.googlesource.com/pub/scm/boot/
 
 ---
