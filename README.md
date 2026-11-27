@@ -10,7 +10,7 @@ https://youtu.be/WrH10xPRnis?list=RDWrH10xPRnis
 
 ---
 
-KEY QUESTION - ABOUT TOOLS PACKAGE OF KOKO Alucinante Linux OS SYSTEM
+KEY QUESTION - ABOUT TOOLS PACKAGE OF KOKO Alucinante Linux OS SYSTEM - USING GNU SOURCES ???
 
 ---
 
