@@ -2,7 +2,7 @@
 
 ---
 
-<h3>I am entirely in favor of any medicinal teas, including those made from coca or cannabis. The crime lies in engaging in illicit activity while under the influence of hallucinogens—whatever those may be. </h3>
+<h3>I am entirely in favor of any medicinal teas, including those made from coca and cannabis. The crime lies in engaging in illicit activity while under the influence of hallucinogens—whatever those may be. </h3>
 
 ---
 
