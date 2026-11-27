@@ -2,7 +2,7 @@
 
 ---
 
-## Zevo Jab: Ja viram o resultado quando um idiota inultil da um tiro no proprio pe: Pois é a mesma coisa quando um idiota inutil queima o seu proprio lado dizendo que amarelo, azul e branco purificado como exemplo o NATO, é um LIXO. QUE BOM É SER VERMELHO, SO QUERO VER QUANDO ELES CHEGAREM EM MARS NO PONTO FINAL O QUE ELE VÃO FAZER E PARA QUEM ELES VAO RECORRER PARA SER TIRADO DE LA. AHAHAHA
+## Zevo Jab: Ja viram o resultado quando um idiota inultil da um tiro no proprio pe: Pois é a mesma coisa quando um idiota inutil queima o seu proprio lado dizendo que amarelo, azul e branco resultado verde purificado como exemplo o NATO, é um LIXO. QUE BOM É SER VERMELHO, SO QUERO VER QUANDO ELES CHEGAREM EM MARS NO PONTO FINAL O QUE ELE VÃO FAZER E PARA QUEM ELES VAO RECORRER PARA SER TIRADO DE LA. AHAHAHA
 
 ---
 
