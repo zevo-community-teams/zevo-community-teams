@@ -2,6 +2,10 @@
 
 ---
 
+<img width="684" height="292" alt="imagesss" src="https://github.com/user-attachments/assets/f18a75f1-e496-4fd9-9bfb-b8490c48cd2b" />
+
+---
+
 ### De labore solis. Gloria olivae. In psecutione. extrema S.R.E. sedebit. Petrus Romanus, qui pascet oves in multis tribulationibus (BAPHOMET): quibus transactis civitas septicollis diruetur, & Iudex (DAVADA BENI ELOHIM) tremendus iudicabit populum suum. Finis.
 
 ---
