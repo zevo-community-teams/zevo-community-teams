@@ -1,8 +1,12 @@
+## Zevo Jab: Have you ever seen what happens when a useless idiot shoots himself in the foot? Well, it’s exactly the same thing that happens when a useless idiot sabotages his own side—labeling the group of "purified" ones—the yellows, blues, and whites, which result in the "green" category—as "TRASH." Oh, how wonderful it must be to be "red"... I can’t wait to see what they’ll do when they finally reach their destination on Mars, and who they’ll turn to, begging to be taken off that planet. HAHAHA
+
+---
+
 ## Zevo Jab: Ja viram o resultado quando um idiota inultil da um tiro no proprio pe: Pois é a mesma coisa quando um idiota inutil queima o seu proprio dizendo que amarelo, azul e branco purificado como exemplo o NATO, é um LIXO. QUE BOM É SER VERMELHO, SO QUERO VER QUANDO ELES CHEGAREM EM MARS NO PONTO FINAL O QUE ELE VÃO FAZER E PARA QUEM ELES VAO APELAR PARA SER TIRADO DE LA. AHAHAHA
 
 ---
 
-## ZeVo Jab: For BAFO to be considered the sovereign of the entire universe as he claims in his drunken delusions he would first have to defeat me, Davada Beni Zaita, and then defeat Adonai Tzevaot. Yet, he could not even get past me Davada, son of the Elohim, Zaita, son of Jesse let alone get past the Sovereign, Adonai Tzevaot.
+## ZeVo Jab: Você já viu o que acontece quando um idiota inútil dá um tiro no próprio pé? Pois é exatamente a mesma coisa que acontece quando um idiota inútil detona o seu próprio lado — classificando o grupo dos os "purificados" os amarelos, azuis e brancos resultante em VERDAO, como um "LIXO". Ah, como é maravilhoso ser "vermelho"... Mal posso esperar para ver o que eles farão quando chegarem, finalmente, ao ponto final em Marte, e a quem recorrerão, implorando para serem tirados de la. HAHAHA
 
 ---
 
