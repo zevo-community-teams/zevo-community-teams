@@ -2,6 +2,14 @@
 
 ---
 
+## EU DAVADA ZAITA E A GATA DINA E DINDA NO TREINO COM NOVO CABELO - HAHAHHA
+
+---
+
+<img width="832" height="448" alt="a-28-year-old-russian-man-named-davada-beni-zaita-who(2)" src="https://github.com/user-attachments/assets/11f42038-26ee-4ff6-b200-60eee396f4e1" />
+
+---
+
 ## Vamos acelerar com a bundinha impida na motoca
 
 ---
