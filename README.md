@@ -1,3 +1,11 @@
+# For BAFO to be considered the sovereign of the entire universe—as he claims in his drunken ramblings—he would have had to defeat me, and then ADONAI TZEVAOT; yet, he couldn’t even get past me, Davada Beni Elohim, Zaita, son of Jesse.
+
+---
+
+# Para que o BAFO fosse considerado o soberano do universo inteiro como ele diz na sua conversa de bebado, ele teria que me derrotar e depois ADONAI TZEVAOT, MAS NAO CONSEGUI PASSAR NEM POR MIM DAVADA BENI ELOHIM, ZAITA FILHO DE ISAI
+
+---
+
 ## ZeVo Jab: If you were to start everything over from scratch—as a renegade, since, theoretically, everyone would have accepted being contradicted regarding the BAFO issue you would turn to HIM, the Sovereign of this side: "Adonai Tzevaot," the Father of all.
 
 ## ZeVo Jab: Se voce comecar tudo de novo do zero como um renegado pq teroricamente todos teriam aceitados ser contraditados na questao do BAFO, iria para NELE O SOBERANO DESTE LADO "ADONAI TZEVAOT" O PAI DE TODOS.
