@@ -1,4 +1,4 @@
-## E Via para Ni Mim Tem Rasgao - Na elevacao os Projetos do Nato é proibido, pq ele não determinou o seu calculo, ele bifurcou o meu calculo misturado com A SHIVA DIABO.
+## Na elevacao os Projetos do Nato é proibido, pq ele não determinou o seu calculo, ele bifurcou o meu calculo misturado com A SHIVA DIABO.
 
 ---
 
