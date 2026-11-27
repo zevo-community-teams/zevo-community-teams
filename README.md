@@ -1,3 +1,11 @@
+## Resenha Musical: Exaltasamba - Cara De Pau 
+
+---
+
+https://youtu.be/WrH10xPRnis?list=RDWrH10xPRnis
+
+---
+
 ### The MINIX 3 (OS Project) using default ACK (Amsterdam Compiler Kit)
 
 ---
