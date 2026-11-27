@@ -200,6 +200,25 @@ https://github.com/user-attachments/assets/bd66b9cc-f9f8-4177-ad6c-e7741ce634c9
 
 ---
 
+```bash  
+mkdir -p iso_root/boot && \
+cp Debug/zevo_scpu.bin iso_root/boot/kernel.bin && \
+xorriso -as mkisofs \
+    -iso-level 3 \
+    -full-iso9660-filenames \
+    -volid "CSRTOS" \
+    -eltorito-boot boot/kernel.bin \
+    -eltorito-catalog boot/boot.catalog \
+    -no-emul-boot \
+    -boot-load-size 4 \ <-- IF NECESSARY CASE
+    -boot-info-table \  <-- IF NECESSARY CASE
+    -isohybrid-mbr /usr/share/syslinux/isohdpfx.bin \
+    -output csrtos.iso \
+    iso_root/
+```
+
+---
+
 ```bash
 sudo qemu-system-x86_64 \
     -drive file=/dev/sda,format=raw,if=ide,snapshot=on \
