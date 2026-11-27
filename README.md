@@ -2,7 +2,7 @@
 
 ---
 
-## Science Image Hermafrodita: PERU - SHECA - KU
+## Science Image Hermafrodita: PERU - SHECA - KU (RESULTADO DA UNIAO ENTRE O NATO VERDE E SHIVA HAMANA RED)
 
 ---
 
