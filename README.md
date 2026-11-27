@@ -6,7 +6,7 @@
 
 ---
 
-<h3>Já pensou em deixar um incenso natural da cannabis, coca e BOLBO queimando a noite toda, enquanto você está com aquela gata no seu quarto com aquela musica ??? </h3>
+<h3>Já pensou em deixar um incenso natural da cannabis, coca e BOLDO queimando a noite toda, enquanto você está com aquela gata no seu quarto com aquela musica ??? </h3>
 
 ---
 
