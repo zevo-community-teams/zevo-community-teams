@@ -1,3 +1,7 @@
+## Zevo Jab: Ja viram o resultado quando um idiota inultil da um tiro no proprio pe: Pois é a mesma coisa quando um idiota inutil queima o seu proprio dizendo que amarelo, azul e branco purificado como exemplo o NATO, é um LIXO. QUE BOM É SER VERMELHO, SO QUERO VER QUANDO ELES CHEGAREM EM MARS NO PONTO FINAL O QUE ELE VÃO FAZER E PARA QUEM ELES VAO APELAR PARA SER TIRADO DE LA. AHAHAHA
+
+---
+
 ## ZeVo Jab: For BAFO to be considered the sovereign of the entire universe as he claims in his drunken delusions he would first have to defeat me, Davada Beni Zaita, and then defeat Adonai Tzevaot. Yet, he could not even get past me Davada, son of the Elohim, Zaita, son of Jesse let alone get past the Sovereign, Adonai Tzevaot.
 
 ---
