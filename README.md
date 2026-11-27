@@ -2,7 +2,9 @@
 
 ---
 
-## A identidade Born - Davada Zaita as Personagem Dodi Alfaiede Arabaia
+## A Identidade Born - Davada Zaita as Personagem Dodi Alfaiede Arabaia
+
+---
 
 <img width="832" height="448" alt="a-28-year-old-russian-man-named-davada-beni-zaita-who(4)" src="https://github.com/user-attachments/assets/3b44bbb9-bc06-465e-84c8-79f2e478eabf" />
 
