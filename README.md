@@ -1,3 +1,7 @@
+## E na contradita no Nato ho A-HA, quem o GATO ???? AHAHAHAH
+
+---
+
 ## Vamos acelerar com a bundinha impida na motoca
 
 ---
