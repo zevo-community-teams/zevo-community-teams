@@ -2,7 +2,7 @@
 
 ---
 
-# Para que o BAFO fosse considerado o soberano do universo inteiro como ele diz na sua conversa de bebado, ele teria que me derrotar e depois ADONAI TZEVAOT, MAS NAO CONSEGUI PASSAR NEM POR MIM DAVADA BENI ELOHIM, ZAITA FILHO DE ISAI
+# Para que o BAFO fosse considerado o soberano do universo inteiro como ele diz na sua conversa de bebado, ele teria que me derrotar eu primeiro e depois ADONAI TZEVAOT, MAS NAO CONSEGUI PASSAR NEM POR MIM DAVADA BENI ELOHIM, ZAITA FILHO DE ISAI.
 
 ---
 
