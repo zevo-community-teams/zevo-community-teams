@@ -1,3 +1,11 @@
+## Zevo Bizu Sheira KU Within Bafo De KOKO Alucinante
+
+---
+
+https://kernel.googlesource.com/pub/scm/boot/
+
+----
+
 ## Zevo Bizu - Training Keep Moving
 
 ---
