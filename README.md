@@ -2,6 +2,14 @@
 
 ---
 
+<h3>Ja pensou em incenso natural da cannabis e da coca rolando a noite com aquela gata toda no seu quarto. </h3>
+
+---
+
+<h3> Ever thought about having some natural cannabis and coca incense burning throughout the night while you’ve got a gorgeous girl over in your bedroom ??? </h3>
+
+---
+
 <h3>I am entirely in favor of any medicinal teas, including those made from coca and cannabis. The crime lies in engaging in illicit activity while under the influence of hallucinogens whatever those may be. </h3>
 
 ---
