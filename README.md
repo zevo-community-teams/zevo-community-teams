@@ -1,4 +1,4 @@
-## Zevo Jab: Have you ever seen what happens when a useless idiot shoots himself in the foot? Well, it’s exactly the same thing that happens when a useless idiot sabotages his own side—labeling the group of "purified" ones—the yellows, blues, and whites, which result in the "green" category—as "TRASH." Oh, how wonderful it must be to be "red"... I can’t wait to see what they’ll do when they finally reach their destination on Mars, and who they’ll turn to, begging to be taken off that planet. HE WHO LAUGHS LAST, LAUGHS BEST... HAHAHA
+## Zevo Jab: Have you ever seen what happens when a useless idiot shoots himself in the foot? Well, it’s exactly the same thing that happens when a useless idiot sabotages his own side—labeling the group of "purified" ones—the yellows, blues, and whites, which result in the "green" category—as "TRASH." Oh, how wonderful it must be to be "red"... I can’t wait to see what they’ll do when they finally reach their destination on Mars, and who they’ll turn to, begging to be taken off that planet. HE WHO LAUGHS LAST, LAUGHS BEST... AHAHAHA
 
 ---
 
