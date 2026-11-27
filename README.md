@@ -1,3 +1,8 @@
+## Ou Noize somonos muitos vivos e eles muitos burro, QUE COR ERA O TEU CABELO MANE ??? CASTANHO - FICOU PRETO - FICOU BRANCO ??? E CONTRADITADA DO BAFO O RESULTADO, NAO RECLAMA...
+
+---
+
+
 ## E na contraditada do Nato no A-HA, quem o GATO ???? AHAHAHAH
 
 ---
