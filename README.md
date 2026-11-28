@@ -2,7 +2,7 @@
 
 ---
 
-###  The phrase "IENATUM CHRISTUM FILE DEI" appears to be a slight transcription on medieval spelling modern variation of the Latin Christian phrase "Iesum Christum, Filium Dei" (or "Iesum Christum, Fili Dei"), which translates to "Jesus Christ, Son of God."
+### The RABI NATO on The phrase "IENATUM CHRISTUM FILE DEI" appears to be a slight transcription on medieval spelling modern variation of the Latin Christian phrase "Iesum Christum, Filium Dei" (or "Iesum Christum, Fili Dei"), which translates to "Jesus Christ, Son of God."
 
 ---
 
