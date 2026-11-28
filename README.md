@@ -2,7 +2,7 @@
 
 ---
 
-### The "Chinese" RABI NATO (NATHAEL BANA ELOHIM) on The phrase "IENATUM CHRISTUM FILE DEI" appears to be a slight transcription on medieval spelling modern variation of the Latin Christian phrase "Iesum Christum, Filium Dei" (or "Iesum Christum, Fili Dei"), which translates to "Jesus Christ, Son of God."
+### The "CHINESE" IN DAVA PLANET CALLED NAMED IS RABI NATO (NATHAEL BANA ELOHIM) on The phrase "IENATUM CHRISTUM FILE DEI" appears to be a slight transcription on medieval spelling modern variation of the Latin Christian phrase "Iesum Christum, Filium Dei" (or "Iesum Christum, Fili Dei"), which translates to "Jesus Christ, Son of God."
 
 ---
 
