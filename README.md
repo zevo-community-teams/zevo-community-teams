@@ -184,9 +184,9 @@ xorriso -as mkisofs \
     -eltorito-boot boot/kernel.bin \
     -eltorito-catalog boot/boot.catalog \
     -no-emul-boot \
-    -boot-load-size 4 \ <-- IF NECESSARY CASE
-    -boot-info-table \  <-- IF NECESSARY CASE
-    -isohybrid-mbr /usr/share/syslinux/isohdpfx.bin \
+    -boot-load-size 4 \
+    -boot-info-table \
+    -isohybrid-mbr iso_root/boot/kernel.bin \
     -output csrtos.iso \
     iso_root/
 ```
