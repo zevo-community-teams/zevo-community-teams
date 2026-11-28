@@ -1,4 +1,4 @@
-## Lambando com Diabo ::: 
+## Lambando com Diabo ::: NATO VS BAFO (SAIRAM DO CULTO VIRADO O DIABO)
 
 ---
 
