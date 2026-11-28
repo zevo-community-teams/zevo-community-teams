@@ -2,6 +2,10 @@
 
 ---
 
+###  The phrase "IENATUM CHRISTUM FILE DEI" appears to be a slight transcription on medieval spelling modern variation of the Latin Christian phrase "Iesum Christum, Filium Dei" (or "Iesum Christum, Fili Dei"), which translates to "Jesus Christ, Son of God."
+
+---
+
 <img width="684" height="292" alt="imagesss" src="https://github.com/user-attachments/assets/f18a75f1-e496-4fd9-9bfb-b8490c48cd2b" />
 
 ---
