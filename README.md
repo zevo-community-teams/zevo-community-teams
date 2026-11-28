@@ -1,3 +1,23 @@
+## Lambando com Diabo ::: 
+
+---
+
+## Versão Nato:  Kaoma - Lambada (Official Video) 1989 HD 
+
+---
+
+https://youtu.be/iyLdoQGBchQ?list=RDiyLdoQGBchQ
+
+---
+
+## Versão BAFO:  Jennifer Lopez, Pitbull - On The Floor (Official Music Video) 
+
+---
+
+https://youtu.be/t4H_Zoh7G5A?list=RDt4H_Zoh7G5A
+
+---
+
 ### DO RABI-NATO PREDIÇÃO: O FIM POR SÃO MALAQUIAS QUE FALA SOBRE A PERSEGUICAO DO BAFO E O MEU APARECIMENTO DEPOIS DESSES DIAS (QUE REI SOU EU... DAVADA BENI ELOHIM, COMO ELES DIZEM SOBRE MIM O ANCESTRAL REI DAVID E PROFETA ELIAS NO TEMPO DO FIM DA QUESTÃO. (NATHAEL BANA ELOHIM COMO IENATUM CHRISTUM FILE DEI).
 
 ---
